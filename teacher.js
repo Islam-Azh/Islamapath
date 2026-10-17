@@ -15,6 +15,7 @@ const stu=()=>S.users.student.name,tea=()=>S.users.teacher.name;
 const pct=(c,t)=>t?Math.round(c/t*100):0;
 const T=()=>window.TS_TRAINER,PG=()=>window.TS_PROGRESS,SP=()=>window.TS_SPEAK,LV=()=>window.TS_LEVELS;
 const SK6=[['words','🃏','Words','vocab'],['grammar','📐','Grammar','grammar'],['reading','📖','Reading','reading'],['listening','🎧','Listening','listening'],['speaking','🎙️','Speaking','speaking'],['writing','✍️','Writing','writing']];
+if(!SHARED_KEYS.includes('shared'))SHARED_KEYS.push('shared');
 const deny=()=>{toast(`This is ${stu()}'s lesson — only he can start it.`);return false};
 
 /* ---------- 1. the teacher never starts lessons ---------- */

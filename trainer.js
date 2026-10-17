@@ -189,9 +189,11 @@ A.tStart=id=>{if(!isStudent())return toast('Only '+S.users.student.name+' can st
     return listRun(runOpts(b,{title:b.title,kind:'practice'}),qs)}
   case 'mist':if(!mistakesRun(b.n,runOpts(b,{title:b.title}))){complete(b.id,null);render()}return;
   case 'glevel':{if(!L()||!m){complete(b.id,null);return render()}const nx=L().next(m);
-    if(b.full&&nx.boss){const ex=extraTopic();if(ex){const ne=L().next(ex);if(!ne.boss&&!ne.review)return L().startLevel(ex,ne.lvl,runOpts(b,{force:true}))}return L().bossStart(m,{planBlock:b.id,back:'/session',onDone:()=>{complete(b.id,1);go('/session')}})}
+    if(b.full&&nx.boss){const ex=extraTopic();if(ex&&L().open(ex,1)){const ne=L().next(ex);if(!ne.boss&&!ne.review)return L().startLevel(ex,ne.lvl,runOpts(b,{force:true}))}return L().bossStart(m,{planBlock:b.id,back:'/session',onDone:()=>{complete(b.id,1);go('/session')}})}
+    const cmq=((window.COURSE_MAP||{})[unitCode()]||{}).questionFilter;const lc=cmq?{lessonCode:cmq}:{};
+    if((nx.boss||nx.review)&&!b.full){const ex=extraTopic();if(ex&&L().open(ex,1)){const ne=L().next(ex);if(!ne.boss&&!ne.review)return L().startLevel(ex,ne.lvl,runOpts(b,{force:true}))}}
     const lvl=nx.lvl||3;if(b.theory&&L().best(m,lvl)==null&&UI.theory!==b.id+':seen'){UI.theory=b.id;return render()}
-    return L().startLevel(m,lvl,runOpts(b,{force:true}))}
+    return L().startLevel(m,lvl,runOpts(b,Object.assign({force:true},lc)))}
   case 'read':case 'listen':{const kind=b.kind==='read'?'reading':'listening';const t=pickText(kind);if(!t){toast('Materials are coming');complete(b.id,null);return render()}
     markSeen(kind,t.k);s[kind==='reading'?'readKey':'listenKey']=t.k;save();UI.textBlock=b.id;
     if(kind==='reading'){UI.rtext=t.k;return go('/reading')}UI.ltext=t.k;return go('/listening')}

@@ -1064,7 +1064,7 @@ function finishRun(){
   const r=RUN;clearInterval(TIMER);TIMER=null;r.state='done';r.end=Date.now();logMinutes(Math.min((r.end-r.start)/60000,120));
   const c=r.answers.filter(a=>a.ok).length;
   if(r.record!==false&&r.answers.length){const sk={};r.answers.forEach(a=>{const k=a.skill||'grammar';sk[k]=sk[k]||{c:0,t:0};sk[k].t++;if(a.ok)sk[k].c++});
-    S.attempts.push({id:uid(),testId:r.testId||null,title:r.title,kind:r.kind||'practice',date:new Date().toISOString(),score:c,total:r.answers.length,durMs:r.end-r.start,answers:r.answers,skills:sk});
+    S.attempts.push({id:uid(),testId:r.testId||null,lessonId:r.lessonId||null,lessonCode:r.lessonCode||null,title:r.title,kind:r.kind||'practice',date:new Date().toISOString(),score:c,total:r.answers.length,durMs:r.end-r.start,answers:r.answers,skills:sk});
     if(r.kind==='test')notify('teacher',`${S.users.student.name} finished “${r.title}”: ${c}/${r.answers.length}`,'/t/analytics')}
   if(r.hw)completeHwItem(r.hw);
   if(r.onFinish)r.onFinish(r);save();render();

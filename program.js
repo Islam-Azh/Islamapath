@@ -2,7 +2,7 @@
    program.js — learning program + gamification for Teacher & Student
    Loaded right after the main script in index.html. It extends the
    app (new pages, grammar modules, full course map, XP) without
-   changing the main file. Methodology: "Методика: English B2+ к декабрю".
+   changing the main file. Methodology: METHODIKA.md — goal Intermediate (B1) by March 2027.
    ============================================================ */
 'use strict';
 (function(){
@@ -193,7 +193,7 @@ const PI_MAP=[
  [11,'Movement & phrasal verbs',[['11A','Prepositions of movement','movement-prepositions','sport'],['11B','Phrasal verbs','phrasal-verbs','work'],['11C','so / neither + auxiliaries','so-neither','family']]],
  [12,'Narrative & reporting',[['12A','Past Perfect','past-perfect','feelings'],['12B','Reported speech','reported-speech','work'],['12C','Questions without auxiliaries','subject-questions','school']]]
 ];
-const pageOf=(n,i)=>4+(n-1)*12+i*4; /* approximate — check against your book */
+const pageOf=(n,i)=>''; /* D41: pages are not guessed — the teacher fills them in the course editor */
 function piFiles(){return PI_MAP.map(([n,title,ls])=>({n,title,lessons:ls.map((l,i)=>({id:'pi-'+l[0],code:l[0],title:l[1],grammar:l[2],vocab:l[3],page:pageOf(n,i)}))}))}
 SEED_COURSE[0].files=PI_MAP.map(([n,title,ls])=>({n,title,lessons:ls.map((l,i)=>['pi-'+l[0],l[0],l[1],l[2],l[3],pageOf(n,i)])}));
 
@@ -448,7 +448,7 @@ function vProgram(){ensure();const P=S.program,ns=nextStep(),pi=piBook(),lp=last
   <div class="files">${pi.files.map(f=>{const b=P.bosses[f.n];return `<div class="card" style="background:var(--surface2)"><div class="row between"><b>File ${f.n}</b>${scanBadge(f.n)}</div><div class="small muted">${esc(f.title)}</div>
    ${f.lessons.map(l=>`<a class="lesson" href="#/lesson/${l.id}"><span class="st ${lessonStatus(l.id)}"></span><b>${esc(l.code)}</b> ${esc(l.title)}${P.debts.includes(l.id)&&!P.debtsDone[l.id]?' <span class="badge bad">debt</span>':''}</a>`).join('')}
    <div class="row between" style="margin-top:10px"><span class="small">${b?(b.won?'⚔️ <b style="color:var(--ok)">defeated</b>':'⚔️ best '+Math.round(b.best*100)+'%'):'<span class="muted">boss not fought</span>'}</span><button class="btn sm ${b&&b.won?'plain':''}" onclick="A.gBoss(${f.n})">Boss</button></div></div>`}).join('')}</div></div>`:'';
- const p3=`<div class="card stack"><h2>Phase 3 · Final check</h2><p class="small">Mid-December: retake the placement test and compare with your first result. Target: B1+ in Grammar, Reading and Listening. ${ru('В середине декабря — повторный placement test. Если кнопка заблокирована, попроси преподавателя разрешить пересдачу.')}</p><div><a class="btn sm plain" href="#/placement">Placement test</a> <a class="btn sm plain" href="#/progress">Progress</a></div></div>`;
+ const p3=`<div class="card stack"><h2>Phase 3 · Final check</h2><p class="small">Every 8–12 weeks: retake the level test and compare with your first result. Goal: Intermediate (B1) by March 2027.</p><div><a class="btn sm plain" href="#/placement">Placement test</a> <a class="btn sm plain" href="#/progress">Progress</a></div></div>`;
  return `<div class="page-head"><h1>My program 🧭</h1><p class="muted">Diagnostics → Grand Audit → English File Pre-intermediate → final check. ${ru('Маршрут по методике: сначала проверка знаний, потом долги, потом курс по порядку.')}</p></div>${steps}${next}${p0}${p1}${p2}${p3}`}
 
 function vSprint(){ensure();const rec=sprintRec();let L=findLesson(rec.lesson);if(!L){const s=sprintLesson();rec.lesson=s?s.id:'';L=s}

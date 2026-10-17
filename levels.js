@@ -20,7 +20,8 @@ function qsOf(t,l){const g=GRAMMAR[t];return g?g.qs.filter(q=>stageOf(q)===l):[]
 function rec(t){const p=P();p.glev=p.glev||{};return p.glev[t]=p.glev[t]||{}}
 function best(t,l){const r=rec(t)[l];return r?r.best:null}
 function passed(t,l){if(!qsOf(t,l).length)return true;const b=best(t,l);return b!=null&&b>=PASS}
-function open(t,l){return l===1||passed(t,l-1)&&open(t,l-1)}
+function mainOf(t){const cm=window.COURSE_MAP||{};const code=Object.keys(cm).find(c=>c[0]!=='_'&&(cm[c].extraGrammar||[]).includes(t));if(!code)return null;const l=findLesson('pi-'+code);return l?l.grammar:null}
+function open(t,l){if(l===1){const g=GRAMMAR[t];if(g&&g.kind==='extra'){const m=mainOf(t);if(m&&GRAMMAR[m]&&!passed(m,1))return false}return true}return passed(t,l-1)&&open(t,l-1)}
 function bossOpen(t){return [1,2,3].every(l=>passed(t,l))}
 function bossDone(t){return !!((P().boss||{})[t])}
 function starsN(b){return b==null?0:b>=1?3:b>=0.85?2:b>=PASS?1:0}
@@ -31,7 +32,7 @@ function summary(t){const ls=[1,2,3].filter(l=>qsOf(t,l).length);const st=ls.red
 /* ---------- level run ---------- */
 function startLevel(t,l,o={}){const g=GRAMMAR[t];if(!g)return toast('Topic not found');
   if(!open(t,l)&&!o.force)return toast('Finish the previous level first (70%)');
-  const qs=shuffle(qsOf(t,l)).slice(0,LV[l].size);if(!qs.length)return toast('No exercises for this level yet');
+  const qs=o.lessonCode&&window.TS_PROGRESS?TS_PROGRESS.lessonMix(qsOf(t,l),o.lessonCode,LV[l].size):shuffle(qsOf(t,l)).slice(0,LV[l].size);if(!qs.length)return toast('No exercises for this level yet');
   listRun(Object.assign({title:`${g.title} · Level ${l}`,kind:'practice',back:'/grammar/'+t,reshuffle:true,glevel:{t,l}},o),qs)}
 function recordLevel(r){if(!r||!r.glevel||!r.answers||!r.answers.length)return;const {t,l}=r.glevel;const c=r.answers.filter(a=>a.ok).length,n=r.answers.length;const sc=c/n;const x=rec(t);const before=x[l]?x[l].best:null;
   x[l]={best:Math.max(before||0,sc),last:sc,date:new Date().toISOString(),tries:((x[l]&&x[l].tries)||0)+1};
@@ -85,7 +86,14 @@ function vTopic(t){const g=GRAMMAR[t];const sm=summary(t);const nx=next(t);
     <div class="tile lvl boss ${bo?'':'locked'}"><div class="tile-ico">${bo?'⚔️':'🔒'}</div><div class="tile-body"><b>Boss</b><div class="ru-line">5 своих предложений по ситуации о работе</div><div class="small muted">${bd?'defeated ✓':bo?'open':'opens after level 3 (70%)'}</div></div>
      <button class="btn ${bo?'':'plain'}" ${bo?'':'disabled'} onclick="TS_LEVELS.bossStart(${jsq(t)})">${bd?'Again':'Fight'}</button></div></div>
    <div class="whats-next card"><b>What next?</b> ${nx.boss?'Fight the boss ⚔️':nx.review?'All done — repeat level 3 or open the next unit.':`Level ${nx.lvl}: ${LV[nx.lvl].name}`}</div>`}
-SV.grammar=function(t){if(t&&GRAMMAR[t])return vTopic(t);return _vGrammar.apply(this,arguments)};
+function vGrammarList(){const keys=Object.keys(GRAMMAR).filter(k=>GRAMMAR[k].track!=='work');const main=keys.filter(k=>GRAMMAR[k].kind!=='extra'),extra=keys.filter(k=>GRAMMAR[k].kind==='extra');
+  const tile=k=>{const g=GRAMMAR[k];const sm=summary(k);const lock=!open(k,1);const a=window.TS_PROGRESS?TS_PROGRESS.acc30(k):null;
+    return `<a class="card topic-tile ${lock?'locked':''}" href="#/grammar/${k}"><div class="row between"><span class="badge acc">${esc(g.level||'')}</span>${g.unit?`<span class="badge">${esc(g.unit)}</span>`:''}</div><h3 style="margin-top:8px">${lock?'🔒 ':''}${esc(g.title)}</h3>
+     <div class="row between small"><span>${starsHtml(sm.max?Math.round(sm.stars/sm.max*3):0)}${sm.boss?' ⚔️':''}</span><span class="muted">${a?Math.round(a.a*100)+'%':'new'}</span></div></a>`};
+  return `<div class="page-head"><h1>Grammar 📐</h1><div class="muted">Each topic: theory → 3 levels → Boss.</div><div class="ru-line">Каждая тема: теория → 3 уровня → Босс.</div></div>
+   <div class="grid g3">${main.map(tile).join('')}</div>
+   ${extra.length?`<h2 style="margin-top:22px">➕ Needed for Intermediate</h2><div class="ru-line">Дополнительные темы к урокам. Открываются после 70% на уровне 1 основной темы урока.</div><div class="grid g3" style="margin-top:10px">${extra.map(tile).join('')}</div>`:''}`}
+SV.grammar=function(t){if(t&&GRAMMAR[t])return vTopic(t);return vGrammarList()};
 SV.boss=vBoss;
-window.TS_LEVELS={next,startLevel,bossStart,stageOf,qsOf,best,passed,open,bossOpen,bossDone,starsN,starsHtml,summary,LV};
+window.TS_LEVELS={mainOf,next,startLevel,bossStart,stageOf,qsOf,best,passed,open,bossOpen,bossDone,starsN,starsHtml,summary,LV};
 })();

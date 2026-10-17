@@ -195,3 +195,7 @@ details.ru{display:none}
 .assign .as-row input[type=text]{flex:1;min-width:200px}.assign .as-row input[type=checkbox]{width:24px;height:24px;min-height:0}
 .tile-link{text-decoration:none;color:var(--text)}
 @media (max-width:760px){.skb{grid-template-columns:100px 1fr 40px;font-size:14px}.week-days{gap:3px}.wd{font-size:12px}}
+.peek-btn{margin-top:12px;min-height:48px}.badge.area{background:var(--ok-soft);color:var(--ok)}
+.was-now{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:6px 0;padding:8px;border-radius:10px;background:var(--surface2)}
+.book-block{margin-top:10px;padding:12px 14px;border-radius:12px;background:var(--surface2);border-left:6px solid var(--sk-grammar)}
+.topic-tile{text-decoration:none;color:var(--text)}.topic-tile.locked{opacity:.6}

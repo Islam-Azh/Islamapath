@@ -39,6 +39,7 @@ function checkQ(q){
  if(q.type==='order'&&(typeof q.a!=='string'||q.a!==q.a.toLowerCase()||/[.!?]$/.test(q.a)||q.a.trim().split(/\s+/).length<2))p.push('order answer: lowercase words, no full stop');
  if(q.type==='tf'&&typeof q.a!=='boolean')p.push('true/false answer must be true or false');
  if(q.stage!=null&&![1,2,3].includes(q.stage))p.push('stage must be 1, 2 or 3');
+ if(q.lessons!=null&&!Array.isArray(q.lessons))p.push('lessons must be a list of lesson codes');
  return p}
 function bad(file,item,msg){MAT.problems.push({file,item,msg})}
 function warn(file,item,msg){MAT.problems.push({file,item,msg,warn:true})}
@@ -53,7 +54,7 @@ function applyGrammar(d,file){
  if(qs.length<15)warn(file,d.id,`${qs.length} questions (target 15–40)`);
  if(d.unit)qs.forEach(q=>q.unit=String(d.unit).toUpperCase());
  let boss=null;if(d.boss){if(!d.boss.situation)warn(file,d.id,'boss needs a situation');else boss={situation:String(d.boss.situation),ru:d.boss.ru||'',samples:Array.isArray(d.boss.samples)?d.boss.samples.map(String):[],check:goodRegex(d.boss.check,file,d.id+' boss')}}
- GRAMMAR[d.id]={title:d.title,level:d.level||'B1',en:d.en,ru:d.ru||'',qs,src:file,unit:d.unit?String(d.unit).toUpperCase():'',track:d.track||'',boss,units:Array.isArray(d.units)?d.units.map(u=>String(u).toUpperCase()):(d.unit?[String(d.unit).toUpperCase()]:[])};return qs.length}
+ GRAMMAR[d.id]={title:d.title,level:d.level||'B1',en:d.en,ru:d.ru||'',qs,src:file,unit:d.unit?String(d.unit).toUpperCase():'',track:d.track||'',kind:d.kind||'',books:d.books||null,boss,units:Array.isArray(d.units)?d.units.map(u=>String(u).toUpperCase()):(d.unit?[String(d.unit).toUpperCase()]:[])};return qs.length}
 function goodRegex(list,file,item){return (Array.isArray(list)?list:[]).filter(re=>{try{new RegExp(re,'i');return true}catch(e){bad(file,item,'bad check pattern “'+re+'”');return false}})}
 /* speaking-*.json (METHODIKA §15) */
 const SPK=window.SPEAK_DATA=window.SPEAK_DATA||{tasks:[],interview:[]};
@@ -76,7 +77,9 @@ function applySpeaking(d,file){if(!d||typeof d!=='object'){bad(file,'','must be 
 const CMAP=window.COURSE_MAP=window.COURSE_MAP||{};
 function applyCourseMap(d,file){const list=Array.isArray(d)?d:(d&&Array.isArray(d.lessons)?d.lessons:null);if(!list){bad(file,'','must be a list of lessons');return 0}let n=0;
  list.forEach((l,i)=>{if(!l||!l.code)return bad(file,'#'+(i+1),'no code');const code=String(l.code).toUpperCase();if(!l.know)warn(file,code,'no “know” text');
-  CMAP[code]={code,know:String(l.know||''),todo:Array.isArray(l.todo)?l.todo.map(String):[],title:l.title||'',page:l.page||'',grammar:l.grammar||'',vocab:l.vocab||'',vocabTopic:l.vocabTopic||'',speaking:l.speaking||''};n++});return n}
+  CMAP[code]={code,know:String(l.know||''),todo:Array.isArray(l.todo)?l.todo.map(String):[],title:l.title||'',page:l.page||'',grammar:l.grammar||'',vocab:l.vocab||'',vocabTopic:l.vocabTopic||'',speaking:l.speaking||'',
+   books:l.books&&typeof l.books==='object'?l.books:null,questionFilter:l.questionFilter?String(l.questionFilter).toUpperCase():'',extraGrammar:Array.isArray(l.extraGrammar)?l.extraGrammar.map(String):l.extraGrammar?[String(l.extraGrammar)]:[],check:l.check||null};n++});
+ if(d&&!Array.isArray(d)){if(d.goal)CMAP._goal=d.goal;if(d.books)CMAP._books=d.books}return n}
 function applyVocab(d,file){
  const pack=file.replace(/^vocab-/,'').replace(/\.json$/,'');let n=0;const seen=new Set();
  if(!Array.isArray(d)){bad(file,'','must be a list of words');return 0}
@@ -86,7 +89,7 @@ function applyVocab(d,file){
   if(seen.has(w.word))return warn(file,w.word,'duplicate word in this file');seen.add(w.word);
   if(!w.ipa)warn(file,w.word,'no IPA');if(!w.ex)warn(file,w.word,'no example');
   if(!VOCAB_LIB.some(v=>v[0]===w.word&&v[4]===pack))VOCAB_LIB.push([w.word,w.ipa||'',w.ru,w.ex||'',pack]);
-  MAT.meta[w.word]={level:w.level||'',rank:w.rank||null,pack};n++});
+  MAT.meta[w.word]={level:w.level||'',rank:w.rank||null,pack,track:w.track||'',area:w.area||'',unit:w.unit||''};n++});
  MAT.packs[pack]=n;return n}
 function applyText(d,file,kind){
  if(!d||!d.id||!d.text){bad(file,d&&d.id||'','needs id and text');return 0}

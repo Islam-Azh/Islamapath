@@ -43,7 +43,7 @@ function decorate(){document.body.classList.toggle('no-ru',S.settings.ruHints===
   const xp=S.game?S.game.xp:null;if(lastXp!=null&&xp!=null&&xp>lastXp)xpPop(xp-lastXp);lastXp=xp;
   if(typeof RUN!=='undefined'&&RUN&&RUN.state==='feedback'){const key=RUN.i+':'+RUN.title;if(lastFb!==key){lastFb=key;beep(!!RUN.lastOk);const c=document.querySelector('.qcard');if(c&&RUN.lastOk)c.classList.add('flash-ok')}}
   else if(typeof RUN!=='undefined'&&RUN&&RUN.state==='ask')lastFb=null;
-  if(UI.wq&&UI.wq.state==='shown'){const key='w'+UI.wq.i;if(lastFb!==key){lastFb=key;beep(UI.wq.res!=='dont');if(UI.wq.res==='know'){const c=document.getElementById('wcard');if(c)c.classList.add('flash-ok')}}}}
+  if(UI.wq&&UI.wq.state==='shown'){const key='w'+UI.wq.i;if(lastFb!==key){lastFb=key;beep(UI.wq.res==='know'||UI.wq.res==='typo');if(UI.wq.res==='know'){const c=document.getElementById('wcard');if(c)c.classList.add('flash-ok')}}}}
 window.addEventListener('hashchange',()=>{try{decorate()}catch(e){console.error(e)}});
 window.TS_FX={confetti,beep,xpPop,more};
 try{render()}catch(e){console.error(e)}
