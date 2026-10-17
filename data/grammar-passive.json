@@ -1,0 +1,441 @@
+{
+ "id": "passive",
+ "title": "The passive (present and past)",
+ "level": "B1",
+ "unit": "10A",
+ "units": [
+  "10A"
+ ],
+ "en": "<p>Passive = <b>be + past participle</b>. We use it when the action or result is more important than the person who does it: <i>The report <b>is checked</b> by the manager. The plant <b>was built</b> in 1945.</i></p><p>Present: <b>am / is / are + participle</b> · Past: <b>was / were + participle</b>.</p><p>Add <b>by</b> only if it is important who did it: <i>The contract was signed <b>by the director</b>.</i></p><p>Very common in processes and procedures: <i>Invoices <b>are received</b>, <b>checked</b> and <b>approved</b> before payment.</i></p>",
+ "ru": "Пассив: be + 3-я форма. Настоящее — am/is/are + V3 (is checked), прошедшее — was/were + V3 (was built). by — кем сделано (только если важно). Часто в описании процессов и процедур.",
+ "boss": {
+  "situation": "Describe a work process in the passive: how a document is prepared, checked and approved. Add one sentence in the past passive.",
+  "samples": [
+   "First, the purchase request is prepared by the department.",
+   "Then it is checked by the procurement team.",
+   "The budget is confirmed by the finance department.",
+   "Finally, the contract is signed by the director.",
+   "Last year the procedure was updated after an audit."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "This bridge ___ in 1990.",
+   "opts": [
+    "built",
+    "was built",
+    "has built"
+   ],
+   "a": 1,
+   "exp": "Past passive → was built.",
+   "ru": "Пассив прошлого — was built.",
+   "id": "f-pa-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "English ___ all over the world.",
+   "opts": [
+    "speaks",
+    "is spoken",
+    "is speaking"
+   ],
+   "a": 1,
+   "exp": "Present passive → is spoken.",
+   "ru": "is spoken.",
+   "id": "f-pa-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The invoices ___ every Friday.",
+   "opts": [
+    "are paid",
+    "pay",
+    "are pay"
+   ],
+   "a": 0,
+   "exp": "Present passive plural → are paid.",
+   "ru": "are paid.",
+   "id": "f-pa-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The report was written ___ our auditor.",
+   "opts": [
+    "from",
+    "by",
+    "with"
+   ],
+   "a": 1,
+   "exp": "Who did it → by.",
+   "ru": "Кем — by.",
+   "id": "f-pa-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The meeting ___ because the director was ill.",
+   "opts": [
+    "cancelled",
+    "was cancelled",
+    "is cancelling"
+   ],
+   "a": 1,
+   "exp": "Past passive.",
+   "ru": "was cancelled.",
+   "id": "f-pa-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Our plant ___ near the river.",
+   "opts": [
+    "is located",
+    "located",
+    "locates"
+   ],
+   "a": 0,
+   "exp": "Present passive → is located.",
+   "ru": "is located.",
+   "id": "f-pa-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Where ___ these phones made?",
+   "opts": [
+    "are",
+    "do",
+    "is"
+   ],
+   "a": 0,
+   "exp": "Passive question → are … made.",
+   "ru": "are made.",
+   "id": "f-pa-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The windows ___ yesterday.",
+   "opts": [
+    "were cleaned",
+    "was cleaned",
+    "cleaned"
+   ],
+   "a": 0,
+   "exp": "Plural past → were.",
+   "ru": "were cleaned.",
+   "id": "f-pa-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "In “The contract was signed by the director”, the director did the action.",
+   "a": true,
+   "exp": "by + the person who did it.",
+   "ru": "by — исполнитель.",
+   "id": "f-pa-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“The report checked by the manager every week” is correct.",
+   "a": false,
+   "exp": "Need is: The report is checked…",
+   "ru": "Нужен is.",
+   "id": "f-pa-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Coffee ___ (grow) in Brazil.",
+   "a": [
+    "is grown"
+   ],
+   "exp": "Present passive.",
+   "ru": "is grown.",
+   "id": "f-pa-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The documents ___ (send) to Astana last week.",
+   "a": [
+    "were sent"
+   ],
+   "exp": "Past passive plural.",
+   "ru": "were sent.",
+   "id": "f-pa-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "All visitors ___ (ask) to sign in.",
+   "a": [
+    "are asked"
+   ],
+   "exp": "Present passive.",
+   "ru": "are asked.",
+   "id": "f-pa-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The refinery ___ (build) in 1945.",
+   "a": [
+    "was built"
+   ],
+   "exp": "Past passive.",
+   "ru": "was built.",
+   "id": "f-pa-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The results ___ (not / publish) yet.",
+   "a": [
+    "haven't been published",
+    "have not been published",
+    "aren't published",
+    "are not published"
+   ],
+   "exp": "Negative passive.",
+   "ru": "not published.",
+   "id": "f-pa-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Our salaries ___ (pay) on the 25th of each month.",
+   "a": [
+    "are paid"
+   ],
+   "exp": "Present passive.",
+   "ru": "are paid.",
+   "id": "f-pa-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the report is checked by the manager",
+   "exp": "is + participle + by.",
+   "ru": "is checked by.",
+   "id": "f-pa-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the plant was built in 1945",
+   "exp": "was + participle.",
+   "ru": "was built.",
+   "id": "f-pa-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "invoices are approved before payment",
+   "exp": "are + participle.",
+   "ru": "are approved.",
+   "id": "f-pa-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the meeting was moved to friday",
+   "exp": "Past passive.",
+   "ru": "was moved.",
+   "id": "f-pa-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "where was this photo taken",
+   "exp": "Passive question.",
+   "ru": "was … taken.",
+   "id": "f-pa-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the contract was signed by the director",
+   "exp": "by + agent.",
+   "ru": "was signed by.",
+   "id": "f-pa-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The report is check every week.”",
+   "a": [
+    "The report is checked every week."
+   ],
+   "exp": "be + past participle.",
+   "ru": "is checked.",
+   "id": "f-pa-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The bridge was build in 1990.”",
+   "a": [
+    "The bridge was built in 1990."
+   ],
+   "exp": "build → built.",
+   "ru": "was built.",
+   "id": "f-pa-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The letters was sent yesterday.”",
+   "a": [
+    "The letters were sent yesterday."
+   ],
+   "exp": "Plural → were.",
+   "ru": "were sent.",
+   "id": "f-pa-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “This book was written from a famous author.”",
+   "a": [
+    "This book was written by a famous author."
+   ],
+   "exp": "Agent → by.",
+   "ru": "by.",
+   "id": "f-pa-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The plant located near the river.”",
+   "a": [
+    "The plant is located near the river."
+   ],
+   "exp": "Need is.",
+   "ru": "is located.",
+   "id": "f-pa-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Our office cleans every evening.”",
+   "a": [
+    "Our office is cleaned every evening."
+   ],
+   "exp": "The office doesn't clean itself → passive.",
+   "ru": "is cleaned.",
+   "id": "f-pa-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Отчёт проверяется менеджером.",
+   "a": [
+    "The report is checked by the manager.",
+    "The report is checked by a manager."
+   ],
+   "exp": "is checked by.",
+   "ru": "is checked by.",
+   "id": "f-pa-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Завод был построен в 1945 году.",
+   "a": [
+    "The plant was built in 1945.",
+    "The refinery was built in 1945.",
+    "The factory was built in 1945."
+   ],
+   "exp": "was built.",
+   "ru": "was built.",
+   "id": "f-pa-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Счета оплачиваются каждую пятницу.",
+   "a": [
+    "Invoices are paid every Friday.",
+    "The invoices are paid every Friday.",
+    "Bills are paid every Friday.",
+    "The bills are paid every Friday."
+   ],
+   "exp": "are paid.",
+   "ru": "are paid.",
+   "id": "f-pa-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Договор подписал директор.",
+   "a": [
+    "The contract was signed by the director.",
+    "The director signed the contract."
+   ],
+   "exp": "was signed by.",
+   "ru": "was signed by.",
+   "id": "f-pa-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Совещание было отменено.",
+   "a": [
+    "The meeting was cancelled.",
+    "The meeting was canceled."
+   ],
+   "exp": "was cancelled.",
+   "ru": "was cancelled.",
+   "id": "f-pa-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Документы были отправлены в Астану.",
+   "a": [
+    "The documents were sent to Astana.",
+    "Documents were sent to Astana."
+   ],
+   "exp": "were sent.",
+   "ru": "were sent.",
+   "id": "f-pa-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Все посетители должны быть зарегистрированы.",
+   "a": [
+    "All visitors must be registered.",
+    "All visitors have to be registered."
+   ],
+   "exp": "Modal passive: must be + participle.",
+   "ru": "must be registered.",
+   "id": "f-pa-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Где сделаны эти телефоны?",
+   "a": [
+    "Where are these phones made?",
+    "Where were these phones made?"
+   ],
+   "exp": "Passive question.",
+   "ru": "are … made.",
+   "id": "f-pa-36",
+   "stage": 3
+  }
+ ]
+}

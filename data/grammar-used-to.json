@@ -1,0 +1,444 @@
+{
+ "id": "used-to",
+ "title": "used to",
+ "level": "B1",
+ "unit": "10B",
+ "units": [
+  "10B"
+ ],
+ "en": "<p><b>used to + infinitive</b> — past habits and states that are <b>not true now</b>: <i>I <b>used to work</b> as an accountant. (Now I don't.) We <b>used to have</b> paper forms.</i></p><p>Negative: <b>didn't use to</b>. Question: <b>Did you use to…?</b> (no -d after did).</p><p>For a single past action, use the Past Simple, not used to: <i>I <b>went</b> to London in 2018.</i></p><p>For present habits, use <b>usually</b> + Present Simple (not <i>use to</i>).</p>",
+ "ru": "used to + глагол — раньше (привычка или состояние в прошлом, сейчас не так): I used to work… Отрицание — didn't use to, вопрос — Did you use to…? (без -d). Для одного действия в прошлом — Past Simple. В настоящем — usually.",
+ "boss": {
+  "situation": "Compare how your work used to be five years ago and how it is now.",
+  "samples": [
+   "Five years ago I used to work as an accountant.",
+   "We used to keep all documents on paper.",
+   "We didn't use to have a risk register.",
+   "Did we use to test controls? Not really.",
+   "Now we usually do everything in the system."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ smoke, but I stopped two years ago.",
+   "opts": [
+    "used to",
+    "use to",
+    "was used to"
+   ],
+   "a": 0,
+   "exp": "Past habit → used to.",
+   "ru": "Раньше — used to.",
+   "id": "f-ut-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Did you ___ live in Almaty?",
+   "opts": [
+    "used to",
+    "use to",
+    "using to"
+   ],
+   "a": 1,
+   "exp": "After did → use to.",
+   "ru": "Did … use to.",
+   "id": "f-ut-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We ___ have computers in the office in 1995.",
+   "opts": [
+    "didn't use to",
+    "didn't used to",
+    "don't use to"
+   ],
+   "a": 0,
+   "exp": "Negative → didn't use to.",
+   "ru": "didn't use to.",
+   "id": "f-ut-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ to the gym every morning now.",
+   "opts": [
+    "used to go",
+    "usually goes",
+    "use to go"
+   ],
+   "a": 1,
+   "exp": "Present habit → usually + Present Simple.",
+   "ru": "Сейчас — usually goes.",
+   "id": "f-ut-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Last year I ___ to London for a conference.",
+   "opts": [
+    "used to go",
+    "went",
+    "use to go"
+   ],
+   "a": 1,
+   "exp": "One action → Past Simple.",
+   "ru": "Одно действие — went.",
+   "id": "f-ut-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "There ___ be a cinema here. Now it's a bank.",
+   "opts": [
+    "used to",
+    "use to",
+    "was used"
+   ],
+   "a": 0,
+   "exp": "Past state → used to.",
+   "ru": "used to be.",
+   "id": "f-ut-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "My boss ___ to be very strict, but now he's relaxed.",
+   "opts": [
+    "used",
+    "use",
+    "uses"
+   ],
+   "a": 0,
+   "exp": "used to be.",
+   "ru": "used to.",
+   "id": "f-ut-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What did you use to ___ as a child?",
+   "opts": [
+    "doing",
+    "do",
+    "did"
+   ],
+   "a": 1,
+   "exp": "use to + infinitive.",
+   "ru": "use to do.",
+   "id": "f-ut-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I used to go to Turkey in 2019” is correct for one trip.",
+   "a": false,
+   "exp": "One trip → I went to Turkey in 2019.",
+   "ru": "Одна поездка — went.",
+   "id": "f-ut-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I used to work at night” means I don't work at night now.",
+   "a": true,
+   "exp": "used to = not now.",
+   "ru": "Сейчас — нет.",
+   "id": "f-ut-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (use to / be) shy, but now I love presentations.",
+   "a": [
+    "used to be"
+   ],
+   "exp": "Past state.",
+   "ru": "used to be.",
+   "id": "f-ut-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Did you ___ to work at weekends?",
+   "a": [
+    "use"
+   ],
+   "exp": "Did + use to.",
+   "ru": "use.",
+   "id": "f-ut-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (not / use to / have) a canteen.",
+   "a": [
+    "didn't use to have",
+    "did not use to have"
+   ],
+   "exp": "Negative.",
+   "ru": "didn't use to have.",
+   "id": "f-ut-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He ___ to play football every Sunday when he was young.",
+   "a": [
+    "used"
+   ],
+   "exp": "Past habit.",
+   "ru": "used.",
+   "id": "f-ut-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "My grandparents used to ___ (live) in a village.",
+   "a": [
+    "live"
+   ],
+   "exp": "used to + infinitive.",
+   "ru": "live.",
+   "id": "f-ut-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "These days I ___ (usually / start) work at eight.",
+   "a": [
+    "usually start"
+   ],
+   "exp": "Present habit.",
+   "ru": "usually start.",
+   "id": "f-ut-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i used to work as an accountant",
+   "exp": "used to + verb.",
+   "ru": "used to work.",
+   "id": "f-ut-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "did you use to live here",
+   "exp": "Question: did + use to.",
+   "ru": "did … use to.",
+   "id": "f-ut-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we did not use to have a risk register",
+   "exp": "Negative.",
+   "ru": "did not use to.",
+   "id": "f-ut-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "there used to be a park here",
+   "exp": "there used to be.",
+   "ru": "used to be.",
+   "id": "f-ut-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she used to be very quiet",
+   "exp": "Past state.",
+   "ru": "used to be.",
+   "id": "f-ut-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what did you use to do after school",
+   "exp": "Question.",
+   "ru": "did you use to do.",
+   "id": "f-ut-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I use to work in a bank. Now I work at the refinery.”",
+   "a": [
+    "I used to work in a bank. Now I work at the refinery."
+   ],
+   "exp": "Past habit → used to.",
+   "ru": "used to.",
+   "id": "f-ut-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Did you used to live here?”",
+   "a": [
+    "Did you use to live here?"
+   ],
+   "exp": "After did → use to.",
+   "ru": "use to.",
+   "id": "f-ut-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I used to going to the gym.”",
+   "a": [
+    "I used to go to the gym."
+   ],
+   "exp": "used to + infinitive.",
+   "ru": "used to go.",
+   "id": "f-ut-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She didn't used to like coffee.”",
+   "a": [
+    "She didn't use to like coffee.",
+    "She did not use to like coffee."
+   ],
+   "exp": "After didn't → use to.",
+   "ru": "didn't use to.",
+   "id": "f-ut-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I use to get up at seven every day.”",
+   "a": [
+    "I usually get up at seven every day.",
+    "I get up at seven every day."
+   ],
+   "exp": "Present habit → usually + Present Simple.",
+   "ru": "usually get up.",
+   "id": "f-ut-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “In 2019 I used to visit Paris once.”",
+   "a": [
+    "In 2019 I visited Paris once.",
+    "In 2019 I visited Paris."
+   ],
+   "exp": "One time → Past Simple.",
+   "ru": "visited.",
+   "id": "f-ut-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Раньше я работал бухгалтером.",
+   "a": [
+    "I used to work as an accountant."
+   ],
+   "exp": "used to.",
+   "ru": "used to work.",
+   "id": "f-ut-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Раньше у нас не было системы.",
+   "a": [
+    "We didn't use to have a system.",
+    "We did not use to have a system."
+   ],
+   "exp": "didn't use to.",
+   "ru": "didn't use to have.",
+   "id": "f-ut-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты раньше жил в Алматы?",
+   "a": [
+    "Did you use to live in Almaty?"
+   ],
+   "exp": "Did … use to.",
+   "ru": "Did you use to.",
+   "id": "f-ut-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Раньше здесь был кинотеатр.",
+   "a": [
+    "There used to be a cinema here."
+   ],
+   "exp": "there used to be.",
+   "ru": "used to be.",
+   "id": "f-ut-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Раньше мы хранили все документы на бумаге.",
+   "a": [
+    "We used to keep all documents on paper.",
+    "We used to keep all the documents on paper.",
+    "We used to store all documents on paper.",
+    "We used to keep all our documents on paper."
+   ],
+   "exp": "used to keep.",
+   "ru": "used to keep.",
+   "id": "f-ut-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мой начальник раньше был очень строгим.",
+   "a": [
+    "My boss used to be very strict.",
+    "My manager used to be very strict."
+   ],
+   "exp": "used to be.",
+   "ru": "used to be.",
+   "id": "f-ut-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сейчас я обычно начинаю работу в восемь.",
+   "a": [
+    "Now I usually start work at eight.",
+    "I usually start work at eight now.",
+    "Now I usually start work at 8.",
+    "Now I usually start working at eight."
+   ],
+   "exp": "Present habit → usually.",
+   "ru": "usually start.",
+   "id": "f-ut-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что ты делал в детстве по выходным?",
+   "a": [
+    "What did you use to do at weekends as a child?",
+    "What did you use to do on weekends as a child?",
+    "What did you use to do at the weekend as a child?",
+    "What did you do at weekends as a child?",
+    "What did you do at weekends when you were a child?",
+    "What did you use to do at weekends when you were a child?"
+   ],
+   "exp": "Past habit question.",
+   "ru": "did you use to do.",
+   "id": "f-ut-36",
+   "stage": 3
+  }
+ ]
+}

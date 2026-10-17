@@ -1,0 +1,171 @@
+{
+ "id": "speaking-file10",
+ "title": "File 10 · Passive & past habits",
+ "tasks": [
+  {
+   "id": "sp-10a-r",
+   "unit": "10A",
+   "kind": "retell",
+   "title": "How a purchase is approved",
+   "text": "In our company, every purchase is checked by several people. First, a request is prepared by the department. Then it is checked by procurement, and the budget is confirmed by finance. After that, a tender is organised and the supplier is chosen by a committee. Finally, the contract is signed by the director. The process was changed last year after an internal audit.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Every purchase is checked by…",
+    "A request is prepared…",
+    "The budget is confirmed…",
+    "The contract is signed by…",
+    "The process was changed…"
+   ],
+   "secs": 300,
+   "sample": "In our company, every purchase is checked by several people. First, a request is prepared by the department. Then it is checked by procurement, and the budget is confirmed by finance. After that, a tender is organised and the supplier is chosen by a committee. Finally, the contract is signed by the director. The process was changed last year after an internal audit.",
+   "check": []
+  },
+  {
+   "id": "sp-10a-q1",
+   "unit": "10A",
+   "kind": "question",
+   "q": "Describe a process at work using the passive.",
+   "ru": "Опиши рабочий процесс в пассиве.",
+   "hints": [
+    "First, … is prepared by…",
+    "Then it is checked…",
+    "After that, … is approved…",
+    "Finally, … is signed…"
+   ],
+   "check": [
+    "\\b(is|are|was|were) \\w+(ed|en|t)\\b"
+   ],
+   "secs": 180,
+   "sample": "First, the invoice is received by the accounting team. Then it is checked against the contract. After that, it is approved by the head of department. Finally, the payment is made by the treasury."
+  },
+  {
+   "id": "sp-10a-q2",
+   "unit": "10A",
+   "kind": "question",
+   "q": "Talk about an invention or a building that is important to you. When was it made and by whom?",
+   "ru": "Расскажи об изобретении или здании, важном для тебя. Когда и кем оно создано?",
+   "hints": [
+    "… was invented / built in…",
+    "… was designed by…",
+    "It is used for…",
+    "It is used by…"
+   ],
+   "check": [
+    "\\b(was|were|is|are) \\w+(ed|en|t)\\b"
+   ],
+   "secs": 180,
+   "sample": "The Atyrau refinery was built in 1945. It was modernised many times. Today it is used to produce petrol, diesel and other products. It is visited by many specialists from other countries."
+  },
+  {
+   "id": "sp-10b-r",
+   "unit": "10B",
+   "kind": "retell",
+   "title": "School then and now",
+   "text": "When my father was a child, school was very different. Pupils used to write with pens and ink. They didn't use to have computers or phones. They used to stand up when the teacher came into the classroom. Teachers used to be very strict. Today children use tablets, and lessons are more interactive. But some things haven't changed: children still don't like homework!",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Pupils used to…",
+    "They didn't use to have…",
+    "Teachers used to be…",
+    "Today…",
+    "Some things haven't changed…"
+   ],
+   "secs": 300,
+   "sample": "When my father was a child, school was very different. Pupils used to write with pens and ink. They didn't use to have computers or phones. They used to stand up when the teacher came into the classroom. Teachers used to be very strict. Today children use tablets, and lessons are more interactive. But some things haven't changed: children still don't like homework!",
+   "check": []
+  },
+  {
+   "id": "sp-10b-q1",
+   "unit": "10B",
+   "kind": "question",
+   "q": "How has your job changed in the last five years?",
+   "ru": "Как изменилась твоя работа за последние пять лет?",
+   "hints": [
+    "We used to…",
+    "We didn't use to…",
+    "Now we…",
+    "I used to…, but now…"
+   ],
+   "check": [
+    "\\bused to\\b|\\bdidn't use to\\b"
+   ],
+   "secs": 180,
+   "sample": "Five years ago we used to keep all documents on paper. We didn't use to have a risk register. I used to spend hours on simple reports. Now we do everything in the system, and our work is faster."
+  },
+  {
+   "id": "sp-10b-q2",
+   "unit": "10B",
+   "kind": "question",
+   "q": "What subjects were you good at at school? What did you use to do after school?",
+   "ru": "По каким предметам ты хорошо учился? Чем занимался после школы?",
+   "hints": [
+    "I was good at…",
+    "My favourite subject was…",
+    "After school I used to…",
+    "I wasn't very good at…"
+   ],
+   "check": [
+    "\\bused to\\b",
+    "\\bwas\\b"
+   ],
+   "secs": 180,
+   "sample": "I was good at maths and history. My favourite subject was maths. After school I used to play football with my friends. I wasn't very good at English then — I'm learning it now!"
+  },
+  {
+   "id": "sp-10c-r",
+   "unit": "10C",
+   "kind": "retell",
+   "title": "Mr Indecisive",
+   "text": "Timur can never make a decision. When he goes to a restaurant, he might order fish, or he might order meat — it takes him twenty minutes. Next month he might go on holiday, but he might not, because he might have too much work. His friends say, \"Just choose!\" He says, \"I might... next time.\"",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Timur can never…",
+    "He might order…, or…",
+    "Next month he might…",
+    "His friends say…"
+   ],
+   "secs": 300,
+   "sample": "Timur can never make a decision. When he goes to a restaurant, he might order fish, or he might order meat — it takes him twenty minutes. Next month he might go on holiday, but he might not, because he might have too much work. His friends say, \"Just choose!\" He says, \"I might... next time.\"",
+   "check": []
+  },
+  {
+   "id": "sp-10c-q1",
+   "unit": "10C",
+   "kind": "question",
+   "q": "What might happen next month at work? Talk about possible risks.",
+   "ru": "Что может случиться на работе в следующем месяце? Расскажи о возможных рисках.",
+   "hints": [
+    "… might…",
+    "… might not…",
+    "We may need…",
+    "If that happens…"
+   ],
+   "check": [
+    "\\bmight\\b|\\bmay\\b"
+   ],
+   "secs": 180,
+   "sample": "Next month the supplier might deliver the equipment late. We might not have enough staff during the holidays. The auditors might ask for more documents. Prices might go up, so we may need a bigger budget."
+  },
+  {
+   "id": "sp-10c-q2",
+   "unit": "10C",
+   "kind": "question",
+   "q": "Are you a decisive person? How do you make important decisions?",
+   "ru": "Ты решительный человек? Как ты принимаешь важные решения?",
+   "hints": [
+    "I'm quite decisive / indecisive",
+    "Before a decision I…",
+    "I might…, or I might…",
+    "In the end I…"
+   ],
+   "check": [
+    "\\bdecisi\\w*\\b|\\bdecide\\b|\\bmight\\b"
+   ],
+   "secs": 180,
+   "sample": "I'm quite decisive at work, but not when I go shopping! Before an important decision I collect information and talk to my family. I might write a list of pros and cons. In the end I trust my experience."
+  }
+ ]
+}

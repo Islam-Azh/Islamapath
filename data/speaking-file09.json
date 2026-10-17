@@ -1,0 +1,170 @@
+{
+ "id": "speaking-file09",
+ "title": "File 9 · Imagination & duration",
+ "tasks": [
+  {
+   "id": "sp-9a-r",
+   "unit": "9A",
+   "kind": "retell",
+   "title": "What would you do?",
+   "text": "Imagine you are walking in the steppe and you see a wolf. What would you do? Experts say that if you saw a wolf, you shouldn't run. If you ran, the wolf would follow you. If I were in that situation, I would stand still and make myself look bigger. I would also make a loud noise. Luckily, wolves rarely attack people.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Imagine you…",
+    "If you saw…, you…",
+    "If you ran, the wolf would…",
+    "If I were…, I would…"
+   ],
+   "secs": 300,
+   "sample": "Imagine you are walking in the steppe and you see a wolf. What would you do? Experts say that if you saw a wolf, you shouldn't run. If you ran, the wolf would follow you. If I were in that situation, I would stand still and make myself look bigger. I would also make a loud noise. Luckily, wolves rarely attack people.",
+   "check": []
+  },
+  {
+   "id": "sp-9a-q1",
+   "unit": "9A",
+   "kind": "question",
+   "q": "What would you change if you were the director of your company?",
+   "ru": "Что бы ты изменил, если бы был директором компании?",
+   "hints": [
+    "If I were the director, I would…",
+    "I would also…",
+    "I wouldn't…"
+   ],
+   "check": [
+    "\\bif I were\\b|\\bif I was\\b",
+    "\\bwould\\b|'d\\b"
+   ],
+   "secs": 180,
+   "sample": "If I were the director, I would hire more auditors. I would also invest in a modern system for approvals. I would give people more training in English. I wouldn't have so many long meetings."
+  },
+  {
+   "id": "sp-9a-q2",
+   "unit": "9A",
+   "kind": "question",
+   "q": "What would you do if you won a lot of money?",
+   "ru": "Что бы ты сделал, если бы выиграл много денег?",
+   "hints": [
+    "If I won…, I would…",
+    "I'd probably…",
+    "I wouldn't…"
+   ],
+   "check": [
+    "\\bif I (won|had)\\b",
+    "\\bwould\\b|'d\\b"
+   ],
+   "secs": 180,
+   "sample": "If I won a lot of money, I would buy a house for my parents. I'd travel around the world with my family. I'd also study abroad for a year. I wouldn't stop working completely."
+  },
+  {
+   "id": "sp-9b-r",
+   "unit": "9B",
+   "kind": "retell",
+   "title": "Fear of speaking",
+   "text": "Ainur has been afraid of public speaking since she was at school. For many years she avoided presentations. Last year she decided to change. She has been going to a speaking club for six months, and she has given three presentations at work. She still feels nervous, but she hasn't had a panic attack since March. She says she has never felt so confident.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "She has been afraid of… since…",
+    "For many years she…",
+    "She has been going to… for…",
+    "She hasn't … since…"
+   ],
+   "secs": 300,
+   "sample": "Ainur has been afraid of public speaking since she was at school. For many years she avoided presentations. Last year she decided to change. She has been going to a speaking club for six months, and she has given three presentations at work. She still feels nervous, but she hasn't had a panic attack since March. She says she has never felt so confident.",
+   "check": []
+  },
+  {
+   "id": "sp-9b-q1",
+   "unit": "9B",
+   "kind": "question",
+   "q": "How long have you worked in your job and done each of your main tasks?",
+   "ru": "Как долго ты работаешь на своей должности и выполняешь основные задачи?",
+   "hints": [
+    "I've worked in … for / since…",
+    "I've been responsible for … since…",
+    "I've known my manager for…"
+   ],
+   "check": [
+    "\\b(have|'ve) (worked|been|known|used|done)\\b",
+    "\\bfor\\b|\\bsince\\b"
+   ],
+   "secs": 180,
+   "sample": "I've worked at the refinery since 2018. I've been in internal control for several years. I've been responsible for procurement controls since last year. I've known my manager for five years."
+  },
+  {
+   "id": "sp-9b-q2",
+   "unit": "9B",
+   "kind": "question",
+   "q": "Is there anything you are afraid of? How long have you felt like this?",
+   "ru": "Есть ли что-то, чего ты боишься? Как долго ты это чувствуешь?",
+   "hints": [
+    "I'm afraid of / scared of…",
+    "I've been afraid of it since / for…",
+    "I feel nervous when…",
+    "I try to…"
+   ],
+   "check": [
+    "\\bafraid\\b|\\bscared\\b|\\bnervous\\b",
+    "\\bsince\\b|\\bfor\\b"
+   ],
+   "secs": 180,
+   "sample": "I'm a bit scared of speaking English in front of many people. I've felt like this since I started learning English. I feel nervous when native speakers talk fast. I try to practise every day to overcome it."
+  },
+  {
+   "id": "sp-9c-r",
+   "unit": "9C",
+   "kind": "retell",
+   "title": "A successful career",
+   "text": "Lyazzat was born in a small town in 1985. She graduated from university in 2007 and joined a bank as an assistant. She has worked in finance for almost twenty years. She has been a manager since 2016 and has won two awards. Last year she moved to an international company. She says the most important thing in her career has been learning English.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "She was born…",
+    "She graduated…",
+    "She has worked in … for…",
+    "She has been … since…",
+    "Last year she…"
+   ],
+   "secs": 300,
+   "sample": "Lyazzat was born in a small town in 1985. She graduated from university in 2007 and joined a bank as an assistant. She has worked in finance for almost twenty years. She has been a manager since 2016 and has won two awards. Last year she moved to an international company. She says the most important thing in her career has been learning English.",
+   "check": []
+  },
+  {
+   "id": "sp-9c-q1",
+   "unit": "9C",
+   "kind": "question",
+   "q": "Tell me about your achievements: what have you done, and when did you do it?",
+   "ru": "Расскажи о своих достижениях: что ты сделал и когда?",
+   "hints": [
+    "I've…",
+    "I did it in…",
+    "My biggest achievement has been…"
+   ],
+   "check": [
+    "\\b(have|'ve)\\s+\\w+(ed|en|t|ne)\\b",
+    "\\b(in|last) \\w+\\b"
+   ],
+   "secs": 180,
+   "sample": "I've built a risk register for the whole refinery. I did it in 2022 with my team. I've also reduced the number of audit findings. My biggest achievement has been the new procurement controls — we introduced them last year."
+  },
+  {
+   "id": "sp-9c-q2",
+   "unit": "9C",
+   "kind": "question",
+   "q": "Why do you want to work for an international company?",
+   "ru": "Почему ты хочешь работать в международной компании?",
+   "hints": [
+    "I want to… because…",
+    "I would like to…",
+    "I think it would…",
+    "I'm interested in…"
+   ],
+   "check": [
+    "\\bbecause\\b|\\bwould\\b|\\bwant to\\b"
+   ],
+   "secs": 180,
+   "sample": "I want to work for an international company because I would like to grow professionally. I think it would give me new experience and better standards. I'm interested in working with people from different countries. It would also help my English."
+  }
+ ]
+}

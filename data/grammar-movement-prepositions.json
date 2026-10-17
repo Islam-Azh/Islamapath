@@ -1,0 +1,446 @@
+{
+ "id": "movement-prepositions",
+ "title": "Prepositions of movement",
+ "level": "A2",
+ "unit": "11A",
+ "units": [
+  "11A"
+ ],
+ "en": "<p>Movement: <b>across</b> (from one side to the other), <b>along</b> (following a line), <b>through</b> (inside, from one end to the other), <b>into / out of</b>, <b>up / down</b>, <b>over / under</b>, <b>past</b> (go by something), <b>towards</b> (in the direction of), <b>round / around</b>.</p><p><i>Walk <b>across</b> the bridge. Drive <b>along</b> the river. Go <b>through</b> the gate. Get <b>into</b> the car / <b>out of</b> the car. Go <b>past</b> the canteen and turn left.</i></p><p>Giving directions: <i>Go <b>up</b> the stairs, walk <b>along</b> the corridor, go <b>past</b> the lift, the office is on the right.</i></p>",
+ "ru": "Предлоги движения: across — через (поперёк), along — вдоль, through — сквозь, into — внутрь, out of — изнутри наружу, up / down — вверх / вниз, over — над / через, under — под, past — мимо, towards — по направлению к, round — вокруг.",
+ "boss": {
+  "situation": "Describe the route from your office entrance to your desk or to a meeting room.",
+  "samples": [
+   "Go through the main gate and walk past the security office.",
+   "Go into the building and up the stairs to the second floor.",
+   "Walk along the corridor towards the windows.",
+   "Go past the kitchen and the meeting room.",
+   "My office is the last door on the left."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Walk ___ the bridge to the other side of the river.",
+   "opts": [
+    "across",
+    "along",
+    "into"
+   ],
+   "a": 0,
+   "exp": "From one side to the other → across.",
+   "ru": "Через — across.",
+   "id": "f-mv-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The train went ___ the tunnel.",
+   "opts": [
+    "over",
+    "through",
+    "along"
+   ],
+   "a": 1,
+   "exp": "Inside, end to end → through.",
+   "ru": "Сквозь — through.",
+   "id": "f-mv-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We walked ___ the river for an hour.",
+   "opts": [
+    "along",
+    "across",
+    "into"
+   ],
+   "a": 0,
+   "exp": "Following a line → along.",
+   "ru": "Вдоль — along.",
+   "id": "f-mv-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He got ___ the car and drove away.",
+   "opts": [
+    "into",
+    "in to",
+    "on"
+   ],
+   "a": 0,
+   "exp": "Movement inside → into.",
+   "ru": "Внутрь — into.",
+   "id": "f-mv-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Go ___ the bank and turn right.",
+   "opts": [
+    "past",
+    "passed",
+    "through"
+   ],
+   "a": 0,
+   "exp": "Go by → past.",
+   "ru": "Мимо — past.",
+   "id": "f-mv-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The cat jumped ___ the fence.",
+   "opts": [
+    "over",
+    "through",
+    "under"
+   ],
+   "a": 0,
+   "exp": "Above → over.",
+   "ru": "Через (сверху) — over.",
+   "id": "f-mv-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ran ___ the stairs to the fifth floor.",
+   "opts": [
+    "up",
+    "down",
+    "over"
+   ],
+   "a": 0,
+   "exp": "To a higher level → up.",
+   "ru": "Вверх — up.",
+   "id": "f-mv-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Get ___ of the building — it's a fire alarm!",
+   "opts": [
+    "out",
+    "off",
+    "into"
+   ],
+   "a": 0,
+   "exp": "out of.",
+   "ru": "out of.",
+   "id": "f-mv-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Past” in “Go past the canteen” means you go by it, not into it.",
+   "a": true,
+   "exp": "past = мимо.",
+   "ru": "Мимо.",
+   "id": "f-mv-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Along the river” means from one side of the river to the other.",
+   "a": false,
+   "exp": "That is across; along = following the river.",
+   "ru": "Это across.",
+   "id": "f-mv-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "The car drove ___ the tunnel.",
+   "a": [
+    "through"
+   ],
+   "exp": "Inside, end to end.",
+   "ru": "through.",
+   "id": "f-mv-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Walk ___ the corridor to the end.",
+   "a": [
+    "along",
+    "down"
+   ],
+   "exp": "Following a line.",
+   "ru": "along.",
+   "id": "f-mv-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He jumped ___ the swimming pool.",
+   "a": [
+    "into"
+   ],
+   "exp": "Movement inside.",
+   "ru": "into.",
+   "id": "f-mv-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Go ___ the stairs to the basement.",
+   "a": [
+    "down"
+   ],
+   "exp": "To a lower level.",
+   "ru": "down.",
+   "id": "f-mv-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "A man was walking ___ us, so we stopped.",
+   "a": [
+    "towards",
+    "toward"
+   ],
+   "exp": "In the direction of us.",
+   "ru": "towards.",
+   "id": "f-mv-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The plane flew ___ the mountains.",
+   "a": [
+    "over"
+   ],
+   "exp": "Above.",
+   "ru": "over.",
+   "id": "f-mv-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "go through the gate and turn left",
+   "exp": "Directions.",
+   "ru": "through the gate.",
+   "id": "f-mv-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "walk along the corridor to the end",
+   "exp": "along.",
+   "ru": "along the corridor.",
+   "id": "f-mv-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the office is past the meeting room",
+   "exp": "past.",
+   "ru": "past the meeting room.",
+   "id": "f-mv-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she got out of the taxi",
+   "exp": "out of.",
+   "ru": "out of.",
+   "id": "f-mv-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we drove across the bridge",
+   "exp": "across.",
+   "ru": "across the bridge.",
+   "id": "f-mv-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "go up the stairs to the second floor",
+   "exp": "up.",
+   "ru": "up the stairs.",
+   "id": "f-mv-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Go passed the bank.”",
+   "a": [
+    "Go past the bank."
+   ],
+   "exp": "past (preposition), not passed (verb).",
+   "ru": "past.",
+   "id": "f-mv-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He went in the room.”",
+   "a": [
+    "He went into the room."
+   ],
+   "exp": "Movement → into.",
+   "ru": "into.",
+   "id": "f-mv-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We walked across the river for an hour, enjoying the view.”",
+   "a": [
+    "We walked along the river for an hour, enjoying the view."
+   ],
+   "exp": "Following the river → along.",
+   "ru": "along.",
+   "id": "f-mv-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She came out from the office.”",
+   "a": [
+    "She came out of the office."
+   ],
+   "exp": "out of.",
+   "ru": "out of.",
+   "id": "f-mv-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The train went across the tunnel.”",
+   "a": [
+    "The train went through the tunnel."
+   ],
+   "exp": "Inside → through.",
+   "ru": "through.",
+   "id": "f-mv-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He ran to up the hill.”",
+   "a": [
+    "He ran up the hill."
+   ],
+   "exp": "No to before up.",
+   "ru": "ran up.",
+   "id": "f-mv-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Пройдите через проходную и поверните налево.",
+   "a": [
+    "Go through the gate and turn left.",
+    "Go through the checkpoint and turn left.",
+    "Walk through the gate and turn left.",
+    "Go through the entrance and turn left."
+   ],
+   "exp": "through.",
+   "ru": "through.",
+   "id": "f-mv-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Идите вдоль коридора.",
+   "a": [
+    "Walk along the corridor.",
+    "Go along the corridor.",
+    "Go down the corridor.",
+    "Walk down the corridor."
+   ],
+   "exp": "along.",
+   "ru": "along.",
+   "id": "f-mv-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Пройдите мимо столовой.",
+   "a": [
+    "Go past the canteen.",
+    "Walk past the canteen."
+   ],
+   "exp": "past.",
+   "ru": "past.",
+   "id": "f-mv-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Поднимитесь по лестнице на третий этаж.",
+   "a": [
+    "Go up the stairs to the third floor.",
+    "Walk up the stairs to the third floor."
+   ],
+   "exp": "up.",
+   "ru": "up the stairs.",
+   "id": "f-mv-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы перешли через дорогу.",
+   "a": [
+    "We went across the road.",
+    "We walked across the road.",
+    "We crossed the road.",
+    "We went across the street.",
+    "We walked across the street.",
+    "We crossed the street."
+   ],
+   "exp": "across.",
+   "ru": "across.",
+   "id": "f-mv-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он вышел из машины.",
+   "a": [
+    "He got out of the car."
+   ],
+   "exp": "out of.",
+   "ru": "out of.",
+   "id": "f-mv-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Поезд проехал через туннель.",
+   "a": [
+    "The train went through the tunnel.",
+    "The train passed through the tunnel."
+   ],
+   "exp": "through.",
+   "ru": "through.",
+   "id": "f-mv-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она шла к нам.",
+   "a": [
+    "She was walking towards us.",
+    "She was walking toward us.",
+    "She walked towards us.",
+    "She was coming towards us."
+   ],
+   "exp": "towards.",
+   "ru": "towards.",
+   "id": "f-mv-36",
+   "stage": 3
+  }
+ ]
+}

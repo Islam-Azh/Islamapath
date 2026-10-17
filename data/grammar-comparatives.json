@@ -1,0 +1,457 @@
+{
+ "id": "comparatives",
+ "title": "Comparatives, superlatives, as … as",
+ "level": "A2",
+ "unit": "5A",
+ "units": [
+  "5A",
+  "5B"
+ ],
+ "en": "<p>Short adjectives: <b>-er / the -est</b> (cheap → cheaper → the cheapest; big → bigger; easy → easier).</p><p>Long adjectives: <b>more / the most</b> (expensive → more expensive → the most expensive).</p><p>Irregular: <b>good → better → the best; bad → worse → the worst; far → further → the furthest</b>.</p><p><b>than</b> after comparatives: <i>The new system is faster <b>than</b> the old one.</i> <b>as … as</b> = the same: <i>It's <b>as</b> expensive <b>as</b> last year. It isn't <b>as</b> good <b>as</b> I expected.</i></p><p>Superlative + Present Perfect + <b>ever</b>: <i>It's <b>the best</b> report I've <b>ever</b> read.</i></p>",
+ "ru": "Короткие прилагательные: -er / the -est; длинные: more / the most; исключения good–better–best, bad–worse–worst. После сравнения — than. as … as — такой же как; not as … as — не такой как. the best … I've ever … — лучший из всех, что я когда-либо…",
+ "boss": {
+  "situation": "Compare two systems, tools or processes you use at work. Which is faster, more reliable, the best? Use as … as once.",
+  "samples": [
+   "The new ERP system is faster than the old one.",
+   "It is also more reliable, but it is more expensive.",
+   "Excel is easier to use than the ERP system.",
+   "The old system wasn't as convenient as the new one.",
+   "It's the best tool we've ever had for approvals."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "This report is ___ than the last one.",
+   "opts": [
+    "longer",
+    "more long",
+    "longest"
+   ],
+   "a": 0,
+   "exp": "Short adjective → -er.",
+   "ru": "long — longer.",
+   "id": "f-cs-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "It's the ___ expensive hotel in the city.",
+   "opts": [
+    "more",
+    "most",
+    "much"
+   ],
+   "a": 1,
+   "exp": "Superlative of a long adjective → the most.",
+   "ru": "the most expensive.",
+   "id": "f-cs-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "My English is ___ than last year.",
+   "opts": [
+    "gooder",
+    "better",
+    "best"
+   ],
+   "a": 1,
+   "exp": "good → better.",
+   "ru": "good — better.",
+   "id": "f-cs-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Today is ___ than yesterday — minus 25!",
+   "opts": [
+    "colder",
+    "more cold",
+    "coldest"
+   ],
+   "a": 0,
+   "exp": "cold → colder.",
+   "ru": "colder.",
+   "id": "f-cs-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She's as tall ___ her brother.",
+   "opts": [
+    "than",
+    "as",
+    "like"
+   ],
+   "a": 1,
+   "exp": "as … as.",
+   "ru": "as … as.",
+   "id": "f-cs-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "This is the worst coffee I've ___ tasted.",
+   "opts": [
+    "never",
+    "ever",
+    "already"
+   ],
+   "a": 1,
+   "exp": "Superlative + ever.",
+   "ru": "the worst … ever.",
+   "id": "f-cs-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The comparative of “easy” is ___.",
+   "opts": [
+    "easyer",
+    "easier",
+    "more easy"
+   ],
+   "a": 1,
+   "exp": "y → ier.",
+   "ru": "easier.",
+   "id": "f-cs-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Our office is ___ from the centre than yours.",
+   "opts": [
+    "further",
+    "farer",
+    "more far"
+   ],
+   "a": 0,
+   "exp": "far → further / farther.",
+   "ru": "far — further.",
+   "id": "f-cs-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“The new system isn't as fast as the old one” means the old one is faster.",
+   "a": true,
+   "exp": "not as … as = less.",
+   "ru": "Старая быстрее.",
+   "id": "f-cs-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“He is more taller than me” is correct.",
+   "a": false,
+   "exp": "Don't use more with -er: taller.",
+   "ru": "Не more + -er.",
+   "id": "f-cs-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Almaty is ___ (big) than Atyrau.",
+   "a": [
+    "bigger"
+   ],
+   "exp": "One vowel + one consonant → double: bigger.",
+   "ru": "bigger.",
+   "id": "f-cs-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "This is the ___ (interesting) book I've ever read.",
+   "a": [
+    "most interesting"
+   ],
+   "exp": "Long adjective → the most.",
+   "ru": "the most interesting.",
+   "id": "f-cs-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Yesterday was the ___ (bad) day of my week.",
+   "a": [
+    "worst"
+   ],
+   "exp": "bad → worst.",
+   "ru": "worst.",
+   "id": "f-cs-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The test was ___ (difficult) than I expected.",
+   "a": [
+    "more difficult"
+   ],
+   "exp": "Long adjective → more.",
+   "ru": "more difficult.",
+   "id": "f-cs-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "My car isn't as ___ (new) as yours.",
+   "a": [
+    "new"
+   ],
+   "exp": "as + adjective (base form) + as.",
+   "ru": "as new as.",
+   "id": "f-cs-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Which is the ___ (busy) month for your team?",
+   "a": [
+    "busiest"
+   ],
+   "exp": "busy → busiest.",
+   "ru": "busiest.",
+   "id": "f-cs-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the new system is faster than the old one",
+   "exp": "Comparative + than.",
+   "ru": "faster than.",
+   "id": "f-cs-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "this is the best report i have ever read",
+   "exp": "Superlative + ever.",
+   "ru": "the best … ever.",
+   "id": "f-cs-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the train is not as fast as the plane",
+   "exp": "not as … as.",
+   "ru": "not as … as.",
+   "id": "f-cs-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "which is the most important task today",
+   "exp": "Superlative question.",
+   "ru": "the most important.",
+   "id": "f-cs-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "my office is bigger than my manager's office",
+   "exp": "Comparative + than.",
+   "ru": "bigger than.",
+   "id": "f-cs-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it was the worst meeting of the year",
+   "exp": "Superlative + of.",
+   "ru": "the worst … of.",
+   "id": "f-cs-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “This task is more easy than that one.”",
+   "a": [
+    "This task is easier than that one."
+   ],
+   "exp": "easy → easier.",
+   "ru": "easier.",
+   "id": "f-cs-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She is the most tall person in the team.”",
+   "a": [
+    "She is the tallest person in the team.",
+    "She's the tallest person in the team.",
+    "She is the tallest person on the team."
+   ],
+   "exp": "Short adjective → the tallest.",
+   "ru": "the tallest.",
+   "id": "f-cs-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “My salary is lower that yours.”",
+   "a": [
+    "My salary is lower than yours."
+   ],
+   "exp": "Comparatives use than.",
+   "ru": "than, не that.",
+   "id": "f-cs-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “It is the better hotel in town.”",
+   "a": [
+    "It is the best hotel in town.",
+    "It's the best hotel in town."
+   ],
+   "exp": "Superlative → the best.",
+   "ru": "the best.",
+   "id": "f-cs-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He is as clever than his sister.”",
+   "a": [
+    "He is as clever as his sister.",
+    "He's as clever as his sister."
+   ],
+   "exp": "as … as.",
+   "ru": "as … as.",
+   "id": "f-cs-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “This is the most cheapest option.”",
+   "a": [
+    "This is the cheapest option.",
+    "This is the cheapest one.",
+    "It is the cheapest option."
+   ],
+   "exp": "Don't use most with -est.",
+   "ru": "Без most.",
+   "id": "f-cs-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Новая система быстрее старой.",
+   "a": [
+    "The new system is faster than the old one.",
+    "The new system is faster than the old system."
+   ],
+   "exp": "faster than.",
+   "ru": "faster than.",
+   "id": "f-cs-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это самый важный проект в этом году.",
+   "a": [
+    "This is the most important project this year.",
+    "This is the most important project of the year.",
+    "It's the most important project this year.",
+    "It is the most important project this year.",
+    "This is the most important project in this year."
+   ],
+   "exp": "the most + long adjective.",
+   "ru": "the most important.",
+   "id": "f-cs-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мой английский лучше, чем в прошлом году.",
+   "a": [
+    "My English is better than last year.",
+    "My English is better than it was last year."
+   ],
+   "exp": "good → better.",
+   "ru": "better.",
+   "id": "f-cs-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сегодня не так холодно, как вчера.",
+   "a": [
+    "Today it isn't as cold as yesterday.",
+    "It isn't as cold as yesterday.",
+    "Today isn't as cold as yesterday.",
+    "It is not as cold today as yesterday.",
+    "It isn't as cold today as it was yesterday.",
+    "It isn't as cold today as yesterday."
+   ],
+   "exp": "not as … as.",
+   "ru": "not as cold as.",
+   "id": "f-cs-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это лучший отчёт, который я когда-либо читал.",
+   "a": [
+    "This is the best report I've ever read.",
+    "This is the best report I have ever read.",
+    "It's the best report I've ever read.",
+    "It is the best report I have ever read.",
+    "This is the best report that I have ever read."
+   ],
+   "exp": "the best … ever.",
+   "ru": "the best … ever.",
+   "id": "f-cs-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Этот вариант дешевле.",
+   "a": [
+    "This option is cheaper.",
+    "This one is cheaper.",
+    "This variant is cheaper."
+   ],
+   "exp": "cheap → cheaper.",
+   "ru": "cheaper.",
+   "id": "f-cs-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Какой самый загруженный месяц?",
+   "a": [
+    "What is the busiest month?",
+    "Which is the busiest month?",
+    "What's the busiest month?",
+    "Which month is the busiest?"
+   ],
+   "exp": "busy → the busiest.",
+   "ru": "the busiest.",
+   "id": "f-cs-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Аудит был сложнее, чем мы ожидали.",
+   "a": [
+    "The audit was more difficult than we expected.",
+    "The audit was harder than we expected.",
+    "The audit was more difficult than we had expected.",
+    "The audit was more complicated than we expected."
+   ],
+   "exp": "more difficult / harder than.",
+   "ru": "more difficult than.",
+   "id": "f-cs-36",
+   "stage": 3
+  }
+ ]
+}

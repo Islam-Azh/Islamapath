@@ -1,0 +1,152 @@
+[
+ {
+  "word": "invent",
+  "ipa": "/ɪnˈvent/",
+  "ru": "изобретать",
+  "ex": "Who invented the telephone?",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "discover",
+  "ipa": "/dɪˈskʌvə/",
+  "ru": "открывать (обнаружить)",
+  "ex": "They discovered oil here in 1899.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "design",
+  "ipa": "/dɪˈzaɪn/",
+  "ru": "проектировать; дизайн",
+  "ex": "The plant was designed by a French company.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "produce",
+  "ipa": "/prəˈdjuːs/",
+  "ru": "производить",
+  "ex": "The refinery produces petrol and diesel.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "build",
+  "ipa": "/bɪld/",
+  "ru": "строить",
+  "ex": "They built a new unit last year.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "develop",
+  "ipa": "/dɪˈveləp/",
+  "ru": "разрабатывать, развивать",
+  "ex": "We developed a new procedure.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "invention",
+  "ipa": "/ɪnˈvenʃn/",
+  "ru": "изобретение",
+  "ex": "The internet is a great invention.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "equipment",
+  "ipa": "/ɪˈkwɪpmənt/",
+  "ru": "оборудование",
+  "ex": "The equipment is very old.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "machine",
+  "ipa": "/məˈʃiːn/",
+  "ru": "машина, станок",
+  "ex": "The machine stopped working.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "used for",
+  "ipa": "/juːzd fə/",
+  "ru": "используется для",
+  "ex": "This pump is used for water.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "revenue recognition",
+  "ipa": "/ˈrevənjuː ˌrekəɡˈnɪʃn/",
+  "ru": "признание выручки",
+  "ex": "IFRS 15 is about revenue recognition.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "provision",
+  "ipa": "/prəˈvɪʒn/",
+  "ru": "резерв (оценочное обязательство)",
+  "ex": "They created a provision for legal claims.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "accrual",
+  "ipa": "/əˈkruːəl/",
+  "ru": "начисление",
+  "ex": "We made an accrual for the bonus.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "lease",
+  "ipa": "/liːs/",
+  "ru": "аренда (лизинг)",
+  "ex": "The office is on a five-year lease.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "auditor's opinion",
+  "ipa": "/ˈɔːdɪtəz əˈpɪnjən/",
+  "ru": "аудиторское заключение",
+  "ex": "The auditor's opinion was unqualified.",
+  "topic": "Inventions; verbs: invent, discover",
+  "unit": "10A",
+  "track": "work",
+  "level": "B1"
+ }
+]

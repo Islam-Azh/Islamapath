@@ -16,7 +16,8 @@
    ],
    "a": 0,
    "exp": "decide + to + infinitive.",
-   "ru": "decide + to."
+   "ru": "decide + to.",
+   "stage": 1
   },
   {
    "id": "g-in-2",
@@ -29,37 +30,8 @@
    ],
    "a": 0,
    "exp": "Negative infinitive: not to + verb.",
-   "ru": "Отрицание — not to."
-  },
-  {
-   "id": "g-in-3",
-   "type": "gap",
-   "q": "I went to the shop ___ (buy) some milk.",
-   "a": [
-    "to buy"
-   ],
-   "exp": "Purpose → to + infinitive.",
-   "ru": "Цель — to + глагол."
-  },
-  {
-   "id": "g-in-4",
-   "type": "gap",
-   "q": "It's important ___ (drink) enough water.",
-   "a": [
-    "to drink"
-   ],
-   "exp": "Adjective + to + infinitive.",
-   "ru": "Прилагательное + to."
-  },
-  {
-   "id": "g-in-5",
-   "type": "gap",
-   "q": "Would you like ___ (come) to dinner on Saturday?",
-   "a": [
-    "to come"
-   ],
-   "exp": "would like + to + infinitive.",
-   "ru": "would like + to."
+   "ru": "Отрицание — not to.",
+   "stage": 1
   },
   {
    "id": "g-in-6",
@@ -72,7 +44,8 @@
    ],
    "a": 0,
    "exp": "Question word + to + infinitive.",
-   "ru": "what + to + глагол."
+   "ru": "what + to + глагол.",
+   "stage": 1
   },
   {
    "id": "g-in-7",
@@ -85,57 +58,8 @@
    ],
    "a": 0,
    "exp": "anything / something + to + infinitive.",
-   "ru": "anything + to."
-  },
-  {
-   "id": "g-in-8",
-   "type": "fix",
-   "q": "Correct the mistake: “I'm learning English for get a better job.”",
-   "a": [
-    "I'm learning English to get a better job.",
-    "I am learning English to get a better job.",
-    "I'm learning English in order to get a better job.",
-    "I am learning English in order to get a better job."
-   ],
-   "exp": "Purpose: to + infinitive, not for.",
-   "ru": "Цель — to, не for."
-  },
-  {
-   "id": "g-in-9",
-   "type": "fix",
-   "q": "Correct the mistake: “She wants that I help her.”",
-   "a": [
-    "She wants me to help her."
-   ],
-   "exp": "want + person + to + infinitive.",
-   "ru": "want + кого-то + to."
-  },
-  {
-   "id": "g-in-10",
-   "type": "fix",
-   "q": "Correct the mistake: “It's easy understand this rule.”",
-   "a": [
-    "It's easy to understand this rule.",
-    "It is easy to understand this rule."
-   ],
-   "exp": "Adjective + to + infinitive.",
-   "ru": "После прилагательного — to."
-  },
-  {
-   "id": "g-in-11",
-   "type": "order",
-   "q": "Put the words in the correct order.",
-   "a": "i forgot to send you the report",
-   "exp": "forget + to + infinitive.",
-   "ru": "forget + to + глагол."
-  },
-  {
-   "id": "g-in-12",
-   "type": "order",
-   "q": "Put the words in the correct order.",
-   "a": "can you tell me where to park",
-   "exp": "Question word + to + infinitive.",
-   "ru": "where + to + глагол."
+   "ru": "anything + to.",
+   "stage": 1
   },
   {
    "id": "g-in-13",
@@ -143,7 +67,8 @@
    "q": "In “I came here to learn English”, “to learn” explains why I came.",
    "a": true,
    "exp": "to + infinitive = purpose.",
-   "ru": "to + глагол = цель."
+   "ru": "to + глагол = цель.",
+   "stage": 1
   },
   {
    "id": "g-in-14",
@@ -151,7 +76,8 @@
    "q": "After “would like” we use the -ing form: “I'd like going home.”",
    "a": false,
    "exp": "would like + to: I'd like to go home.",
-   "ru": "После would like — to."
+   "ru": "После would like — to.",
+   "stage": 1
   },
   {
    "id": "g-in-15",
@@ -164,7 +90,8 @@
    ],
    "a": 0,
    "exp": "hope + to + infinitive.",
-   "ru": "hope + to."
+   "ru": "hope + to.",
+   "stage": 1
   },
   {
    "id": "g-in-16",
@@ -177,27 +104,8 @@
    ],
    "a": 0,
    "exp": "somewhere + to + infinitive.",
-   "ru": "somewhere + to."
-  },
-  {
-   "id": "g-in-17",
-   "type": "gap",
-   "q": "I'm sorry ___ (hear) that you're ill.",
-   "a": [
-    "to hear"
-   ],
-   "exp": "Adjective (sorry) + to + infinitive.",
-   "ru": "sorry + to."
-  },
-  {
-   "id": "g-in-18",
-   "type": "gap",
-   "q": "My manager asked me ___ (not / be) late.",
-   "a": [
-    "not to be"
-   ],
-   "exp": "ask + person + not to + infinitive.",
-   "ru": "ask + кого-то + not to."
+   "ru": "somewhere + to.",
+   "stage": 1
   },
   {
    "id": "g-in-19",
@@ -210,7 +118,8 @@
    ],
    "a": 0,
    "exp": "manage + to + infinitive.",
-   "ru": "manage + to."
+   "ru": "manage + to.",
+   "stage": 1
   },
   {
    "id": "g-in-20",
@@ -223,7 +132,323 @@
    ],
    "a": 0,
    "exp": "Purpose → to + infinitive.",
-   "ru": "Цель — to."
+   "ru": "Цель — to.",
+   "stage": 1
+  },
+  {
+   "id": "g-in-3",
+   "type": "gap",
+   "q": "I went to the shop ___ (buy) some milk.",
+   "a": [
+    "to buy"
+   ],
+   "exp": "Purpose → to + infinitive.",
+   "ru": "Цель — to + глагол.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-4",
+   "type": "gap",
+   "q": "It's important ___ (drink) enough water.",
+   "a": [
+    "to drink"
+   ],
+   "exp": "Adjective + to + infinitive.",
+   "ru": "Прилагательное + to.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-5",
+   "type": "gap",
+   "q": "Would you like ___ (come) to dinner on Saturday?",
+   "a": [
+    "to come"
+   ],
+   "exp": "would like + to + infinitive.",
+   "ru": "would like + to.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-11",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i forgot to send you the report",
+   "exp": "forget + to + infinitive.",
+   "ru": "forget + to + глагол.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-12",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "can you tell me where to park",
+   "exp": "Question word + to + infinitive.",
+   "ru": "where + to + глагол.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-17",
+   "type": "gap",
+   "q": "I'm sorry ___ (hear) that you're ill.",
+   "a": [
+    "to hear"
+   ],
+   "exp": "Adjective (sorry) + to + infinitive.",
+   "ru": "sorry + to.",
+   "stage": 2
+  },
+  {
+   "id": "g-in-18",
+   "type": "gap",
+   "q": "My manager asked me ___ (not / be) late.",
+   "a": [
+    "not to be"
+   ],
+   "exp": "ask + person + not to + infinitive.",
+   "ru": "ask + кого-то + not to.",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i need to finish the report today",
+   "exp": "need + to + infinitive.",
+   "ru": "need to finish.",
+   "id": "g-in-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she decided to take an english course",
+   "exp": "decide + to.",
+   "ru": "decided to take.",
+   "id": "g-in-22",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it is important to check every invoice",
+   "exp": "adjective + to.",
+   "ru": "important to check.",
+   "id": "g-in-23",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we went to the bank to open an account",
+   "exp": "Purpose → to.",
+   "ru": "to open — цель.",
+   "id": "g-in-24",
+   "stage": 2
+  },
+  {
+   "id": "g-in-8",
+   "type": "fix",
+   "q": "Correct the mistake: “I'm learning English for get a better job.”",
+   "a": [
+    "I'm learning English to get a better job.",
+    "I am learning English to get a better job.",
+    "I'm learning English in order to get a better job.",
+    "I am learning English in order to get a better job."
+   ],
+   "exp": "Purpose: to + infinitive, not for.",
+   "ru": "Цель — to, не for.",
+   "stage": 3
+  },
+  {
+   "id": "g-in-9",
+   "type": "fix",
+   "q": "Correct the mistake: “She wants that I help her.”",
+   "a": [
+    "She wants me to help her."
+   ],
+   "exp": "want + person + to + infinitive.",
+   "ru": "want + кого-то + to.",
+   "stage": 3
+  },
+  {
+   "id": "g-in-10",
+   "type": "fix",
+   "q": "Correct the mistake: “It's easy understand this rule.”",
+   "a": [
+    "It's easy to understand this rule.",
+    "It is easy to understand this rule."
+   ],
+   "exp": "Adjective + to + infinitive.",
+   "ru": "После прилагательного — to.",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I want learn English.”",
+   "a": [
+    "I want to learn English."
+   ],
+   "exp": "want + to.",
+   "ru": "want to.",
+   "id": "g-in-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He promised not be late.”",
+   "a": [
+    "He promised not to be late."
+   ],
+   "exp": "not to + infinitive.",
+   "ru": "not to be.",
+   "id": "g-in-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I called you for ask a question.”",
+   "a": [
+    "I called you to ask a question.",
+    "I called you in order to ask a question."
+   ],
+   "exp": "Purpose → to, not for.",
+   "ru": "to ask.",
+   "id": "g-in-27",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я хочу найти работу в международной компании.",
+   "a": [
+    "I want to find a job in an international company.",
+    "I want to find a job at an international company.",
+    "I want to find a job with an international company.",
+    "I want to get a job in an international company.",
+    "I want to get a job at an international company."
+   ],
+   "exp": "want + to.",
+   "ru": "want to find.",
+   "id": "g-in-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мне нужно закончить отчёт сегодня.",
+   "a": [
+    "I need to finish the report today.",
+    "I have to finish the report today.",
+    "I need to finish a report today."
+   ],
+   "exp": "need + to.",
+   "ru": "need to finish.",
+   "id": "g-in-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я учу английский, чтобы получить хорошую работу.",
+   "a": [
+    "I am learning English to get a good job.",
+    "I'm learning English to get a good job.",
+    "I learn English to get a good job.",
+    "I am studying English to get a good job.",
+    "I'm studying English to get a good job.",
+    "I am learning English in order to get a good job."
+   ],
+   "exp": "Purpose → to.",
+   "ru": "чтобы — to.",
+   "id": "g-in-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Важно проверять каждый счёт.",
+   "a": [
+    "It's important to check every invoice.",
+    "It is important to check every invoice.",
+    "It is important to check each invoice.",
+    "It's important to check each invoice."
+   ],
+   "exp": "adjective + to.",
+   "ru": "important to check.",
+   "id": "g-in-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не знаю, что делать.",
+   "a": [
+    "I don't know what to do.",
+    "I do not know what to do."
+   ],
+   "exp": "what + to.",
+   "ru": "what to do.",
+   "id": "g-in-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он пообещал не опаздывать.",
+   "a": [
+    "He promised not to be late."
+   ],
+   "exp": "not to.",
+   "ru": "not to be late.",
+   "id": "g-in-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы решили открыть новый офис.",
+   "a": [
+    "We decided to open a new office.",
+    "We have decided to open a new office.",
+    "We've decided to open a new office."
+   ],
+   "exp": "decide + to.",
+   "ru": "decided to open.",
+   "id": "g-in-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Приятно познакомиться.",
+   "a": [
+    "Nice to meet you.",
+    "Pleased to meet you.",
+    "It's nice to meet you.",
+    "It is nice to meet you.",
+    "Glad to meet you."
+   ],
+   "exp": "adjective + to.",
+   "ru": "Nice to meet you.",
+   "id": "g-in-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Менеджер попросил меня отправить файл.",
+   "a": [
+    "The manager asked me to send the file.",
+    "My manager asked me to send the file."
+   ],
+   "exp": "ask + person + to.",
+   "ru": "asked me to send.",
+   "id": "g-in-36",
+   "stage": 3
   }
- ]
+ ],
+ "unit": "7A",
+ "units": [
+  "7A"
+ ],
+ "boss": {
+  "situation": "Write about your goals for this quarter: what you want, plan, need and hope to do, and why (to + infinitive for purpose).",
+  "samples": [
+   "This quarter I want to finish the risk assessment.",
+   "I plan to test all key controls in procurement.",
+   "I need to improve my English to get a job at an international company.",
+   "I hope to pass the certification exam.",
+   "It's important to send the report on time."
+  ]
+ }
 }

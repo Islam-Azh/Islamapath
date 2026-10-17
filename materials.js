@@ -38,6 +38,7 @@ function checkQ(q){
   if(q.type==='gap'&&!/_{3}/.test(q.q)&&q.dir!=='ru-en')p.push('no ___ gap in the sentence')}
  if(q.type==='order'&&(typeof q.a!=='string'||q.a!==q.a.toLowerCase()||/[.!?]$/.test(q.a)||q.a.trim().split(/\s+/).length<2))p.push('order answer: lowercase words, no full stop');
  if(q.type==='tf'&&typeof q.a!=='boolean')p.push('true/false answer must be true or false');
+ if(q.stage!=null&&![1,2,3].includes(q.stage))p.push('stage must be 1, 2 or 3');
  return p}
 function bad(file,item,msg){MAT.problems.push({file,item,msg})}
 function warn(file,item,msg){MAT.problems.push({file,item,msg,warn:true})}
@@ -51,7 +52,31 @@ function applyGrammar(d,file){
  const qs=goodQs(d.qs,file);qs.forEach(q=>Object.assign(q,{topic:d.id,skill:'grammar',level:d.level||'B1'}));
  if(qs.length<15)warn(file,d.id,`${qs.length} questions (target 15–40)`);
  if(d.unit)qs.forEach(q=>q.unit=String(d.unit).toUpperCase());
- GRAMMAR[d.id]={title:d.title,level:d.level||'B1',en:d.en,ru:d.ru||'',qs,src:file,unit:d.unit?String(d.unit).toUpperCase():'',track:d.track||''};return qs.length}
+ let boss=null;if(d.boss){if(!d.boss.situation)warn(file,d.id,'boss needs a situation');else boss={situation:String(d.boss.situation),ru:d.boss.ru||'',samples:Array.isArray(d.boss.samples)?d.boss.samples.map(String):[],check:goodRegex(d.boss.check,file,d.id+' boss')}}
+ GRAMMAR[d.id]={title:d.title,level:d.level||'B1',en:d.en,ru:d.ru||'',qs,src:file,unit:d.unit?String(d.unit).toUpperCase():'',track:d.track||'',boss,units:Array.isArray(d.units)?d.units.map(u=>String(u).toUpperCase()):(d.unit?[String(d.unit).toUpperCase()]:[])};return qs.length}
+function goodRegex(list,file,item){return (Array.isArray(list)?list:[]).filter(re=>{try{new RegExp(re,'i');return true}catch(e){bad(file,item,'bad check pattern “'+re+'”');return false}})}
+/* speaking-*.json (METHODIKA §15) */
+const SPK=window.SPEAK_DATA=window.SPEAK_DATA||{tasks:[],interview:[]};
+function applySpeaking(d,file){if(!d||typeof d!=='object'){bad(file,'','must be an object with tasks / interview');return 0}let n=0;const unit=d.unit?String(d.unit).toUpperCase():'';
+ (Array.isArray(d.tasks)?d.tasks:[]).forEach((t,i)=>{const p=[];const id=t&&t.id||'#'+(i+1);
+  if(!t||!t.id)p.push('no id');else if(MAT._ids.has(t.id))p.push('duplicate id');
+  if(!['retell','question','diary'].includes(t&&t.kind))p.push('kind must be retell, question or diary');
+  if(t&&t.kind!=='retell'&&!String(t.q||'').trim())p.push('empty question');
+  if(t&&t.kind==='retell'&&!t.source&&!t.text&&!t.q)p.push('retell needs source, text or q');
+  if(t&&t.secs!=null&&!(t.secs>0))p.push('secs must be a positive number');
+  if(p.length)return bad(file,id,p.join('; '));MAT._ids.add(t.id);
+  if(!t.sample)warn(file,t.id,'no sample answer');
+  SPK.tasks.push(Object.assign({},t,{unit:t.unit?String(t.unit).toUpperCase():unit,check:goodRegex(t.check,file,t.id),hints:Array.isArray(t.hints)?t.hints:[],src:file}));n++});
+ const ivList=Array.isArray(d.interview)?d.interview:[];(Array.isArray(d.sets)?d.sets:[]).forEach(st=>{(Array.isArray(st&&st.qs)?st.qs:[]).forEach(q=>ivList.push(Object.assign({set:st.title||st.id,setId:st.id,level:st.level},q)))});
+ ivList.forEach((t,i)=>{const id=t&&t.id||'#'+(i+1);
+  if(!t||!t.id||!String(t.q||'').trim())return bad(file,id,'interview question needs id and q');if(MAT._ids.has(t.id))return bad(file,id,'duplicate id');MAT._ids.add(t.id);
+  if(!t.sample)warn(file,t.id,'no sample answer');SPK.interview.push(Object.assign({set:'Basics',secs:90},t,{src:file}));n++});
+ if(!n)warn(file,'','no tasks found');return n}
+/* course-map.json (METHODIKA §7) */
+const CMAP=window.COURSE_MAP=window.COURSE_MAP||{};
+function applyCourseMap(d,file){const list=Array.isArray(d)?d:(d&&Array.isArray(d.lessons)?d.lessons:null);if(!list){bad(file,'','must be a list of lessons');return 0}let n=0;
+ list.forEach((l,i)=>{if(!l||!l.code)return bad(file,'#'+(i+1),'no code');const code=String(l.code).toUpperCase();if(!l.know)warn(file,code,'no “know” text');
+  CMAP[code]={code,know:String(l.know||''),todo:Array.isArray(l.todo)?l.todo.map(String):[],title:l.title||'',page:l.page||'',grammar:l.grammar||'',vocab:l.vocab||'',vocabTopic:l.vocabTopic||'',speaking:l.speaking||''};n++});return n}
 function applyVocab(d,file){
  const pack=file.replace(/^vocab-/,'').replace(/\.json$/,'');let n=0;const seen=new Set();
  if(!Array.isArray(d)){bad(file,'','must be a list of words');return 0}
@@ -88,7 +113,7 @@ async function load(){
  try{const man=await getJSON('manifest.json');
   for(const f of (man.files||[])){const rec={file:f,kind:f.split('-')[0].replace('.json',''),items:0,status:'ok'};MAT.files.push(rec);
    try{const d=await getJSON(f);const k=rec.kind;
-    rec.items=k==='grammar'?applyGrammar(d,f):k==='vocab'?applyVocab(d,f):k==='reading'?applyText(d,f,'reading'):k==='listening'?applyText(d,f,'listening'):k==='baseline'?applyBaseline(d,f):k==='placement'?applyPlacement(d,f):k==='work'?applyGrammar(Object.assign({track:'work'},d),f):(rec.status='unknown kind',0)}
+    rec.items=k==='grammar'?applyGrammar(d,f):k==='vocab'?applyVocab(d,f):k==='reading'?applyText(d,f,'reading'):k==='listening'?applyText(d,f,'listening'):k==='baseline'?applyBaseline(d,f):k==='placement'?applyPlacement(d,f):k==='work'?applyGrammar(Object.assign({track:'work'},d),f):k==='speaking'?applySpeaking(d,f):k==='course'?applyCourseMap(d,f):(rec.status='unknown kind',0)}
    catch(e){rec.status='error';bad(f,'','could not read the file: '+(e.message||e))}
    rec.errors=MAT.problems.filter(p=>p.file===f&&!p.warn).length;rec.warnings=MAT.problems.filter(p=>p.file===f&&p.warn).length;
    if(rec.status==='ok'&&rec.errors)rec.status='partly loaded'}}
@@ -130,12 +155,14 @@ function vBaseline(){
 /* ---------- 5. New words: a few per day, after the before-test ---------- */
 function drip(){
  if(!isStudent()||!MAT.loaded||!Object.keys(MAT.packs).length)return;
- const L=results();if(MAT.baseline['baseline-words']&&!(L['baseline-words']&&L['baseline-words'].length))return;
+ /* new words are no longer blocked by the before-test (METHODIKA v2: 8 new words a day from the current unit) */
  const p=P();p.drip=p.drip||{};const k=dkey();if(p.drip[k]!=null)return;
  const have=new Set(S.vocab.map(c=>c.word.toLowerCase()));
  if(dueCards().length>40){p.drip={[k]:0};save();return}
- const cu=(p.unit||'').toUpperCase(),pu=MAT.packUnit||{};const rank=pk=>pu[pk]===cu?0:pu[pk]?2:1;
- const queue=Object.keys(MAT.packs).sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b)).flatMap(pk=>VOCAB_LIB.filter(v=>v[4]===pk&&!have.has(v[0].toLowerCase())));
+ const cu=(p.unit||'7B').toUpperCase(),pu=MAT.packUnit||{};
+ const order=(S.course.find(b=>b.id==='pi')||S.course[0]||{files:[]}).files.flatMap(f=>f.lessons.map(l=>String(l.code).toUpperCase()));const ci=order.indexOf(cu);
+ const rank=pk=>{const u=pu[pk];if(!u)return 3000;const i=order.indexOf(u);if(u===cu)return 0;if(i<0)return 2500;return ci>=0&&i<ci?1000+(ci-i):2000+i};
+ const queue=Object.keys(MAT.packs).sort((a,b)=>rank(a)-rank(b)||a.localeCompare(b,undefined,{numeric:true})).flatMap(pk=>VOCAB_LIB.filter(v=>v[4]===pk&&!have.has(v[0].toLowerCase())));
  const add=queue.slice(0,p.newPerDay||DRIP_PER_DAY);add.forEach(v=>S.vocab.push(mkCard(v)));
  p.drip={[k]:add.length};save();
  if(add.length)setTimeout(()=>toast(`🃏 ${add.length} new words added to your cards today`),900)}

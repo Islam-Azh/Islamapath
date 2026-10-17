@@ -1,0 +1,152 @@
+[
+ {
+  "word": "say",
+  "ipa": "/seɪ/",
+  "ru": "сказать (что-то)",
+  "ex": "What did he say?",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "tell",
+  "ipa": "/tel/",
+  "ru": "сказать (кому-то), рассказать",
+  "ex": "Tell me the truth.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "tell a lie",
+  "ipa": "/tel ə laɪ/",
+  "ru": "солгать",
+  "ex": "He told a lie.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "tell the truth",
+  "ipa": "/tel ðə truːθ/",
+  "ru": "сказать правду",
+  "ex": "Always tell the truth.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "gossip",
+  "ipa": "/ˈɡɒsɪp/",
+  "ru": "сплетни; сплетничать",
+  "ex": "Don't listen to office gossip.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "rumour",
+  "ipa": "/ˈruːmə/",
+  "ru": "слух",
+  "ex": "There is a rumour about new managers.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "secret",
+  "ipa": "/ˈsiːkrət/",
+  "ru": "секрет",
+  "ex": "Can you keep a secret?",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "announce",
+  "ipa": "/əˈnaʊns/",
+  "ru": "объявить",
+  "ex": "The director announced the results.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "whisper",
+  "ipa": "/ˈwɪspə/",
+  "ru": "шептать",
+  "ex": "She whispered something to me.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "news",
+  "ipa": "/njuːz/",
+  "ru": "новости",
+  "ex": "I have some good news.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "head office",
+  "ipa": "/hed ˈɒfɪs/",
+  "ru": "головной офис",
+  "ex": "Head office is in Astana.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "subsidiary",
+  "ipa": "/səbˈsɪdiəri/",
+  "ru": "дочерняя компания",
+  "ex": "The refinery is a subsidiary of KMG.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "board of directors",
+  "ipa": "/bɔːd əv dəˈrektəz/",
+  "ru": "совет директоров",
+  "ex": "The board of directors meets every quarter.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "audit committee",
+  "ipa": "/ˈɔːdɪt kəˌmɪti/",
+  "ru": "комитет по аудиту",
+  "ex": "The audit committee reviewed the report.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "shareholder",
+  "ipa": "/ˈʃeəhəʊldə/",
+  "ru": "акционер",
+  "ex": "The state is the main shareholder.",
+  "topic": "say or tell; gossip and news",
+  "unit": "12B",
+  "track": "work",
+  "level": "B1"
+ }
+]

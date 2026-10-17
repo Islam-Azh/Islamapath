@@ -1,0 +1,175 @@
+{
+ "id": "speaking-file12",
+ "title": "File 12 · Narrative & reporting",
+ "tasks": [
+  {
+   "id": "sp-12a-r",
+   "unit": "12A",
+   "kind": "retell",
+   "title": "The missing stock",
+   "text": "Last December, during the stock count, the team discovered a problem. Ten valves had disappeared from the warehouse. Nobody had noticed it before because the system showed the correct number. The auditors found that someone had changed the figures in the system. By the time they found out, the valves had already been sold. Since then, the company has introduced stricter controls.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "During the stock count…",
+    "Ten valves had disappeared…",
+    "Nobody had noticed…",
+    "Someone had changed…",
+    "By the time they found out…"
+   ],
+   "secs": 300,
+   "sample": "Last December, during the stock count, the team discovered a problem. Ten valves had disappeared from the warehouse. Nobody had noticed it before because the system showed the correct number. The auditors found that someone had changed the figures in the system. By the time they found out, the valves had already been sold. Since then, the company has introduced stricter controls.",
+   "check": []
+  },
+  {
+   "id": "sp-12a-q1",
+   "unit": "12A",
+   "kind": "question",
+   "q": "Tell the story of a problem at work and what had happened before you noticed it.",
+   "ru": "Расскажи о проблеме на работе и о том, что произошло до того, как ты её заметил.",
+   "hints": [
+    "When I…, I saw that … had…",
+    "Someone had…",
+    "Nobody had…",
+    "By the time we…, … had already…"
+   ],
+   "check": [
+    "\\bhad \\w+(ed|en|t|ne)\\b"
+   ],
+   "secs": 180,
+   "sample": "Last month I found a problem in a payment file. When I checked it, I saw that someone had paid the same invoice twice. Nobody had noticed it because the amounts were small. By the time we found the mistake, the supplier had already received the money."
+  },
+  {
+   "id": "sp-12a-q2",
+   "unit": "12A",
+   "kind": "question",
+   "q": "Tell a strange or funny story that happened to you.",
+   "ru": "Расскажи странную или смешную историю, которая с тобой произошла.",
+   "hints": [
+    "It was…",
+    "I had just… when…",
+    "I realised that I had…",
+    "It turned out that…",
+    "In the end…"
+   ],
+   "check": [
+    "\\bhad\\b",
+    "\\b(was|were|went|realised|turned out)\\b"
+   ],
+   "secs": 180,
+   "sample": "It was my first day at a new job. I had just sat down at my desk when the fire alarm went off. Everyone left the building. Later I realised that I had pressed the alarm button by mistake! It turned out to be a good way to meet everybody."
+  },
+  {
+   "id": "sp-12b-r",
+   "unit": "12B",
+   "kind": "retell",
+   "title": "Office news",
+   "text": "On Monday the director called a meeting. He said that the company was going to open a new unit. He told us that the project would start in spring. He asked if anyone wanted to join the project team. My colleague asked whether there would be training. The director said that everybody would get training in English and safety. Then he asked us not to tell anyone outside the company.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "The director said that…",
+    "He told us that…",
+    "He asked if…",
+    "My colleague asked whether…",
+    "He asked us not to…"
+   ],
+   "secs": 300,
+   "sample": "On Monday the director called a meeting. He said that the company was going to open a new unit. He told us that the project would start in spring. He asked if anyone wanted to join the project team. My colleague asked whether there would be training. The director said that everybody would get training in English and safety. Then he asked us not to tell anyone outside the company.",
+   "check": []
+  },
+  {
+   "id": "sp-12b-q1",
+   "unit": "12B",
+   "kind": "question",
+   "q": "Report what people said at your last meeting.",
+   "ru": "Перескажи, что говорили на последнем совещании.",
+   "hints": [
+    "… said that…",
+    "… told us that…",
+    "… asked if…",
+    "… asked me to…"
+   ],
+   "check": [
+    "\\b(said|told|asked)\\b"
+   ],
+   "secs": 180,
+   "sample": "At the last meeting my manager said that the audit would start on Monday. She told us that the budget was too small. Aliya said she had already sent the documents. The auditor asked if we had a written procedure. My manager asked me to prepare the report by Friday."
+  },
+  {
+   "id": "sp-12b-q2",
+   "unit": "12B",
+   "kind": "question",
+   "q": "Tell me about a piece of good news you heard recently. Who told you, and what did they say?",
+   "ru": "Расскажи о хорошей новости, которую ты недавно услышал. Кто тебе сказал и что?",
+   "hints": [
+    "… told me that…",
+    "He / She said that…",
+    "I asked if…",
+    "I was surprised"
+   ],
+   "check": [
+    "\\b(said|told|asked)\\b"
+   ],
+   "secs": 180,
+   "sample": "Last week my friend told me that he had got a job at an international company. He said that the interview was in English. I asked if it was difficult. He said that it was hard, but he had prepared well. I was very happy for him."
+  },
+  {
+   "id": "sp-12c-r",
+   "unit": "12C",
+   "kind": "retell",
+   "title": "An interview about an incident",
+   "text": "After the small fire in the warehouse, the safety manager interviewed the workers. He asked: Who saw the fire first? What happened next? Who called the fire team? Which door was open? The workers answered his questions. Then he asked: What did you do after that? Who did you inform? Thanks to these questions, the team found the cause quickly.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "The manager asked: Who saw…?",
+    "What happened…?",
+    "Who called…?",
+    "Who did you inform?",
+    "Thanks to these questions…"
+   ],
+   "secs": 300,
+   "sample": "After the small fire in the warehouse, the safety manager interviewed the workers. He asked: Who saw the fire first? What happened next? Who called the fire team? Which door was open? The workers answered his questions. Then he asked: What did you do after that? Who did you inform? Thanks to these questions, the team found the cause quickly.",
+   "check": []
+  },
+  {
+   "id": "sp-12c-q1",
+   "unit": "12C",
+   "kind": "question",
+   "q": "Ask six questions about an incident at work. Use subject and object questions.",
+   "ru": "Задай шесть вопросов об инциденте на работе: к подлежащему и к дополнению.",
+   "hints": [
+    "Who saw…?",
+    "What happened…?",
+    "Which … failed?",
+    "Who did you…?",
+    "What did … do?"
+   ],
+   "check": [
+    "\\b(who|what|which)\\s+\\w+(ed|t)?\\b"
+   ],
+   "secs": 180,
+   "sample": "What happened on the night of the incident? Who reported the problem first? Which control failed? Who did you inform after that? What did the security team do? When did the system start working again?"
+  },
+  {
+   "id": "sp-12c-q2",
+   "unit": "12C",
+   "kind": "question",
+   "q": "Look back at your English course. What have you learned, and what is your next goal?",
+   "ru": "Оглянись на курс английского. Чему ты научился и какая следующая цель?",
+   "hints": [
+    "I've learned…",
+    "At the beginning I couldn't…, but now I…",
+    "My next goal is to…",
+    "I'm going to…"
+   ],
+   "check": [
+    "\\b(have|'ve) learned\\b|\\blearnt\\b|\\blearned\\b",
+    "\\bgoing to\\b|\\bnext goal\\b"
+   ],
+   "secs": 180,
+   "sample": "I've learned a lot of grammar and about five hundred new words. At the beginning I couldn't speak for more than a minute, but now I can talk about my job. My next goal is to pass an interview in English. I'm going to practise speaking every day."
+  }
+ ]
+}

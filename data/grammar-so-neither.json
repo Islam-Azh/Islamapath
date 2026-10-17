@@ -1,0 +1,435 @@
+{
+ "id": "so-neither",
+ "title": "So do I / Neither do I",
+ "level": "B1",
+ "unit": "11C",
+ "units": [
+  "11C"
+ ],
+ "en": "<p>To <b>agree</b> or say the same is true for you, use <b>So / Neither + auxiliary + subject</b>.</p><p>Positive sentence → <b>So</b>: <i>I like tea. — <b>So do I</b>. I'm tired. — <b>So am I</b>. I've finished. — <b>So have I</b>.</i></p><p>Negative sentence → <b>Neither</b> (or Nor): <i>I don't like meetings. — <b>Neither do I</b>. I can't swim. — <b>Neither can I</b>.</i></p><p>Use the <b>same auxiliary</b> as in the first sentence (do/does/did, am/is/are, was/were, have/has, can, will). If the first sentence has no auxiliary, use <b>do / does / did</b>.</p>",
+ "ru": "Согласие «я тоже»: So + вспомогательный глагол + подлежащее (So do I, So am I, So have I). «Я тоже нет»: Neither + вспомогательный + подлежащее (Neither do I, Neither can I). Вспомогательный глагол — как в первой фразе; если его нет — do / does / did.",
+ "boss": {
+  "situation": "Write a short dialogue with a colleague agreeing about work. Use So do I / So am I / Neither do I / Neither can I / So did I.",
+  "samples": [
+   "A: I'm tired today. B: So am I.",
+   "A: I don't like long meetings. B: Neither do I.",
+   "A: I sent my report yesterday. B: So did I.",
+   "A: I can't open the file. B: Neither can I.",
+   "A: I've finished the training. B: So have I."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I love coffee. — ___",
+   "opts": [
+    "So do I.",
+    "So am I.",
+    "Neither do I."
+   ],
+   "a": 0,
+   "exp": "Present Simple positive → So do I.",
+   "ru": "So do I.",
+   "id": "f-sn-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'm hungry. — ___",
+   "opts": [
+    "So do I.",
+    "So am I.",
+    "Neither am I."
+   ],
+   "a": 1,
+   "exp": "be → So am I.",
+   "ru": "So am I.",
+   "id": "f-sn-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I don't eat meat. — ___",
+   "opts": [
+    "So do I.",
+    "Neither do I.",
+    "Neither am I."
+   ],
+   "a": 1,
+   "exp": "Negative → Neither do I.",
+   "ru": "Neither do I.",
+   "id": "f-sn-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I can't drive. — ___",
+   "opts": [
+    "Neither can I.",
+    "So can I.",
+    "Neither do I."
+   ],
+   "a": 0,
+   "exp": "can't → Neither can I.",
+   "ru": "Neither can I.",
+   "id": "f-sn-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I went to the meeting. — ___",
+   "opts": [
+    "So did I.",
+    "So went I.",
+    "So was I."
+   ],
+   "a": 0,
+   "exp": "Past Simple → So did I.",
+   "ru": "So did I.",
+   "id": "f-sn-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I've been to Astana. — ___",
+   "opts": [
+    "So have I.",
+    "So did I.",
+    "So am I."
+   ],
+   "a": 0,
+   "exp": "Present Perfect → So have I.",
+   "ru": "So have I.",
+   "id": "f-sn-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I wasn't at work yesterday. — ___",
+   "opts": [
+    "Neither was I.",
+    "Neither did I.",
+    "So was I."
+   ],
+   "a": 0,
+   "exp": "wasn't → Neither was I.",
+   "ru": "Neither was I.",
+   "id": "f-sn-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'll be late. — ___",
+   "opts": [
+    "So will I.",
+    "So am I.",
+    "So do I."
+   ],
+   "a": 0,
+   "exp": "will → So will I.",
+   "ru": "So will I.",
+   "id": "f-sn-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "After “I don't like meetings”, you can say “Neither do I” to agree.",
+   "a": true,
+   "exp": "Negative → Neither.",
+   "ru": "Neither do I.",
+   "id": "f-sn-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "After “I'm tired”, “So do I” is correct.",
+   "a": false,
+   "exp": "be → So am I.",
+   "ru": "So am I.",
+   "id": "f-sn-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I like my job. — So ___ I.",
+   "a": [
+    "do"
+   ],
+   "exp": "Present Simple → do.",
+   "ru": "do.",
+   "id": "f-sn-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I haven't finished yet. — Neither ___ I.",
+   "a": [
+    "have"
+   ],
+   "exp": "Present Perfect → have.",
+   "ru": "have.",
+   "id": "f-sn-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I was very busy last week. — So ___ I.",
+   "a": [
+    "was"
+   ],
+   "exp": "was → was.",
+   "ru": "was.",
+   "id": "f-sn-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I don't understand this. — ___ do I.",
+   "a": [
+    "Neither",
+    "Nor"
+   ],
+   "exp": "Negative → Neither / Nor.",
+   "ru": "Neither.",
+   "id": "f-sn-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "My manager speaks German. — So ___ mine.",
+   "a": [
+    "does"
+   ],
+   "exp": "he/she → does.",
+   "ru": "does.",
+   "id": "f-sn-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I can't come on Friday. — Neither ___ I.",
+   "a": [
+    "can"
+   ],
+   "exp": "can't → can.",
+   "ru": "can.",
+   "id": "f-sn-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "so do i",
+   "exp": "Agree with a positive Present Simple.",
+   "ru": "So do I.",
+   "id": "f-sn-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "neither can i",
+   "exp": "Agree with can't.",
+   "ru": "Neither can I.",
+   "id": "f-sn-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "so have i",
+   "exp": "Agree with Present Perfect.",
+   "ru": "So have I.",
+   "id": "f-sn-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "neither did i",
+   "exp": "Agree with a negative past.",
+   "ru": "Neither did I.",
+   "id": "f-sn-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "so am i",
+   "exp": "Agree with be.",
+   "ru": "So am I.",
+   "id": "f-sn-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "neither will i",
+   "exp": "Agree with won't.",
+   "ru": "Neither will I.",
+   "id": "f-sn-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I like tea. — So like I.”",
+   "a": [
+    "So do I."
+   ],
+   "exp": "Use the auxiliary do.",
+   "ru": "So do I.",
+   "id": "f-sn-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm tired. — So do I.”",
+   "a": [
+    "So am I."
+   ],
+   "exp": "be → am.",
+   "ru": "So am I.",
+   "id": "f-sn-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I don't smoke. — So do I.”",
+   "a": [
+    "Neither do I.",
+    "Nor do I."
+   ],
+   "exp": "Negative → Neither.",
+   "ru": "Neither do I.",
+   "id": "f-sn-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I can swim. — So I can.”",
+   "a": [
+    "So can I."
+   ],
+   "exp": "Inversion: So + can + I.",
+   "ru": "So can I.",
+   "id": "f-sn-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I didn't see it. — Neither saw I.”",
+   "a": [
+    "Neither did I.",
+    "Nor did I."
+   ],
+   "exp": "Use did.",
+   "ru": "Neither did I.",
+   "id": "f-sn-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I've never been there. — So have I.”",
+   "a": [
+    "Neither have I.",
+    "Nor have I."
+   ],
+   "exp": "never = negative → Neither.",
+   "ru": "Neither have I.",
+   "id": "f-sn-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я устал. — Я тоже.",
+   "a": [
+    "So am I."
+   ],
+   "exp": "be → So am I.",
+   "ru": "So am I.",
+   "id": "f-sn-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я не люблю длинные совещания. — Я тоже (не люблю).",
+   "a": [
+    "Neither do I.",
+    "Nor do I."
+   ],
+   "exp": "Negative → Neither do I.",
+   "ru": "Neither do I.",
+   "id": "f-sn-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я вчера отправил отчёт. — Я тоже.",
+   "a": [
+    "So did I."
+   ],
+   "exp": "Past → So did I.",
+   "ru": "So did I.",
+   "id": "f-sn-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я не могу открыть файл. — Я тоже.",
+   "a": [
+    "Neither can I.",
+    "Nor can I."
+   ],
+   "exp": "can't → Neither can I.",
+   "ru": "Neither can I.",
+   "id": "f-sn-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я закончил обучение. — Я тоже.",
+   "a": [
+    "So have I.",
+    "So did I."
+   ],
+   "exp": "Present Perfect → So have I.",
+   "ru": "So have I.",
+   "id": "f-sn-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Мне нравится моя работа. — Мне тоже.",
+   "a": [
+    "So do I."
+   ],
+   "exp": "So do I.",
+   "ru": "So do I.",
+   "id": "f-sn-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я не был на работе вчера. — Я тоже.",
+   "a": [
+    "Neither was I.",
+    "Nor was I."
+   ],
+   "exp": "wasn't → Neither was I.",
+   "ru": "Neither was I.",
+   "id": "f-sn-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "— Я опоздаю. — Я тоже.",
+   "a": [
+    "So will I."
+   ],
+   "exp": "will → So will I.",
+   "ru": "So will I.",
+   "id": "f-sn-36",
+   "stage": 3
+  }
+ ]
+}

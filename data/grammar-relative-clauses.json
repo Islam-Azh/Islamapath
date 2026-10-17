@@ -16,7 +16,8 @@
    ],
    "a": 0,
    "exp": "A person → who.",
-   "ru": "Человек — who."
+   "ru": "Человек — who.",
+   "stage": 1
   },
   {
    "id": "g-rc-2",
@@ -29,7 +30,8 @@
    ],
    "a": 1,
    "exp": "A thing → which.",
-   "ru": "Предмет — which."
+   "ru": "Предмет — which.",
+   "stage": 1
   },
   {
    "id": "g-rc-3",
@@ -42,7 +44,8 @@
    ],
    "a": 0,
    "exp": "A place + a full clause (you can borrow books) → where.",
-   "ru": "Место — where."
+   "ru": "Место — where.",
+   "stage": 1
   },
   {
    "id": "g-rc-4",
@@ -55,7 +58,8 @@
    ],
    "a": 0,
    "exp": "Things → that / which.",
-   "ru": "Предметы — that."
+   "ru": "Предметы — that.",
+   "stage": 1
   },
   {
    "id": "g-rc-5",
@@ -68,7 +72,8 @@
    ],
    "a": 0,
    "exp": "A place → where.",
-   "ru": "Место — where."
+   "ru": "Место — where.",
+   "stage": 1
   },
   {
    "id": "g-rc-6",
@@ -81,115 +86,8 @@
    ],
    "a": 0,
    "exp": "A person, subject of the clause → who.",
-   "ru": "Человек — who."
-  },
-  {
-   "id": "g-rc-7",
-   "type": "gap",
-   "q": "The film ___ we watched last night was boring.",
-   "a": [
-    "that",
-    "which"
-   ],
-   "exp": "A thing → that / which (you can also leave it out).",
-   "ru": "Предмет — that/which (можно опустить)."
-  },
-  {
-   "id": "g-rc-8",
-   "type": "gap",
-   "q": "Do you know a shop ___ sells cheap phones?",
-   "a": [
-    "that",
-    "which"
-   ],
-   "exp": "A thing, subject of the clause → that / which.",
-   "ru": "Подлежащее придаточного — that/which."
-  },
-  {
-   "id": "g-rc-9",
-   "type": "gap",
-   "q": "My sister has a friend ___ speaks five languages.",
-   "a": [
-    "who",
-    "that"
-   ],
-   "exp": "A person → who / that.",
-   "ru": "Человек — who/that."
-  },
-  {
-   "id": "g-rc-10",
-   "type": "gap",
-   "q": "This is the hotel ___ we stayed last summer.",
-   "a": [
-    "where"
-   ],
-   "exp": "A place, “stay” needs no object → where.",
-   "ru": "Место — where."
-  },
-  {
-   "id": "g-rc-11",
-   "type": "fix",
-   "q": "Correct the mistake: “The book who I bought is very interesting.”",
-   "a": [
-    "The book that I bought is very interesting.",
-    "The book which I bought is very interesting.",
-    "The book I bought is very interesting."
-   ],
-   "exp": "A thing → that / which, not who.",
-   "ru": "Для предметов — that/which."
-  },
-  {
-   "id": "g-rc-12",
-   "type": "fix",
-   "q": "Correct the mistake: “She's the teacher which helped me with my exam.”",
-   "a": [
-    "She's the teacher who helped me with my exam.",
-    "She is the teacher who helped me with my exam.",
-    "She's the teacher that helped me with my exam.",
-    "She is the teacher that helped me with my exam."
-   ],
-   "exp": "A person → who / that, not which.",
-   "ru": "Для людей — who/that."
-  },
-  {
-   "id": "g-rc-13",
-   "type": "fix",
-   "q": "Correct the mistake: “The man who he called me was very polite.”",
-   "a": [
-    "The man who called me was very polite.",
-    "The man that called me was very polite."
-   ],
-   "exp": "Don't repeat the subject after who.",
-   "ru": "Не повторяйте he после who."
-  },
-  {
-   "id": "g-rc-14",
-   "type": "fix",
-   "q": "Correct the mistake: “This is the town where I was born in.”",
-   "a": [
-    "This is the town where I was born.",
-    "This is the town that I was born in.",
-    "This is the town which I was born in.",
-    "This is the town I was born in."
-   ],
-   "exp": "“where” already means “in which” — remove “in”.",
-   "ru": "where уже включает in."
-  },
-  {
-   "id": "g-rc-15",
-   "type": "order",
-   "q": "Put the words in the correct order.",
-   "a": "the woman who works in the bank is my aunt",
-   "exp": "Noun + who + verb, then the main verb.",
-   "ru": "Существительное + who + глагол, затем главный глагол."
-  },
-  {
-   "id": "g-rc-16",
-   "type": "order",
-   "q": "Put the words in the correct order.",
-   "a": "this is the app that i use every day",
-   "exp": "Noun + that + subject + verb.",
-   "ru": "Существительное + that + подлежащее + глагол."
+   "ru": "Человек — who.",
+   "stage": 1
   },
   {
    "id": "g-rc-17",
@@ -197,7 +95,8 @@
    "q": "In “The cake that she made was delicious”, we can leave out “that”.",
    "a": true,
    "exp": "“that” is the object of “made” → it can go.",
-   "ru": "that — дополнение, его можно опустить."
+   "ru": "that — дополнение, его можно опустить.",
+   "stage": 1
   },
   {
    "id": "g-rc-18",
@@ -205,7 +104,8 @@
    "q": "In “The man who lives here is a doctor”, we can leave out “who”.",
    "a": false,
    "exp": "“who” is the subject of “lives” → it must stay.",
-   "ru": "who — подлежащее, опустить нельзя."
+   "ru": "who — подлежащее, опустить нельзя.",
+   "stage": 1
   },
   {
    "id": "g-rc-19",
@@ -218,7 +118,8 @@
    ],
    "a": 0,
    "exp": "Object pronoun left out; the preposition stays at the end.",
-   "ru": "Местоимение опущено, предлог остаётся в конце."
+   "ru": "Местоимение опущено, предлог остаётся в конце.",
+   "stage": 1
   },
   {
    "id": "g-rc-20",
@@ -231,7 +132,342 @@
    ],
    "a": 1,
    "exp": "“visit” needs an object → that / which, not where.",
-   "ru": "После visit нужно дополнение — that, не where."
+   "ru": "После visit нужно дополнение — that, не where.",
+   "stage": 1
+  },
+  {
+   "id": "g-rc-7",
+   "type": "gap",
+   "q": "The film ___ we watched last night was boring.",
+   "a": [
+    "that",
+    "which"
+   ],
+   "exp": "A thing → that / which (you can also leave it out).",
+   "ru": "Предмет — that/which (можно опустить).",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-8",
+   "type": "gap",
+   "q": "Do you know a shop ___ sells cheap phones?",
+   "a": [
+    "that",
+    "which"
+   ],
+   "exp": "A thing, subject of the clause → that / which.",
+   "ru": "Подлежащее придаточного — that/which.",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-9",
+   "type": "gap",
+   "q": "My sister has a friend ___ speaks five languages.",
+   "a": [
+    "who",
+    "that"
+   ],
+   "exp": "A person → who / that.",
+   "ru": "Человек — who/that.",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-10",
+   "type": "gap",
+   "q": "This is the hotel ___ we stayed last summer.",
+   "a": [
+    "where"
+   ],
+   "exp": "A place, “stay” needs no object → where.",
+   "ru": "Место — where.",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-15",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the woman who works in the bank is my aunt",
+   "exp": "Noun + who + verb, then the main verb.",
+   "ru": "Существительное + who + глагол, затем главный глагол.",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-16",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "this is the app that i use every day",
+   "exp": "Noun + that + subject + verb.",
+   "ru": "Существительное + that + подлежащее + глагол.",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "An auditor is a person ___ checks financial records.",
+   "a": [
+    "who",
+    "that"
+   ],
+   "exp": "People → who / that.",
+   "ru": "Люди — who.",
+   "id": "g-rc-21",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The plant ___ I work is near the river.",
+   "a": [
+    "where"
+   ],
+   "exp": "Place → where.",
+   "ru": "Место — where.",
+   "id": "g-rc-22",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "a risk owner is someone who manages a risk",
+   "exp": "who after a person.",
+   "ru": "who — о человеке.",
+   "id": "g-rc-23",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "this is the report that you asked for",
+   "exp": "that for a thing; preposition at the end.",
+   "ru": "that — о вещи.",
+   "id": "g-rc-24",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the office where we work is very modern",
+   "exp": "where for a place.",
+   "ru": "where — место.",
+   "id": "g-rc-25",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the colleague who helped me is from almaty",
+   "exp": "who after a person.",
+   "ru": "who — о человеке.",
+   "id": "g-rc-26",
+   "stage": 2
+  },
+  {
+   "id": "g-rc-11",
+   "type": "fix",
+   "q": "Correct the mistake: “The book who I bought is very interesting.”",
+   "a": [
+    "The book that I bought is very interesting.",
+    "The book which I bought is very interesting.",
+    "The book I bought is very interesting."
+   ],
+   "exp": "A thing → that / which, not who.",
+   "ru": "Для предметов — that/which.",
+   "stage": 3
+  },
+  {
+   "id": "g-rc-12",
+   "type": "fix",
+   "q": "Correct the mistake: “She's the teacher which helped me with my exam.”",
+   "a": [
+    "She's the teacher who helped me with my exam.",
+    "She is the teacher who helped me with my exam.",
+    "She's the teacher that helped me with my exam.",
+    "She is the teacher that helped me with my exam."
+   ],
+   "exp": "A person → who / that, not which.",
+   "ru": "Для людей — who/that.",
+   "stage": 3
+  },
+  {
+   "id": "g-rc-13",
+   "type": "fix",
+   "q": "Correct the mistake: “The man who he called me was very polite.”",
+   "a": [
+    "The man who called me was very polite.",
+    "The man that called me was very polite."
+   ],
+   "exp": "Don't repeat the subject after who.",
+   "ru": "Не повторяйте he после who.",
+   "stage": 3
+  },
+  {
+   "id": "g-rc-14",
+   "type": "fix",
+   "q": "Correct the mistake: “This is the town where I was born in.”",
+   "a": [
+    "This is the town where I was born.",
+    "This is the town that I was born in.",
+    "This is the town which I was born in.",
+    "This is the town I was born in."
+   ],
+   "exp": "“where” already means “in which” — remove “in”.",
+   "ru": "where уже включает in.",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The system which we use it is very old.”",
+   "a": [
+    "The system which we use is very old.",
+    "The system that we use is very old.",
+    "The system we use is very old."
+   ],
+   "exp": "Don't repeat the object (it).",
+   "ru": "Не повторяем it.",
+   "id": "g-rc-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “This is the room which we have meetings.”",
+   "a": [
+    "This is the room where we have meetings.",
+    "This is the room in which we have meetings.",
+    "This is the room that we have meetings in.",
+    "This is the room which we have meetings in."
+   ],
+   "exp": "Place → where.",
+   "ru": "Место — where.",
+   "id": "g-rc-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Аудитор — это человек, который проверяет документы.",
+   "a": [
+    "An auditor is a person who checks documents.",
+    "An auditor is someone who checks documents.",
+    "An auditor is a person that checks documents.",
+    "An auditor is a person who checks the documents."
+   ],
+   "exp": "Person → who.",
+   "ru": "who.",
+   "id": "g-rc-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это система, которую мы используем каждый день.",
+   "a": [
+    "This is the system that we use every day.",
+    "This is the system which we use every day.",
+    "This is the system we use every day.",
+    "It is the system that we use every day.",
+    "It is the system which we use every day."
+   ],
+   "exp": "Thing → that / which (or nothing).",
+   "ru": "that / which.",
+   "id": "g-rc-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это офис, где я работаю.",
+   "a": [
+    "This is the office where I work.",
+    "It is the office where I work.",
+    "This is the office I work in.",
+    "This is the office that I work in."
+   ],
+   "exp": "Place → where.",
+   "ru": "where.",
+   "id": "g-rc-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Коллега, который мне помог, из Алматы.",
+   "a": [
+    "The colleague who helped me is from Almaty.",
+    "The colleague that helped me is from Almaty."
+   ],
+   "exp": "Subject relative → who / that (can't omit).",
+   "ru": "who — нельзя опустить.",
+   "id": "g-rc-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Отчёт, который ты прислал, очень полезный.",
+   "a": [
+    "The report that you sent is very useful.",
+    "The report which you sent is very useful.",
+    "The report you sent is very useful.",
+    "The report that you sent me is very useful.",
+    "The report you sent me is very useful.",
+    "The report which you sent me is very useful."
+   ],
+   "exp": "Object relative → that / which / nothing.",
+   "ru": "that можно опустить.",
+   "id": "g-rc-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я знаю человека, который говорит на пяти языках.",
+   "a": [
+    "I know a person who speaks five languages.",
+    "I know someone who speaks five languages.",
+    "I know a man who speaks five languages.",
+    "I know a woman who speaks five languages.",
+    "I know a person that speaks five languages."
+   ],
+   "exp": "who + verb.",
+   "ru": "who speaks.",
+   "id": "g-rc-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это документ, который показывает все риски.",
+   "a": [
+    "This is the document that shows all the risks.",
+    "This is the document which shows all the risks.",
+    "This is a document that shows all the risks.",
+    "This is a document which shows all the risks.",
+    "This is the document that shows all risks.",
+    "This is the document which shows all risks."
+   ],
+   "exp": "Thing subject → that / which.",
+   "ru": "that / which.",
+   "id": "g-rc-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это город, где я родился.",
+   "a": [
+    "This is the city where I was born.",
+    "This is the town where I was born.",
+    "This is the city I was born in.",
+    "This is the town I was born in."
+   ],
+   "exp": "Place → where, no in.",
+   "ru": "where — без in.",
+   "id": "g-rc-36",
+   "stage": 3
   }
- ]
+ ],
+ "unit": "3C",
+ "units": [
+  "3C"
+ ],
+ "boss": {
+  "situation": "Describe three roles or documents in your department: “The risk owner is the person who…”, “The control matrix is a document which…”.",
+  "samples": [
+   "A risk owner is the person who is responsible for a risk.",
+   "The risk and control matrix is a document which shows our main risks and controls.",
+   "The auditor is someone who checks if controls work.",
+   "The archive is the place where we keep old contracts.",
+   "This is the system that we use for approvals."
+  ]
+ }
 }

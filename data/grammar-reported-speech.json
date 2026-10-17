@@ -1,0 +1,451 @@
+{
+ "id": "reported-speech",
+ "title": "Reported speech (statements, questions, requests)",
+ "level": "B1",
+ "unit": "12B",
+ "units": [
+  "12B"
+ ],
+ "en": "<p>When we report what someone said, the verb usually moves <b>one step back</b>:</p><p>am/is → <b>was</b> · are → <b>were</b> · Present Simple → <b>Past Simple</b> · Present Continuous → <b>Past Continuous</b> · will → <b>would</b> · can → <b>could</b> · Past Simple / Present Perfect → <b>Past Perfect</b>.</p><p><b>say</b> (something) / <b>tell</b> (somebody): <i>He <b>said</b> (that) he was busy. He <b>told me</b> (that) he was busy.</i></p><p>Questions: <b>asked + if/whether</b> or question word + <b>normal word order</b>: <i>She asked <b>if I was</b> ready. She asked <b>where I worked</b>.</i></p><p>Requests: <b>asked / told + person + to</b>: <i>He <b>asked me to send</b> the file.</i> Pronouns and time words change too: <i>I → he, today → that day, tomorrow → the next day</i>.</p>",
+ "ru": "Косвенная речь: время сдвигается на шаг назад (is → was, will → would, can → could, сделал → had done). say что-то / tell кому-то. Вопросы: asked if… / asked where I worked (прямой порядок слов). Просьбы: asked me to…, told me not to…",
+ "boss": {
+  "situation": "Report a recent meeting: what people said, told you and asked. Use said, told, asked if, asked … to.",
+  "samples": [
+   "The director said that the audit would start on Monday.",
+   "He told us that the budget was too small.",
+   "Aliya said she had already sent the documents.",
+   "The auditor asked if we had a written procedure.",
+   "My manager asked me to prepare the report by Friday."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "“I'm tired.” → She said she ___ tired.",
+   "opts": [
+    "is",
+    "was",
+    "were"
+   ],
+   "a": 1,
+   "exp": "is → was.",
+   "ru": "is → was.",
+   "id": "f-rs-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "“I will call you.” → He said he ___ call me.",
+   "opts": [
+    "will",
+    "would",
+    "can"
+   ],
+   "a": 1,
+   "exp": "will → would.",
+   "ru": "will → would.",
+   "id": "f-rs-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He ___ me that he was busy.",
+   "opts": [
+    "said",
+    "told",
+    "asked"
+   ],
+   "a": 1,
+   "exp": "tell + person.",
+   "ru": "told me.",
+   "id": "f-rs-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ that the report was ready.",
+   "opts": [
+    "said",
+    "told",
+    "spoke"
+   ],
+   "a": 0,
+   "exp": "say + that.",
+   "ru": "said that.",
+   "id": "f-rs-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "“Do you work here?” → He asked ___ I worked there.",
+   "opts": [
+    "that",
+    "if",
+    "what"
+   ],
+   "a": 1,
+   "exp": "Yes/no question → if.",
+   "ru": "if.",
+   "id": "f-rs-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "“Where do you live?” → She asked me where ___.",
+   "opts": [
+    "do I live",
+    "I lived",
+    "did I live"
+   ],
+   "a": 1,
+   "exp": "Normal word order + back shift.",
+   "ru": "I lived.",
+   "id": "f-rs-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "“Please send the file.” → He asked me ___ the file.",
+   "opts": [
+    "send",
+    "to send",
+    "sending"
+   ],
+   "a": 1,
+   "exp": "ask + person + to.",
+   "ru": "to send.",
+   "id": "f-rs-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "“I can help.” → She said she ___ help.",
+   "opts": [
+    "can",
+    "could",
+    "would can"
+   ],
+   "a": 1,
+   "exp": "can → could.",
+   "ru": "could.",
+   "id": "f-rs-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“He said me that he was late” is correct.",
+   "a": false,
+   "exp": "say (no person) / tell me: He told me that he was late.",
+   "ru": "told me / said.",
+   "id": "f-rs-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "In reported questions we use normal word order: “She asked where I worked.”",
+   "a": true,
+   "exp": "No inversion.",
+   "ru": "Прямой порядок.",
+   "id": "f-rs-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "“I'm working on the report.” → He said he ___ working on the report.",
+   "a": [
+    "was"
+   ],
+   "exp": "am → was.",
+   "ru": "was.",
+   "id": "f-rs-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "“We have finished.” → They said they ___ finished.",
+   "a": [
+    "had"
+   ],
+   "exp": "have finished → had finished.",
+   "ru": "had.",
+   "id": "f-rs-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "“Don't be late.” → The manager told us ___ to be late.",
+   "a": [
+    "not"
+   ],
+   "exp": "told + not to.",
+   "ru": "not.",
+   "id": "f-rs-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "“Are you ready?” → She asked ___ I was ready.",
+   "a": [
+    "if",
+    "whether"
+   ],
+   "exp": "Yes/no question → if.",
+   "ru": "if.",
+   "id": "f-rs-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He ___ us that the meeting was cancelled.",
+   "a": [
+    "told"
+   ],
+   "exp": "tell + person.",
+   "ru": "told.",
+   "id": "f-rs-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "“I'll do it tomorrow.” → She said she would do it the ___ day.",
+   "a": [
+    "next"
+   ],
+   "exp": "tomorrow → the next day.",
+   "ru": "next.",
+   "id": "f-rs-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she said that she was busy",
+   "exp": "said that + back shift.",
+   "ru": "said … was.",
+   "id": "f-rs-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he told me that the report was ready",
+   "exp": "told + person.",
+   "ru": "told me.",
+   "id": "f-rs-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they asked if we had a procedure",
+   "exp": "asked if.",
+   "ru": "asked if.",
+   "id": "f-rs-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "my manager asked me to call the supplier",
+   "exp": "asked + person + to.",
+   "ru": "asked me to.",
+   "id": "f-rs-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she asked me where i worked",
+   "exp": "Normal word order.",
+   "ru": "where I worked.",
+   "id": "f-rs-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he said he would send it the next day",
+   "exp": "will → would.",
+   "ru": "would send.",
+   "id": "f-rs-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He said me that he was tired.”",
+   "a": [
+    "He told me that he was tired.",
+    "He said that he was tired.",
+    "He told me he was tired.",
+    "He said he was tired."
+   ],
+   "exp": "say vs tell.",
+   "ru": "told me / said.",
+   "id": "f-rs-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She asked me where did I work.”",
+   "a": [
+    "She asked me where I worked."
+   ],
+   "exp": "Normal word order.",
+   "ru": "where I worked.",
+   "id": "f-rs-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He told that the meeting was cancelled.”",
+   "a": [
+    "He said that the meeting was cancelled.",
+    "He told us that the meeting was cancelled.",
+    "He told me that the meeting was cancelled."
+   ],
+   "exp": "tell needs a person.",
+   "ru": "said / told us.",
+   "id": "f-rs-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The manager asked me send the file.”",
+   "a": [
+    "The manager asked me to send the file."
+   ],
+   "exp": "ask + person + to.",
+   "ru": "asked me to send.",
+   "id": "f-rs-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She asked me that I was ready.”",
+   "a": [
+    "She asked me if I was ready.",
+    "She asked me whether I was ready.",
+    "She asked if I was ready."
+   ],
+   "exp": "Question → if.",
+   "ru": "asked if.",
+   "id": "f-rs-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He said he will call me.”",
+   "a": [
+    "He said he would call me."
+   ],
+   "exp": "will → would.",
+   "ru": "would call.",
+   "id": "f-rs-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Директор сказал, что аудит начнётся в понедельник.",
+   "a": [
+    "The director said that the audit would start on Monday.",
+    "The director said the audit would start on Monday.",
+    "The director said that the audit would begin on Monday.",
+    "The director said the audit would begin on Monday."
+   ],
+   "exp": "will → would.",
+   "ru": "said … would.",
+   "id": "f-rs-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он сказал мне, что занят.",
+   "a": [
+    "He told me that he was busy.",
+    "He told me he was busy."
+   ],
+   "exp": "told me + was.",
+   "ru": "told me.",
+   "id": "f-rs-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она спросила, готов ли я.",
+   "a": [
+    "She asked if I was ready.",
+    "She asked me if I was ready.",
+    "She asked whether I was ready.",
+    "She asked me whether I was ready."
+   ],
+   "exp": "asked if + was.",
+   "ru": "asked if.",
+   "id": "f-rs-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Менеджер попросил меня подготовить отчёт.",
+   "a": [
+    "The manager asked me to prepare the report.",
+    "My manager asked me to prepare the report.",
+    "The manager asked me to prepare a report.",
+    "My manager asked me to prepare a report."
+   ],
+   "exp": "asked me to.",
+   "ru": "asked me to.",
+   "id": "f-rs-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он спросил, где я работаю.",
+   "a": [
+    "He asked where I worked.",
+    "He asked me where I worked.",
+    "He asked me where I work.",
+    "He asked where I work."
+   ],
+   "exp": "Normal word order.",
+   "ru": "where I worked.",
+   "id": "f-rs-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Аудитор спросил, есть ли у нас письменная процедура.",
+   "a": [
+    "The auditor asked if we had a written procedure.",
+    "The auditor asked whether we had a written procedure.",
+    "The auditor asked if we had a written procedure."
+   ],
+   "exp": "asked if + had.",
+   "ru": "asked if.",
+   "id": "f-rs-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она сказала, что уже отправила документы.",
+   "a": [
+    "She said that she had already sent the documents.",
+    "She said she had already sent the documents."
+   ],
+   "exp": "Past → Past Perfect.",
+   "ru": "had sent.",
+   "id": "f-rs-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он сказал нам не опаздывать.",
+   "a": [
+    "He told us not to be late."
+   ],
+   "exp": "told + not to.",
+   "ru": "told us not to.",
+   "id": "f-rs-36",
+   "stage": 3
+  }
+ ]
+}

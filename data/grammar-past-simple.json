@@ -1,0 +1,441 @@
+{
+ "id": "past-simple",
+ "title": "Past Simple",
+ "level": "A2",
+ "unit": "2A",
+ "units": [
+  "2A"
+ ],
+ "en": "<p>Finished actions at a finished time: <i>I <b>visited</b> the plant last week. We <b>went</b> to Almaty in May.</i></p><p>Regular verbs: <b>-ed</b> (work → worked, stop → stopped, study → studied). Many common verbs are irregular: go → went, make → made, send → sent, write → wrote.</p><p>Negative and questions: <b>didn't / did</b> + infinitive: <i>I <b>didn't send</b> it. <b>Did</b> you <b>see</b> the email?</i></p><p>Time words: <b>yesterday, last week, in 2020, two days ago</b>.</p>",
+ "ru": "Законченное действие в прошлом с указанием времени (yesterday, last week, ago). Правильные глаголы + -ed, неправильные — 2-я форма. В вопросах и отрицаниях — did / didn't + начальная форма.",
+ "boss": {
+  "situation": "Write 5 sentences about your last working week: what you did, who you met, what you didn't finish.",
+  "samples": [
+   "Last week I tested three controls.",
+   "On Tuesday I met the auditors from head office.",
+   "I sent the report to my manager on Thursday.",
+   "We had a long meeting about risks.",
+   "I didn't finish the presentation, so I'll do it on Monday."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ the report yesterday.",
+   "opts": [
+    "send",
+    "sent",
+    "have sent"
+   ],
+   "a": 1,
+   "exp": "Yesterday → Past Simple; send → sent.",
+   "ru": "Вчера — sent.",
+   "id": "f-ps-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We ___ to Astana last month.",
+   "opts": [
+    "go",
+    "went",
+    "gone"
+   ],
+   "a": 1,
+   "exp": "go → went.",
+   "ru": "go — went.",
+   "id": "f-ps-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ you see the email from the director?",
+   "opts": [
+    "Did",
+    "Do",
+    "Were"
+   ],
+   "a": 0,
+   "exp": "Past question → Did.",
+   "ru": "Вопрос — Did.",
+   "id": "f-ps-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ come to the meeting.",
+   "opts": [
+    "didn't",
+    "doesn't",
+    "wasn't"
+   ],
+   "a": 0,
+   "exp": "Past negative → didn't + infinitive.",
+   "ru": "Не пришла — didn't come.",
+   "id": "f-ps-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The past of “buy” is ___.",
+   "opts": [
+    "buyed",
+    "bought",
+    "brought"
+   ],
+   "a": 1,
+   "exp": "buy → bought (brought is from bring).",
+   "ru": "buy — bought.",
+   "id": "f-ps-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "They ___ the project two years ago.",
+   "opts": [
+    "start",
+    "started",
+    "starting"
+   ],
+   "a": 1,
+   "exp": "Ago → Past Simple.",
+   "ru": "Ago — started.",
+   "id": "f-ps-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Where ___ you last summer?",
+   "opts": [
+    "did",
+    "were",
+    "was"
+   ],
+   "a": 1,
+   "exp": "Past of be with you → were.",
+   "ru": "Где ты был — were you.",
+   "id": "f-ps-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The past of “stop” is ___.",
+   "opts": [
+    "stoped",
+    "stopped",
+    "stopt"
+   ],
+   "a": 1,
+   "exp": "Short verb: double the consonant → stopped.",
+   "ru": "stop — stopped.",
+   "id": "f-ps-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Did you went home?” is correct.",
+   "a": false,
+   "exp": "After did → infinitive: Did you go home?",
+   "ru": "После did — go.",
+   "id": "f-ps-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I wrote the letter last night” is correct.",
+   "a": true,
+   "exp": "write → wrote, last night → Past Simple.",
+   "ru": "write — wrote.",
+   "id": "f-ps-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (meet) the new auditor on Monday.",
+   "a": [
+    "met"
+   ],
+   "exp": "meet → met.",
+   "ru": "meet — met.",
+   "id": "f-ps-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (not / have) time to finish.",
+   "a": [
+    "didn't have",
+    "did not have"
+   ],
+   "exp": "Past negative → didn't have.",
+   "ru": "didn't have.",
+   "id": "f-ps-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He ___ (study) economics at university.",
+   "a": [
+    "studied"
+   ],
+   "exp": "consonant + y → ied.",
+   "ru": "study — studied.",
+   "id": "f-ps-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What time ___ you get home yesterday?",
+   "a": [
+    "did"
+   ],
+   "exp": "did + subject + infinitive.",
+   "ru": "did … get.",
+   "id": "f-ps-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The meeting ___ (be) very long.",
+   "a": [
+    "was"
+   ],
+   "exp": "be → was (it).",
+   "ru": "was.",
+   "id": "f-ps-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (lose) my keys this morning.",
+   "a": [
+    "lost"
+   ],
+   "exp": "lose → lost.",
+   "ru": "lose — lost.",
+   "id": "f-ps-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i sent the documents last week",
+   "exp": "Subject + past verb + object + time.",
+   "ru": "sent — прошедшее.",
+   "id": "f-ps-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "did you check the figures",
+   "exp": "Did + subject + infinitive.",
+   "ru": "Did you check…",
+   "id": "f-ps-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we did not finish the audit on time",
+   "exp": "did not + infinitive.",
+   "ru": "did not finish.",
+   "id": "f-ps-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "where did you go on holiday",
+   "exp": "Question word + did + subject + verb.",
+   "ru": "Where did you go.",
+   "id": "f-ps-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the auditors came two days ago",
+   "exp": "come → came; ago at the end.",
+   "ru": "came … ago.",
+   "id": "f-ps-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what did the manager say",
+   "exp": "Object question → did + say.",
+   "ru": "What did … say.",
+   "id": "f-ps-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I goed to the bank.”",
+   "a": [
+    "I went to the bank."
+   ],
+   "exp": "go → went (irregular).",
+   "ru": "go — went.",
+   "id": "f-ps-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She didn't called me.”",
+   "a": [
+    "She didn't call me.",
+    "She did not call me."
+   ],
+   "exp": "After didn't → infinitive.",
+   "ru": "После didn't — call.",
+   "id": "f-ps-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “When you arrived?”",
+   "a": [
+    "When did you arrive?"
+   ],
+   "exp": "Past question needs did.",
+   "ru": "Нужен did.",
+   "id": "f-ps-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I have seen him yesterday.”",
+   "a": [
+    "I saw him yesterday."
+   ],
+   "exp": "Yesterday → Past Simple, not Present Perfect.",
+   "ru": "Yesterday — saw.",
+   "id": "f-ps-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We was in the office.”",
+   "a": [
+    "We were in the office."
+   ],
+   "exp": "we → were.",
+   "ru": "We — were.",
+   "id": "f-ps-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He buyed a new car.”",
+   "a": [
+    "He bought a new car."
+   ],
+   "exp": "buy → bought.",
+   "ru": "buy — bought.",
+   "id": "f-ps-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Вчера я отправил отчёт.",
+   "a": [
+    "Yesterday I sent the report.",
+    "I sent the report yesterday.",
+    "I sent a report yesterday.",
+    "Yesterday I sent a report."
+   ],
+   "exp": "send → sent.",
+   "ru": "sent.",
+   "id": "f-ps-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы не закончили проект.",
+   "a": [
+    "We didn't finish the project.",
+    "We did not finish the project."
+   ],
+   "exp": "didn't + infinitive.",
+   "ru": "didn't finish.",
+   "id": "f-ps-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты видел письмо?",
+   "a": [
+    "Did you see the email?",
+    "Did you see the letter?",
+    "Have you seen the email?",
+    "Have you seen the letter?"
+   ],
+   "exp": "Did + see.",
+   "ru": "Did you see.",
+   "id": "f-ps-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Аудиторы приехали два дня назад.",
+   "a": [
+    "The auditors came two days ago.",
+    "The auditors arrived two days ago."
+   ],
+   "exp": "ago → Past Simple.",
+   "ru": "arrived … ago.",
+   "id": "f-ps-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Где ты был в прошлые выходные?",
+   "a": [
+    "Where were you last weekend?",
+    "Where were you at the weekend?"
+   ],
+   "exp": "be → were.",
+   "ru": "were.",
+   "id": "f-ps-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Совещание было очень долгим.",
+   "a": [
+    "The meeting was very long."
+   ],
+   "exp": "be → was.",
+   "ru": "was.",
+   "id": "f-ps-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я встретил нового коллегу в понедельник.",
+   "a": [
+    "I met a new colleague on Monday.",
+    "On Monday I met a new colleague.",
+    "I met the new colleague on Monday."
+   ],
+   "exp": "meet → met.",
+   "ru": "met.",
+   "id": "f-ps-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что сказал директор?",
+   "a": [
+    "What did the director say?",
+    "What did the manager say?"
+   ],
+   "exp": "What did … say.",
+   "ru": "did … say.",
+   "id": "f-ps-36",
+   "stage": 3
+  }
+ ]
+}

@@ -1,0 +1,492 @@
+{
+ "id": "review-tenses",
+ "title": "Review of verb forms (present, past, future)",
+ "level": "B1",
+ "unit": "6C",
+ "units": [
+  "6C"
+ ],
+ "en": "<p>Choose the form by <b>meaning</b>:</p><p><b>Present Simple</b> — habits, facts · <b>Present Continuous</b> — now, temporary, arrangements · <b>Past Simple</b> — finished time · <b>Past Continuous</b> — in progress in the past · <b>Present Perfect</b> — past → now, experience, result · <b>going to</b> — plans · <b>will</b> — predictions, decisions, promises.</p><p><i>I <b>work</b> for an oil company. I'<b>m preparing</b> an audit this week. I <b>joined</b> in 2019. I'<b>ve worked</b> here for six years. Next year I'<b>m going to</b> do a course. I think it <b>will</b> help me.</i></p>",
+ "ru": "Повторение времён: выбирайте по смыслу — привычка (Present Simple), сейчас / временно / договорённость (Present Continuous), законченное время (Past Simple), процесс в прошлом (Past Continuous), прошлое → сейчас (Present Perfect), план (going to), прогноз / обещание (will).",
+ "boss": {
+  "situation": "Write about your career: what you did before, what you have done here, what you are doing now and what you are going to do.",
+  "samples": [
+   "I studied economics at university.",
+   "In 2015 I started work as an accountant.",
+   "I've worked in internal control for six years.",
+   "At the moment I'm preparing for an audit.",
+   "Next year I'm going to get a new certificate, and I think it will help my career."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ in this company since 2020.",
+   "opts": [
+    "work",
+    "have worked",
+    "worked"
+   ],
+   "a": 1,
+   "exp": "since + up to now → Present Perfect.",
+   "ru": "С 2020 по сейчас — have worked.",
+   "id": "f-rv-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Look! The manager ___ to the director.",
+   "opts": [
+    "talks",
+    "is talking",
+    "talked"
+   ],
+   "a": 1,
+   "exp": "Now → Present Continuous.",
+   "ru": "Сейчас — is talking.",
+   "id": "f-rv-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Yesterday I ___ the report to head office.",
+   "opts": [
+    "have sent",
+    "sent",
+    "send"
+   ],
+   "a": 1,
+   "exp": "Yesterday → Past Simple.",
+   "ru": "Вчера — sent.",
+   "id": "f-rv-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Next week we ___ an audit. It's already arranged.",
+   "opts": [
+    "have",
+    "are having",
+    "had"
+   ],
+   "a": 1,
+   "exp": "Arrangement → Present Continuous.",
+   "ru": "Договорённость — are having.",
+   "id": "f-rv-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She usually ___ to work by bus.",
+   "opts": [
+    "goes",
+    "is going",
+    "went"
+   ],
+   "a": 0,
+   "exp": "Habit → Present Simple.",
+   "ru": "Обычно — goes.",
+   "id": "f-rv-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "When I arrived, they ___ lunch.",
+   "opts": [
+    "had",
+    "were having",
+    "have"
+   ],
+   "a": 1,
+   "exp": "In progress in the past → Past Continuous.",
+   "ru": "Процесс — were having.",
+   "id": "f-rv-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I think the new rules ___ problems.",
+   "opts": [
+    "cause",
+    "will cause",
+    "caused"
+   ],
+   "a": 1,
+   "exp": "Prediction → will.",
+   "ru": "Прогноз — will.",
+   "id": "f-rv-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I ___ never been to Europe.",
+   "opts": [
+    "have",
+    "did",
+    "was"
+   ],
+   "a": 0,
+   "exp": "Experience → have never been.",
+   "ru": "Опыт — have.",
+   "id": "f-rv-8",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We ___ open a new office next year — that's the plan.",
+   "opts": [
+    "are going to",
+    "will",
+    "opened"
+   ],
+   "a": 0,
+   "exp": "Plan → going to.",
+   "ru": "План — going to.",
+   "id": "f-rv-9",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What ___ you do last weekend?",
+   "opts": [
+    "have",
+    "did",
+    "were"
+   ],
+   "a": 1,
+   "exp": "Finished time → did.",
+   "ru": "last weekend — did.",
+   "id": "f-rv-10",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I have worked here since five years” is correct.",
+   "a": false,
+   "exp": "for five years / since 2020.",
+   "ru": "for five years.",
+   "id": "f-rv-11",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I was reading when the phone rang” uses Past Continuous + Past Simple.",
+   "a": true,
+   "exp": "Long action + short action.",
+   "ru": "Continuous + Simple.",
+   "id": "f-rv-12",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "He ___ (live) in Atyrau all his life.",
+   "a": [
+    "'s lived",
+    "has lived"
+   ],
+   "exp": "Up to now → Present Perfect.",
+   "ru": "has lived.",
+   "id": "f-rv-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Right now I ___ (wait) for a call from Astana.",
+   "a": [
+    "'m waiting",
+    "am waiting"
+   ],
+   "exp": "Now → Present Continuous.",
+   "ru": "am waiting.",
+   "id": "f-rv-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She ___ (leave) the company two years ago.",
+   "a": [
+    "left"
+   ],
+   "exp": "ago → Past Simple.",
+   "ru": "left.",
+   "id": "f-rv-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (not / like) working at weekends.",
+   "a": [
+    "don't like",
+    "do not like"
+   ],
+   "exp": "Fact / state → Present Simple.",
+   "ru": "don't like.",
+   "id": "f-rv-16",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "It's cold. I ___ (close) the window.",
+   "a": [
+    "'ll close",
+    "will close"
+   ],
+   "exp": "Instant decision → will.",
+   "ru": "will close.",
+   "id": "f-rv-17",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "While I ___ (drive) to work, I heard the news.",
+   "a": [
+    "was driving"
+   ],
+   "exp": "In progress → Past Continuous.",
+   "ru": "was driving.",
+   "id": "f-rv-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have worked here for six years",
+   "exp": "Present Perfect + for.",
+   "ru": "have worked … for.",
+   "id": "f-rv-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we are having a meeting at three today",
+   "exp": "Arrangement.",
+   "ru": "are having.",
+   "id": "f-rv-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what did you do after university",
+   "exp": "Past Simple question.",
+   "ru": "did you do.",
+   "id": "f-rv-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i am going to take an english course",
+   "exp": "Plan → going to.",
+   "ru": "am going to take.",
+   "id": "f-rv-22",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she usually starts work at eight",
+   "exp": "Habit.",
+   "ru": "usually starts.",
+   "id": "f-rv-23",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they were checking the stock when we arrived",
+   "exp": "Past Continuous + Past Simple.",
+   "ru": "were checking … arrived.",
+   "id": "f-rv-24",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I work here since 2019.”",
+   "a": [
+    "I've worked here since 2019.",
+    "I have worked here since 2019.",
+    "I have been working here since 2019.",
+    "I've been working here since 2019."
+   ],
+   "exp": "since → Present Perfect.",
+   "ru": "have worked since.",
+   "id": "f-rv-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Yesterday I have finished the audit.”",
+   "a": [
+    "Yesterday I finished the audit.",
+    "I finished the audit yesterday."
+   ],
+   "exp": "Yesterday → Past Simple.",
+   "ru": "finished.",
+   "id": "f-rv-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Now I write an email.”",
+   "a": [
+    "Now I'm writing an email.",
+    "Now I am writing an email.",
+    "I'm writing an email now.",
+    "I am writing an email now."
+   ],
+   "exp": "Now → Continuous.",
+   "ru": "am writing.",
+   "id": "f-rv-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “When I came home, my wife cooked dinner, so I waited.”",
+   "a": [
+    "When I came home, my wife was cooking dinner, so I waited."
+   ],
+   "exp": "In progress → was cooking.",
+   "ru": "was cooking.",
+   "id": "f-rv-28",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Tomorrow I meet the auditors at ten.”",
+   "a": [
+    "Tomorrow I'm meeting the auditors at ten.",
+    "Tomorrow I am meeting the auditors at ten."
+   ],
+   "exp": "Arrangement → am meeting.",
+   "ru": "am meeting.",
+   "id": "f-rv-29",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Did you ever be in Almaty?”",
+   "a": [
+    "Have you ever been to Almaty?",
+    "Have you ever been in Almaty?"
+   ],
+   "exp": "Experience → Have you ever been.",
+   "ru": "Have you ever been.",
+   "id": "f-rv-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я работаю здесь шесть лет.",
+   "a": [
+    "I've worked here for six years.",
+    "I have worked here for six years.",
+    "I have been working here for six years.",
+    "I've been working here for six years."
+   ],
+   "exp": "Up to now → Present Perfect + for.",
+   "ru": "have worked … for.",
+   "id": "f-rv-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я пришёл в компанию в 2019 году.",
+   "a": [
+    "I joined the company in 2019.",
+    "I came to the company in 2019.",
+    "I started at the company in 2019.",
+    "I started working at the company in 2019.",
+    "I started working for the company in 2019."
+   ],
+   "exp": "Finished time → Past Simple.",
+   "ru": "joined.",
+   "id": "f-rv-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сейчас я готовлюсь к аудиту.",
+   "a": [
+    "Now I'm preparing for an audit.",
+    "Now I am preparing for an audit.",
+    "I'm preparing for an audit now.",
+    "I am preparing for an audit now.",
+    "I am preparing for the audit now.",
+    "Now I am preparing for the audit."
+   ],
+   "exp": "Now → Continuous.",
+   "ru": "am preparing.",
+   "id": "f-rv-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "В следующем году я собираюсь пройти курс.",
+   "a": [
+    "Next year I'm going to take a course.",
+    "Next year I am going to take a course.",
+    "Next year I am going to do a course.",
+    "Next year I'm going to do a course."
+   ],
+   "exp": "Plan → going to.",
+   "ru": "going to take.",
+   "id": "f-rv-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я думаю, это поможет моей карьере.",
+   "a": [
+    "I think it will help my career.",
+    "I think this will help my career.",
+    "I think it'll help my career."
+   ],
+   "exp": "Prediction → will.",
+   "ru": "will help.",
+   "id": "f-rv-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Когда я пришёл, они обедали.",
+   "a": [
+    "When I came, they were having lunch.",
+    "When I arrived, they were having lunch.",
+    "When I came in, they were having lunch."
+   ],
+   "exp": "Past Continuous.",
+   "ru": "were having.",
+   "id": "f-rv-36",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я никогда не был в Европе.",
+   "a": [
+    "I've never been to Europe.",
+    "I have never been to Europe."
+   ],
+   "exp": "Experience.",
+   "ru": "never been.",
+   "id": "f-rv-37",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Обычно я начинаю работу в восемь.",
+   "a": [
+    "I usually start work at eight.",
+    "Usually I start work at eight.",
+    "I usually start work at 8.",
+    "I usually start work at eight o'clock.",
+    "I usually start working at eight."
+   ],
+   "exp": "Habit → Present Simple.",
+   "ru": "usually start.",
+   "id": "f-rv-38",
+   "stage": 3
+  }
+ ]
+}

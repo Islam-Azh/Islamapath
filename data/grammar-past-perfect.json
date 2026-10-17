@@ -1,0 +1,449 @@
+{
+ "id": "past-perfect",
+ "title": "Past Perfect",
+ "level": "B1",
+ "unit": "12A",
+ "units": [
+  "12A"
+ ],
+ "en": "<p><b>had + past participle</b> — an action that happened <b>before</b> another past action: <i>When I arrived, the meeting <b>had</b> already <b>started</b>. (First the meeting started, then I arrived.)</i></p><p>Common with <b>when, because, already, before, after, by the time</b>: <i>I didn't recognise him because he <b>had changed</b> a lot.</i></p><p>Negative: <b>hadn't</b>; question: <b>Had you…?</b></p><p>Compare: <i>When I arrived, the meeting <b>started</b> (I arrived, then it started). When I arrived, the meeting <b>had started</b> (it started before I arrived).</i></p>",
+ "ru": "had + 3-я форма — действие, которое произошло раньше другого действия в прошлом (When I arrived, the meeting had already started). Часто с when, because, already, before, by the time. Отрицание — hadn't.",
+ "boss": {
+  "situation": "Tell the story of a problem at work: what had happened before you noticed it.",
+  "samples": [
+   "Last month I found a problem in the warehouse.",
+   "Someone had changed the stock figures in the system.",
+   "Nobody had checked the report before it was sent.",
+   "By the time we noticed, the goods had already left.",
+   "We understood that the control had not worked."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "When we arrived, the film ___.",
+   "opts": [
+    "already started",
+    "had already started",
+    "has already started"
+   ],
+   "a": 1,
+   "exp": "Earlier past → had started.",
+   "ru": "Раньше — had started.",
+   "id": "f-pf-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I didn't know him because we ___ before.",
+   "opts": [
+    "hadn't met",
+    "haven't met",
+    "didn't meet"
+   ],
+   "a": 0,
+   "exp": "Before another past moment → hadn't met.",
+   "ru": "hadn't met.",
+   "id": "f-pf-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She was upset because she ___ her phone.",
+   "opts": [
+    "lost",
+    "had lost",
+    "has lost"
+   ],
+   "a": 1,
+   "exp": "Earlier action → had lost.",
+   "ru": "had lost.",
+   "id": "f-pf-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "By the time I got to the station, the train ___.",
+   "opts": [
+    "left",
+    "had left",
+    "has left"
+   ],
+   "a": 1,
+   "exp": "By the time → Past Perfect.",
+   "ru": "had left.",
+   "id": "f-pf-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ you finished the report before the meeting?",
+   "opts": [
+    "Had",
+    "Have",
+    "Did"
+   ],
+   "a": 0,
+   "exp": "Past Perfect question → Had.",
+   "ru": "Had.",
+   "id": "f-pf-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The past participle of “go” is ___.",
+   "opts": [
+    "went",
+    "gone",
+    "goed"
+   ],
+   "a": 1,
+   "exp": "go – went – gone.",
+   "ru": "gone.",
+   "id": "f-pf-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "When I opened the file, I saw that someone ___ it.",
+   "opts": [
+    "changed",
+    "had changed",
+    "has changed"
+   ],
+   "a": 1,
+   "exp": "Before I opened → had changed.",
+   "ru": "had changed.",
+   "id": "f-pf-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "After he ___ the email, he left the office.",
+   "opts": [
+    "had sent",
+    "has sent",
+    "sends"
+   ],
+   "a": 0,
+   "exp": "After + earlier action → had sent.",
+   "ru": "had sent.",
+   "id": "f-pf-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "In “When I arrived, they had eaten”, they ate before I arrived.",
+   "a": true,
+   "exp": "Past Perfect = earlier.",
+   "ru": "Ели раньше.",
+   "id": "f-pf-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I had seen him yesterday” is the normal way to say a simple past fact.",
+   "a": false,
+   "exp": "Simple fact → I saw him yesterday.",
+   "ru": "Обычно — saw.",
+   "id": "f-pf-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "When I got home, my wife ___ (cook) dinner. It was on the table.",
+   "a": [
+    "had cooked"
+   ],
+   "exp": "Earlier action.",
+   "ru": "had cooked.",
+   "id": "f-pf-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (never / see) such a big plant before I came to Atyrau.",
+   "a": [
+    "had never seen"
+   ],
+   "exp": "Experience before a past time.",
+   "ru": "had never seen.",
+   "id": "f-pf-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "They ___ (not / finish) the work when the inspector came.",
+   "a": [
+    "hadn't finished",
+    "had not finished"
+   ],
+   "exp": "Negative.",
+   "ru": "hadn't finished.",
+   "id": "f-pf-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He was late because he ___ (miss) the bus.",
+   "a": [
+    "had missed"
+   ],
+   "exp": "Reason, earlier.",
+   "ru": "had missed.",
+   "id": "f-pf-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "By the time we arrived, everyone ___ (leave).",
+   "a": [
+    "had left"
+   ],
+   "exp": "By the time.",
+   "ru": "had left.",
+   "id": "f-pf-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Had you ever ___ (work) abroad before this job?",
+   "a": [
+    "worked"
+   ],
+   "exp": "had + past participle.",
+   "ru": "worked.",
+   "id": "f-pf-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the meeting had started when i arrived",
+   "exp": "Earlier action + when.",
+   "ru": "had started.",
+   "id": "f-pf-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she had already left the office",
+   "exp": "already between had and participle.",
+   "ru": "had already left.",
+   "id": "f-pf-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we had never seen such a mess",
+   "exp": "had never + participle.",
+   "ru": "had never seen.",
+   "id": "f-pf-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he was tired because he had worked all night",
+   "exp": "Reason.",
+   "ru": "had worked.",
+   "id": "f-pf-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "had you met him before",
+   "exp": "Question.",
+   "ru": "Had you met.",
+   "id": "f-pf-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "by the time we noticed the goods had left",
+   "exp": "by the time.",
+   "ru": "had left.",
+   "id": "f-pf-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “When I arrived, the meeting has already started.”",
+   "a": [
+    "When I arrived, the meeting had already started."
+   ],
+   "exp": "Earlier past → had.",
+   "ru": "had started.",
+   "id": "f-pf-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I didn't recognise her because she has changed a lot.”",
+   "a": [
+    "I didn't recognise her because she had changed a lot.",
+    "I didn't recognize her because she had changed a lot."
+   ],
+   "exp": "Earlier → had changed.",
+   "ru": "had changed.",
+   "id": "f-pf-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He had went home before I called.”",
+   "a": [
+    "He had gone home before I called."
+   ],
+   "exp": "go – went – gone.",
+   "ru": "had gone.",
+   "id": "f-pf-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “By the time we got there, the shop closed.”",
+   "a": [
+    "By the time we got there, the shop had closed."
+   ],
+   "exp": "By the time → Past Perfect.",
+   "ru": "had closed.",
+   "id": "f-pf-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Had you saw the report before?”",
+   "a": [
+    "Had you seen the report before?"
+   ],
+   "exp": "had + seen.",
+   "ru": "had seen.",
+   "id": "f-pf-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She didn't had time to finish.”",
+   "a": [
+    "She didn't have time to finish.",
+    "She did not have time to finish.",
+    "She hadn't had time to finish."
+   ],
+   "exp": "didn't + have.",
+   "ru": "didn't have.",
+   "id": "f-pf-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Когда я пришёл, совещание уже началось.",
+   "a": [
+    "When I arrived, the meeting had already started.",
+    "When I came, the meeting had already started.",
+    "When I arrived the meeting had already begun.",
+    "When I arrived, the meeting had already begun."
+   ],
+   "exp": "had already started.",
+   "ru": "had already started.",
+   "id": "f-pf-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она уже ушла из офиса.",
+   "a": [
+    "She had already left the office."
+   ],
+   "exp": "had already left.",
+   "ru": "had already left.",
+   "id": "f-pf-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не узнал его, потому что он сильно изменился.",
+   "a": [
+    "I didn't recognise him because he had changed a lot.",
+    "I didn't recognize him because he had changed a lot.",
+    "I did not recognise him because he had changed a lot.",
+    "I did not recognize him because he had changed a lot."
+   ],
+   "exp": "had changed.",
+   "ru": "had changed.",
+   "id": "f-pf-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кто-то изменил цифры в системе (до того, как мы проверили).",
+   "a": [
+    "Someone had changed the figures in the system.",
+    "Somebody had changed the figures in the system.",
+    "Someone had changed the numbers in the system.",
+    "Somebody had changed the numbers in the system."
+   ],
+   "exp": "had changed.",
+   "ru": "had changed.",
+   "id": "f-pf-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Никто не проверил отчёт до того, как его отправили.",
+   "a": [
+    "Nobody had checked the report before it was sent.",
+    "No one had checked the report before it was sent.",
+    "Nobody had checked the report before they sent it.",
+    "No one had checked the report before they sent it."
+   ],
+   "exp": "had checked.",
+   "ru": "had checked.",
+   "id": "f-pf-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он опоздал, потому что пропустил автобус.",
+   "a": [
+    "He was late because he had missed the bus."
+   ],
+   "exp": "had missed.",
+   "ru": "had missed.",
+   "id": "f-pf-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "К тому времени, как мы приехали, все ушли.",
+   "a": [
+    "By the time we arrived, everyone had left.",
+    "By the time we arrived, everybody had left.",
+    "By the time we got there, everyone had left.",
+    "By the time we got there, everybody had left."
+   ],
+   "exp": "By the time + had left.",
+   "ru": "had left.",
+   "id": "f-pf-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты раньше работал за границей?",
+   "a": [
+    "Had you worked abroad before?",
+    "Had you ever worked abroad before?",
+    "Have you worked abroad before?",
+    "Have you ever worked abroad?"
+   ],
+   "exp": "Past Perfect question (or Present Perfect for life experience).",
+   "ru": "Had you worked.",
+   "id": "f-pf-36",
+   "stage": 3
+  }
+ ]
+}

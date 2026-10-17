@@ -1,0 +1,172 @@
+{
+ "id": "speaking-file06",
+ "title": "File 6 · will & review",
+ "tasks": [
+  {
+   "id": "sp-6a-r",
+   "unit": "6A",
+   "kind": "retell",
+   "title": "An optimist and a pessimist",
+   "text": "Bolat and Gulnara work in the same team, but they are very different. Bolat is a pessimist. He thinks the audit will be difficult, the budget won't be enough and nobody will get a bonus. Gulnara is an optimist. She thinks the team will finish on time and the auditors will be happy. She says, \"Don't worry, everything will be fine.\" Who do you think is right?",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Bolat thinks … will…",
+    "… won't be enough",
+    "Gulnara thinks…",
+    "She says…"
+   ],
+   "secs": 300,
+   "sample": "Bolat and Gulnara work in the same team, but they are very different. Bolat is a pessimist. He thinks the audit will be difficult, the budget won't be enough and nobody will get a bonus. Gulnara is an optimist. She thinks the team will finish on time and the auditors will be happy. She says, \"Don't worry, everything will be fine.\" Who do you think is right?",
+   "check": []
+  },
+  {
+   "id": "sp-6a-q1",
+   "unit": "6A",
+   "kind": "question",
+   "q": "Make three predictions about your company or your career next year.",
+   "ru": "Сделай три прогноза о компании или карьере на следующий год.",
+   "hints": [
+    "I think … will…",
+    "I don't think … will…",
+    "… will probably…"
+   ],
+   "check": [
+    "\\bwill\\b|\\bwon't\\b|'ll\\b"
+   ],
+   "secs": 180,
+   "sample": "I think our company will start new projects next year. I don't think the budget will grow. I'll probably speak much better English, and I think I'll find a new job."
+  },
+  {
+   "id": "sp-6a-q2",
+   "unit": "6A",
+   "kind": "question",
+   "q": "Are you an optimist or a pessimist? Give examples.",
+   "ru": "Ты оптимист или пессимист? Приведи примеры.",
+   "hints": [
+    "I'm more of a…",
+    "I usually think…",
+    "When … I think it'll…"
+   ],
+   "check": [
+    "\\bwill\\b|'ll\\b|\\bthink\\b"
+   ],
+   "secs": 180,
+   "sample": "I'm more of an optimist. When I have a difficult task, I usually think it'll be fine. Before an audit I feel a bit nervous, but I think we'll do well. My wife says I'm too optimistic!"
+  },
+  {
+   "id": "sp-6b-r",
+   "unit": "6B",
+   "kind": "retell",
+   "title": "Promises",
+   "text": "Daniyar's manager asked him to send the report by Friday. Daniyar promised, \"I'll send it on Thursday.\" On Thursday his computer broke down. He called IT and said, \"Please help me, I'll lose all my work!\" The IT specialist said, \"Don't worry, I'll fix it in an hour.\" He kept his promise, and Daniyar sent the report on time.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "He promised: \"I'll…\"",
+    "His computer broke down",
+    "He called IT…",
+    "The specialist said \"I'll…\"",
+    "He kept his promise"
+   ],
+   "secs": 300,
+   "sample": "Daniyar's manager asked him to send the report by Friday. Daniyar promised, \"I'll send it on Thursday.\" On Thursday his computer broke down. He called IT and said, \"Please help me, I'll lose all my work!\" The IT specialist said, \"Don't worry, I'll fix it in an hour.\" He kept his promise, and Daniyar sent the report on time.",
+   "check": []
+  },
+  {
+   "id": "sp-6b-q1",
+   "unit": "6B",
+   "kind": "question",
+   "q": "Your manager asks for an urgent report. Answer with offers and promises.",
+   "ru": "Руководитель просит срочный отчёт. Ответь предложениями и обещаниями.",
+   "hints": [
+    "I'll…",
+    "I won't…",
+    "Shall I…?",
+    "I'll call you back…"
+   ],
+   "check": [
+    "\\bI'll\\b|\\bI will\\b|\\bShall I\\b|\\bwon't\\b"
+   ],
+   "secs": 180,
+   "sample": "Of course, I'll prepare it today. Shall I include the figures for the last quarter? I'll call you back if I have any questions. I won't forget to send a copy to finance."
+  },
+  {
+   "id": "sp-6b-q2",
+   "unit": "6B",
+   "kind": "question",
+   "q": "Describe a promise you made and kept (or didn't keep).",
+   "ru": "Расскажи об обещании, которое ты сдержал (или нет).",
+   "hints": [
+    "I promised to…",
+    "I said \"I'll…\"",
+    "In the end I…",
+    "I kept / broke my promise"
+   ],
+   "check": [
+    "\\bpromis\\w*\\b",
+    "\\bI'll\\b|\\bwould\\b|\\bkept\\b"
+   ],
+   "secs": 180,
+   "sample": "Last year I promised my son that I'd take him to the sea. I said, \"I'll book the tickets in May.\" I was very busy, but in the end I kept my promise. We had a great holiday."
+  },
+  {
+   "id": "sp-6c-r",
+   "unit": "6C",
+   "kind": "retell",
+   "title": "My career story",
+   "text": "Arman studied engineering at university. After that he worked as a technician for five years. In 2019 he joined a big oil company. He has worked there since then and has had two promotions. At the moment he is preparing for a professional exam. Next year he is going to apply for a manager position. He thinks he will get it.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "He studied…",
+    "After that he worked…",
+    "He has worked there since…",
+    "At the moment he is…",
+    "Next year he is going to…"
+   ],
+   "secs": 300,
+   "sample": "Arman studied engineering at university. After that he worked as a technician for five years. In 2019 he joined a big oil company. He has worked there since then and has had two promotions. At the moment he is preparing for a professional exam. Next year he is going to apply for a manager position. He thinks he will get it.",
+   "check": []
+  },
+  {
+   "id": "sp-6c-q1",
+   "unit": "6C",
+   "kind": "question",
+   "q": "Tell the story of your career: past, present and future.",
+   "ru": "Расскажи историю своей карьеры: прошлое, настоящее, будущее.",
+   "hints": [
+    "I studied…",
+    "I started work in…",
+    "I've worked in … since / for…",
+    "At the moment I'm…",
+    "Next year I'm going to…"
+   ],
+   "check": [
+    "\\b(studied|started|worked|joined)\\b",
+    "\\b(have|'ve) worked\\b",
+    "\\bgoing to\\b"
+   ],
+   "secs": 180,
+   "sample": "I studied economics at university. In 2015 I started work as an accountant. I've worked in internal control for several years. At the moment I'm preparing for an audit and learning English. Next year I'm going to apply for a job in an international company."
+  },
+  {
+   "id": "sp-6c-q2",
+   "unit": "6C",
+   "kind": "question",
+   "q": "What are you good at, interested in and afraid of?",
+   "ru": "В чём ты хорош, чем интересуешься и чего боишься?",
+   "hints": [
+    "I'm good at…",
+    "I'm interested in…",
+    "I'm afraid of…",
+    "I'm proud of…"
+   ],
+   "check": [
+    "\\bgood at\\b|\\binterested in\\b|\\bafraid of\\b|\\bproud of\\b"
+   ],
+   "secs": 180,
+   "sample": "I'm good at finding mistakes in documents. I'm interested in finance and risk management. I'm a bit afraid of speaking English in big meetings. I'm proud of my team."
+  }
+ ]
+}

@@ -1,0 +1,451 @@
+{
+ "id": "phrasal-verbs",
+ "title": "Phrasal verbs (work and everyday)",
+ "level": "B1",
+ "unit": "11B",
+ "units": [
+  "11B"
+ ],
+ "en": "<p>A <b>phrasal verb</b> = verb + particle (up, off, on, out…), often with a new meaning: <i>look <b>for</b> (искать), find <b>out</b> (узнать), put <b>off</b> (отложить), call <b>back</b> (перезвонить), set <b>up</b> (создать, организовать), fill <b>in</b> (заполнить), turn <b>on / off</b>, give <b>up</b> (бросить), look <b>into</b> (изучить вопрос), carry <b>out</b> (провести, выполнить).</i></p><p>With most separable verbs, a noun can go before or after the particle, but a <b>pronoun goes in the middle</b>: <i>Turn off the light / Turn the light off / Turn <b>it</b> off</i> (not <i>turn off it</i>).</p>",
+ "ru": "Фразовые глаголы: глагол + частица с новым значением (look for — искать, find out — узнать, put off — отложить, call back — перезвонить, set up — организовать, fill in — заполнить, carry out — провести, look into — разобраться). Местоимение ставится между глаголом и частицей: turn it off.",
+ "boss": {
+  "situation": "Write a short message rescheduling a meeting. Use at least 4 phrasal verbs: put off, call back, look into, find out, set up.",
+  "samples": [
+   "Hi Dana, we need to put off tomorrow's meeting.",
+   "I'm still looking into the problem with the invoices.",
+   "I'll find out when the director is free.",
+   "Can you set up a new call for Thursday?",
+   "If you have questions, I'll call you back after lunch."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I'm looking ___ my keys. Have you seen them?",
+   "opts": [
+    "for",
+    "after",
+    "up"
+   ],
+   "a": 0,
+   "exp": "look for = try to find.",
+   "ru": "Искать — look for.",
+   "id": "f-ph-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Please fill ___ this form.",
+   "opts": [
+    "in",
+    "up",
+    "on"
+   ],
+   "a": 0,
+   "exp": "fill in = complete a form.",
+   "ru": "Заполнить — fill in.",
+   "id": "f-ph-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The meeting was put ___ until next week.",
+   "opts": [
+    "off",
+    "out",
+    "on"
+   ],
+   "a": 0,
+   "exp": "put off = postpone.",
+   "ru": "Отложить — put off.",
+   "id": "f-ph-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Can you find ___ what time the train leaves?",
+   "opts": [
+    "out",
+    "up",
+    "off"
+   ],
+   "a": 0,
+   "exp": "find out = get information.",
+   "ru": "Узнать — find out.",
+   "id": "f-ph-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'm busy now. Can I call you ___?",
+   "opts": [
+    "back",
+    "out",
+    "off"
+   ],
+   "a": 0,
+   "exp": "call back.",
+   "ru": "Перезвонить — call back.",
+   "id": "f-ph-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "It's dark. Turn ___ the light, please.",
+   "opts": [
+    "on",
+    "up",
+    "in"
+   ],
+   "a": 0,
+   "exp": "turn on.",
+   "ru": "Включить — turn on.",
+   "id": "f-ph-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He gave ___ smoking last year.",
+   "opts": [
+    "up",
+    "off",
+    "out"
+   ],
+   "a": 0,
+   "exp": "give up = stop doing.",
+   "ru": "Бросить — give up.",
+   "id": "f-ph-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The auditors carried ___ a full review.",
+   "opts": [
+    "out",
+    "on",
+    "off"
+   ],
+   "a": 0,
+   "exp": "carry out = do, perform.",
+   "ru": "Провести — carry out.",
+   "id": "f-ph-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Turn off it” is correct.",
+   "a": false,
+   "exp": "Pronoun in the middle: turn it off.",
+   "ru": "turn it off.",
+   "id": "f-ph-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Set up a meeting” means organise a meeting.",
+   "a": true,
+   "exp": "set up = organise, arrange.",
+   "ru": "Организовать.",
+   "id": "f-ph-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "We need to ___ into this problem carefully.",
+   "a": [
+    "look"
+   ],
+   "exp": "look into = investigate.",
+   "ru": "look into.",
+   "id": "f-ph-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Can you pick me ___ from the airport?",
+   "a": [
+    "up"
+   ],
+   "exp": "pick up = collect someone.",
+   "ru": "pick up.",
+   "id": "f-ph-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Please switch ___ your phones during the meeting.",
+   "a": [
+    "off"
+   ],
+   "exp": "switch off.",
+   "ru": "switch off.",
+   "id": "f-ph-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I'll call you ___ in ten minutes.",
+   "a": [
+    "back"
+   ],
+   "exp": "call back.",
+   "ru": "call back.",
+   "id": "f-ph-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "They want to set ___ a new office in Astana.",
+   "a": [
+    "up"
+   ],
+   "exp": "set up = start.",
+   "ru": "set up.",
+   "id": "f-ph-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Don't give ___! You can do it.",
+   "a": [
+    "up"
+   ],
+   "exp": "give up = stop trying.",
+   "ru": "give up.",
+   "id": "f-ph-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "please fill in this form",
+   "exp": "fill in.",
+   "ru": "fill in.",
+   "id": "f-ph-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we have to put off the meeting",
+   "exp": "put off.",
+   "ru": "put off.",
+   "id": "f-ph-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "can you find out his phone number",
+   "exp": "find out.",
+   "ru": "find out.",
+   "id": "f-ph-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i will call you back later",
+   "exp": "call back.",
+   "ru": "call back.",
+   "id": "f-ph-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "turn it off please",
+   "exp": "Pronoun in the middle.",
+   "ru": "turn it off.",
+   "id": "f-ph-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the team carried out an investigation",
+   "exp": "carry out.",
+   "ru": "carried out.",
+   "id": "f-ph-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Please turn off it.”",
+   "a": [
+    "Please turn it off."
+   ],
+   "exp": "Pronoun in the middle.",
+   "ru": "turn it off.",
+   "id": "f-ph-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am looking my glasses.”",
+   "a": [
+    "I am looking for my glasses.",
+    "I'm looking for my glasses."
+   ],
+   "exp": "look for = search.",
+   "ru": "look for.",
+   "id": "f-ph-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Can you fill this form?”",
+   "a": [
+    "Can you fill in this form?",
+    "Can you fill this form in?",
+    "Can you fill out this form?"
+   ],
+   "exp": "fill in a form.",
+   "ru": "fill in.",
+   "id": "f-ph-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Let's put out the meeting until Friday.”",
+   "a": [
+    "Let's put off the meeting until Friday.",
+    "Let us put off the meeting until Friday.",
+    "Let's put the meeting off until Friday."
+   ],
+   "exp": "postpone → put off.",
+   "ru": "put off.",
+   "id": "f-ph-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'll call back you later.”",
+   "a": [
+    "I'll call you back later.",
+    "I will call you back later."
+   ],
+   "exp": "Pronoun in the middle.",
+   "ru": "call you back.",
+   "id": "f-ph-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We need to find about the new rules.”",
+   "a": [
+    "We need to find out about the new rules."
+   ],
+   "exp": "find out (about).",
+   "ru": "find out.",
+   "id": "f-ph-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я ищу свои ключи.",
+   "a": [
+    "I'm looking for my keys.",
+    "I am looking for my keys."
+   ],
+   "exp": "look for.",
+   "ru": "looking for.",
+   "id": "f-ph-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Заполните, пожалуйста, эту форму.",
+   "a": [
+    "Please fill in this form.",
+    "Fill in this form, please.",
+    "Please fill out this form.",
+    "Please fill this form in."
+   ],
+   "exp": "fill in.",
+   "ru": "fill in.",
+   "id": "f-ph-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Нам нужно отложить совещание.",
+   "a": [
+    "We need to put off the meeting.",
+    "We need to put the meeting off.",
+    "We have to put off the meeting.",
+    "We need to postpone the meeting."
+   ],
+   "exp": "put off.",
+   "ru": "put off.",
+   "id": "f-ph-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я перезвоню тебе позже.",
+   "a": [
+    "I'll call you back later.",
+    "I will call you back later."
+   ],
+   "exp": "call back.",
+   "ru": "call you back.",
+   "id": "f-ph-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Узнай, когда директор свободен.",
+   "a": [
+    "Find out when the director is free.",
+    "Find out when the director is available."
+   ],
+   "exp": "find out.",
+   "ru": "find out.",
+   "id": "f-ph-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Выключи это, пожалуйста.",
+   "a": [
+    "Turn it off, please.",
+    "Please turn it off.",
+    "Switch it off, please.",
+    "Please switch it off."
+   ],
+   "exp": "Pronoun in the middle.",
+   "ru": "turn it off.",
+   "id": "f-ph-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы разберёмся в этой проблеме.",
+   "a": [
+    "We'll look into this problem.",
+    "We will look into this problem.",
+    "We'll look into the problem.",
+    "We will look into the problem."
+   ],
+   "exp": "look into.",
+   "ru": "look into.",
+   "id": "f-ph-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Аудиторы провели проверку.",
+   "a": [
+    "The auditors carried out an audit.",
+    "The auditors carried out a check.",
+    "The auditors carried out an inspection.",
+    "The auditors carried out a review."
+   ],
+   "exp": "carry out.",
+   "ru": "carried out.",
+   "id": "f-ph-36",
+   "stage": 3
+  }
+ ]
+}

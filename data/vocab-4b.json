@@ -1,0 +1,152 @@
+[
+ {
+  "word": "customer",
+  "ipa": "/ˈkʌstəmə/",
+  "ru": "покупатель, клиент",
+  "ex": "The customer wanted a refund.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "shop assistant",
+  "ipa": "/ʃɒp əˈsɪstənt/",
+  "ru": "продавец-консультант",
+  "ex": "The shop assistant was very helpful.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "discount",
+  "ipa": "/ˈdɪskaʊnt/",
+  "ru": "скидка",
+  "ex": "Can I get a discount?",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "in the sales",
+  "ipa": "/ɪn ðə seɪlz/",
+  "ru": "на распродаже",
+  "ex": "I bought this jacket in the sales.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "take back",
+  "ipa": "/teɪk bæk/",
+  "ru": "вернуть (в магазин)",
+  "ex": "I took the shoes back because they were small.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "fit",
+  "ipa": "/fɪt/",
+  "ru": "подходить по размеру",
+  "ex": "These trousers don't fit me.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "price tag",
+  "ipa": "/ˈpraɪs tæɡ/",
+  "ru": "ценник",
+  "ex": "There was no price tag on the jacket.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "online",
+  "ipa": "/ˌɒnˈlaɪn/",
+  "ru": "в интернете",
+  "ex": "I buy most things online.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "deliver",
+  "ipa": "/dɪˈlɪvə/",
+  "ru": "доставлять",
+  "ex": "They delivered the order in two days.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "cash",
+  "ipa": "/kæʃ/",
+  "ru": "наличные",
+  "ex": "Do you pay by card or cash?",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "salary",
+  "ipa": "/ˈsæləri/",
+  "ru": "зарплата",
+  "ex": "Salaries are paid on the 25th.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "promotion",
+  "ipa": "/prəˈməʊʃn/",
+  "ru": "повышение (в должности)",
+  "ex": "She got a promotion last year.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "department",
+  "ipa": "/dɪˈpɑːtmənt/",
+  "ru": "отдел",
+  "ex": "Which department do you work in?",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "report to",
+  "ipa": "/rɪˈpɔːt tə/",
+  "ru": "подчиняться (кому-то)",
+  "ex": "I report to the head of risk.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "responsible for",
+  "ipa": "/rɪˈspɒnsəbl fə/",
+  "ru": "ответственный за",
+  "ex": "I'm responsible for testing controls.",
+  "topic": "Shopping",
+  "unit": "4B",
+  "track": "work",
+  "level": "A2"
+ }
+]

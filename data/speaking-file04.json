@@ -1,0 +1,172 @@
+{
+ "id": "speaking-file04",
+ "title": "File 4 · Present Perfect",
+ "tasks": [
+  {
+   "id": "sp-4a-r",
+   "unit": "4A",
+   "kind": "retell",
+   "title": "Before the audit",
+   "text": "The audit starts tomorrow, and the team is checking the list. Aliya has already prepared the documents. Marat has just finished the presentation. They have updated the risk register, but they haven't received the contracts from procurement yet. The manager has called them twice today. Everybody hopes the contracts will arrive before the end of the day.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Aliya has already…",
+    "Marat has just…",
+    "They have updated…",
+    "They haven't … yet",
+    "The manager has…"
+   ],
+   "secs": 300,
+   "sample": "The audit starts tomorrow, and the team is checking the list. Aliya has already prepared the documents. Marat has just finished the presentation. They have updated the risk register, but they haven't received the contracts from procurement yet. The manager has called them twice today. Everybody hopes the contracts will arrive before the end of the day.",
+   "check": []
+  },
+  {
+   "id": "sp-4a-q1",
+   "unit": "4A",
+   "kind": "question",
+   "q": "Give a status update to your manager: what have you already done, and what haven't you done yet?",
+   "ru": "Дай статус руководителю: что уже сделано, а что ещё нет?",
+   "hints": [
+    "I've already…",
+    "I've just…",
+    "I haven't … yet",
+    "Have you…?"
+   ],
+   "check": [
+    "\\b(have|has|'ve|'s)\\s+(already|just|not|n't)?\\s*\\w+(ed|en|t)\\b",
+    "\\byet\\b|\\balready\\b|\\bjust\\b"
+   ],
+   "secs": 180,
+   "sample": "I've already tested five of the eight controls. I've just finished the interview with the warehouse manager. I haven't received the documents from procurement yet. I'll send you the draft report on Friday."
+  },
+  {
+   "id": "sp-4a-q2",
+   "unit": "4A",
+   "kind": "question",
+   "q": "How do you share housework at home?",
+   "ru": "Как вы распределяете домашние дела?",
+   "hints": [
+    "I usually do the…",
+    "My wife / husband…",
+    "I never…",
+    "I make / do…"
+   ],
+   "check": [
+    "\\b(do|does|make|makes)\\b"
+   ],
+   "secs": 180,
+   "sample": "I usually do the shopping and take out the rubbish. My wife does most of the cooking. We both clean the flat at the weekend. I never do the ironing — I hate it!"
+  },
+  {
+   "id": "sp-4b-r",
+   "unit": "4B",
+   "kind": "retell",
+   "title": "An online shopping story",
+   "text": "Have you ever bought clothes online? Last month I ordered a jacket from an online shop. It arrived after two days, but it didn't fit me. I have never returned anything online before, so I was a bit worried. I filled in a form and sent the jacket back. The shop has already given me my money back. Since then I have bought two more things from them.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Last month I ordered…",
+    "It didn't fit…",
+    "I have never… before",
+    "The shop has already…"
+   ],
+   "secs": 300,
+   "sample": "Have you ever bought clothes online? Last month I ordered a jacket from an online shop. It arrived after two days, but it didn't fit me. I have never returned anything online before, so I was a bit worried. I filled in a form and sent the jacket back. The shop has already given me my money back. Since then I have bought two more things from them.",
+   "check": []
+  },
+  {
+   "id": "sp-4b-q1",
+   "unit": "4B",
+   "kind": "question",
+   "q": "Have you ever bought something you didn't need? When and what was it?",
+   "ru": "Ты когда-нибудь покупал ненужную вещь? Когда и что это было?",
+   "hints": [
+    "I've bought…",
+    "Have you ever…?",
+    "I bought it in / last…",
+    "It was…"
+   ],
+   "check": [
+    "\\b(have|'ve)\\b",
+    "\\b(bought|went|was)\\b"
+   ],
+   "secs": 180,
+   "sample": "Yes, I've bought a lot of things I didn't need! Last year I bought an expensive coffee machine. I used it only three times. Now it's in a cupboard. I've learned to think twice before I buy something."
+  },
+  {
+   "id": "sp-4b-q2",
+   "unit": "4B",
+   "kind": "question",
+   "q": "Talk about places you have been to. When did you go there?",
+   "ru": "Расскажи о местах, где ты бывал. Когда ты там был?",
+   "hints": [
+    "I've been to…",
+    "I went there in…",
+    "I've never been to…, but I'd like to"
+   ],
+   "check": [
+    "\\b(have|'ve) (been|never been)\\b",
+    "\\bwent\\b"
+   ],
+   "secs": 180,
+   "sample": "I've been to Turkey and Georgia. I went to Turkey in 2019 with my family. I've also been to Astana many times for work. I've never been to Europe, but I'd like to visit London."
+  },
+  {
+   "id": "sp-4c-r",
+   "unit": "4C",
+   "kind": "retell",
+   "title": "A strange weekend",
+   "text": "Last weekend was strange. On Saturday morning someone rang the door, but when I opened it, nobody was there. I looked everywhere but found nothing. In the afternoon I wanted to go somewhere quiet, but everything was crowded. I didn't meet anyone I knew. On Sunday nothing happened, and I was bored. Next weekend I'll do something interesting.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Someone rang…",
+    "Nobody was there",
+    "I found nothing",
+    "I didn't meet anyone",
+    "Nothing happened"
+   ],
+   "secs": 300,
+   "sample": "Last weekend was strange. On Saturday morning someone rang the door, but when I opened it, nobody was there. I looked everywhere but found nothing. In the afternoon I wanted to go somewhere quiet, but everything was crowded. I didn't meet anyone I knew. On Sunday nothing happened, and I was bored. Next weekend I'll do something interesting.",
+   "check": []
+  },
+  {
+   "id": "sp-4c-q1",
+   "unit": "4C",
+   "kind": "question",
+   "q": "Describe what you found during a check or an inspection. Use something, nothing, anybody, everything.",
+   "ru": "Опиши, что ты обнаружил при проверке: something, nothing, anybody, everything.",
+   "hints": [
+    "I checked everything…",
+    "I found something…",
+    "I didn't find anything…",
+    "Nobody…"
+   ],
+   "check": [
+    "\\b(some|any|no|every)(thing|one|body|where)\\b"
+   ],
+   "secs": 180,
+   "sample": "I checked everything in the warehouse. I found something strange: someone left a door open at night. I didn't find anything wrong with the stock count. Nobody signed the visitors' book on Saturday."
+  },
+  {
+   "id": "sp-4c-q2",
+   "unit": "4C",
+   "kind": "question",
+   "q": "What makes you bored, tired or excited at work?",
+   "ru": "Что на работе вызывает у тебя скуку, усталость или радостное волнение?",
+   "hints": [
+    "I get bored when…",
+    "… is very tiring",
+    "I'm excited about…",
+    "I find … interesting"
+   ],
+   "check": [
+    "\\b\\w+(ed|ing)\\b"
+   ],
+   "secs": 180,
+   "sample": "I get bored in long meetings with no decisions. Night shifts are very tiring. I'm excited about my English course because it opens new opportunities. I find audits interesting, but sometimes stressful."
+  }
+ ]
+}

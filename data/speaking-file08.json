@@ -1,0 +1,168 @@
+{
+ "id": "speaking-file08",
+ "title": "File 8 · Advice & conditions",
+ "tasks": [
+  {
+   "id": "sp-8a-r",
+   "unit": "8A",
+   "kind": "retell",
+   "title": "A colleague asks for advice",
+   "text": "Nurlan is always late with his reports. He gets a lot of emails and doesn't know what to do first. His colleague gave him some advice: \"You should make a list every morning. You shouldn't answer every email immediately. You should turn off notifications for an hour. And you should talk to your manager about your workload.\" Nurlan tried this, and now he is much better.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Nurlan is always…",
+    "His colleague said \"You should…\"",
+    "\"You shouldn't…\"",
+    "Now he is…"
+   ],
+   "secs": 300,
+   "sample": "Nurlan is always late with his reports. He gets a lot of emails and doesn't know what to do first. His colleague gave him some advice: \"You should make a list every morning. You shouldn't answer every email immediately. You should turn off notifications for an hour. And you should talk to your manager about your workload.\" Nurlan tried this, and now he is much better.",
+   "check": []
+  },
+  {
+   "id": "sp-8a-q1",
+   "unit": "8A",
+   "kind": "question",
+   "q": "Give advice to a colleague who is always stressed and late with reports.",
+   "ru": "Дай совет коллеге, который всегда в стрессе и опаздывает с отчётами.",
+   "hints": [
+    "You should…",
+    "You shouldn't…",
+    "I think you should…",
+    "Why don't you…?"
+   ],
+   "check": [
+    "\\bshould\\b|\\bshouldn't\\b"
+   ],
+   "secs": 180,
+   "sample": "I think you should plan your week on Monday morning. You shouldn't check emails every five minutes. You should ask for help when you have too much work. You should also take short breaks."
+  },
+  {
+   "id": "sp-8a-q2",
+   "unit": "8A",
+   "kind": "question",
+   "q": "How do you get to work, and how do you get ready in the morning?",
+   "ru": "Как ты добираешься до работы и как собираешься утром?",
+   "hints": [
+    "I get up at…",
+    "I get ready…",
+    "I get to work by…",
+    "It takes…"
+   ],
+   "check": [
+    "\\bget\\b"
+   ],
+   "secs": 180,
+   "sample": "I get up at six thirty. I get ready in about twenty minutes. I get to work by car, and it takes fifteen minutes. If the traffic is bad, I get to the office at eight."
+  },
+  {
+   "id": "sp-8b-r",
+   "unit": "8B",
+   "kind": "retell",
+   "title": "If something can go wrong…",
+   "text": "Every project has risks. If the supplier delivers late, the project will be delayed. If the project is delayed, the company will pay a penalty. If the weather is very cold, the workers will need more time. The team won't finish on time unless they plan carefully. That's why the manager says, \"If we find a problem early, we will save a lot of money.\"",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "If the supplier…, the project will…",
+    "If the project is delayed…",
+    "unless…",
+    "If we find a problem early…"
+   ],
+   "secs": 300,
+   "sample": "Every project has risks. If the supplier delivers late, the project will be delayed. If the project is delayed, the company will pay a penalty. If the weather is very cold, the workers will need more time. The team won't finish on time unless they plan carefully. That's why the manager says, \"If we find a problem early, we will save a lot of money.\"",
+   "check": []
+  },
+  {
+   "id": "sp-8b-q1",
+   "unit": "8B",
+   "kind": "question",
+   "q": "Talk about three risks in your work: “If …, we will …”.",
+   "ru": "Расскажи о трёх рисках в работе: «If …, we will …».",
+   "hints": [
+    "If …, we will…",
+    "If …, the company will…",
+    "We won't … unless…"
+   ],
+   "check": [
+    "\\bif\\b",
+    "\\bwill\\b|'ll\\b|\\bwon't\\b"
+   ],
+   "secs": 180,
+   "sample": "If the supplier is late, we will miss the deadline. If we don't test the control, we won't know if it works. If a key person leaves, we will have problems. We won't get a good result unless we plan carefully."
+  },
+  {
+   "id": "sp-8b-q2",
+   "unit": "8B",
+   "kind": "question",
+   "q": "What will you do if you get a job offer from an international company?",
+   "ru": "Что ты сделаешь, если получишь предложение от международной компании?",
+   "hints": [
+    "If I get…, I will…",
+    "I will probably…",
+    "I won't…"
+   ],
+   "check": [
+    "\\bif\\b",
+    "\\bwill\\b|'ll\\b"
+   ],
+   "secs": 180,
+   "sample": "If I get a job offer, I'll discuss it with my family first. If the conditions are good, I'll accept it. I'll talk to my manager and work my notice period. I won't stop learning English."
+  },
+  {
+   "id": "sp-8c-r",
+   "unit": "8C",
+   "kind": "retell",
+   "title": "Whose is it?",
+   "text": "After the conference, there were a lot of things left in the hall. The organiser asked, \"Whose laptop is this?\" Aliya said, \"It's not mine, mine is in my bag.\" Marat said, \"It's his — look, it has Erlan's name on it.\" The umbrella was hers, and the two coffee cups were ours. Nobody knew whose keys they were, so the organiser took them to reception.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "The organiser asked \"Whose…?\"",
+    "Aliya said \"It's not mine…\"",
+    "The umbrella was hers",
+    "Nobody knew whose…"
+   ],
+   "secs": 300,
+   "sample": "After the conference, there were a lot of things left in the hall. The organiser asked, \"Whose laptop is this?\" Aliya said, \"It's not mine, mine is in my bag.\" Marat said, \"It's his — look, it has Erlan's name on it.\" The umbrella was hers, and the two coffee cups were ours. Nobody knew whose keys they were, so the organiser took them to reception.",
+   "check": []
+  },
+  {
+   "id": "sp-8c-q1",
+   "unit": "8C",
+   "kind": "question",
+   "q": "Explain who is responsible for what in your team. Use mine, yours, his, hers, ours, theirs.",
+   "ru": "Объясни, кто за что отвечает в команде: mine, yours, his, hers, ours, theirs.",
+   "hints": [
+    "… is mine",
+    "… is hers / his",
+    "… is ours, but … is theirs",
+    "Whose … is it?"
+   ],
+   "check": [
+    "\\b(mine|yours|his|hers|ours|theirs|whose)\\b"
+   ],
+   "secs": 180,
+   "sample": "The risk register is ours, but the budget is theirs — the finance team's. The procurement controls are mine. The HR controls are hers. Whose task is the stock count? It's his."
+  },
+  {
+   "id": "sp-8c-q2",
+   "unit": "8C",
+   "kind": "question",
+   "q": "How do you do your job? Use adverbs: carefully, quickly, clearly…",
+   "ru": "Как ты выполняешь работу? Используй наречия: carefully, quickly, clearly…",
+   "hints": [
+    "I check … carefully",
+    "I answer … quickly",
+    "I try to speak clearly",
+    "I work hard"
+   ],
+   "check": [
+    "\\b\\w+ly\\b|\\bhard\\b|\\bwell\\b"
+   ],
+   "secs": 180,
+   "sample": "I check every document carefully. I answer urgent emails quickly. I try to explain problems clearly. I work hard before audits, and I usually finish my tasks well."
+  }
+ ]
+}

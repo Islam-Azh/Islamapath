@@ -1,0 +1,177 @@
+{
+ "id": "speaking-file02",
+ "title": "File 2 · Past tenses",
+ "tasks": [
+  {
+   "id": "sp-2a-r",
+   "unit": "2A",
+   "kind": "retell",
+   "title": "A trip to remember",
+   "text": "Last summer Marat went to Turkey with his family. They booked a hotel online and rented a car at the airport. The first two days were perfect: they sunbathed, swam and ate delicious food. On the third day it rained, so they visited a museum. On the last day Marat lost his passport, but luckily a waiter found it in the restaurant. In the end it was a great holiday.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Last summer he went…",
+    "They booked / rented…",
+    "On the third day…",
+    "On the last day he lost…",
+    "In the end…"
+   ],
+   "secs": 300,
+   "sample": "Last summer Marat went to Turkey with his family. They booked a hotel online and rented a car at the airport. The first two days were perfect: they sunbathed, swam and ate delicious food. On the third day it rained, so they visited a museum. On the last day Marat lost his passport, but luckily a waiter found it in the restaurant. In the end it was a great holiday.",
+   "check": []
+  },
+  {
+   "id": "sp-2a-q1",
+   "unit": "2A",
+   "kind": "question",
+   "q": "Tell me about your last holiday or business trip.",
+   "ru": "Расскажи о своём последнем отпуске или командировке.",
+   "hints": [
+    "Last… I went to…",
+    "I stayed in…",
+    "I visited / met…",
+    "The best part was…",
+    "I didn't…"
+   ],
+   "check": [
+    "\\b(went|stayed|visited|was|were|had|met)\\b"
+   ],
+   "secs": 180,
+   "sample": "Last month I went to Astana on a business trip. I stayed in a hotel near head office. I met the risk management team and we discussed new procedures. In the evening I visited the old city. The trip was short but very useful."
+  },
+  {
+   "id": "sp-2a-q2",
+   "unit": "2A",
+   "kind": "question",
+   "q": "What did you do last weekend?",
+   "ru": "Что ты делал в прошлые выходные?",
+   "hints": [
+    "On Saturday I…",
+    "On Sunday we…",
+    "In the evening…",
+    "I didn't…"
+   ],
+   "check": [
+    "\\b(did|went|was|had|watched|visited)\\b"
+   ],
+   "secs": 180,
+   "sample": "On Saturday I went to the gym and then did the shopping. In the evening we visited my parents. On Sunday I studied English for an hour and watched a film. I didn't work at all."
+  },
+  {
+   "id": "sp-2b-r",
+   "unit": "2B",
+   "kind": "retell",
+   "title": "The power cut",
+   "text": "Last Tuesday I was working on an important report. It was about half past four and everybody was sitting at their desks. Some colleagues were talking on the phone and my manager was having a meeting. Suddenly the lights went off and all the computers stopped. While we were waiting for the electricians, we talked about our holidays. Luckily, I saved the report before the power cut.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "I was working on…",
+    "Everybody was…",
+    "Suddenly…",
+    "While we were waiting…",
+    "Luckily…"
+   ],
+   "secs": 300,
+   "sample": "Last Tuesday I was working on an important report. It was about half past four and everybody was sitting at their desks. Some colleagues were talking on the phone and my manager was having a meeting. Suddenly the lights went off and all the computers stopped. While we were waiting for the electricians, we talked about our holidays. Luckily, I saved the report before the power cut.",
+   "check": []
+  },
+  {
+   "id": "sp-2b-q1",
+   "unit": "2B",
+   "kind": "question",
+   "q": "Describe a moment when something unexpected happened at work.",
+   "ru": "Опиши момент, когда на работе произошло что-то неожиданное.",
+   "hints": [
+    "I was … when…",
+    "While we were…",
+    "Suddenly…",
+    "Then we…"
+   ],
+   "check": [
+    "\\b(was|were)\\s+\\w+ing\\b",
+    "\\bwhen\\b|\\bwhile\\b"
+   ],
+   "secs": 180,
+   "sample": "One day I was testing a control when the system stopped working. My colleagues were preparing for a meeting. While we were waiting for IT, we checked the documents on paper. After an hour the system started working again."
+  },
+  {
+   "id": "sp-2b-q2",
+   "unit": "2B",
+   "kind": "question",
+   "q": "What were you doing yesterday at 8 a.m., 1 p.m. and 9 p.m.?",
+   "ru": "Что ты делал вчера в 8 утра, в 13:00 и в 21:00?",
+   "hints": [
+    "At 8 a.m. I was…",
+    "At 1 p.m. I was…",
+    "At 9 p.m. I was…"
+   ],
+   "check": [
+    "\\b(was|were)\\s+\\w+ing\\b"
+   ],
+   "secs": 180,
+   "sample": "At 8 a.m. I was driving to work. At 1 p.m. I was having lunch with my colleagues in the canteen. At 9 p.m. I was studying English at home."
+  },
+  {
+   "id": "sp-2c-r",
+   "unit": "2C",
+   "kind": "retell",
+   "title": "One dark evening",
+   "text": "It was a cold evening in November. Aidos left the office late and walked to his car. First, he couldn't find his keys. Then he realised he left them on his desk, so he went back. After that, the security guard didn't want to open the door because it was after nine. In the end, Aidos called his manager, and the guard let him in. He got home at eleven, tired but happy.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "It was…",
+    "First…",
+    "Then…",
+    "After that…",
+    "In the end…"
+   ],
+   "secs": 300,
+   "sample": "It was a cold evening in November. Aidos left the office late and walked to his car. First, he couldn't find his keys. Then he realised he left them on his desk, so he went back. After that, the security guard didn't want to open the door because it was after nine. In the end, Aidos called his manager, and the guard let him in. He got home at eleven, tired but happy.",
+   "check": []
+  },
+  {
+   "id": "sp-2c-q1",
+   "unit": "2C",
+   "kind": "question",
+   "q": "Tell a short story about a difficult day. Use first, then, after that, in the end.",
+   "ru": "Расскажи короткую историю о трудном дне: first, then, after that, in the end.",
+   "hints": [
+    "First…",
+    "Then…",
+    "After that…",
+    "In the end…",
+    "because / so / although"
+   ],
+   "check": [
+    "\\bfirst\\b",
+    "\\bthen\\b|\\bafter that\\b",
+    "\\bin the end\\b|\\bfinally\\b"
+   ],
+   "secs": 180,
+   "sample": "Last Monday was a difficult day. First, my car didn't start, so I took a taxi. Then I was late for an important meeting. After that, the system was down for two hours. In the end we finished the report, although it was very late."
+  },
+  {
+   "id": "sp-2c-q2",
+   "unit": "2C",
+   "kind": "question",
+   "q": "How does a document get approved in your department?",
+   "ru": "Как согласовывается документ в твоём отделе?",
+   "hints": [
+    "First, …",
+    "Then…",
+    "After that…",
+    "Finally…"
+   ],
+   "check": [
+    "\\bfirst\\b",
+    "\\bthen\\b|\\bafter that\\b",
+    "\\bfinally\\b"
+   ],
+   "secs": 180,
+   "sample": "First, the specialist prepares the document. Then the head of department checks it. After that, we send it to the legal team because they must approve it. Finally, the director signs it."
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+[
+ {
+  "word": "spend time",
+  "ipa": "/spend taɪm/",
+  "ru": "проводить время",
+  "ex": "I spend a lot of time on emails.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "waste time",
+  "ipa": "/weɪst taɪm/",
+  "ru": "тратить время впустую",
+  "ex": "Let's not waste time on this.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "save time",
+  "ipa": "/seɪv taɪm/",
+  "ru": "экономить время",
+  "ex": "The new system saves time.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "spare time",
+  "ipa": "/speə taɪm/",
+  "ru": "свободное время",
+  "ex": "What do you do in your spare time?",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "in time",
+  "ipa": "/ɪn taɪm/",
+  "ru": "вовремя (успеть)",
+  "ex": "We arrived in time for the meeting.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "take time",
+  "ipa": "/teɪk taɪm/",
+  "ru": "занимать время",
+  "ex": "Testing controls takes time.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "have time",
+  "ipa": "/hæv taɪm/",
+  "ru": "иметь время",
+  "ex": "I don't have time today.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "busy",
+  "ipa": "/ˈbɪzi/",
+  "ru": "занятой",
+  "ex": "I'm very busy this week.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "in a hurry",
+  "ipa": "/ɪn ə ˈhʌri/",
+  "ru": "в спешке",
+  "ex": "Sorry, I'm in a hurry.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "these days",
+  "ipa": "/ðiːz deɪz/",
+  "ru": "в наши дни, сейчас",
+  "ex": "These days everybody works online.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "key control",
+  "ipa": "/kiː kənˈtrəʊl/",
+  "ru": "ключевой контроль",
+  "ex": "This is a key control in procurement.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "segregation of duties",
+  "ipa": "/ˌseɡrɪˈɡeɪʃn əv ˈdjuːtiz/",
+  "ru": "разделение обязанностей",
+  "ex": "Segregation of duties reduces fraud risk.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "approve",
+  "ipa": "/əˈpruːv/",
+  "ru": "утверждать, согласовывать",
+  "ex": "The head of department approves the request.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "authorise",
+  "ipa": "/ˈɔːθəraɪz/",
+  "ru": "разрешать, санкционировать",
+  "ex": "Only the director can authorise this payment.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "fraud",
+  "ipa": "/frɔːd/",
+  "ru": "мошенничество",
+  "ex": "The control helps to prevent fraud.",
+  "topic": "Time expressions; spend, waste, save time",
+  "unit": "5A",
+  "track": "work",
+  "level": "A2"
+ }
+]

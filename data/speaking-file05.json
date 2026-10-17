@@ -1,0 +1,167 @@
+{
+ "id": "speaking-file05",
+ "title": "File 5 · Comparing & quantities",
+ "tasks": [
+  {
+   "id": "sp-5a-r",
+   "unit": "5A",
+   "kind": "retell",
+   "title": "Two systems",
+   "text": "Our company used two systems for approvals. The old system was cheaper, but it was much slower than the new one. The new system is more expensive, but it is faster and more reliable. It is also easier to use. However, the old system was not as complicated as the new reports. Most people think the new system is better, but some colleagues miss the old one.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "The old system was cheaper, but…",
+    "The new system is faster / more reliable…",
+    "not as … as…",
+    "Most people think…"
+   ],
+   "secs": 300,
+   "sample": "Our company used two systems for approvals. The old system was cheaper, but it was much slower than the new one. The new system is more expensive, but it is faster and more reliable. It is also easier to use. However, the old system was not as complicated as the new reports. Most people think the new system is better, but some colleagues miss the old one.",
+   "check": []
+  },
+  {
+   "id": "sp-5a-q1",
+   "unit": "5A",
+   "kind": "question",
+   "q": "Compare two tools, systems or processes you use at work.",
+   "ru": "Сравни два инструмента, системы или процесса, которые ты используешь.",
+   "hints": [
+    "… is faster / cheaper than…",
+    "… is more reliable than…",
+    "… isn't as … as…"
+   ],
+   "check": [
+    "\\bthan\\b",
+    "\\bas \\w+ as\\b"
+   ],
+   "secs": 180,
+   "sample": "Excel is easier to use than our ERP system, but the ERP system is more reliable. Excel is faster for small tasks. However, Excel isn't as safe as the ERP system because anyone can change the file."
+  },
+  {
+   "id": "sp-5a-q2",
+   "unit": "5A",
+   "kind": "question",
+   "q": "How do you spend your time during a working week? Do you waste time on anything?",
+   "ru": "Как ты проводишь время в рабочую неделю? На что тратишь время впустую?",
+   "hints": [
+    "I spend most of my time on…",
+    "I waste time on…",
+    "I save time by…"
+   ],
+   "check": [
+    "\\bspend\\b|\\bwaste\\b|\\bsave\\b"
+   ],
+   "secs": 180,
+   "sample": "I spend most of my time on testing controls and writing reports. I waste time in long meetings without an agenda. I save time by using templates for my reports."
+  },
+  {
+   "id": "sp-5b-r",
+   "unit": "5B",
+   "kind": "retell",
+   "title": "My city",
+   "text": "Atyrau is not the biggest city in Kazakhstan, but it is one of the most important for the oil industry. It is smaller than Almaty and quieter than Astana. The best place in the city is the riverside, especially in the evening. The worst thing is the weather in summer — it is one of the hottest cities in the country. It is the friendliest place I have ever lived in.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "It is smaller / quieter than…",
+    "The best place is…",
+    "The worst thing is…",
+    "It is the … I have ever…"
+   ],
+   "secs": 300,
+   "sample": "Atyrau is not the biggest city in Kazakhstan, but it is one of the most important for the oil industry. It is smaller than Almaty and quieter than Astana. The best place in the city is the riverside, especially in the evening. The worst thing is the weather in summer — it is one of the hottest cities in the country. It is the friendliest place I have ever lived in.",
+   "check": []
+  },
+  {
+   "id": "sp-5b-q1",
+   "unit": "5B",
+   "kind": "question",
+   "q": "Describe your city. What is the best and the worst thing about it?",
+   "ru": "Опиши свой город. Что в нём лучшее и худшее?",
+   "hints": [
+    "… is the biggest / most… in…",
+    "The best thing is…",
+    "The worst thing is…",
+    "It's … than…"
+   ],
+   "check": [
+    "\\bthe \\w+est\\b|\\bthe most \\w+\\b|\\bthe best\\b|\\bthe worst\\b"
+   ],
+   "secs": 180,
+   "sample": "Atyrau is not very big, but it is the most important city for oil in Kazakhstan. The best thing is the river and the walks in the evening. The worst thing is the hot summer. It is quieter than Almaty."
+  },
+  {
+   "id": "sp-5b-q2",
+   "unit": "5B",
+   "kind": "question",
+   "q": "What is the best project you have ever worked on?",
+   "ru": "Какой лучший проект, над которым ты когда-либо работал?",
+   "hints": [
+    "The best project I've ever worked on was…",
+    "It was more… than…",
+    "I learned…"
+   ],
+   "check": [
+    "\\bever\\b",
+    "\\bthe best\\b|\\bthe most\\b"
+   ],
+   "secs": 180,
+   "sample": "The best project I've ever worked on was the risk assessment for our new unit. It was the most difficult project of the year, but I learned a lot. It was more interesting than my usual tasks."
+  },
+  {
+   "id": "sp-5c-r",
+   "unit": "5C",
+   "kind": "retell",
+   "title": "Too much work",
+   "text": "Asel works in finance. In December she always has too much work and too little time. She drinks too much coffee and doesn't get enough sleep. She doesn't do enough exercise, so she often has backache. Her doctor told her to take a few short breaks every day and to drink a lot of water. Now she feels a little better.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "She has too much…",
+    "She doesn't get enough…",
+    "She drinks too much…",
+    "Her doctor told her…"
+   ],
+   "secs": 300,
+   "sample": "Asel works in finance. In December she always has too much work and too little time. She drinks too much coffee and doesn't get enough sleep. She doesn't do enough exercise, so she often has backache. Her doctor told her to take a few short breaks every day and to drink a lot of water. Now she feels a little better.",
+   "check": []
+  },
+  {
+   "id": "sp-5c-q1",
+   "unit": "5C",
+   "kind": "question",
+   "q": "Describe your workload: too much, too many, not enough, a lot of.",
+   "ru": "Опиши свою нагрузку: too much, too many, not enough, a lot of.",
+   "hints": [
+    "I have too much…",
+    "There are too many…",
+    "We don't have enough…",
+    "I only have a few…"
+   ],
+   "check": [
+    "\\btoo (much|many)\\b|\\benough\\b|\\ba lot of\\b|\\ba few\\b"
+   ],
+   "secs": 180,
+   "sample": "This month I have too much work. There are too many reports to check. We don't have enough people in the team. I only have a few free hours a week, so I study English in the evening."
+  },
+  {
+   "id": "sp-5c-q2",
+   "unit": "5C",
+   "kind": "question",
+   "q": "How healthy is your lifestyle? What do you do too much or not enough?",
+   "ru": "Насколько здоровый у тебя образ жизни? Чего слишком много, а чего мало?",
+   "hints": [
+    "I drink too much…",
+    "I don't … enough",
+    "I eat a lot of…",
+    "I should…"
+   ],
+   "check": [
+    "\\btoo (much|many)\\b|\\benough\\b"
+   ],
+   "secs": 180,
+   "sample": "I think my lifestyle is quite healthy. I eat a lot of fish and vegetables. But I drink too much coffee and I don't sleep enough. I also don't walk enough because I drive everywhere."
+  }
+ ]
+}

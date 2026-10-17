@@ -1,0 +1,165 @@
+{
+ "id": "speaking-file03",
+ "title": "File 3 · Future & relative clauses",
+ "tasks": [
+  {
+   "id": "sp-3a-r",
+   "unit": "3A",
+   "kind": "retell",
+   "title": "Plans for next year",
+   "text": "Next year Saule is going to change her life. She is going to apply for a job in an international company, so she is going to improve her English. She is going to take an exam in March. She is not going to buy a new car this year because she wants to save money for a course in London. Her friends think she is going to be very successful.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Next year she is going to…",
+    "She is going to apply for…",
+    "She isn't going to…",
+    "Her friends think…"
+   ],
+   "secs": 300,
+   "sample": "Next year Saule is going to change her life. She is going to apply for a job in an international company, so she is going to improve her English. She is going to take an exam in March. She is not going to buy a new car this year because she wants to save money for a course in London. Her friends think she is going to be very successful.",
+   "check": []
+  },
+  {
+   "id": "sp-3a-q1",
+   "unit": "3A",
+   "kind": "question",
+   "q": "What are your plans for the next year?",
+   "ru": "Какие у тебя планы на следующий год?",
+   "hints": [
+    "I'm going to…",
+    "I'm not going to…",
+    "I hope to…"
+   ],
+   "check": [
+    "\\bgoing to\\b"
+   ],
+   "secs": 180,
+   "sample": "Next year I'm going to improve my English to Intermediate level. I'm going to apply for a job in an international company. I'm also going to do a professional course. I'm not going to waste time on social media."
+  },
+  {
+   "id": "sp-3a-q2",
+   "unit": "3A",
+   "kind": "question",
+   "q": "Describe your last trip through an airport.",
+   "ru": "Опиши своё последнее путешествие через аэропорт.",
+   "hints": [
+    "I checked in…",
+    "I went through…",
+    "The flight was…",
+    "We landed…"
+   ],
+   "check": [
+    "\\b(checked|went|was|landed|took)\\b"
+   ],
+   "secs": 180,
+   "sample": "I checked in online, so I only went to the gate. There was a long queue at passport control. The flight was delayed for an hour. We landed in Astana at midnight."
+  },
+  {
+   "id": "sp-3b-r",
+   "unit": "3B",
+   "kind": "retell",
+   "title": "A busy week ahead",
+   "text": "Next week is full of meetings. On Monday Erlan is meeting the auditors at ten. On Tuesday he is flying to Astana for a conference, and he is coming back on Wednesday evening. On Thursday the team is having a workshop about new risks. On Friday he isn't doing anything special, so he'll finish his report. He thinks it will be a tiring but useful week.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "On Monday he is meeting…",
+    "On Tuesday he is flying…",
+    "On Thursday the team is…",
+    "On Friday he will…"
+   ],
+   "secs": 300,
+   "sample": "Next week is full of meetings. On Monday Erlan is meeting the auditors at ten. On Tuesday he is flying to Astana for a conference, and he is coming back on Wednesday evening. On Thursday the team is having a workshop about new risks. On Friday he isn't doing anything special, so he'll finish his report. He thinks it will be a tiring but useful week.",
+   "check": []
+  },
+  {
+   "id": "sp-3b-q1",
+   "unit": "3B",
+   "kind": "question",
+   "q": "What are your arrangements for next week?",
+   "ru": "Какие у тебя договорённости на следующую неделю?",
+   "hints": [
+    "On Monday I'm meeting…",
+    "On Wednesday we're having…",
+    "I'm not… on Friday"
+   ],
+   "check": [
+    "\\b(am|'m|are|'re|is)\\s+\\w+ing\\b"
+   ],
+   "secs": 180,
+   "sample": "On Monday I'm meeting the head of procurement at ten. On Tuesday we're having a call with head office. On Thursday I'm visiting the warehouse. On Friday I'm not doing anything special, so I'll finish my reports."
+  },
+  {
+   "id": "sp-3b-q2",
+   "unit": "3B",
+   "kind": "question",
+   "q": "Your colleague has a problem. Offer help and make a promise.",
+   "ru": "У коллеги проблема. Предложи помощь и дай обещание.",
+   "hints": [
+    "I'll help you…",
+    "Shall I…?",
+    "I won't forget…",
+    "Don't worry, I'll…"
+   ],
+   "check": [
+    "\\b(I'll|I will|Shall I)\\b"
+   ],
+   "secs": 180,
+   "sample": "Don't worry, I'll help you with the report. Shall I check the figures? I'll send you the template today. I won't forget, I promise."
+  },
+  {
+   "id": "sp-3c-r",
+   "unit": "3C",
+   "kind": "retell",
+   "title": "Who does what",
+   "text": "In our department there are five people. The head of department is the person who makes the final decisions. Aliya is the specialist who tests most of the controls. The risk register is the document which shows all our main risks. The archive is the place where we keep old reports. The system that we use for approvals is quite old, but it works.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "The head of department is the person who…",
+    "Aliya is the specialist who…",
+    "The risk register is the document which…",
+    "The archive is the place where…"
+   ],
+   "secs": 300,
+   "sample": "In our department there are five people. The head of department is the person who makes the final decisions. Aliya is the specialist who tests most of the controls. The risk register is the document which shows all our main risks. The archive is the place where we keep old reports. The system that we use for approvals is quite old, but it works.",
+   "check": []
+  },
+  {
+   "id": "sp-3c-q1",
+   "unit": "3C",
+   "kind": "question",
+   "q": "Describe three roles or documents in your department using who / which / where.",
+   "ru": "Опиши три роли или документа в отделе с who / which / where.",
+   "hints": [
+    "… is a person who…",
+    "… is a document which…",
+    "… is a place where…"
+   ],
+   "check": [
+    "\\bwho\\b|\\bwhich\\b|\\bthat\\b|\\bwhere\\b"
+   ],
+   "secs": 180,
+   "sample": "A risk owner is the person who is responsible for a risk. The risk and control matrix is a document which shows our risks and controls. The archive is the place where we keep old contracts."
+  },
+  {
+   "id": "sp-3c-q2",
+   "unit": "3C",
+   "kind": "question",
+   "q": "Explain three work words without saying them (like a game).",
+   "ru": "Объясни три рабочих слова, не называя их (как в игре).",
+   "hints": [
+    "It's a kind of…",
+    "It's someone who…",
+    "It's used for…",
+    "It's the opposite of…"
+   ],
+   "check": [
+    "\\bwho\\b|\\bwhich\\b|\\bused for\\b|\\bkind of\\b"
+   ],
+   "secs": 180,
+   "sample": "It's someone who checks if controls work — an auditor. It's a document which you sign before a contract starts — an agreement. It's used for protecting your head on site — a helmet."
+  }
+ ]
+}

@@ -340,7 +340,7 @@ const _submit=submit;
 submit=function(g){const r=RUN,q=r&&r.q;
  if(q&&isStudent()){const ok=checkAnswer(q,g);const sk=q.skill==='vocabulary'?'vocab':(q.skill||'grammar');
   if(sk==='grammar'){daily().drill++}
-  if(ok){const fixed=!!r.clearMistakes&&S.mistakes.some(m=>m.qid===q.id);const n=fixed?15:10;r._xp=(r._xp||0)+n;award(n,sk)}else checkDaily()}
+  if(ok&&!r.blockXp){const fixed=!!r.clearMistakes&&S.mistakes.some(m=>m.qid===q.id);const n=fixed?15:10;r._xp=(r._xp||0)+n;award(n,sk)}else checkDaily()}
  _submit(g)};
 /* after every finished run: log XP, close Grand Audit debts, tick sprint stages */
 const _finishRun=finishRun;

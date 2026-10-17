@@ -1,0 +1,450 @@
+{
+ "id": "past-continuous",
+ "title": "Past Continuous",
+ "level": "A2",
+ "unit": "2B",
+ "units": [
+  "2B"
+ ],
+ "en": "<p><b>was / were + -ing</b> — an action in progress at a moment in the past: <i>At 10 o'clock I <b>was checking</b> the invoices.</i></p><p>Often with a short Past Simple action that interrupts it: <i>I <b>was writing</b> the report <b>when</b> the director <b>called</b>.</i></p><p><b>while</b> + Past Continuous: <i><b>While</b> we <b>were having</b> lunch, the system <b>crashed</b>.</i></p><p>For background in stories: <i>It <b>was raining</b> and people <b>were waiting</b> for the bus.</i></p>",
+ "ru": "was / were + -ing — действие в процессе в момент в прошлом. Длинное действие (Past Continuous) прерывается коротким (Past Simple): I was working when he called. While + Past Continuous.",
+ "boss": {
+  "situation": "Describe a day at work when something unexpected happened. What were people doing when it happened?",
+  "samples": [
+   "Last Tuesday I was preparing a report.",
+   "My colleagues were having a meeting.",
+   "Suddenly the power went off.",
+   "While we were waiting, the manager called the IT team.",
+   "When the lights came back, everyone was talking about it."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ a shower when the phone rang.",
+   "opts": [
+    "had",
+    "was having",
+    "have"
+   ],
+   "a": 1,
+   "exp": "Longer action interrupted → Past Continuous.",
+   "ru": "Длинное действие — was having.",
+   "id": "f-pc-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What ___ you doing at 8 pm yesterday?",
+   "opts": [
+    "did",
+    "were",
+    "was"
+   ],
+   "a": 1,
+   "exp": "Past Continuous question → were you doing.",
+   "ru": "were you doing.",
+   "id": "f-pc-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "While she ___, I cooked dinner.",
+   "opts": [
+    "was working",
+    "worked",
+    "works"
+   ],
+   "a": 0,
+   "exp": "while + Past Continuous.",
+   "ru": "while — was working.",
+   "id": "f-pc-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "They ___ when I came in.",
+   "opts": [
+    "weren't talking",
+    "didn't talking",
+    "wasn't talking"
+   ],
+   "a": 0,
+   "exp": "they → weren't + -ing.",
+   "ru": "They — weren't.",
+   "id": "f-pc-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "When the fire alarm ___, we left the building.",
+   "opts": [
+    "rang",
+    "was ringing",
+    "ring"
+   ],
+   "a": 0,
+   "exp": "Short action → Past Simple.",
+   "ru": "Короткое действие — rang.",
+   "id": "f-pc-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "It ___ when we left the office.",
+   "opts": [
+    "rained",
+    "was raining",
+    "rains"
+   ],
+   "a": 1,
+   "exp": "Background situation → Continuous.",
+   "ru": "Фон — was raining.",
+   "id": "f-pc-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He ___ on the phone all morning.",
+   "opts": [
+    "was",
+    "were",
+    "did"
+   ],
+   "a": 0,
+   "exp": "he → was + -ing.",
+   "ru": "He — was.",
+   "id": "f-pc-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I didn't hear you. I ___ to music.",
+   "opts": [
+    "listened",
+    "was listening",
+    "am listening"
+   ],
+   "a": 1,
+   "exp": "In progress at that moment → was listening.",
+   "ru": "В тот момент — was listening.",
+   "id": "f-pc-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "In “I was reading when he arrived”, the reading started before he arrived.",
+   "a": true,
+   "exp": "Continuous action was already in progress.",
+   "ru": "Чтение уже шло.",
+   "id": "f-pc-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“When I was arriving, they were starting the meeting” is the best way to say it.",
+   "a": false,
+   "exp": "Short actions → Past Simple: When I arrived, they started…",
+   "ru": "Короткие действия — Simple.",
+   "id": "f-pc-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "At 9 o'clock we ___ (check) the documents.",
+   "a": [
+    "were checking"
+   ],
+   "exp": "we → were + -ing.",
+   "ru": "were checking.",
+   "id": "f-pc-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She ___ (drive) to work when she saw the accident.",
+   "a": [
+    "was driving"
+   ],
+   "exp": "Longer action → was driving.",
+   "ru": "was driving.",
+   "id": "f-pc-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What were you ___ (do) when I called?",
+   "a": [
+    "doing"
+   ],
+   "exp": "were + you + doing.",
+   "ru": "were … doing.",
+   "id": "f-pc-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The phone rang while I ___ (have) lunch.",
+   "a": [
+    "was having"
+   ],
+   "exp": "while + Continuous.",
+   "ru": "was having.",
+   "id": "f-pc-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "They ___ (not / work) at that time.",
+   "a": [
+    "weren't working",
+    "were not working"
+   ],
+   "exp": "Negative → weren't + -ing.",
+   "ru": "weren't working.",
+   "id": "f-pc-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "When the manager came in, everybody ___ (talk).",
+   "a": [
+    "was talking"
+   ],
+   "exp": "everybody → was.",
+   "ru": "everybody — was.",
+   "id": "f-pc-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i was writing an email when the boss called",
+   "exp": "Long action (Continuous) + when + short action.",
+   "ru": "was writing … when … called.",
+   "id": "f-pc-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what were you doing at ten",
+   "exp": "Question: were + you + -ing.",
+   "ru": "were you doing.",
+   "id": "f-pc-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "while we were waiting the lights went off",
+   "exp": "while + Continuous, then Past Simple.",
+   "ru": "while … were waiting.",
+   "id": "f-pc-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she was not listening to the presentation",
+   "exp": "Negative Continuous.",
+   "ru": "was not listening.",
+   "id": "f-pc-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it was snowing when we left the plant",
+   "exp": "Background + short action.",
+   "ru": "was snowing … left.",
+   "id": "f-pc-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they were having a meeting at noon",
+   "exp": "Action in progress at a time.",
+   "ru": "were having.",
+   "id": "f-pc-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I was work when you called.”",
+   "a": [
+    "I was working when you called."
+   ],
+   "exp": "was + -ing.",
+   "ru": "was working.",
+   "id": "f-pc-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “They was waiting for the bus.”",
+   "a": [
+    "They were waiting for the bus."
+   ],
+   "exp": "they → were.",
+   "ru": "They — were.",
+   "id": "f-pc-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “While I cooked, the phone was ringing.”",
+   "a": [
+    "While I was cooking, the phone rang."
+   ],
+   "exp": "Long action → Continuous, short → Simple.",
+   "ru": "Длинное — Continuous.",
+   "id": "f-pc-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “What did you doing at six?”",
+   "a": [
+    "What were you doing at six?"
+   ],
+   "exp": "Continuous question uses were.",
+   "ru": "were you doing.",
+   "id": "f-pc-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “When he was arriving, we had dinner.”",
+   "a": [
+    "When he arrived, we were having dinner."
+   ],
+   "exp": "Short arrival → Simple; dinner in progress → Continuous.",
+   "ru": "arrived — короткое.",
+   "id": "f-pc-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She wasn't listen to me.”",
+   "a": [
+    "She wasn't listening to me.",
+    "She was not listening to me."
+   ],
+   "exp": "wasn't + -ing.",
+   "ru": "wasn't listening.",
+   "id": "f-pc-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я писал отчёт, когда позвонил директор.",
+   "a": [
+    "I was writing a report when the director called.",
+    "I was writing the report when the director called.",
+    "I was writing a report when the director phoned.",
+    "I was writing the report when the director phoned."
+   ],
+   "exp": "was writing … called.",
+   "ru": "was writing.",
+   "id": "f-pc-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что ты делал в восемь вечера?",
+   "a": [
+    "What were you doing at eight in the evening?",
+    "What were you doing at 8 pm?",
+    "What were you doing at eight pm?",
+    "What were you doing at eight o'clock in the evening?"
+   ],
+   "exp": "were you doing.",
+   "ru": "were … doing.",
+   "id": "f-pc-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Пока мы ждали, пошёл дождь.",
+   "a": [
+    "While we were waiting, it started to rain.",
+    "While we were waiting, it started raining.",
+    "While we were waiting, it began to rain."
+   ],
+   "exp": "while + Continuous.",
+   "ru": "were waiting.",
+   "id": "f-pc-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Они не работали в тот момент.",
+   "a": [
+    "They weren't working at that moment.",
+    "They were not working at that moment.",
+    "They weren't working at that time.",
+    "They were not working at that time."
+   ],
+   "exp": "weren't + -ing.",
+   "ru": "weren't working.",
+   "id": "f-pc-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Шёл снег, когда я вышел из офиса.",
+   "a": [
+    "It was snowing when I left the office."
+   ],
+   "exp": "Background + short action.",
+   "ru": "was snowing.",
+   "id": "f-pc-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она говорила по телефону всё утро.",
+   "a": [
+    "She was talking on the phone all morning.",
+    "She was on the phone all morning.",
+    "She was speaking on the phone all morning."
+   ],
+   "exp": "was talking.",
+   "ru": "was talking.",
+   "id": "f-pc-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Когда я пришёл, все разговаривали.",
+   "a": [
+    "When I arrived, everybody was talking.",
+    "When I came, everybody was talking.",
+    "When I arrived, everyone was talking.",
+    "When I came, everyone was talking.",
+    "When I came in, everyone was talking.",
+    "When I came in, everybody was talking."
+   ],
+   "exp": "everybody → was talking.",
+   "ru": "was talking.",
+   "id": "f-pc-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не слышал тебя, я слушал музыку.",
+   "a": [
+    "I didn't hear you, I was listening to music.",
+    "I didn't hear you. I was listening to music.",
+    "I did not hear you, I was listening to music.",
+    "I did not hear you. I was listening to music."
+   ],
+   "exp": "didn't hear + was listening.",
+   "ru": "was listening.",
+   "id": "f-pc-36",
+   "stage": 3
+  }
+ ]
+}

@@ -1,0 +1,455 @@
+{
+ "id": "might",
+ "title": "might / might not (possibility)",
+ "level": "B1",
+ "unit": "10C",
+ "units": [
+  "10C"
+ ],
+ "en": "<p><b>might + infinitive</b> — something is possible (maybe): <i>I <b>might be</b> late. It <b>might rain</b> later.</i></p><p><b>might not</b> (mightn't) — maybe not: <i>The director <b>might not</b> come today.</i></p><p><b>may</b> has a similar meaning and is a little more formal. Compare: <b>will</b> = sure; <b>might</b> = possible: <i>It <b>will</b> be cold (I'm sure). It <b>might</b> snow (maybe).</i></p><p>No <i>to</i> after might: <i>might go</i>, not <i>might to go</i>.</p>",
+ "ru": "might + глагол — возможно, может быть (I might be late). might not — возможно, не… may — похоже, чуть формальнее. will — уверен, might — не уверен. После might — без to.",
+ "boss": {
+  "situation": "Write about possible risks for next month: what might happen and what might not happen.",
+  "samples": [
+   "Next month the supplier might deliver the equipment late.",
+   "We might not have enough staff during the holidays.",
+   "The auditors might ask for more documents.",
+   "Prices might go up, so we may need a bigger budget.",
+   "If that happens, the project might be delayed."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Take an umbrella. It ___ rain later.",
+   "opts": [
+    "might",
+    "must",
+    "should to"
+   ],
+   "a": 0,
+   "exp": "Possibility → might.",
+   "ru": "Возможно — might.",
+   "id": "f-mi-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'm not sure. I ___ come to the party.",
+   "opts": [
+    "might not",
+    "mustn't",
+    "will"
+   ],
+   "a": 0,
+   "exp": "Maybe not → might not.",
+   "ru": "Возможно, нет — might not.",
+   "id": "f-mi-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ be in the meeting — I'm not sure.",
+   "opts": [
+    "might",
+    "will",
+    "is"
+   ],
+   "a": 0,
+   "exp": "Not sure → might.",
+   "ru": "Не уверен — might.",
+   "id": "f-mi-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We might ___ the deadline.",
+   "opts": [
+    "to miss",
+    "miss",
+    "missing"
+   ],
+   "a": 1,
+   "exp": "might + infinitive without to.",
+   "ru": "might miss.",
+   "id": "f-mi-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'm sure it ___ be cold tomorrow — the forecast says minus 20.",
+   "opts": [
+    "might",
+    "will",
+    "may"
+   ],
+   "a": 1,
+   "exp": "Sure → will.",
+   "ru": "Уверен — will.",
+   "id": "f-mi-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The price ___ go up next year. Nobody knows.",
+   "opts": [
+    "might",
+    "must",
+    "has to"
+   ],
+   "a": 0,
+   "exp": "Possibility.",
+   "ru": "might.",
+   "id": "f-mi-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Don't call him now. He ___ be asleep.",
+   "opts": [
+    "might",
+    "will",
+    "should to"
+   ],
+   "a": 0,
+   "exp": "Possibility now.",
+   "ru": "might be.",
+   "id": "f-mi-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which means “maybe”?",
+   "opts": [
+    "will",
+    "might",
+    "must"
+   ],
+   "a": 1,
+   "exp": "might = maybe.",
+   "ru": "might — может быть.",
+   "id": "f-mi-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I might to be late” is correct.",
+   "a": false,
+   "exp": "No to after might: I might be late.",
+   "ru": "Без to.",
+   "id": "f-mi-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“It might snow” means it is possible but not certain.",
+   "a": true,
+   "exp": "might = possibility.",
+   "ru": "Возможно.",
+   "id": "f-mi-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Call him later. He ___ be busy now.",
+   "a": [
+    "might",
+    "may"
+   ],
+   "exp": "Possibility.",
+   "ru": "might.",
+   "id": "f-mi-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (not / have) time to finish today.",
+   "a": [
+    "might not have",
+    "mightn't have",
+    "may not have"
+   ],
+   "exp": "Maybe not.",
+   "ru": "might not have.",
+   "id": "f-mi-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The auditors ___ ask for more documents.",
+   "a": [
+    "might",
+    "may"
+   ],
+   "exp": "Possibility.",
+   "ru": "might.",
+   "id": "f-mi-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We might ___ (need) a bigger budget.",
+   "a": [
+    "need"
+   ],
+   "exp": "might + infinitive.",
+   "ru": "need.",
+   "id": "f-mi-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She ___ not come — her son is ill.",
+   "a": [
+    "might",
+    "may"
+   ],
+   "exp": "Maybe not.",
+   "ru": "might not.",
+   "id": "f-mi-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "It's possible. I ___ go to Astana next week.",
+   "a": [
+    "might",
+    "may"
+   ],
+   "exp": "Possibility.",
+   "ru": "might.",
+   "id": "f-mi-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i might be late tomorrow",
+   "exp": "might + infinitive.",
+   "ru": "might be.",
+   "id": "f-mi-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the director might not come today",
+   "exp": "might not.",
+   "ru": "might not come.",
+   "id": "f-mi-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it might rain this afternoon",
+   "exp": "Possibility.",
+   "ru": "might rain.",
+   "id": "f-mi-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we might need more time",
+   "exp": "might need.",
+   "ru": "might need.",
+   "id": "f-mi-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the supplier might deliver late",
+   "exp": "might + verb.",
+   "ru": "might deliver.",
+   "id": "f-mi-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they might change the rules next year",
+   "exp": "might change.",
+   "ru": "might change.",
+   "id": "f-mi-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I might to go to Almaty.”",
+   "a": [
+    "I might go to Almaty."
+   ],
+   "exp": "No to after might.",
+   "ru": "might go.",
+   "id": "f-mi-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She mights be at home.”",
+   "a": [
+    "She might be at home."
+   ],
+   "exp": "might has no -s.",
+   "ru": "might без -s.",
+   "id": "f-mi-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “It might raining later.”",
+   "a": [
+    "It might rain later."
+   ],
+   "exp": "might + infinitive.",
+   "ru": "might rain.",
+   "id": "f-mi-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He don't might come.”",
+   "a": [
+    "He might not come.",
+    "He mightn't come."
+   ],
+   "exp": "Negative → might not.",
+   "ru": "might not.",
+   "id": "f-mi-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I might going to the meeting.”",
+   "a": [
+    "I might go to the meeting."
+   ],
+   "exp": "might + infinitive.",
+   "ru": "might go.",
+   "id": "f-mi-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We will maybe need more people.”",
+   "a": [
+    "We might need more people.",
+    "We may need more people.",
+    "Maybe we will need more people."
+   ],
+   "exp": "Possibility → might.",
+   "ru": "might need.",
+   "id": "f-mi-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Возможно, я опоздаю.",
+   "a": [
+    "I might be late.",
+    "I may be late.",
+    "Maybe I will be late."
+   ],
+   "exp": "might be late.",
+   "ru": "might be late.",
+   "id": "f-mi-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Директор, возможно, не придёт сегодня.",
+   "a": [
+    "The director might not come today.",
+    "The director may not come today."
+   ],
+   "exp": "might not.",
+   "ru": "might not come.",
+   "id": "f-mi-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Может пойти дождь.",
+   "a": [
+    "It might rain.",
+    "It may rain."
+   ],
+   "exp": "might rain.",
+   "ru": "might rain.",
+   "id": "f-mi-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Нам может понадобиться больше времени.",
+   "a": [
+    "We might need more time.",
+    "We may need more time."
+   ],
+   "exp": "might need.",
+   "ru": "might need.",
+   "id": "f-mi-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Поставщик может задержать поставку.",
+   "a": [
+    "The supplier might delay the delivery.",
+    "The supplier may delay the delivery.",
+    "The supplier might deliver late.",
+    "The supplier may deliver late."
+   ],
+   "exp": "might + verb.",
+   "ru": "might delay.",
+   "id": "f-mi-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Возможно, у меня не будет времени.",
+   "a": [
+    "I might not have time.",
+    "I may not have time.",
+    "I might not have enough time.",
+    "I may not have enough time."
+   ],
+   "exp": "might not have.",
+   "ru": "might not have.",
+   "id": "f-mi-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Не звони ему, он может спать.",
+   "a": [
+    "Don't call him, he might be asleep.",
+    "Don't call him, he might be sleeping.",
+    "Don't call him. He might be asleep.",
+    "Don't call him. He might be sleeping.",
+    "Do not call him, he might be asleep."
+   ],
+   "exp": "might be.",
+   "ru": "might be.",
+   "id": "f-mi-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Цены могут вырасти в следующем году.",
+   "a": [
+    "Prices might go up next year.",
+    "Prices may go up next year.",
+    "Prices might rise next year.",
+    "Prices may rise next year.",
+    "The prices might go up next year."
+   ],
+   "exp": "might go up.",
+   "ru": "might go up.",
+   "id": "f-mi-36",
+   "stage": 3
+  }
+ ]
+}

@@ -1,0 +1,546 @@
+{
+ "book": "English File Pre-intermediate (4th ed.)",
+ "note": "Descriptions are original. No exercises from the book are copied.",
+ "lessons": [
+  {
+   "code": "1A",
+   "title": "Word order in questions",
+   "grammar": "questions-word-order",
+   "vocab": "vocab-1a",
+   "know": "Порядок слов в вопросе: (вопросительное слово) + do/does/did, am/is/are, have, can + подлежащее + глагол. Предлог — в конце: Who do you work with?",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 1A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Word order in questions» — теория, 3 уровня и Босс",
+    "Слова урока: «Personal information, common verb phrases» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
+   ],
+   "speaking": "Ask and answer 5 questions to get to know a new colleague.",
+   "vocabTopic": "Personal information, common verb phrases"
+  },
+  {
+   "code": "1B",
+   "title": "Present Simple",
+   "grammar": "present-simple-continuous",
+   "vocab": "vocab-1b",
+   "know": "Present Simple: привычки, факты, распорядок. He/she/it — окончание -s; отрицание и вопрос — do/does.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 1B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Simple vs Present Continuous» — теория, 3 уровня и Босс",
+    "Слова урока: «Describing people: appearance and personality» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
+   ],
+   "speaking": "Describe your typical working day.",
+   "vocabTopic": "Describing people: appearance and personality"
+  },
+  {
+   "code": "1C",
+   "title": "Present Continuous",
+   "grammar": "present-simple-continuous",
+   "vocab": "vocab-1c",
+   "know": "Present Continuous (am/is/are + -ing): сейчас и временно. Глаголы состояния (know, like, want) — без -ing.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 1C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Simple vs Present Continuous» — теория, 3 уровня и Босс",
+    "Слова урока: «Clothes, prepositions of place» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
+   ],
+   "speaking": "What are you working on this week?",
+   "vocabTopic": "Clothes, prepositions of place"
+  },
+  {
+   "code": "2A",
+   "title": "Past Simple",
+   "grammar": "past-simple",
+   "vocab": "vocab-2a",
+   "know": "Past Simple: законченное действие с указанием времени. Правильные глаголы + -ed, неправильные — 2-я форма; did / didn't + начальная форма.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 2A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Past Simple» — теория, 3 уровня и Босс",
+    "Слова урока: «Holidays» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
+   ],
+   "speaking": "Tell me about your last business trip.",
+   "vocabTopic": "Holidays"
+  },
+  {
+   "code": "2B",
+   "title": "Past Continuous",
+   "grammar": "past-continuous",
+   "vocab": "vocab-2b",
+   "know": "was / were + -ing — действие в процессе в прошлом; часто прерывается коротким действием в Past Simple (when / while).",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 2B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Past Continuous» — теория, 3 уровня и Босс",
+    "Слова урока: «Prepositions of time and place; photos and memories» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
+   ],
+   "speaking": "Describe a day when something unexpected happened at work.",
+   "vocabTopic": "Prepositions of time and place; photos and memories"
+  },
+  {
+   "code": "2C",
+   "title": "Sequencers & connectors",
+   "grammar": "connectors",
+   "vocab": "vocab-2c",
+   "know": "Связки: first, then, after that, finally / in the end; because, so, but, although; as soon as.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 2C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Sequencers and connectors» — теория, 3 уровня и Босс",
+    "Слова урока: «Verb phrases (telling a story)» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
+   ],
+   "speaking": "Explain how a document is approved in your department.",
+   "vocabTopic": "Verb phrases (telling a story)"
+  },
+  {
+   "code": "3A",
+   "title": "be going to",
+   "grammar": "future-forms",
+   "vocab": "vocab-3a",
+   "know": "be going to: планы и намерения; прогноз по видимым признакам (Look! It's going to rain).",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 3A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Future: be going to, Present Continuous, will» — теория, 3 уровня и Босс",
+    "Слова урока: «Airports and travel plans» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
+   ],
+   "speaking": "What are you going to do this year?",
+   "vocabTopic": "Airports and travel plans"
+  },
+  {
+   "code": "3B",
+   "title": "Present Continuous for arrangements",
+   "grammar": "future-forms",
+   "vocab": "vocab-3b",
+   "know": "Present Continuous для договорённостей (время, место, люди): I'm meeting the auditors at 10. will — решение в момент речи.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 3B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Future: be going to, Present Continuous, will» — теория, 3 уровня и Босс",
+    "Слова урока: «Verbs + prepositions; arrangements» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
+   ],
+   "speaking": "Talk about your arrangements for next week.",
+   "vocabTopic": "Verbs + prepositions; arrangements"
+  },
+  {
+   "code": "3C",
+   "title": "Defining relative clauses",
+   "grammar": "relative-clauses",
+   "vocab": "vocab-3c",
+   "know": "who — люди, which — вещи, that — и то и другое, where — места. Не повторяем подлежащее внутри придаточного.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 3C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Defining relative clauses (who / which / that / where)» — теория, 3 уровня и Босс",
+    "Слова урока: «Paraphrasing; people and things at work» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
+   ],
+   "speaking": "Describe three roles in your department: “A risk owner is a person who…”.",
+   "vocabTopic": "Paraphrasing; people and things at work"
+  },
+  {
+   "code": "4A",
+   "title": "Present Perfect + yet, just, already",
+   "grammar": "present-perfect",
+   "vocab": "vocab-4a",
+   "know": "have/has + 3-я форма: результат к настоящему. just — только что, already — уже, yet — в вопросах и отрицаниях в конце.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 4A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Слова урока: «Housework, make or do» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
+   ],
+   "speaking": "Give a status update: what have you already done, what haven't you done yet?",
+   "vocabTopic": "Housework, make or do"
+  },
+  {
+   "code": "4B",
+   "title": "Present Perfect or Past Simple",
+   "grammar": "present-perfect",
+   "vocab": "vocab-4b",
+   "know": "Опыт без времени — Present Perfect (Have you ever…?); если сказано КОГДА — Past Simple (I went there last year).",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 4B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Слова урока: «Shopping» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
+   ],
+   "speaking": "Talk about a place you have visited and when you went there.",
+   "vocabTopic": "Shopping"
+  },
+  {
+   "code": "4C",
+   "title": "something / anything / nothing",
+   "grammar": "indefinite-pronouns",
+   "vocab": "vocab-4c",
+   "know": "some- — утверждения и предложения, any- — вопросы и отрицания, no- — с утвердительным глаголом (I saw nobody). Everyone — глагол в ед. числе.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 4C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «something, anything, nothing, someone, anywhere…» — теория, 3 уровня и Босс",
+    "Слова урока: «Adjectives ending -ed and -ing» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
+   ],
+   "speaking": "Describe what you found during a check: something, nothing, nobody, everything.",
+   "vocabTopic": "Adjectives ending -ed and -ing"
+  },
+  {
+   "code": "5A",
+   "title": "Comparatives, as … as",
+   "grammar": "comparatives",
+   "vocab": "vocab-5a",
+   "know": "Сравнение: -er / more + than; as … as — такой же; not as … as — не такой.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 5A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Comparatives, superlatives, as … as» — теория, 3 уровня и Босс",
+    "Слова урока: «Time expressions; spend, waste, save time» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
+   ],
+   "speaking": "Compare two systems or tools you use at work.",
+   "vocabTopic": "Time expressions; spend, waste, save time"
+  },
+  {
+   "code": "5B",
+   "title": "Superlatives + ever",
+   "grammar": "comparatives",
+   "vocab": "vocab-5b",
+   "know": "Превосходная степень: the -est / the most; the best … I've ever…",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 5B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Comparatives, superlatives, as … as» — теория, 3 уровня и Босс",
+    "Слова урока: «Describing a town or city» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
+   ],
+   "speaking": "Describe the best and the worst project you have ever worked on.",
+   "vocabTopic": "Describing a town or city"
+  },
+  {
+   "code": "5C",
+   "title": "Quantifiers, too, not enough",
+   "grammar": "quantifiers",
+   "vocab": "vocab-5c",
+   "know": "many / a few — исчисляемые, much / a little — неисчисляемые, a lot of — оба; too much / too many; прилагательное + enough, enough + существительное.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 5C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Quantifiers: much, many, a lot of, a few, a little, too, enough» — теория, 3 уровня и Босс",
+    "Слова урока: «Health and the body» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
+   ],
+   "speaking": "Describe your workload: too much, too many, not enough.",
+   "vocabTopic": "Health and the body"
+  },
+  {
+   "code": "6A",
+   "title": "will / won't: predictions",
+   "grammar": "will-wont",
+   "vocab": "vocab-6a",
+   "know": "will / won't для прогнозов: I think it will…, I don't think it will…; probably / definitely.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 6A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «will / won't: predictions, decisions, offers, promises» — теория, 3 уровня и Босс",
+    "Слова урока: «Opposite verbs» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
+   ],
+   "speaking": "Make 3 predictions about your company next year.",
+   "vocabTopic": "Opposite verbs"
+  },
+  {
+   "code": "6B",
+   "title": "will / won't: decisions & promises",
+   "grammar": "will-wont",
+   "vocab": "vocab-6b",
+   "know": "will для решений в момент речи, предложений помощи и обещаний; Shall I…? — предложить сделать что-то.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 6B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «will / won't: predictions, decisions, offers, promises» — теория, 3 уровня и Босс",
+    "Слова урока: «Verb + back; promises» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
+   ],
+   "speaking": "Reply to a colleague with 2 offers and 1 promise.",
+   "vocabTopic": "Verb + back; promises"
+  },
+  {
+   "code": "6C",
+   "title": "Review of verb forms",
+   "grammar": "review-tenses",
+   "vocab": "vocab-6c",
+   "know": "Повторение времён: выбираем форму по смыслу — привычка, сейчас, прошлое, опыт, план, прогноз.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 6C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Review of verb forms (present, past, future)» — теория, 3 уровня и Босс",
+    "Слова урока: «Adjectives + prepositions» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
+   ],
+   "speaking": "Tell me about your career: past, present and future.",
+   "vocabTopic": "Adjectives + prepositions"
+  },
+  {
+   "code": "7A",
+   "title": "Infinitive with to",
+   "grammar": "infinitive",
+   "vocab": "vocab-7a",
+   "know": "to + глагол: после want, need, decide, hope, plan; для цели («чтобы»); после прилагательных (easy to…); после what / where.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 7A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Uses of the infinitive (with to)» — теория, 3 уровня и Босс",
+    "Слова урока: «Verbs + infinitive; goals» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
+   ],
+   "speaking": "What do you want to achieve this year, and why?",
+   "vocabTopic": "Verbs + infinitive; goals"
+  },
+  {
+   "code": "7B",
+   "title": "Gerund (-ing)",
+   "grammar": "gerund",
+   "vocab": "vocab-7b",
+   "know": "-ing: как подлежащее (Learning English is…), после предлогов (good at, interested in, look forward to), после enjoy, avoid, finish, don't mind.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 7B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Verb + -ing (gerund)» — теория, 3 уровня и Босс",
+    "Слова урока: «Verbs + -ing; feelings» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
+   ],
+   "speaking": "What do you enjoy doing at work? What do you avoid doing?",
+   "vocabTopic": "Verbs + -ing; feelings"
+  },
+  {
+   "code": "7C",
+   "title": "have to, must, mustn't",
+   "grammar": "modals-obligation",
+   "vocab": "vocab-7c",
+   "know": "have to — по правилам; must — сильная обязанность; mustn't — нельзя; don't have to — не обязательно.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 7C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «have to, must, mustn't, don't have to, should» — теория, 3 уровня и Босс",
+    "Слова урока: «Rules and obligations; school» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
+   ],
+   "speaking": "Explain the rules a new employee has to follow.",
+   "vocabTopic": "Rules and obligations; school"
+  },
+  {
+   "code": "8A",
+   "title": "should",
+   "grammar": "modals-obligation",
+   "vocab": "vocab-8a",
+   "know": "should / shouldn't — совет, как правильно поступить. После should — глагол без to.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 8A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «have to, must, mustn't, don't have to, should» — теория, 3 уровня и Босс",
+    "Слова урока: «get; advice» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
+   ],
+   "speaking": "Give advice to a colleague who is always late with reports.",
+   "vocabTopic": "get; advice"
+  },
+  {
+   "code": "8B",
+   "title": "First conditional",
+   "grammar": "conditionals",
+   "vocab": "vocab-8b",
+   "know": "If + Present Simple, will + глагол — реальная ситуация в будущем; unless = если не. После if без will.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 8B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «First and second conditional» — теория, 3 уровня и Босс",
+    "Слова урока: «Confusing verbs; if and risks» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
+   ],
+   "speaking": "Talk about 3 risks: “If …, we will …”.",
+   "vocabTopic": "Confusing verbs; if and risks"
+  },
+  {
+   "code": "8C",
+   "title": "Possessive pronouns",
+   "grammar": "possessive-pronouns",
+   "vocab": "vocab-8c",
+   "know": "my / your / her — перед существительным; mine / yours / hers / ours / theirs — вместо него. Whose…? — чей?",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 8C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Possessive pronouns: mine, yours, his, hers, ours, theirs» — теория, 3 уровня и Босс",
+    "Слова урока: «Adverbs of manner; possessions» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
+   ],
+   "speaking": "Explain who is responsible for what in your team.",
+   "vocabTopic": "Adverbs of manner; possessions"
+  },
+  {
+   "code": "9A",
+   "title": "Second conditional",
+   "grammar": "conditionals",
+   "vocab": "vocab-9a",
+   "know": "If + Past Simple, would + глагол — воображаемая ситуация; If I were you…",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 9A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «First and second conditional» — теория, 3 уровня и Босс",
+    "Слова урока: «Animals; imaginary situations» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
+   ],
+   "speaking": "What would you change if you were the director?",
+   "vocabTopic": "Animals; imaginary situations"
+  },
+  {
+   "code": "9B",
+   "title": "Present Perfect + for / since",
+   "grammar": "for-since",
+   "vocab": "vocab-9b",
+   "know": "Ситуация длится до сих пор → Present Perfect; for + период, since + начальная точка; How long have you…?",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 9B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Perfect + for / since; How long…?» — теория, 3 уровня и Босс",
+    "Слова урока: «Fears and phobias; how long» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
+   ],
+   "speaking": "How long have you worked in your job and done each of your tasks?",
+   "vocabTopic": "Fears and phobias; how long"
+  },
+  {
+   "code": "9C",
+   "title": "Present Perfect or Past Simple (2)",
+   "grammar": "present-perfect",
+   "vocab": "vocab-9c",
+   "know": "Повторение: Present Perfect (до сейчас, опыт) против Past Simple (законченное время).",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 9C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Слова урока: «Biographies; career» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
+   ],
+   "speaking": "Tell me about your achievements: what have you done and when?",
+   "vocabTopic": "Biographies; career"
+  },
+  {
+   "code": "10A",
+   "title": "Passive",
+   "grammar": "passive",
+   "vocab": "vocab-10a",
+   "know": "Пассив: be + 3-я форма (is checked, was built); by — кем. Часто в процедурах.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 10A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «The passive (present and past)» — теория, 3 уровня и Босс",
+    "Слова урока: «Inventions; verbs: invent, discover» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
+   ],
+   "speaking": "Describe a work process in the passive.",
+   "vocabTopic": "Inventions; verbs: invent, discover"
+  },
+  {
+   "code": "10B",
+   "title": "used to",
+   "grammar": "used-to",
+   "vocab": "vocab-10b",
+   "know": "used to + глагол — раньше (сейчас не так); didn't use to, Did you use to…? Для одного события — Past Simple.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 10B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «used to» — теория, 3 уровня и Босс",
+    "Слова урока: «School subjects and education» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
+   ],
+   "speaking": "How has your job changed in the last five years?",
+   "vocabTopic": "School subjects and education"
+  },
+  {
+   "code": "10C",
+   "title": "might",
+   "grammar": "might",
+   "vocab": "vocab-10c",
+   "know": "might / might not — возможно; will — уверен. После might — без to.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 10C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «might / might not (possibility)» — теория, 3 уровня и Босс",
+    "Слова урока: «Word building: nouns from verbs and adjectives» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
+   ],
+   "speaking": "What might happen next month? Talk about possible risks.",
+   "vocabTopic": "Word building: nouns from verbs and adjectives"
+  },
+  {
+   "code": "11A",
+   "title": "Prepositions of movement",
+   "grammar": "movement-prepositions",
+   "vocab": "vocab-11a",
+   "know": "across, along, through, into, out of, up, down, past, towards, over, under.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 11A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Prepositions of movement» — теория, 3 уровня и Босс",
+    "Слова урока: «Sports and movement» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
+   ],
+   "speaking": "Explain the way from the entrance to your office.",
+   "vocabTopic": "Sports and movement"
+  },
+  {
+   "code": "11B",
+   "title": "Phrasal verbs",
+   "grammar": "phrasal-verbs",
+   "vocab": "vocab-11b",
+   "know": "Фразовые глаголы: look for, find out, put off, call back, set up, fill in, carry out, look into. Местоимение в середине: turn it off.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 11B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Phrasal verbs (work and everyday)» — теория, 3 уровня и Босс",
+    "Слова урока: «Phrasal verbs; daily routine» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
+   ],
+   "speaking": "Leave a voice message to reschedule a meeting.",
+   "vocabTopic": "Phrasal verbs; daily routine"
+  },
+  {
+   "code": "11C",
+   "title": "so / neither + auxiliaries",
+   "grammar": "so-neither",
+   "vocab": "vocab-11c",
+   "know": "Согласие: So do I / So am I; Neither do I / Neither can I — вспомогательный глагол как в первой фразе.",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 11C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «So do I / Neither do I» — теория, 3 уровня и Босс",
+    "Слова урока: «Similarities; agreeing» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
+   ],
+   "speaking": "Agree with 5 statements about work: So do I / Neither do I.",
+   "vocabTopic": "Similarities; agreeing"
+  },
+  {
+   "code": "12A",
+   "title": "Past Perfect",
+   "grammar": "past-perfect",
+   "vocab": "vocab-12a",
+   "know": "had + 3-я форма — то, что произошло раньше другого действия в прошлом (When I arrived, the meeting had started).",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 12A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Past Perfect» — теория, 3 уровня и Босс",
+    "Слова урока: «Verb phrases; strange stories» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
+   ],
+   "speaking": "Tell the story of a problem at work and what had happened before you noticed it.",
+   "vocabTopic": "Verb phrases; strange stories"
+  },
+  {
+   "code": "12B",
+   "title": "Reported speech",
+   "grammar": "reported-speech",
+   "vocab": "vocab-12b",
+   "know": "Косвенная речь: время на шаг назад; say / tell somebody; asked if…; asked me to…",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 12B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Reported speech (statements, questions, requests)» — теория, 3 уровня и Босс",
+    "Слова урока: «say or tell; gossip and news» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
+   ],
+   "speaking": "Report what people said at your last meeting.",
+   "vocabTopic": "say or tell; gossip and news"
+  },
+  {
+   "code": "12C",
+   "title": "Questions without auxiliaries",
+   "grammar": "subject-questions",
+   "vocab": "vocab-12c",
+   "know": "Вопрос к подлежащему без do/did: Who called? What happened? К дополнению — с did: Who did you call?",
+   "todo": [
+    "Учебник English File Pre-intermediate: урок 12C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
+    "Сайт: тема «Subject questions (Who called? What happened?)» — теория, 3 уровня и Босс",
+    "Слова урока: «Questions and quizzes; review» + рабочая лексика — 15 карточек",
+    "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
+   ],
+   "speaking": "Ask 6 questions about an incident at work.",
+   "vocabTopic": "Questions and quizzes; review"
+  }
+ ]
+}

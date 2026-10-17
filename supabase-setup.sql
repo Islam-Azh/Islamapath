@@ -67,6 +67,11 @@ create policy "members read audio" on storage.objects for select to authenticate
 create policy "members upload audio" on storage.objects for insert to authenticated
   with check (bucket_id = 'audio' and public.my_role() is not null);
 
+-- 3b. Allow deleting old recordings (METHODIKA §10: audio is removed after 90 days, the diary is kept).
+drop policy if exists "members delete audio" on storage.objects;
+create policy "members delete audio" on storage.objects for delete to authenticated
+  using (bucket_id = 'audio' and public.my_role() is not null);
+
 -- ============================================================
 -- 4. AFTER creating the two users (Authentication → Users → Add user),
 --    replace the e-mails below and run this block.

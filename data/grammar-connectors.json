@@ -1,0 +1,463 @@
+{
+ "id": "connectors",
+ "title": "Sequencers and connectors",
+ "level": "A2",
+ "unit": "2C",
+ "units": [
+  "2C"
+ ],
+ "en": "<p><b>Sequencers</b> show order: <i><b>First</b>, … <b>Then</b> / <b>After that</b>, … <b>Finally</b>, …</i></p><p><b>Connectors</b> join ideas: <b>and</b> (add), <b>but</b> / <b>although</b> (contrast), <b>because</b> (reason), <b>so</b> (result).</p><p><i>The system was slow, <b>so</b> we used paper forms. We used paper forms <b>because</b> the system was slow. <b>Although</b> it was late, we finished the report.</i></p><p>Time: <b>when</b>, <b>as soon as</b>, <b>after</b> + clause / -ing, <b>later</b>, <b>in the end</b> (= finally, after a long time).</p>",
+ "ru": "Последовательность: first, then, after that, finally / in the end. Связки: because — потому что (причина), so — поэтому (результат), but / although — но / хотя, as soon as — как только.",
+ "boss": {
+  "situation": "Describe how a document goes through approval in your department. Use first, then, after that, finally and because / so / although.",
+  "samples": [
+   "First, the specialist prepares the document.",
+   "Then the head of department checks it.",
+   "After that, we send it to the legal team because they must approve it.",
+   "Although the process is slow, it reduces mistakes.",
+   "Finally, the director signs it, so the document becomes official."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "The office was closed, ___ we went home.",
+   "opts": [
+    "so",
+    "because",
+    "although"
+   ],
+   "a": 0,
+   "exp": "Result → so.",
+   "ru": "Результат — so.",
+   "id": "f-cn-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We were late ___ there was a lot of traffic.",
+   "opts": [
+    "so",
+    "because",
+    "but"
+   ],
+   "a": 1,
+   "exp": "Reason → because.",
+   "ru": "Причина — because.",
+   "id": "f-cn-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ it was raining, we walked to the plant.",
+   "opts": [
+    "Because",
+    "Although",
+    "So"
+   ],
+   "a": 1,
+   "exp": "Contrast → although.",
+   "ru": "Хотя — although.",
+   "id": "f-cn-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___, open the file. Then click “Save”.",
+   "opts": [
+    "First",
+    "Finally",
+    "After"
+   ],
+   "a": 0,
+   "exp": "Start of a sequence → First.",
+   "ru": "Сначала — First.",
+   "id": "f-cn-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We waited for two hours, and ___ the bus arrived.",
+   "opts": [
+    "in the end",
+    "at the end",
+    "first"
+   ],
+   "a": 0,
+   "exp": "After a long time → in the end.",
+   "ru": "В конце концов — in the end.",
+   "id": "f-cn-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Call me ___ you arrive.",
+   "opts": [
+    "as soon as",
+    "so",
+    "although"
+   ],
+   "a": 0,
+   "exp": "Immediately when → as soon as.",
+   "ru": "Как только — as soon as.",
+   "id": "f-cn-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I like my job, ___ the salary is low.",
+   "opts": [
+    "but",
+    "so",
+    "because"
+   ],
+   "a": 0,
+   "exp": "Contrast → but.",
+   "ru": "Но — but.",
+   "id": "f-cn-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ that, we had lunch in the canteen.",
+   "opts": [
+    "After",
+    "Then",
+    "Finally"
+   ],
+   "a": 0,
+   "exp": "After that = next.",
+   "ru": "После этого — After that.",
+   "id": "f-cn-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Although” and “but” both show contrast.",
+   "a": true,
+   "exp": "Both show contrast; although starts a clause.",
+   "ru": "Оба — противопоставление.",
+   "id": "f-cn-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“So” gives a reason, “because” gives a result.",
+   "a": false,
+   "exp": "because = reason, so = result.",
+   "ru": "because — причина, so — результат.",
+   "id": "f-cn-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I was tired, ___ I went to bed early.",
+   "a": [
+    "so"
+   ],
+   "exp": "Result → so.",
+   "ru": "Результат — so.",
+   "id": "f-cn-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She got the job ___ she speaks good English.",
+   "a": [
+    "because"
+   ],
+   "exp": "Reason → because.",
+   "ru": "Причина — because.",
+   "id": "f-cn-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ the meeting was long, it was useful.",
+   "a": [
+    "Although"
+   ],
+   "exp": "Contrast → Although.",
+   "ru": "Хотя — Although.",
+   "id": "f-cn-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "First we checked the data. ___ that, we wrote the report.",
+   "a": [
+    "After"
+   ],
+   "exp": "After that.",
+   "ru": "After that.",
+   "id": "f-cn-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We tried three times and ___ we found the error.",
+   "a": [
+    "finally",
+    "in the end",
+    "eventually"
+   ],
+   "exp": "At last → finally / in the end.",
+   "ru": "Наконец — finally.",
+   "id": "f-cn-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I'll send you the file ___ soon as I finish it.",
+   "a": [
+    "as"
+   ],
+   "exp": "as soon as.",
+   "ru": "as soon as.",
+   "id": "f-cn-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the system was slow so we used paper forms",
+   "exp": "Result clause after so.",
+   "ru": "so — результат.",
+   "id": "f-cn-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we stayed late because the deadline was tomorrow",
+   "exp": "Reason clause after because.",
+   "ru": "because — причина.",
+   "id": "f-cn-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "although it was expensive we bought it",
+   "exp": "Although + clause, main clause.",
+   "ru": "Although в начале.",
+   "id": "f-cn-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "first we collect the documents",
+   "exp": "Sequencer at the start.",
+   "ru": "First в начале.",
+   "id": "f-cn-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "call me as soon as you get the results",
+   "exp": "as soon as + present for future.",
+   "ru": "as soon as.",
+   "id": "f-cn-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "after that we sent it to the director",
+   "exp": "After that + clause.",
+   "ru": "After that.",
+   "id": "f-cn-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I was ill, because I stayed at home.”",
+   "a": [
+    "I was ill, so I stayed at home.",
+    "I stayed at home because I was ill."
+   ],
+   "exp": "Result → so (or reverse with because).",
+   "ru": "Результат — so.",
+   "id": "f-cn-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Although it was cold, but we went out.”",
+   "a": [
+    "Although it was cold, we went out.",
+    "It was cold, but we went out."
+   ],
+   "exp": "Don't use although and but together.",
+   "ru": "Не although + but.",
+   "id": "f-cn-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “At the end we found the problem.”",
+   "a": [
+    "In the end we found the problem.",
+    "In the end, we found the problem.",
+    "Finally we found the problem.",
+    "Finally, we found the problem."
+   ],
+   "exp": "After a long time → in the end (at the end = at the final point of something).",
+   "ru": "В конце концов — in the end.",
+   "id": "f-cn-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “After that we arrived, we had dinner.”",
+   "a": [
+    "After we arrived, we had dinner.",
+    "After arriving, we had dinner."
+   ],
+   "exp": "after + clause (no that).",
+   "ru": "after + предложение.",
+   "id": "f-cn-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'll call you as soon as I will arrive.”",
+   "a": [
+    "I'll call you as soon as I arrive.",
+    "I will call you as soon as I arrive."
+   ],
+   "exp": "No will after as soon as.",
+   "ru": "После as soon as — без will.",
+   "id": "f-cn-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She was late so the bus didn't come.”",
+   "a": [
+    "She was late because the bus didn't come.",
+    "She was late because the bus did not come.",
+    "The bus didn't come, so she was late."
+   ],
+   "exp": "Reason → because.",
+   "ru": "Причина — because.",
+   "id": "f-cn-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Система не работала, поэтому мы ушли домой.",
+   "a": [
+    "The system didn't work, so we went home.",
+    "The system did not work, so we went home.",
+    "The system was not working, so we went home.",
+    "The system wasn't working, so we went home."
+   ],
+   "exp": "Result → so.",
+   "ru": "Поэтому — so.",
+   "id": "f-cn-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я опоздал, потому что была пробка.",
+   "a": [
+    "I was late because there was a traffic jam.",
+    "I was late because there was traffic.",
+    "I was late because of a traffic jam.",
+    "I was late because of the traffic.",
+    "I was late because there was a lot of traffic."
+   ],
+   "exp": "Reason → because.",
+   "ru": "Потому что — because.",
+   "id": "f-cn-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Хотя было поздно, мы закончили отчёт.",
+   "a": [
+    "Although it was late, we finished the report.",
+    "Although it was late we finished the report."
+   ],
+   "exp": "Although + clause.",
+   "ru": "Хотя — although.",
+   "id": "f-cn-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сначала мы проверяем документы.",
+   "a": [
+    "First we check the documents.",
+    "First, we check the documents.",
+    "First we check documents."
+   ],
+   "exp": "First + Present Simple.",
+   "ru": "Сначала — First.",
+   "id": "f-cn-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "После этого мы отправили отчёт директору.",
+   "a": [
+    "After that we sent the report to the director.",
+    "After that, we sent the report to the director.",
+    "After that we sent the director the report."
+   ],
+   "exp": "After that.",
+   "ru": "После этого — After that.",
+   "id": "f-cn-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Позвони мне, как только получишь результаты.",
+   "a": [
+    "Call me as soon as you get the results.",
+    "Call me as soon as you receive the results.",
+    "Phone me as soon as you get the results."
+   ],
+   "exp": "as soon as + Present Simple.",
+   "ru": "Как только — as soon as.",
+   "id": "f-cn-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "В конце концов мы нашли ошибку.",
+   "a": [
+    "In the end we found the mistake.",
+    "In the end, we found the mistake.",
+    "In the end we found the error.",
+    "In the end, we found the error.",
+    "Finally we found the mistake.",
+    "Finally, we found the mistake.",
+    "Finally we found the error.",
+    "Finally, we found the error."
+   ],
+   "exp": "in the end / finally.",
+   "ru": "В конце концов — in the end.",
+   "id": "f-cn-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мне нравится моя работа, но она трудная.",
+   "a": [
+    "I like my job, but it is difficult.",
+    "I like my job but it is difficult.",
+    "I like my job, but it is hard.",
+    "I like my work, but it is difficult.",
+    "I like my work, but it is hard."
+   ],
+   "exp": "Contrast → but.",
+   "ru": "Но — but.",
+   "id": "f-cn-36",
+   "stage": 3
+  }
+ ]
+}

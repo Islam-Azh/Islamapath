@@ -15,16 +15,16 @@ const has=(role,key)=>!!(role==='student'?SV:TV)[key];
 
 /* ---------- 1. Grouped menu ---------- */
 function studentNav(){return [
-  {h:'1 · Map'},
-  ['today','Today','⚡'],['map','Map of topics','🗺️'],['placement','Placement test','🎯'],['baseline','Before / after tests','📏'],
-  {h:'2 · Learning'},
-  ['homework','Homework · '+S.users.teacher.name,'📚'],['self','Self-study','🎒'],['sprint','Sprint','🏃'],
-  {h:'3 · Progress'},
-  ['progress','Progress','📈'],['mistakes','Mistakes bank','🔁'],['history','Homework history','🗂️'],['achievements','Achievements','🏆'],['materials','Materials','📦'],['settings','Settings','⚙️'],['about','About','ℹ️']
+  {h:'Learn'},
+  ['today','Today','⚡'],['map','Map','🗺️'],['words','Words','🃏'],['speak','Speaking','🎙️'],['self','Self-study','🎒'],['homework','Homework · '+S.users.teacher.name,'📚'],
+  {h:'Progress'},
+  ['month','My month','📅'],['progress','Progress','📈'],['report','Weekly report','🧾'],['mistakes','Mistakes bank','🔁'],['achievements','Achievements','🏆'],
+  {h:'More'},
+  ['checkpoints','Checkpoints','🎯'],['history','Homework history','🗂️'],['materials','Materials','📦'],['settings','Settings','⚙️'],['about','About','ℹ️']
 ].filter(n=>n.h||has('student',n[0]))}
 function teacherNav(){return [
   {h:'Student'},
-  ['dashboard','Dashboard','🏠'],['analytics','Analytics','📈'],['history','Homework history','🗂️'],['materials','Materials & pilot','📦'],
+  ['dashboard','Dashboard','🏠'],['analytics','Analytics','📈'],['history','Homework history','🗂️'],['report','Weekly report','🧾'],['materials','Materials & pilot','📦'],
   {h:'Teaching'},
   ['homework','Homework','📚'],['review','Review queue','✅'],['tests','Tests & questions','📝'],['course','Course editor','🗺️'],
   {h:'Other'},
@@ -32,7 +32,7 @@ function teacherNav(){return [
 ].filter(n=>n.h||has('teacher',n[0]))}
 Object.defineProperty(window,'NAV_OVERRIDE',{configurable:true,get(){return S&&S.role?{student:studentNav(),teacher:teacherNav()}:null}});
 const SELF=['grammar','vocabulary','listening','reading','pronunciation','speaking','writing','tests','submission'];
-window.NAV_ALIAS={student:Object.assign(Object.fromEntries(SELF.map(k=>[k,'self'])),{course:'map',program:'map',lesson:'map',dashboard:'map','placement-result':'placement'}),teacher:{}};
+window.NAV_ALIAS={student:Object.assign(Object.fromEntries(SELF.map(k=>[k,'self'])),{course:'map',program:'map',lesson:'map',dashboard:'map','placement-result':'checkpoints',placement:'checkpoints',baseline:'checkpoints',session:'today',boss:'self',sprint:'today',vocabulary:'words',speaking:'speak'}),teacher:{}};
 
 /* ---------- helpers ---------- */
 const pct=(c,t)=>t?Math.round(c/t*100):0;
@@ -71,7 +71,7 @@ function vSelf(){
   const sp=S.subs.filter(s=>s.type==='speaking'),wr=S.subs.filter(s=>s.type==='writing');
   const card=(href,ico,title,stat,desc,cta)=>`<a class="card" href="#${href}" style="text-decoration:none;color:var(--text)"><div class="row between"><span style="font-size:26px">${ico}</span><span class="badge">${stat}</span></div><h3 style="margin-top:8px">${title}</h3><div class="small muted">${desc}</div><div class="small" style="margin-top:8px;color:var(--accent);font-weight:600">${cta} →</div></a>`;
   return `<div class="page-head"><h1>Self-study 🎒</h1><p class="muted">Everything you practise on your own. Topics come from your map. ${ru('Самостоятельная работа по всем навыкам. Темы берутся из карты. Домашка от учителя — в разделе Homework.')}</p></div>
-  ${has('student','today')?`<div class="card row between" style="margin-bottom:16px"><div><b>⚡ Not sure where to start?</b><div class="small muted">Today's 15-minute plan picks the right exercises for you.</div></div><a class="btn" href="#/today">Open Today</a></div>`:''}
+  ${has('student','today')?`<div class="card row between" style="margin-bottom:16px"><div><b>⚡ Not sure where to start?</b><div class="small muted">Today: choose 2, 10, 30 or 60 minutes — the plan is ready.</div></div><a class="btn" href="#/today">Open Today</a></div>`:''}
   <div class="grid g3">
    ${card('/grammar','📐','Grammar',gAcc==null?Object.keys(GRAMMAR).length+' topics':gAcc+'% avg','Rules with examples and exercises with instant feedback.','Practise grammar')}
    ${card('/vocabulary','🃏','Vocabulary',due+' due today','Flashcards with spaced repetition · '+learned+' words learned.','Review words')}

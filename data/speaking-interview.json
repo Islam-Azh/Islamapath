@@ -1,0 +1,213 @@
+{
+ "id": "speaking-interview",
+ "title": "Interview simulator",
+ "note": "Replace [X] with your real numbers.",
+ "sets": [
+  {
+   "id": "basics",
+   "title": "Set 1 · About you",
+   "level": "A2",
+   "qs": [
+    {
+     "id": "iv-1-1",
+     "q": "Tell me about yourself.",
+     "ru": "Расскажите о себе.",
+     "hints": [
+      "My name is…",
+      "I work as… at…",
+      "I've worked in … for…",
+      "I'm responsible for…"
+     ],
+     "secs": 90,
+     "sample": "My name is Islam. I work as a leading specialist in internal control at an oil refinery in Atyrau. I've worked in internal control for [X] years. I'm responsible for testing controls, risk assessment and business continuity."
+    },
+    {
+     "id": "iv-1-2",
+     "q": "What do you do in your current job?",
+     "ru": "Чем вы занимаетесь на текущей работе?",
+     "hints": [
+      "I test…",
+      "I prepare…",
+      "I work with…",
+      "Every month I…"
+     ],
+     "secs": 90,
+     "sample": "I test key controls in processes like procurement and payments. I prepare reports for management. I work with the risk owners and the internal auditors. Every quarter I update the risk register."
+    },
+    {
+     "id": "iv-1-3",
+     "q": "What are your main strengths?",
+     "ru": "Каковы ваши сильные стороны?",
+     "hints": [
+      "I'm good at…",
+      "I'm very…",
+      "For example, …"
+     ],
+     "secs": 90,
+     "sample": "I'm good at finding problems in processes. I'm very organised and reliable. For example, I always finish my reports before the deadline."
+    },
+    {
+     "id": "iv-1-4",
+     "q": "What is your biggest weakness?",
+     "ru": "Какая у вас главная слабая сторона?",
+     "hints": [
+      "Sometimes I…",
+      "I'm working on it:…",
+      "Now I…"
+     ],
+     "secs": 90,
+     "sample": "My English is not perfect yet, but I'm working on it: I study every day and have lessons with a teacher. Now I can talk about my job much more confidently."
+    },
+    {
+     "id": "iv-1-5",
+     "q": "Where do you see yourself in five years?",
+     "ru": "Где вы видите себя через пять лет?",
+     "hints": [
+      "I'd like to…",
+      "I hope I'll…",
+      "I'm going to…"
+     ],
+     "secs": 90,
+     "sample": "In five years I'd like to work as a risk or control manager in an international company. I hope I'll lead a small team. I'm going to get a professional certificate."
+    }
+   ]
+  },
+  {
+   "id": "experience",
+   "title": "Set 2 · Your experience",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-2-1",
+     "q": "Tell me about a problem you solved at work.",
+     "ru": "Расскажите о проблеме, которую вы решили на работе.",
+     "hints": [
+      "The situation was…",
+      "My task was to…",
+      "I…",
+      "As a result…"
+     ],
+     "secs": 90,
+     "sample": "The situation was that we paid some invoices twice. My task was to find the reason. I checked the process and found that there was no control for duplicate invoices. As a result, we introduced an automatic check, and the problem stopped."
+    },
+    {
+     "id": "iv-2-2",
+     "q": "Describe a time when you worked under pressure.",
+     "ru": "Расскажите, как вы работали под давлением.",
+     "hints": [
+      "Last year…",
+      "We had to…",
+      "I organised…",
+      "In the end…"
+     ],
+     "secs": 90,
+     "sample": "Last year the auditors came two weeks earlier than planned. We had to prepare all the documents very quickly. I organised a plan and divided the tasks in the team. In the end we finished on time, and there were only two small findings."
+    },
+    {
+     "id": "iv-2-3",
+     "q": "How do you work with people who disagree with you?",
+     "ru": "Как вы работаете с людьми, которые с вами не согласны?",
+     "hints": [
+      "First, I listen…",
+      "Then I explain…",
+      "I try to find…"
+     ],
+     "secs": 90,
+     "sample": "First, I listen carefully to understand their point of view. Then I explain my position with facts and evidence. I try to find a solution that is good for both sides."
+    },
+    {
+     "id": "iv-2-4",
+     "q": "What was your biggest achievement?",
+     "ru": "Каким было ваше главное достижение?",
+     "hints": [
+      "My biggest achievement was…",
+      "I…",
+      "This helped the company to…"
+     ],
+     "secs": 90,
+     "sample": "My biggest achievement was building a risk and control matrix for the whole refinery. I worked with all departments for six months. This helped the company to reduce audit findings."
+    },
+    {
+     "id": "iv-2-5",
+     "q": "Tell me about a mistake you made and what you learned.",
+     "ru": "Расскажите об ошибке, которую вы совершили, и чему научились.",
+     "hints": [
+      "Once I…",
+      "I realised that…",
+      "I fixed it by…",
+      "Since then I always…"
+     ],
+     "secs": 90,
+     "sample": "Once I sent a report with a wrong figure. I realised that I had not checked the final version. I fixed it by sending a correction the same day. Since then I always ask a colleague to check important reports."
+    }
+   ]
+  },
+  {
+   "id": "motivation",
+   "title": "Set 3 · Motivation and the company",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-3-1",
+     "q": "Why do you want to work for our company?",
+     "ru": "Почему вы хотите работать в нашей компании?",
+     "hints": [
+      "I want to… because…",
+      "Your company is…",
+      "I would like to…"
+     ],
+     "secs": 90,
+     "sample": "I want to work for your company because it is one of the leaders in the oil and gas industry. Your company has high standards in safety and governance. I would like to learn from international experts and use my experience in internal control."
+    },
+    {
+     "id": "iv-3-2",
+     "q": "Why are you leaving your current job?",
+     "ru": "Почему вы уходите с текущей работы?",
+     "hints": [
+      "I've learned a lot…",
+      "Now I am looking for…",
+      "I want to grow…"
+     ],
+     "secs": 90,
+     "sample": "I've learned a lot in my current job, and I'm grateful for it. Now I'm looking for new challenges in an international environment. I want to grow professionally and use English every day."
+    },
+    {
+     "id": "iv-3-3",
+     "q": "How do you keep your professional knowledge up to date?",
+     "ru": "Как вы поддерживаете профессиональные знания актуальными?",
+     "hints": [
+      "I read…",
+      "I'm studying…",
+      "I take part in…"
+     ],
+     "secs": 90,
+     "sample": "I read about new standards in risk management and ISO. I'm studying English and preparing for a professional certificate. I also take part in training courses organised by our head office."
+    },
+    {
+     "id": "iv-3-4",
+     "q": "How do you make sure your work is accurate?",
+     "ru": "Как вы обеспечиваете точность своей работы?",
+     "hints": [
+      "I always…",
+      "I use…",
+      "Before I send…, I…"
+     ],
+     "secs": 90,
+     "sample": "I always check the source documents. I use checklists for every control test. Before I send a report, I read it again and compare the figures with the system."
+    },
+    {
+     "id": "iv-3-5",
+     "q": "Do you have any questions for us?",
+     "ru": "У вас есть вопросы к нам?",
+     "hints": [
+      "Could you tell me…?",
+      "What does a typical day look like…?",
+      "What are the next steps?"
+     ],
+     "secs": 90,
+     "sample": "Yes, thank you. Could you tell me more about the team I would work with? What does a typical day look like in this position? And what are the next steps in the selection process?"
+    }
+   ]
+  }
+ ]
+}

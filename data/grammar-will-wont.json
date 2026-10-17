@@ -1,0 +1,454 @@
+{
+ "id": "will-wont",
+ "title": "will / won't: predictions, decisions, offers, promises",
+ "level": "A2",
+ "unit": "6A",
+ "units": [
+  "6A",
+  "6B"
+ ],
+ "en": "<p><b>will / won't + infinitive</b>:</p><p>1. <b>Predictions</b> (what you think or know): <i>I think it <b>will be</b> a busy year. You <b>won't like</b> this news.</i> Often with <b>I think / I don't think / probably / definitely</b>.</p><p>2. <b>Instant decisions</b>: <i>I'm thirsty — I'<b>ll have</b> some water.</i></p><p>3. <b>Offers</b> and <b>promises</b>: <i>I'<b>ll carry</b> that for you. I <b>won't forget</b>, I promise.</i></p><p>4. <b>Shall I / we…?</b> for offers and suggestions: <i><b>Shall I</b> open the window?</i></p><p>Say <b>I don't think it will…</b>, not <i>I think it won't</i> (more natural).</p>",
+ "ru": "will / won't + глагол: прогноз (I think … will), решение в момент речи, предложение помощи, обещание. Shall I…? — предложить что-то сделать. Естественнее: I don't think it will…, чем I think it won't.",
+ "boss": {
+  "situation": "Reply to a colleague: make 2 offers, 1 promise and 2 predictions about the next project.",
+  "samples": [
+   "I'll send you the template today.",
+   "Shall I book the meeting room?",
+   "I won't forget to invite the auditors, I promise.",
+   "I think the project will take three months.",
+   "I don't think the budget will be enough."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "A: It's cold in here. B: I ___ close the window.",
+   "opts": [
+    "'ll",
+    "'m going to",
+    "close"
+   ],
+   "a": 0,
+   "exp": "Instant decision → will.",
+   "ru": "Решение сейчас — will.",
+   "id": "f-wl-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I think the director ___ like your idea.",
+   "opts": [
+    "will",
+    "is",
+    "shall"
+   ],
+   "a": 0,
+   "exp": "Prediction → will.",
+   "ru": "Прогноз — will.",
+   "id": "f-wl-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Don't worry. I ___ tell anyone.",
+   "opts": [
+    "won't",
+    "don't",
+    "am not"
+   ],
+   "a": 0,
+   "exp": "Promise → won't.",
+   "ru": "Обещание — won't.",
+   "id": "f-wl-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ I help you with your bags?",
+   "opts": [
+    "Will",
+    "Shall",
+    "Do"
+   ],
+   "a": 1,
+   "exp": "Offer → Shall I…?",
+   "ru": "Shall I — предложение.",
+   "id": "f-wl-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I don't think it ___ rain tomorrow.",
+   "opts": [
+    "will",
+    "won't",
+    "is"
+   ],
+   "a": 0,
+   "exp": "I don't think + will.",
+   "ru": "I don't think … will.",
+   "id": "f-wl-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The meeting ___ probably finish late.",
+   "opts": [
+    "will",
+    "is",
+    "shall"
+   ],
+   "a": 0,
+   "exp": "Prediction with probably.",
+   "ru": "probably — will.",
+   "id": "f-wl-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What do you want? — I ___ have the soup, please.",
+   "opts": [
+    "'ll",
+    "'m having",
+    "have"
+   ],
+   "a": 0,
+   "exp": "Decision when ordering → will.",
+   "ru": "Заказ — will.",
+   "id": "f-wl-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ be at the meeting — she is on holiday.",
+   "opts": [
+    "won't",
+    "doesn't",
+    "isn't"
+   ],
+   "a": 0,
+   "exp": "Prediction (negative) → won't.",
+   "ru": "Не будет — won't.",
+   "id": "f-wl-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I will help you” can be an offer.",
+   "a": true,
+   "exp": "will for offers.",
+   "ru": "Предложение помощи.",
+   "id": "f-wl-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I think it won't rain” is more natural than “I don't think it will rain”.",
+   "a": false,
+   "exp": "More natural: I don't think it will rain.",
+   "ru": "Естественнее: I don't think it will.",
+   "id": "f-wl-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (call) you tomorrow, I promise.",
+   "a": [
+    "'ll call",
+    "will call"
+   ],
+   "exp": "Promise → will.",
+   "ru": "will call.",
+   "id": "f-wl-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "You ___ (not / pass) the exam if you don't study.",
+   "a": [
+    "won't pass",
+    "will not pass"
+   ],
+   "exp": "Prediction → won't.",
+   "ru": "won't pass.",
+   "id": "f-wl-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ we start the meeting now?",
+   "a": [
+    "Shall"
+   ],
+   "exp": "Suggestion → Shall we…?",
+   "ru": "Shall we.",
+   "id": "f-wl-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I'm sure you ___ (enjoy) the trip.",
+   "a": [
+    "'ll enjoy",
+    "will enjoy"
+   ],
+   "exp": "Prediction → will.",
+   "ru": "will enjoy.",
+   "id": "f-wl-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Wait, I ___ (get) you a chair.",
+   "a": [
+    "'ll get",
+    "will get"
+   ],
+   "exp": "Offer / instant decision.",
+   "ru": "will get.",
+   "id": "f-wl-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I don't think prices ___ go down.",
+   "a": [
+    "will"
+   ],
+   "exp": "I don't think + will.",
+   "ru": "will.",
+   "id": "f-wl-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i think it will be a busy year",
+   "exp": "I think + will.",
+   "ru": "will be.",
+   "id": "f-wl-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "shall i book the meeting room",
+   "exp": "Offer with Shall I.",
+   "ru": "Shall I.",
+   "id": "f-wl-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i will send you the documents tonight",
+   "exp": "Promise / decision.",
+   "ru": "will send.",
+   "id": "f-wl-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i do not think he will come",
+   "exp": "I don't think + will.",
+   "ru": "do not think … will.",
+   "id": "f-wl-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they will probably finish on friday",
+   "exp": "probably after will.",
+   "ru": "will probably.",
+   "id": "f-wl-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i promise i will not be late",
+   "exp": "Promise → will not.",
+   "ru": "will not be late.",
+   "id": "f-wl-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I will to call you later.”",
+   "a": [
+    "I'll call you later.",
+    "I will call you later."
+   ],
+   "exp": "will + infinitive without to.",
+   "ru": "will call без to.",
+   "id": "f-wl-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I think it won't be difficult.”",
+   "a": [
+    "I don't think it will be difficult.",
+    "I do not think it will be difficult."
+   ],
+   "exp": "More natural: I don't think … will.",
+   "ru": "I don't think … will.",
+   "id": "f-wl-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Will I open the window?”",
+   "a": [
+    "Shall I open the window?"
+   ],
+   "exp": "Offer → Shall I.",
+   "ru": "Shall I.",
+   "id": "f-wl-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She wills be here at six.”",
+   "a": [
+    "She will be here at six.",
+    "She'll be here at six."
+   ],
+   "exp": "will has no -s.",
+   "ru": "will без -s.",
+   "id": "f-wl-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I help you with the report tomorrow, I promise.”",
+   "a": [
+    "I'll help you with the report tomorrow, I promise.",
+    "I will help you with the report tomorrow, I promise."
+   ],
+   "exp": "Promise → will.",
+   "ru": "will help.",
+   "id": "f-wl-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Don't worry, I don't forget.”",
+   "a": [
+    "Don't worry, I won't forget.",
+    "Do not worry, I will not forget.",
+    "Don't worry, I will not forget."
+   ],
+   "exp": "Promise about future → won't.",
+   "ru": "won't forget.",
+   "id": "f-wl-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я думаю, проект займёт три месяца.",
+   "a": [
+    "I think the project will take three months."
+   ],
+   "exp": "Prediction → will.",
+   "ru": "will take.",
+   "id": "f-wl-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не думаю, что он придёт.",
+   "a": [
+    "I don't think he will come.",
+    "I do not think he will come.",
+    "I don't think he'll come."
+   ],
+   "exp": "I don't think + will.",
+   "ru": "don't think … will.",
+   "id": "f-wl-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я отправлю тебе файл сегодня.",
+   "a": [
+    "I'll send you the file today.",
+    "I will send you the file today.",
+    "I will send the file to you today.",
+    "I'll send the file to you today."
+   ],
+   "exp": "Promise / decision.",
+   "ru": "will send.",
+   "id": "f-wl-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мне забронировать переговорную?",
+   "a": [
+    "Shall I book the meeting room?",
+    "Should I book the meeting room?"
+   ],
+   "exp": "Offer → Shall I.",
+   "ru": "Shall I.",
+   "id": "f-wl-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Обещаю, я не забуду.",
+   "a": [
+    "I promise I won't forget.",
+    "I promise I will not forget.",
+    "I promise, I won't forget."
+   ],
+   "exp": "Promise → won't.",
+   "ru": "won't forget.",
+   "id": "f-wl-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Цены, наверное, вырастут.",
+   "a": [
+    "Prices will probably go up.",
+    "Prices will probably rise.",
+    "Prices will probably increase.",
+    "The prices will probably go up."
+   ],
+   "exp": "will probably.",
+   "ru": "will probably.",
+   "id": "f-wl-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Подожди, я помогу тебе.",
+   "a": [
+    "Wait, I'll help you.",
+    "Wait, I will help you.",
+    "Wait! I'll help you."
+   ],
+   "exp": "Offer → will.",
+   "ru": "will help.",
+   "id": "f-wl-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Её не будет на совещании.",
+   "a": [
+    "She won't be at the meeting.",
+    "She will not be at the meeting.",
+    "She won't be in the meeting.",
+    "She will not be in the meeting."
+   ],
+   "exp": "won't be.",
+   "ru": "won't be.",
+   "id": "f-wl-36",
+   "stage": 3
+  }
+ ]
+}

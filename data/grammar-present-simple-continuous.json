@@ -1,0 +1,449 @@
+{
+ "id": "present-simple-continuous",
+ "title": "Present Simple vs Present Continuous",
+ "level": "A2",
+ "unit": "1B",
+ "units": [
+  "1B",
+  "1C"
+ ],
+ "en": "<p><b>Present Simple</b> — habits, routines, facts, permanent situations: <i>I <b>work</b> in risk management. She <b>checks</b> the reports every Monday.</i> Negatives and questions: <i>don't / doesn't, do / does</i>.</p><p><b>Present Continuous</b> (am / is / are + -ing) — now, around now, temporary: <i>I'<b>m preparing</b> the audit file this week.</i></p><p>Time words: <b>usually, every day, often, never</b> → Simple; <b>now, at the moment, this week, today</b> → Continuous.</p><p><b>State verbs</b> (know, like, want, need, understand, believe) — usually not continuous: <i>I <b>know</b>, not I'm knowing.</i></p>",
+ "ru": "Present Simple — привычки, распорядок, факты, постоянное (he/she — окончание -s). Present Continuous — сейчас, в эти дни, временно (am/is/are + -ing). Глаголы состояния (know, like, want, need) — без -ing.",
+ "boss": {
+  "situation": "Describe your job: 3 sentences about what you usually do and 2 sentences about what you are working on this week.",
+  "samples": [
+   "I work in the internal control department.",
+   "I usually check documents and test controls.",
+   "Every month I prepare a report for my manager.",
+   "This week I am preparing for an audit.",
+   "At the moment I am updating our risk matrix."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "My manager ___ to work by car every day.",
+   "opts": [
+    "goes",
+    "is going",
+    "go"
+   ],
+   "a": 0,
+   "exp": "Every day = routine → Present Simple; he → goes.",
+   "ru": "Каждый день — goes.",
+   "id": "f-psc-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Please be quiet. I ___ on the phone.",
+   "opts": [
+    "talk",
+    "am talking",
+    "talks"
+   ],
+   "a": 1,
+   "exp": "Happening now → Present Continuous.",
+   "ru": "Прямо сейчас — am talking.",
+   "id": "f-psc-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "This week we ___ a new system.",
+   "opts": [
+    "test",
+    "are testing",
+    "tests"
+   ],
+   "a": 1,
+   "exp": "This week = temporary → Continuous.",
+   "ru": "На этой неделе — are testing.",
+   "id": "f-psc-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ coffee. She prefers tea.",
+   "opts": [
+    "doesn't drink",
+    "isn't drinking",
+    "don't drink"
+   ],
+   "a": 0,
+   "exp": "General fact → Present Simple negative.",
+   "ru": "Факт — doesn't drink.",
+   "id": "f-psc-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I ___ what you mean.",
+   "opts": [
+    "understand",
+    "am understanding",
+    "understands"
+   ],
+   "a": 0,
+   "exp": "State verb → no continuous.",
+   "ru": "understand — глагол состояния.",
+   "id": "f-psc-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ you usually work on Saturdays?",
+   "opts": [
+    "Do",
+    "Are",
+    "Does"
+   ],
+   "a": 0,
+   "exp": "Usually = habit → Do you…?",
+   "ru": "Привычка — Do.",
+   "id": "f-psc-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Look! It ___.",
+   "opts": [
+    "snows",
+    "is snowing",
+    "snow"
+   ],
+   "a": 1,
+   "exp": "Look! = now → Continuous.",
+   "ru": "Look! — сейчас.",
+   "id": "f-psc-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Water ___ at 100 degrees.",
+   "opts": [
+    "boils",
+    "is boiling",
+    "boil"
+   ],
+   "a": 0,
+   "exp": "Scientific fact → Present Simple.",
+   "ru": "Факт — boils.",
+   "id": "f-psc-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I am needing a new laptop” is correct.",
+   "a": false,
+   "exp": "need is a state verb: I need a new laptop.",
+   "ru": "need — без -ing.",
+   "id": "f-psc-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“He works from home today” can be correct, but “He is working from home today” is more natural for a temporary situation.",
+   "a": true,
+   "exp": "Today = temporary → Continuous is more natural.",
+   "ru": "Временно — Continuous.",
+   "id": "f-psc-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "He ___ (not / like) long meetings.",
+   "a": [
+    "doesn't like",
+    "does not like"
+   ],
+   "exp": "State verb like, he → doesn't like.",
+   "ru": "Он не любит — doesn't like.",
+   "id": "f-psc-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What ___ you doing at the moment? — I'm writing an email.",
+   "a": [
+    "are"
+   ],
+   "exp": "At the moment → are you doing.",
+   "ru": "Сейчас — are you doing.",
+   "id": "f-psc-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Our team ___ (meet) every Monday at nine.",
+   "a": [
+    "meets"
+   ],
+   "exp": "Routine, team (it) → meets.",
+   "ru": "Каждый понедельник — meets.",
+   "id": "f-psc-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (stay) with my parents until I find a flat.",
+   "a": [
+    "am staying"
+   ],
+   "exp": "Temporary situation → am staying.",
+   "ru": "Временно — am staying.",
+   "id": "f-psc-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ your company have an office in Almaty?",
+   "a": [
+    "Does"
+   ],
+   "exp": "Fact question, it → Does … have.",
+   "ru": "Does … have.",
+   "id": "f-psc-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Prices ___ (go) up these days.",
+   "a": [
+    "are going"
+   ],
+   "exp": "Changing situation around now → Continuous.",
+   "ru": "Меняется сейчас — are going.",
+   "id": "f-psc-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she usually checks the reports on friday",
+   "exp": "Adverb of frequency before the main verb.",
+   "ru": "usually — перед глаголом.",
+   "id": "f-psc-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we are preparing for an audit this week",
+   "exp": "Temporary → am/is/are + -ing.",
+   "ru": "На этой неделе — are preparing.",
+   "id": "f-psc-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he does not work on sundays",
+   "exp": "Negative: does not + infinitive.",
+   "ru": "does not + work.",
+   "id": "f-psc-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what are you working on now",
+   "exp": "Continuous question, preposition at the end.",
+   "ru": "on — в конце.",
+   "id": "f-psc-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how often do you travel for work",
+   "exp": "How often + do + subject + verb.",
+   "ru": "How often do you…",
+   "id": "f-psc-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they never answer emails quickly",
+   "exp": "never before the main verb.",
+   "ru": "never — перед глаголом.",
+   "id": "f-psc-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She work in finance.”",
+   "a": [
+    "She works in finance."
+   ],
+   "exp": "he / she / it → verb + s.",
+   "ru": "She — works.",
+   "id": "f-psc-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am knowing the answer.”",
+   "a": [
+    "I know the answer."
+   ],
+   "exp": "know is a state verb.",
+   "ru": "know — без -ing.",
+   "id": "f-psc-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Do she speak English?”",
+   "a": [
+    "Does she speak English?"
+   ],
+   "exp": "she → does.",
+   "ru": "She — does.",
+   "id": "f-psc-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Look, the director come!”",
+   "a": [
+    "Look, the director is coming!",
+    "Look! The director is coming!"
+   ],
+   "exp": "Now → is coming.",
+   "ru": "Сейчас — is coming.",
+   "id": "f-psc-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He doesn't works on Fridays.”",
+   "a": [
+    "He doesn't work on Fridays.",
+    "He does not work on Fridays."
+   ],
+   "exp": "After doesn't → infinitive without -s.",
+   "ru": "После doesn't — work.",
+   "id": "f-psc-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am usually start work at eight.”",
+   "a": [
+    "I usually start work at eight."
+   ],
+   "exp": "Usual routine → Present Simple, no am.",
+   "ru": "Привычка — без am.",
+   "id": "f-psc-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я работаю в отделе внутреннего контроля.",
+   "a": [
+    "I work in the internal control department.",
+    "I work in the department of internal control.",
+    "I work in internal control."
+   ],
+   "exp": "Permanent job → Present Simple.",
+   "ru": "Постоянно — work.",
+   "id": "f-psc-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сейчас я готовлю отчёт.",
+   "a": [
+    "I am preparing a report now.",
+    "I am preparing the report now.",
+    "Now I am preparing a report.",
+    "I am preparing a report at the moment.",
+    "I am writing a report now."
+   ],
+   "exp": "Now → Continuous.",
+   "ru": "Сейчас — am preparing.",
+   "id": "f-psc-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она не пьёт кофе.",
+   "a": [
+    "She doesn't drink coffee.",
+    "She does not drink coffee."
+   ],
+   "exp": "Fact → doesn't + infinitive.",
+   "ru": "doesn't drink.",
+   "id": "f-psc-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы встречаемся каждый понедельник.",
+   "a": [
+    "We meet every Monday.",
+    "We have a meeting every Monday.",
+    "We have meetings every Monday."
+   ],
+   "exp": "Routine → Present Simple.",
+   "ru": "Каждый понедельник — meet.",
+   "id": "f-psc-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "На этой неделе я работаю из дома.",
+   "a": [
+    "This week I am working from home.",
+    "I am working from home this week."
+   ],
+   "exp": "Temporary → Continuous.",
+   "ru": "На этой неделе — am working.",
+   "id": "f-psc-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не понимаю этот вопрос.",
+   "a": [
+    "I don't understand this question.",
+    "I do not understand this question."
+   ],
+   "exp": "State verb → Simple.",
+   "ru": "understand — Simple.",
+   "id": "f-psc-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что ты делаешь по выходным?",
+   "a": [
+    "What do you do at the weekend?",
+    "What do you do at weekends?",
+    "What do you do on weekends?",
+    "What do you do on the weekend?"
+   ],
+   "exp": "Habit → do you do.",
+   "ru": "Обычно — do you do.",
+   "id": "f-psc-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он сейчас разговаривает с директором.",
+   "a": [
+    "He is talking to the director now.",
+    "He is talking with the director now.",
+    "He is speaking to the director now.",
+    "He is speaking with the director now.",
+    "Now he is talking to the director."
+   ],
+   "exp": "Now → is talking.",
+   "ru": "Сейчас — is talking.",
+   "id": "f-psc-36",
+   "stage": 3
+  }
+ ]
+}

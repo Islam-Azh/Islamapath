@@ -1,0 +1,438 @@
+{
+ "id": "questions-word-order",
+ "title": "Word order in questions",
+ "level": "A2",
+ "unit": "1A",
+ "units": [
+  "1A"
+ ],
+ "en": "<p>Normal question order: <b>(Question word) + auxiliary + subject + verb</b>.</p><p><i>Where <b>do you</b> work? What <b>are you</b> doing? <b>Did she</b> call you? How long <b>have you</b> lived here?</i></p><p>With <b>be</b> the verb goes before the subject: <i>Where <b>is</b> the office?</i></p><p>Prepositions often go at the end: <i>Who do you work <b>with</b>? What are you talking <b>about</b>?</i></p>",
+ "ru": "Порядок слов в вопросе: (вопросительное слово) + вспомогательный глагол (do/does/did, am/is/are, have/has, can, will) + подлежащее + глагол. С be: Where is…? Предлог часто в конце: Who do you work with?",
+ "boss": {
+  "situation": "You meet a new colleague from head office. Write 5 questions to get to know them and their job.",
+  "samples": [
+   "Where do you work?",
+   "What do you do in your department?",
+   "How long have you worked here?",
+   "Who do you report to?",
+   "What are you working on at the moment?"
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Where ___ you work?",
+   "opts": [
+    "do",
+    "are",
+    "does"
+   ],
+   "a": 0,
+   "exp": "Present Simple question with “you” → do.",
+   "ru": "С you в Present Simple — do.",
+   "id": "f-qw-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What ___ she doing now?",
+   "opts": [
+    "does",
+    "is",
+    "do"
+   ],
+   "a": 1,
+   "exp": "Present Continuous: is + she + -ing.",
+   "ru": "Сейчас — is she doing.",
+   "id": "f-qw-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ you call the supplier yesterday?",
+   "opts": [
+    "Did",
+    "Do",
+    "Were"
+   ],
+   "a": 0,
+   "exp": "Past Simple question → Did + subject + infinitive.",
+   "ru": "Прошлое — Did.",
+   "id": "f-qw-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "How long ___ you worked here?",
+   "opts": [
+    "did",
+    "have",
+    "are"
+   ],
+   "a": 1,
+   "exp": "Present Perfect question → have + subject + past participle.",
+   "ru": "How long have you…",
+   "id": "f-qw-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which question is correct?",
+   "opts": [
+    "Where your office is?",
+    "Where is your office?",
+    "Where does your office is?"
+   ],
+   "a": 1,
+   "exp": "With be: question word + be + subject.",
+   "ru": "С be: Where is…?",
+   "id": "f-qw-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who do you usually have lunch ___?",
+   "opts": [
+    "with",
+    "to",
+    "at"
+   ],
+   "a": 0,
+   "exp": "The preposition goes at the end: have lunch with someone.",
+   "ru": "Предлог в конце: with.",
+   "id": "f-qw-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ your manager speak English?",
+   "opts": [
+    "Do",
+    "Does",
+    "Is"
+   ],
+   "a": 1,
+   "exp": "He / she / it → does.",
+   "ru": "С he/she — does.",
+   "id": "f-qw-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What time ___ the meeting start tomorrow?",
+   "opts": [
+    "does",
+    "is",
+    "do"
+   ],
+   "a": 0,
+   "exp": "Timetable / schedule → Present Simple: does the meeting start.",
+   "ru": "Расписание — does.",
+   "id": "f-qw-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Can you help me?” has the correct word order.",
+   "a": true,
+   "exp": "Modal (can) + subject + verb.",
+   "ru": "Модальный глагол + подлежащее + глагол.",
+   "id": "f-qw-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“What you did at the weekend?” is a correct question.",
+   "a": false,
+   "exp": "Correct: What did you do at the weekend?",
+   "ru": "Нужно did + do.",
+   "id": "f-qw-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Where ___ you go on holiday last year?",
+   "a": [
+    "did"
+   ],
+   "exp": "Past Simple question → did.",
+   "ru": "Прошлое — did.",
+   "id": "f-qw-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ your sister live near you?",
+   "a": [
+    "does"
+   ],
+   "exp": "Third person → does.",
+   "ru": "He/she — does.",
+   "id": "f-qw-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What ___ you thinking about?",
+   "a": [
+    "are"
+   ],
+   "exp": "Present Continuous: are you thinking.",
+   "ru": "Сейчас — are.",
+   "id": "f-qw-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "How many people ___ in your department?",
+   "a": [
+    "are"
+   ],
+   "exp": "there are → how many people are…",
+   "ru": "Сколько людей — are.",
+   "id": "f-qw-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ you ever been to Astana?",
+   "a": [
+    "have"
+   ],
+   "exp": "Experience → Present Perfect: Have you ever been…?",
+   "ru": "Опыт — have.",
+   "id": "f-qw-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Who ___ you send the report to yesterday?",
+   "a": [
+    "did"
+   ],
+   "exp": "Past + object question → did.",
+   "ru": "Кому ты отправил — did.",
+   "id": "f-qw-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "where do you live",
+   "exp": "Question word + do + subject + verb.",
+   "ru": "Where + do + you + live.",
+   "id": "f-qw-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what are you working on",
+   "exp": "Preposition at the end.",
+   "ru": "Предлог on в конце.",
+   "id": "f-qw-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how often do you have meetings",
+   "exp": "How often + do + you + verb.",
+   "ru": "How often + do.",
+   "id": "f-qw-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "did you finish the report",
+   "exp": "Did + subject + infinitive.",
+   "ru": "Did + you + finish.",
+   "id": "f-qw-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "who does she work with",
+   "exp": "Preposition at the end: work with.",
+   "ru": "with — в конце.",
+   "id": "f-qw-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "when is the next audit",
+   "exp": "With be: question word + is + subject.",
+   "ru": "When + is.",
+   "id": "f-qw-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Where you work?”",
+   "a": [
+    "Where do you work?"
+   ],
+   "exp": "Add the auxiliary do.",
+   "ru": "Нужен do.",
+   "id": "f-qw-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “What time the meeting starts?”",
+   "a": [
+    "What time does the meeting start?"
+   ],
+   "exp": "does + infinitive (no -s).",
+   "ru": "does + start без -s.",
+   "id": "f-qw-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Did you went to the office?”",
+   "a": [
+    "Did you go to the office?"
+   ],
+   "exp": "After did → infinitive.",
+   "ru": "После did — go.",
+   "id": "f-qw-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Where is working your brother?”",
+   "a": [
+    "Where is your brother working?",
+    "Where does your brother work?"
+   ],
+   "exp": "Auxiliary + subject + -ing.",
+   "ru": "is + brother + working.",
+   "id": "f-qw-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “How long you have lived here?”",
+   "a": [
+    "How long have you lived here?"
+   ],
+   "exp": "have before the subject.",
+   "ru": "have перед подлежащим.",
+   "id": "f-qw-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “With who do you work?”",
+   "a": [
+    "Who do you work with?"
+   ],
+   "exp": "In everyday English the preposition goes at the end.",
+   "ru": "Предлог — в конце.",
+   "id": "f-qw-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Где ты работаешь?",
+   "a": [
+    "Where do you work?"
+   ],
+   "exp": "Question word + do + you + verb.",
+   "ru": "Where do you…",
+   "id": "f-qw-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что ты делаешь сейчас?",
+   "a": [
+    "What are you doing now?",
+    "What are you doing at the moment?",
+    "What are you doing right now?"
+   ],
+   "exp": "Present Continuous question.",
+   "ru": "Сейчас — are you doing.",
+   "id": "f-qw-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Когда ты начал работать здесь?",
+   "a": [
+    "When did you start working here?",
+    "When did you start to work here?"
+   ],
+   "exp": "Past Simple: When did you start…?",
+   "ru": "When did…",
+   "id": "f-qw-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Как долго ты работаешь в этой компании?",
+   "a": [
+    "How long have you worked for this company?",
+    "How long have you been working for this company?",
+    "How long have you worked in this company?",
+    "How long have you worked at this company?"
+   ],
+   "exp": "Period up to now → Present Perfect.",
+   "ru": "Как долго — have you worked.",
+   "id": "f-qw-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "С кем ты обычно обедаешь?",
+   "a": [
+    "Who do you usually have lunch with?"
+   ],
+   "exp": "Preposition at the end.",
+   "ru": "with — в конце.",
+   "id": "f-qw-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты можешь отправить мне отчёт?",
+   "a": [
+    "Can you send me the report?",
+    "Could you send me the report?",
+    "Can you send the report to me?",
+    "Could you send the report to me?"
+   ],
+   "exp": "Modal + subject + verb.",
+   "ru": "Can you…",
+   "id": "f-qw-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ваш менеджер говорит по-английски?",
+   "a": [
+    "Does your manager speak English?"
+   ],
+   "exp": "Third person → does.",
+   "ru": "Does + manager.",
+   "id": "f-qw-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Во сколько начинается совещание?",
+   "a": [
+    "What time does the meeting start?",
+    "When does the meeting start?"
+   ],
+   "exp": "Schedule → Present Simple with does.",
+   "ru": "Расписание — does.",
+   "id": "f-qw-36",
+   "stage": 3
+  }
+ ]
+}

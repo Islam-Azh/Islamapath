@@ -1,0 +1,446 @@
+{
+ "id": "quantifiers",
+ "title": "Quantifiers: much, many, a lot of, a few, a little, too, enough",
+ "level": "A2",
+ "unit": "5C",
+ "units": [
+  "5C"
+ ],
+ "en": "<p><b>Countable</b> (people, reports, days): <b>many, a few, how many</b>. <b>Uncountable</b> (time, money, information, work): <b>much, a little, how much</b>. Both: <b>a lot of / lots of</b>.</p><p>In positive sentences we usually say <b>a lot of</b>; <b>much / many</b> are more common in negatives and questions: <i>We don't have <b>much</b> time. Are there <b>many</b> people?</i></p><p><b>too</b> + adjective / <b>too much / too many</b> + noun = more than is good: <i>It's <b>too</b> expensive. I have <b>too much</b> work.</i></p><p><b>not</b> + adjective + <b>enough</b>; <b>enough</b> + noun: <i>The room isn't big <b>enough</b>. We don't have <b>enough</b> chairs.</i></p>",
+ "ru": "Исчисляемые (reports, people) — many, a few, how many; неисчисляемые (time, money, information, work) — much, a little, how much. a lot of — с обоими. too — слишком; too much / too many + сущ. enough: прилагательное + enough, но enough + существительное.",
+ "boss": {
+  "situation": "Describe your workload this month: too much / too many / not enough / a lot of / a few.",
+  "samples": [
+   "This month I have too much work.",
+   "There are too many reports to check.",
+   "We don't have enough people in the team.",
+   "I only have a few free hours a week.",
+   "The deadline is too close and the time is not enough."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "How ___ money do you need?",
+   "opts": [
+    "much",
+    "many",
+    "a lot"
+   ],
+   "a": 0,
+   "exp": "money is uncountable → much.",
+   "ru": "money — much.",
+   "id": "f-qn-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "How ___ people work in your department?",
+   "opts": [
+    "much",
+    "many",
+    "lot"
+   ],
+   "a": 1,
+   "exp": "people countable → many.",
+   "ru": "people — many.",
+   "id": "f-qn-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I have ___ work today. I can't go out.",
+   "opts": [
+    "too many",
+    "too much",
+    "enough"
+   ],
+   "a": 1,
+   "exp": "work uncountable → too much.",
+   "ru": "work — too much.",
+   "id": "f-qn-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "There are ___ mistakes in this report. Please check it again.",
+   "opts": [
+    "too much",
+    "too many",
+    "a little"
+   ],
+   "a": 1,
+   "exp": "mistakes countable → too many.",
+   "ru": "mistakes — too many.",
+   "id": "f-qn-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The room isn't ___ for 20 people.",
+   "opts": [
+    "enough big",
+    "big enough",
+    "too big"
+   ],
+   "a": 1,
+   "exp": "adjective + enough.",
+   "ru": "big enough.",
+   "id": "f-qn-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We have ___ time before the meeting — about ten minutes.",
+   "opts": [
+    "a little",
+    "a few",
+    "many"
+   ],
+   "a": 0,
+   "exp": "time uncountable, small amount → a little.",
+   "ru": "time — a little.",
+   "id": "f-qn-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I know ___ people in the Astana office.",
+   "opts": [
+    "a little",
+    "a few",
+    "much"
+   ],
+   "a": 1,
+   "exp": "people countable, small number → a few.",
+   "ru": "people — a few.",
+   "id": "f-qn-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "This coffee is ___ hot. I can't drink it.",
+   "opts": [
+    "too",
+    "enough",
+    "very much"
+   ],
+   "a": 0,
+   "exp": "More than is good → too.",
+   "ru": "Слишком — too.",
+   "id": "f-qn-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Information” is uncountable, so we say “much information”.",
+   "a": true,
+   "exp": "information is uncountable.",
+   "ru": "information — неисчисляемое.",
+   "id": "f-qn-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“We don't have chairs enough” is correct.",
+   "a": false,
+   "exp": "enough goes before a noun: enough chairs.",
+   "ru": "enough chairs.",
+   "id": "f-qn-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "We don't have ___ time. Let's hurry.",
+   "a": [
+    "much",
+    "enough"
+   ],
+   "exp": "Negative + uncountable → much / enough.",
+   "ru": "much time.",
+   "id": "f-qn-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "There are a ___ biscuits left — about three.",
+   "a": [
+    "few"
+   ],
+   "exp": "a few + countable.",
+   "ru": "a few.",
+   "id": "f-qn-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He drinks too ___ coffee.",
+   "a": [
+    "much"
+   ],
+   "exp": "coffee uncountable → too much.",
+   "ru": "too much.",
+   "id": "f-qn-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The salary isn't high ___ for me.",
+   "a": [
+    "enough"
+   ],
+   "exp": "adjective + enough.",
+   "ru": "high enough.",
+   "id": "f-qn-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "How ___ reports do you write a month?",
+   "a": [
+    "many"
+   ],
+   "exp": "reports → many.",
+   "ru": "many.",
+   "id": "f-qn-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "There were too ___ people at the conference.",
+   "a": [
+    "many"
+   ],
+   "exp": "people → too many.",
+   "ru": "too many.",
+   "id": "f-qn-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we do not have enough information",
+   "exp": "enough + noun.",
+   "ru": "enough information.",
+   "id": "f-qn-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "there are too many emails in my inbox",
+   "exp": "too many + countable.",
+   "ru": "too many emails.",
+   "id": "f-qn-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how much time do we have",
+   "exp": "how much + uncountable.",
+   "ru": "how much time.",
+   "id": "f-qn-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the office is not big enough",
+   "exp": "adjective + enough.",
+   "ru": "big enough.",
+   "id": "f-qn-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have a lot of work this week",
+   "exp": "a lot of + any noun.",
+   "ru": "a lot of work.",
+   "id": "f-qn-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she speaks a little english",
+   "exp": "a little + uncountable.",
+   "ru": "a little English.",
+   "id": "f-qn-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “How many money do you have?”",
+   "a": [
+    "How much money do you have?"
+   ],
+   "exp": "money → much.",
+   "ru": "much money.",
+   "id": "f-qn-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I have too much meetings today.”",
+   "a": [
+    "I have too many meetings today."
+   ],
+   "exp": "meetings → too many.",
+   "ru": "too many.",
+   "id": "f-qn-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He isn't enough old to drive.”",
+   "a": [
+    "He isn't old enough to drive.",
+    "He is not old enough to drive."
+   ],
+   "exp": "adjective + enough.",
+   "ru": "old enough.",
+   "id": "f-qn-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Can you give me some informations?”",
+   "a": [
+    "Can you give me some information?"
+   ],
+   "exp": "information has no plural.",
+   "ru": "information без -s.",
+   "id": "f-qn-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “There is a few milk in the fridge.”",
+   "a": [
+    "There is a little milk in the fridge."
+   ],
+   "exp": "milk uncountable → a little.",
+   "ru": "a little milk.",
+   "id": "f-qn-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “It's too much expensive.”",
+   "a": [
+    "It's too expensive.",
+    "It is too expensive."
+   ],
+   "exp": "too + adjective (no much).",
+   "ru": "too expensive.",
+   "id": "f-qn-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "У меня слишком много работы.",
+   "a": [
+    "I have too much work.",
+    "I've got too much work."
+   ],
+   "exp": "work → too much.",
+   "ru": "too much work.",
+   "id": "f-qn-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "У нас недостаточно людей.",
+   "a": [
+    "We don't have enough people.",
+    "We do not have enough people.",
+    "We haven't got enough people.",
+    "We have not got enough people."
+   ],
+   "exp": "enough + noun.",
+   "ru": "enough people.",
+   "id": "f-qn-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сколько стоит эта программа?",
+   "a": [
+    "How much does this program cost?",
+    "How much does this software cost?",
+    "How much is this program?",
+    "How much is this software?"
+   ],
+   "exp": "Price → how much.",
+   "ru": "How much.",
+   "id": "f-qn-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сколько отчётов ты пишешь в месяц?",
+   "a": [
+    "How many reports do you write a month?",
+    "How many reports do you write per month?",
+    "How many reports do you write every month?",
+    "How many reports do you write in a month?"
+   ],
+   "exp": "Countable → how many.",
+   "ru": "How many.",
+   "id": "f-qn-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Комната недостаточно большая.",
+   "a": [
+    "The room isn't big enough.",
+    "The room is not big enough."
+   ],
+   "exp": "adjective + enough.",
+   "ru": "big enough.",
+   "id": "f-qn-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Здесь слишком шумно.",
+   "a": [
+    "It's too noisy here.",
+    "It is too noisy here."
+   ],
+   "exp": "too + adjective.",
+   "ru": "too noisy.",
+   "id": "f-qn-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я знаю несколько слов по-немецки.",
+   "a": [
+    "I know a few words in German.",
+    "I know a few German words."
+   ],
+   "exp": "a few + countable.",
+   "ru": "a few words.",
+   "id": "f-qn-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "В письме слишком много ошибок.",
+   "a": [
+    "There are too many mistakes in the letter.",
+    "There are too many mistakes in the email.",
+    "There are too many errors in the letter.",
+    "There are too many errors in the email."
+   ],
+   "exp": "mistakes → too many.",
+   "ru": "too many mistakes.",
+   "id": "f-qn-36",
+   "stage": 3
+  }
+ ]
+}

@@ -1,0 +1,441 @@
+{
+ "id": "possessive-pronouns",
+ "title": "Possessive pronouns: mine, yours, his, hers, ours, theirs",
+ "level": "A2",
+ "unit": "8C",
+ "units": [
+  "8C"
+ ],
+ "en": "<p><b>Possessive adjectives</b> go before a noun: <b>my, your, his, her, its, our, their</b> + noun: <i>This is <b>my</b> desk.</i></p><p><b>Possessive pronouns</b> replace the noun: <b>mine, yours, his, hers, ours, theirs</b>: <i>This desk is <b>mine</b>. Is this pen <b>yours</b>?</i></p><p><b>Whose</b> asks about the owner: <i><b>Whose</b> laptop is this? — It's Aigerim's / It's <b>hers</b>.</i></p><p>No apostrophe: <b>yours, hers, ours, theirs, its</b> (not <i>your's, it's</i> for possession).</p>",
+ "ru": "my / your / his / her / our / their — перед существительным (my desk). mine / yours / his / hers / ours / theirs — вместо существительного (It's mine). Whose…? — чей? Без апострофа: yours, hers, ours, its.",
+ "boss": {
+  "situation": "Describe who is responsible for what in your team: “This process is ours, that one is theirs…”. Use whose once.",
+  "samples": [
+   "The risk register is ours, but the budget is theirs.",
+   "This procedure is mine — I wrote it last year.",
+   "The final approval is hers, because she is the head of department.",
+   "Whose task is the stock count? — It's his.",
+   "Is this report yours or Aliya's?"
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "This isn't my coffee. ___ is on the table.",
+   "opts": [
+    "My",
+    "Mine",
+    "Me"
+   ],
+   "a": 1,
+   "exp": "Replaces the noun → mine.",
+   "ru": "Мой (без сущ.) — mine.",
+   "id": "f-po-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Is this pen ___?",
+   "opts": [
+    "your",
+    "yours",
+    "your's"
+   ],
+   "a": 1,
+   "exp": "Replaces the noun → yours.",
+   "ru": "Твой — yours.",
+   "id": "f-po-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ laptop is this? — It's Marat's.",
+   "opts": [
+    "Who",
+    "Whose",
+    "Who's"
+   ],
+   "a": 1,
+   "exp": "Owner → Whose.",
+   "ru": "Чей — Whose.",
+   "id": "f-po-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "That office is ___. They moved there last week.",
+   "opts": [
+    "their",
+    "theirs",
+    "them"
+   ],
+   "a": 1,
+   "exp": "Without noun → theirs.",
+   "ru": "Их — theirs.",
+   "id": "f-po-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The decision is ___, not mine. She is the manager.",
+   "opts": [
+    "her",
+    "hers",
+    "she"
+   ],
+   "a": 1,
+   "exp": "Without noun → hers.",
+   "ru": "Её — hers.",
+   "id": "f-po-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We love ___ new office.",
+   "opts": [
+    "our",
+    "ours",
+    "us"
+   ],
+   "a": 0,
+   "exp": "Before a noun → our.",
+   "ru": "Перед сущ. — our.",
+   "id": "f-po-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The company changed ___ logo.",
+   "opts": [
+    "it's",
+    "its",
+    "their"
+   ],
+   "a": 1,
+   "exp": "Possession → its (no apostrophe).",
+   "ru": "its — без апострофа.",
+   "id": "f-po-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Those documents are ___. We prepared them.",
+   "opts": [
+    "our",
+    "ours",
+    "us"
+   ],
+   "a": 1,
+   "exp": "Without noun → ours.",
+   "ru": "Наши — ours.",
+   "id": "f-po-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Is this car your?” is correct.",
+   "a": false,
+   "exp": "Without a noun → yours: Is this car yours?",
+   "ru": "yours.",
+   "id": "f-po-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Whose bag is this?” asks about the owner.",
+   "a": true,
+   "exp": "whose = чей.",
+   "ru": "Whose — чей.",
+   "id": "f-po-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "This book is ___ (I). Give it back!",
+   "a": [
+    "mine"
+   ],
+   "exp": "I → mine.",
+   "ru": "mine.",
+   "id": "f-po-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Is that your car or ___ (they)?",
+   "a": [
+    "theirs"
+   ],
+   "exp": "they → theirs.",
+   "ru": "theirs.",
+   "id": "f-po-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ phone is ringing? — It's mine.",
+   "a": [
+    "Whose"
+   ],
+   "exp": "Owner → Whose.",
+   "ru": "Whose.",
+   "id": "f-po-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "My desk is near the window, and ___ (he) is near the door.",
+   "a": [
+    "his"
+   ],
+   "exp": "he → his.",
+   "ru": "his.",
+   "id": "f-po-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "The idea was ___ (we), not the manager's.",
+   "a": [
+    "ours"
+   ],
+   "exp": "we → ours.",
+   "ru": "ours.",
+   "id": "f-po-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Aigerim, is this umbrella ___ (you)?",
+   "a": [
+    "yours"
+   ],
+   "exp": "you → yours.",
+   "ru": "yours.",
+   "id": "f-po-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "this report is mine",
+   "exp": "Pronoun at the end.",
+   "ru": "is mine.",
+   "id": "f-po-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "whose jacket is this",
+   "exp": "Whose + noun + is + this.",
+   "ru": "Whose jacket.",
+   "id": "f-po-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the final decision is hers",
+   "exp": "hers without noun.",
+   "ru": "is hers.",
+   "id": "f-po-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "is this seat yours",
+   "exp": "Question with yours.",
+   "ru": "yours.",
+   "id": "f-po-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "our team is smaller than theirs",
+   "exp": "theirs = their team.",
+   "ru": "than theirs.",
+   "id": "f-po-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the responsibility is ours",
+   "exp": "ours without noun.",
+   "ru": "is ours.",
+   "id": "f-po-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “This bag is my.”",
+   "a": [
+    "This bag is mine."
+   ],
+   "exp": "Without a noun → mine.",
+   "ru": "mine.",
+   "id": "f-po-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Is this your's?”",
+   "a": [
+    "Is this yours?"
+   ],
+   "exp": "No apostrophe in yours.",
+   "ru": "yours.",
+   "id": "f-po-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Who's pen is this?”",
+   "a": [
+    "Whose pen is this?"
+   ],
+   "exp": "Owner → Whose.",
+   "ru": "Whose.",
+   "id": "f-po-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The company is proud of it's history.”",
+   "a": [
+    "The company is proud of its history."
+   ],
+   "exp": "Possession → its.",
+   "ru": "its.",
+   "id": "f-po-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Their office is bigger than our.”",
+   "a": [
+    "Their office is bigger than ours."
+   ],
+   "exp": "Without a noun → ours.",
+   "ru": "ours.",
+   "id": "f-po-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “That is hers bag.”",
+   "a": [
+    "That is her bag.",
+    "That's her bag."
+   ],
+   "exp": "Before a noun → her.",
+   "ru": "her bag.",
+   "id": "f-po-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Этот стол мой.",
+   "a": [
+    "This desk is mine.",
+    "This table is mine."
+   ],
+   "exp": "mine.",
+   "ru": "mine.",
+   "id": "f-po-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Чей это ноутбук?",
+   "a": [
+    "Whose laptop is this?",
+    "Whose laptop is it?"
+   ],
+   "exp": "Whose + noun.",
+   "ru": "Whose laptop.",
+   "id": "f-po-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это решение её, а не моё.",
+   "a": [
+    "This decision is hers, not mine.",
+    "The decision is hers, not mine.",
+    "It's her decision, not mine.",
+    "It is her decision, not mine."
+   ],
+   "exp": "hers / mine.",
+   "ru": "hers, not mine.",
+   "id": "f-po-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Эта ручка твоя?",
+   "a": [
+    "Is this pen yours?",
+    "Is this your pen?"
+   ],
+   "exp": "yours.",
+   "ru": "yours.",
+   "id": "f-po-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Наш отдел больше, чем их.",
+   "a": [
+    "Our department is bigger than theirs.",
+    "Our department is larger than theirs."
+   ],
+   "exp": "theirs.",
+   "ru": "than theirs.",
+   "id": "f-po-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Это не мой отчёт, а его.",
+   "a": [
+    "It's not my report, it's his.",
+    "It is not my report, it is his.",
+    "This isn't my report, it's his.",
+    "This is not my report, it is his.",
+    "This report is not mine, it is his.",
+    "This report isn't mine, it's his."
+   ],
+   "exp": "his without noun.",
+   "ru": "his.",
+   "id": "f-po-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Компания изменила свой логотип.",
+   "a": [
+    "The company changed its logo.",
+    "The company has changed its logo."
+   ],
+   "exp": "its.",
+   "ru": "its logo.",
+   "id": "f-po-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Эти документы наши.",
+   "a": [
+    "These documents are ours."
+   ],
+   "exp": "ours.",
+   "ru": "ours.",
+   "id": "f-po-36",
+   "stage": 3
+  }
+ ]
+}

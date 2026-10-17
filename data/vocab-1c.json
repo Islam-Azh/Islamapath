@@ -1,0 +1,152 @@
+[
+ {
+  "word": "shirt",
+  "ipa": "/ʃɜːt/",
+  "ru": "рубашка",
+  "ex": "I wear a white shirt to meetings.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "jeans",
+  "ipa": "/dʒiːnz/",
+  "ru": "джинсы",
+  "ex": "On Fridays we can wear jeans.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "coat",
+  "ipa": "/kəʊt/",
+  "ru": "пальто",
+  "ex": "It's cold — take your coat.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "boots",
+  "ipa": "/buːts/",
+  "ru": "ботинки, сапоги",
+  "ex": "You need safety boots on site.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "scarf",
+  "ipa": "/skɑːf/",
+  "ru": "шарф",
+  "ex": "In winter I always wear a scarf.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "uniform",
+  "ipa": "/ˈjuːnɪfɔːm/",
+  "ru": "форма (одежда)",
+  "ex": "Operators wear a blue uniform.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "in front of",
+  "ipa": "/ɪn frʌnt əv/",
+  "ru": "перед",
+  "ex": "The car is in front of the office.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "behind",
+  "ipa": "/bɪˈhaɪnd/",
+  "ru": "за, позади",
+  "ex": "The printer is behind the door.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "next to",
+  "ipa": "/nekst tə/",
+  "ru": "рядом с",
+  "ex": "My desk is next to the window.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "opposite",
+  "ipa": "/ˈɒpəzɪt/",
+  "ru": "напротив",
+  "ex": "The canteen is opposite the main building.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "financial statements",
+  "ipa": "/faɪˌnænʃl ˈsteɪtmənts/",
+  "ru": "финансовая отчётность",
+  "ex": "The financial statements are prepared under IFRS.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "asset",
+  "ipa": "/ˈæset/",
+  "ru": "актив",
+  "ex": "Equipment is a non-current asset.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "liability",
+  "ipa": "/ˌlaɪəˈbɪləti/",
+  "ru": "обязательство",
+  "ex": "A bank loan is a liability.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "revenue",
+  "ipa": "/ˈrevənjuː/",
+  "ru": "выручка",
+  "ex": "Revenue grew by ten per cent.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "expense",
+  "ipa": "/ɪkˈspens/",
+  "ru": "расход",
+  "ex": "Travel is our biggest expense.",
+  "topic": "Clothes, prepositions of place",
+  "unit": "1C",
+  "track": "work",
+  "level": "A2"
+ }
+]

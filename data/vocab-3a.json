@@ -1,0 +1,152 @@
+[
+ {
+  "word": "check in",
+  "ipa": "/tʃek ɪn/",
+  "ru": "регистрироваться",
+  "ex": "We checked in two hours before the flight.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "boarding pass",
+  "ipa": "/ˈbɔːdɪŋ pɑːs/",
+  "ru": "посадочный талон",
+  "ex": "Please show your boarding pass.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "gate",
+  "ipa": "/ɡeɪt/",
+  "ru": "выход на посадку",
+  "ex": "The flight leaves from gate 5.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "departures",
+  "ipa": "/dɪˈpɑːtʃəz/",
+  "ru": "вылет (зона, табло)",
+  "ex": "Look at the departures board.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "arrivals",
+  "ipa": "/əˈraɪvlz/",
+  "ru": "прилёт (зона)",
+  "ex": "I'll meet you in arrivals.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "hand luggage",
+  "ipa": "/hænd ˈlʌɡɪdʒ/",
+  "ru": "ручная кладь",
+  "ex": "I only have hand luggage.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "passport control",
+  "ipa": "/ˈpɑːspɔːt kənˌtrəʊl/",
+  "ru": "паспортный контроль",
+  "ex": "There was a long queue at passport control.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "delayed",
+  "ipa": "/dɪˈleɪd/",
+  "ru": "задержанный",
+  "ex": "Our flight was delayed by two hours.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "take off",
+  "ipa": "/teɪk ɒf/",
+  "ru": "взлетать",
+  "ex": "The plane took off on time.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "land",
+  "ipa": "/lænd/",
+  "ru": "приземляться",
+  "ex": "We landed in Astana at midnight.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "budget",
+  "ipa": "/ˈbʌdʒɪt/",
+  "ru": "бюджет",
+  "ex": "The project is within budget.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "invoice",
+  "ipa": "/ˈɪnvɔɪs/",
+  "ru": "счёт (на оплату)",
+  "ex": "The supplier sent an invoice.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "payment",
+  "ipa": "/ˈpeɪmənt/",
+  "ru": "платёж, оплата",
+  "ex": "The payment is due in 30 days.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "profit",
+  "ipa": "/ˈprɒfɪt/",
+  "ru": "прибыль",
+  "ex": "The company made a profit last year.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "loss",
+  "ipa": "/lɒs/",
+  "ru": "убыток",
+  "ex": "The project made a loss.",
+  "topic": "Airports and travel plans",
+  "unit": "3A",
+  "track": "work",
+  "level": "A2"
+ }
+]

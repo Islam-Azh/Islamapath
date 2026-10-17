@@ -1,0 +1,481 @@
+{
+ "id": "gerund",
+ "title": "Verb + -ing (gerund)",
+ "level": "B1",
+ "unit": "7B",
+ "units": [
+  "7B"
+ ],
+ "en": "<p>Use the <b>-ing form</b>:</p><p>1. As the <b>subject</b> of a sentence: <i><b>Testing</b> controls takes time. <b>Learning</b> English is important for me.</i></p><p>2. After <b>prepositions</b>: <i>I'm good <b>at solving</b> problems. Thank you <b>for helping</b>. Before <b>leaving</b>, check the door. I'm interested <b>in working</b> abroad. I'm looking forward <b>to meeting</b> you.</i></p><p>3. After these verbs: <b>enjoy, like, love, hate, don't mind, finish, stop, avoid, spend (time), feel like, can't stand, keep, suggest</b>: <i>I <b>enjoy working</b> with people. I <b>avoid making</b> decisions in a hurry.</i></p><p>Compare 7A: <i>I want <b>to</b> go</i> but <i>I enjoy <b>going</b></i>.</p>",
+ "ru": "Форма -ing: 1) как подлежащее (Learning English is important); 2) после предлогов (good at, interested in, thank you for, before / after, look forward to + -ing!); 3) после глаголов enjoy, like, love, hate, don't mind, finish, stop, avoid, spend time, feel like, can't stand, keep, suggest.",
+ "boss": {
+  "situation": "Write about what you enjoy, avoid and look forward to in your job. Use at least 5 different -ing structures.",
+  "samples": [
+   "I enjoy working with people from different departments.",
+   "I'm good at finding mistakes in documents.",
+   "I avoid making promises I cannot keep.",
+   "Testing controls takes a lot of time, but it is interesting.",
+   "I'm looking forward to working for an international company."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I enjoy ___ with people.",
+   "opts": [
+    "to work",
+    "working",
+    "work"
+   ],
+   "a": 1,
+   "exp": "enjoy + -ing.",
+   "ru": "enjoy + -ing.",
+   "id": "f-gr-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ English every day is a good habit.",
+   "opts": [
+    "Learn",
+    "Learning",
+    "To learning"
+   ],
+   "a": 1,
+   "exp": "Subject → -ing.",
+   "ru": "Подлежащее — Learning.",
+   "id": "f-gr-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She's good at ___ problems.",
+   "opts": [
+    "solve",
+    "to solve",
+    "solving"
+   ],
+   "a": 2,
+   "exp": "Preposition (at) + -ing.",
+   "ru": "at + -ing.",
+   "id": "f-gr-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I'm looking forward to ___ you.",
+   "opts": [
+    "meet",
+    "meeting",
+    "to meet"
+   ],
+   "a": 1,
+   "exp": "look forward to + -ing.",
+   "ru": "to + meeting.",
+   "id": "f-gr-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Thank you for ___ me.",
+   "opts": [
+    "help",
+    "helping",
+    "to help"
+   ],
+   "a": 1,
+   "exp": "for + -ing.",
+   "ru": "for helping.",
+   "id": "f-gr-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He avoids ___ decisions in a hurry.",
+   "opts": [
+    "make",
+    "making",
+    "to make"
+   ],
+   "a": 1,
+   "exp": "avoid + -ing.",
+   "ru": "avoid + -ing.",
+   "id": "f-gr-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I don't mind ___ late today.",
+   "opts": [
+    "working",
+    "to work",
+    "work"
+   ],
+   "a": 0,
+   "exp": "don't mind + -ing.",
+   "ru": "don't mind + -ing.",
+   "id": "f-gr-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Have you finished ___ the report?",
+   "opts": [
+    "write",
+    "to write",
+    "writing"
+   ],
+   "a": 2,
+   "exp": "finish + -ing.",
+   "ru": "finish + -ing.",
+   "id": "f-gr-8",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I want ___ a new job.",
+   "opts": [
+    "finding",
+    "to find",
+    "find"
+   ],
+   "a": 1,
+   "exp": "want + to (not -ing).",
+   "ru": "want + to.",
+   "id": "f-gr-9",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Before ___ the office, switch off the computer.",
+   "opts": [
+    "leave",
+    "leaving",
+    "to leave"
+   ],
+   "a": 1,
+   "exp": "before + -ing.",
+   "ru": "before + -ing.",
+   "id": "f-gr-10",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I'm interested in to work abroad” is correct.",
+   "a": false,
+   "exp": "in + -ing: interested in working.",
+   "ru": "in + working.",
+   "id": "f-gr-11",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "In “Smoking is bad for you”, “smoking” is the subject.",
+   "a": true,
+   "exp": "-ing as the subject.",
+   "ru": "-ing — подлежащее.",
+   "id": "f-gr-12",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I hate ___ (wait) in queues.",
+   "a": [
+    "waiting"
+   ],
+   "exp": "hate + -ing.",
+   "ru": "waiting.",
+   "id": "f-gr-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She's interested in ___ (work) abroad.",
+   "a": [
+    "working"
+   ],
+   "exp": "in + -ing.",
+   "ru": "working.",
+   "id": "f-gr-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ (check) every invoice takes a lot of time.",
+   "a": [
+    "Checking"
+   ],
+   "exp": "Subject → -ing.",
+   "ru": "Checking.",
+   "id": "f-gr-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I don't feel like ___ (go) out tonight.",
+   "a": [
+    "going"
+   ],
+   "exp": "feel like + -ing.",
+   "ru": "going.",
+   "id": "f-gr-16",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "He spends hours ___ (answer) emails.",
+   "a": [
+    "answering"
+   ],
+   "exp": "spend time + -ing.",
+   "ru": "answering.",
+   "id": "f-gr-17",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Stop ___ (talk) and listen!",
+   "a": [
+    "talking"
+   ],
+   "exp": "stop + -ing.",
+   "ru": "talking.",
+   "id": "f-gr-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i enjoy working with numbers",
+   "exp": "enjoy + -ing.",
+   "ru": "enjoy working.",
+   "id": "f-gr-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she is good at speaking in public",
+   "exp": "good at + -ing.",
+   "ru": "good at speaking.",
+   "id": "f-gr-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "learning english takes a lot of time",
+   "exp": "-ing as the subject.",
+   "ru": "Learning … takes.",
+   "id": "f-gr-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "thank you for sending the documents",
+   "exp": "for + -ing.",
+   "ru": "for sending.",
+   "id": "f-gr-22",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i am looking forward to hearing from you",
+   "exp": "look forward to + -ing.",
+   "ru": "to hearing.",
+   "id": "f-gr-23",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we finished testing the controls yesterday",
+   "exp": "finish + -ing.",
+   "ru": "finished testing.",
+   "id": "f-gr-24",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I enjoy to work here.”",
+   "a": [
+    "I enjoy working here."
+   ],
+   "exp": "enjoy + -ing.",
+   "ru": "enjoy working.",
+   "id": "f-gr-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm looking forward to meet you.”",
+   "a": [
+    "I'm looking forward to meeting you.",
+    "I am looking forward to meeting you."
+   ],
+   "exp": "to here is a preposition → -ing.",
+   "ru": "to meeting.",
+   "id": "f-gr-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Learn English is not easy.”",
+   "a": [
+    "Learning English is not easy.",
+    "Learning English isn't easy."
+   ],
+   "exp": "Subject → -ing.",
+   "ru": "Learning.",
+   "id": "f-gr-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Thanks for help me.”",
+   "a": [
+    "Thanks for helping me.",
+    "Thank you for helping me."
+   ],
+   "exp": "for + -ing.",
+   "ru": "for helping.",
+   "id": "f-gr-28",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She avoids to answer difficult questions.”",
+   "a": [
+    "She avoids answering difficult questions."
+   ],
+   "exp": "avoid + -ing.",
+   "ru": "avoids answering.",
+   "id": "f-gr-29",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm good at organise meetings.”",
+   "a": [
+    "I'm good at organising meetings.",
+    "I am good at organising meetings.",
+    "I'm good at organizing meetings.",
+    "I am good at organizing meetings."
+   ],
+   "exp": "at + -ing.",
+   "ru": "at organising.",
+   "id": "f-gr-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мне нравится работать с людьми.",
+   "a": [
+    "I enjoy working with people.",
+    "I like working with people.",
+    "I love working with people.",
+    "I like to work with people."
+   ],
+   "exp": "enjoy / like + -ing.",
+   "ru": "enjoy working.",
+   "id": "f-gr-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я хорошо нахожу ошибки.",
+   "a": [
+    "I'm good at finding mistakes.",
+    "I am good at finding mistakes.",
+    "I'm good at finding errors.",
+    "I am good at finding errors."
+   ],
+   "exp": "good at + -ing.",
+   "ru": "good at finding.",
+   "id": "f-gr-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Изучать английский важно для меня.",
+   "a": [
+    "Learning English is important for me.",
+    "Learning English is important to me.",
+    "Studying English is important for me.",
+    "Studying English is important to me."
+   ],
+   "exp": "Subject → -ing.",
+   "ru": "Learning English.",
+   "id": "f-gr-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Спасибо, что помог мне.",
+   "a": [
+    "Thank you for helping me.",
+    "Thanks for helping me."
+   ],
+   "exp": "for + -ing.",
+   "ru": "for helping.",
+   "id": "f-gr-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "С нетерпением жду встречи с вами.",
+   "a": [
+    "I'm looking forward to meeting you.",
+    "I am looking forward to meeting you.",
+    "I look forward to meeting you."
+   ],
+   "exp": "look forward to + -ing.",
+   "ru": "to meeting.",
+   "id": "f-gr-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я избегаю принимать решения в спешке.",
+   "a": [
+    "I avoid making decisions in a hurry.",
+    "I avoid making quick decisions.",
+    "I avoid making decisions quickly."
+   ],
+   "exp": "avoid + -ing.",
+   "ru": "avoid making.",
+   "id": "f-gr-36",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не против поработать допоздна.",
+   "a": [
+    "I don't mind working late.",
+    "I do not mind working late."
+   ],
+   "exp": "don't mind + -ing.",
+   "ru": "don't mind working.",
+   "id": "f-gr-37",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Перед уходом выключи компьютер.",
+   "a": [
+    "Before leaving, switch off the computer.",
+    "Before leaving, turn off the computer.",
+    "Switch off the computer before leaving.",
+    "Turn off the computer before leaving.",
+    "Before you leave, switch off the computer.",
+    "Before you leave, turn off the computer."
+   ],
+   "exp": "before + -ing.",
+   "ru": "before leaving.",
+   "id": "f-gr-38",
+   "stage": 3
+  }
+ ]
+}

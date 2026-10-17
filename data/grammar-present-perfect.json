@@ -1,0 +1,505 @@
+{
+ "id": "present-perfect",
+ "title": "Present Perfect (yet, just, already) and Past Simple",
+ "level": "B1",
+ "unit": "4A",
+ "units": [
+  "4A",
+  "4B",
+  "9C"
+ ],
+ "en": "<p><b>have / has + past participle</b> connects the past with now: <i>I'<b>ve finished</b> the report (it's ready now).</i></p><p><b>just</b> — a very short time ago; <b>already</b> — earlier than expected; <b>yet</b> — in questions and negatives, at the end: <i>I've <b>just</b> sent it. She's <b>already</b> left. Have you finished <b>yet</b>? I haven't called him <b>yet</b>.</i></p><p>Experience: <b>ever / never</b>: <i>Have you <b>ever</b> been to London? I've <b>never</b> seen it.</i></p><p><b>Present Perfect or Past Simple?</b> If you say or ask <b>when</b> (yesterday, last week, in 2020, ago), use the Past Simple: <i>I've been to Astana. I <b>went</b> there <b>last year</b>.</i></p>",
+ "ru": "have/has + 3-я форма — результат к настоящему, опыт (ever/never), just — только что, already — уже, yet — ещё/уже (в вопросах и отрицаниях, в конце). Если указано или спрашивается КОГДА (yesterday, ago, last week) — Past Simple.",
+ "boss": {
+  "situation": "Write a status update for your manager: what you have already done, what you have just finished and what you haven't done yet. Add one sentence in the Past Simple with a time.",
+  "samples": [
+   "I've already tested five of the eight controls.",
+   "I've just finished the interview with the warehouse manager.",
+   "I haven't received the documents from procurement yet.",
+   "Have you seen my email about the deadline?",
+   "I sent the draft report to you yesterday."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ my keys. I can't find them.",
+   "opts": [
+    "lost",
+    "have lost",
+    "lose"
+   ],
+   "a": 1,
+   "exp": "Result now → Present Perfect.",
+   "ru": "Результат сейчас — have lost.",
+   "id": "f-pp-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ to Dubai last year.",
+   "opts": [
+    "has been",
+    "went",
+    "has gone"
+   ],
+   "a": 1,
+   "exp": "Last year → Past Simple.",
+   "ru": "Last year — went.",
+   "id": "f-pp-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Have you finished the report ___?",
+   "opts": [
+    "already",
+    "yet",
+    "just"
+   ],
+   "a": 1,
+   "exp": "Question, end of sentence → yet.",
+   "ru": "В вопросе в конце — yet.",
+   "id": "f-pp-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I've ___ sent the email — two minutes ago.",
+   "opts": [
+    "yet",
+    "just",
+    "ever"
+   ],
+   "a": 1,
+   "exp": "A very short time ago → just.",
+   "ru": "Только что — just.",
+   "id": "f-pp-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ you ever worked abroad?",
+   "opts": [
+    "Did",
+    "Have",
+    "Were"
+   ],
+   "a": 1,
+   "exp": "Experience → Have you ever…?",
+   "ru": "Опыт — Have you ever.",
+   "id": "f-pp-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He hasn't called me ___.",
+   "opts": [
+    "yet",
+    "already",
+    "just"
+   ],
+   "a": 0,
+   "exp": "Negative → yet at the end.",
+   "ru": "В отрицании — yet.",
+   "id": "f-pp-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "When ___ you start this job?",
+   "opts": [
+    "have",
+    "did",
+    "has"
+   ],
+   "a": 1,
+   "exp": "Question with when → Past Simple.",
+   "ru": "When — did.",
+   "id": "f-pp-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "The past participle of “write” is ___.",
+   "opts": [
+    "wrote",
+    "written",
+    "writed"
+   ],
+   "a": 1,
+   "exp": "write – wrote – written.",
+   "ru": "written.",
+   "id": "f-pp-8",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We've ___ finished — earlier than we expected!",
+   "opts": [
+    "already",
+    "yet",
+    "ever"
+   ],
+   "a": 0,
+   "exp": "Earlier than expected → already.",
+   "ru": "Уже — already.",
+   "id": "f-pp-9",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I ___ never ___ a car accident.",
+   "opts": [
+    "have … had",
+    "did … have",
+    "was … having"
+   ],
+   "a": 0,
+   "exp": "Experience → have never had.",
+   "ru": "Опыт — have never had.",
+   "id": "f-pp-10",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I have seen him yesterday” is correct.",
+   "a": false,
+   "exp": "Yesterday → I saw him yesterday.",
+   "ru": "С yesterday — Past Simple.",
+   "id": "f-pp-11",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“She has gone to Astana” means she is in Astana or on the way now.",
+   "a": true,
+   "exp": "has gone = went and is still there; has been = went and came back.",
+   "ru": "gone — ещё там.",
+   "id": "f-pp-12",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (already / send) the invoices.",
+   "a": [
+    "'ve already sent",
+    "have already sent"
+   ],
+   "exp": "already between have and the participle.",
+   "ru": "have already sent.",
+   "id": "f-pp-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Have you ever ___ (be) to London?",
+   "a": [
+    "been"
+   ],
+   "exp": "Experience → have + been.",
+   "ru": "Have … been.",
+   "id": "f-pp-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She ___ (not / finish) the presentation yet.",
+   "a": [
+    "hasn't finished",
+    "has not finished"
+   ],
+   "exp": "Negative + yet.",
+   "ru": "hasn't finished.",
+   "id": "f-pp-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (meet) the new director last Monday.",
+   "a": [
+    "met"
+   ],
+   "exp": "Last Monday → Past Simple.",
+   "ru": "Last Monday — met.",
+   "id": "f-pp-16",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I've ___ (just / have) lunch, so I'm not hungry.",
+   "a": [
+    "just had"
+   ],
+   "exp": "just + past participle.",
+   "ru": "just had.",
+   "id": "f-pp-17",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "How many reports ___ you written this month?",
+   "a": [
+    "have"
+   ],
+   "exp": "This month (not finished) → have.",
+   "ru": "have.",
+   "id": "f-pp-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "have you checked the figures yet",
+   "exp": "yet at the end of the question.",
+   "ru": "yet — в конце.",
+   "id": "f-pp-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have just spoken to the auditor",
+   "exp": "just between have and the participle.",
+   "ru": "have just spoken.",
+   "id": "f-pp-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she has never been late for work",
+   "exp": "never between has and the participle.",
+   "ru": "has never been.",
+   "id": "f-pp-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we have already approved the budget",
+   "exp": "already in the middle.",
+   "ru": "have already approved.",
+   "id": "f-pp-22",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "when did you finish the project",
+   "exp": "when → Past Simple.",
+   "ru": "When did…",
+   "id": "f-pp-23",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they have not answered my email yet",
+   "exp": "Negative + yet.",
+   "ru": "have not … yet.",
+   "id": "f-pp-24",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I have finished it last week.”",
+   "a": [
+    "I finished it last week."
+   ],
+   "exp": "Last week → Past Simple.",
+   "ru": "Last week — finished.",
+   "id": "f-pp-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Did you ever visit Paris?”",
+   "a": [
+    "Have you ever visited Paris?",
+    "Have you ever been to Paris?"
+   ],
+   "exp": "Life experience → Have you ever…?",
+   "ru": "Опыт — Have you ever.",
+   "id": "f-pp-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She has went home.”",
+   "a": [
+    "She has gone home."
+   ],
+   "exp": "go – went – gone.",
+   "ru": "has gone.",
+   "id": "f-pp-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I haven't yet finished.”",
+   "a": [
+    "I haven't finished yet.",
+    "I have not finished yet."
+   ],
+   "exp": "yet goes at the end.",
+   "ru": "yet — в конце.",
+   "id": "f-pp-28",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “When have you arrived?”",
+   "a": [
+    "When did you arrive?"
+   ],
+   "exp": "when → Past Simple.",
+   "ru": "When — did.",
+   "id": "f-pp-29",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He already has signed the contract.”",
+   "a": [
+    "He has already signed the contract.",
+    "He's already signed the contract."
+   ],
+   "exp": "already goes between has and the participle.",
+   "ru": "has already signed.",
+   "id": "f-pp-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я уже отправил отчёт.",
+   "a": [
+    "I've already sent the report.",
+    "I have already sent the report.",
+    "I have already sent a report."
+   ],
+   "exp": "already + Present Perfect.",
+   "ru": "already sent.",
+   "id": "f-pp-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты когда-нибудь работал за границей?",
+   "a": [
+    "Have you ever worked abroad?"
+   ],
+   "exp": "Experience → Have you ever…",
+   "ru": "Have you ever.",
+   "id": "f-pp-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я только что поговорил с аудитором.",
+   "a": [
+    "I've just talked to the auditor.",
+    "I have just talked to the auditor.",
+    "I've just spoken to the auditor.",
+    "I have just spoken to the auditor.",
+    "I have just spoken with the auditor.",
+    "I have just talked with the auditor."
+   ],
+   "exp": "just + Present Perfect.",
+   "ru": "just spoken.",
+   "id": "f-pp-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она ещё не ответила.",
+   "a": [
+    "She hasn't answered yet.",
+    "She has not answered yet.",
+    "She hasn't replied yet.",
+    "She has not replied yet."
+   ],
+   "exp": "Negative + yet.",
+   "ru": "hasn't … yet.",
+   "id": "f-pp-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я никогда не был в Лондоне.",
+   "a": [
+    "I've never been to London.",
+    "I have never been to London."
+   ],
+   "exp": "Experience → never been.",
+   "ru": "never been.",
+   "id": "f-pp-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы встретились в прошлом году.",
+   "a": [
+    "We met last year."
+   ],
+   "exp": "Last year → Past Simple.",
+   "ru": "met.",
+   "id": "f-pp-36",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты уже проверил цифры?",
+   "a": [
+    "Have you checked the figures yet?",
+    "Have you already checked the figures?",
+    "Have you checked the numbers yet?",
+    "Have you already checked the numbers?"
+   ],
+   "exp": "Question → yet (or already).",
+   "ru": "yet.",
+   "id": "f-pp-37",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Когда ты начал эту работу?",
+   "a": [
+    "When did you start this job?",
+    "When did you begin this job?",
+    "When did you start this work?"
+   ],
+   "exp": "when → Past Simple.",
+   "ru": "When did.",
+   "id": "f-pp-38",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я потерял ключи и не могу войти.",
+   "a": [
+    "I've lost my keys and I can't get in.",
+    "I have lost my keys and I cannot get in.",
+    "I have lost my keys and I can't get in.",
+    "I've lost my keys and can't get in.",
+    "I have lost my keys and cannot get in."
+   ],
+   "exp": "Result now → Present Perfect.",
+   "ru": "have lost.",
+   "id": "f-pp-39",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Он уехал в Астану (и сейчас там).",
+   "a": [
+    "He has gone to Astana.",
+    "He's gone to Astana."
+   ],
+   "exp": "gone = still there.",
+   "ru": "has gone.",
+   "id": "f-pp-40",
+   "stage": 3
+  }
+ ]
+}

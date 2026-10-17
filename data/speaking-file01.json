@@ -1,0 +1,174 @@
+{
+ "id": "speaking-file01",
+ "title": "File 1 · Questions & present tenses",
+ "tasks": [
+  {
+   "id": "sp-1a-r",
+   "unit": "1A",
+   "kind": "retell",
+   "title": "A new colleague",
+   "text": "Dana is a new colleague in our department. She was born in Uralsk, but she grew up in Almaty. She studied finance and worked for a bank for four years. Now she lives in Atyrau with her husband. In her free time she does sport and plays the piano. On her first day she asked a lot of questions: where we have lunch, who she reports to and how often we have meetings.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "She was born in…",
+    "She grew up in…",
+    "She worked for…",
+    "In her free time she…",
+    "She asked where / who / how often…"
+   ],
+   "secs": 300,
+   "sample": "Dana is a new colleague in our department. She was born in Uralsk, but she grew up in Almaty. She studied finance and worked for a bank for four years. Now she lives in Atyrau with her husband. In her free time she does sport and plays the piano. On her first day she asked a lot of questions: where we have lunch, who she reports to and how often we have meetings.",
+   "check": []
+  },
+  {
+   "id": "sp-1a-q1",
+   "unit": "1A",
+   "kind": "question",
+   "q": "Introduce yourself: where are you from, where do you work, what do you do in your free time?",
+   "ru": "Расскажи о себе: откуда ты, где работаешь, что делаешь в свободное время.",
+   "hints": [
+    "My name is…",
+    "I'm from…",
+    "I work as… at…",
+    "In my free time I…"
+   ],
+   "check": [
+    "\\bI work\\b",
+    "\\bI'?m from\\b|\\bI am from\\b"
+   ],
+   "secs": 180,
+   "sample": "My name is Islam. I'm from Atyrau. I work as a leading specialist in internal control at a refinery. I check processes and test controls. In my free time I study English and do sport."
+  },
+  {
+   "id": "sp-1a-q2",
+   "unit": "1A",
+   "kind": "question",
+   "q": "Ask five questions to a new colleague to get to know them.",
+   "ru": "Задай новому коллеге пять вопросов, чтобы познакомиться.",
+   "hints": [
+    "Where do you…?",
+    "How long have you…?",
+    "What do you…?",
+    "Who do you work with?"
+   ],
+   "check": [
+    "\\bdo you\\b",
+    "\\bhave you\\b|\\bare you\\b"
+   ],
+   "secs": 180,
+   "sample": "Where are you from? Where did you work before? What do you do in your new job? Who do you work with? What do you do in your free time?"
+  },
+  {
+   "id": "sp-1b-r",
+   "unit": "1B",
+   "kind": "retell",
+   "title": "My manager",
+   "text": "My manager is a tall man with short grey hair and glasses. He is very hard-working: he usually arrives at the office before eight and often leaves after seven. He is calm and generous with his time, but he is quite strict about deadlines. He doesn't like long meetings, so our meetings usually take thirty minutes. Everyone in the team says he is reliable.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "He is tall / slim…",
+    "He usually…",
+    "He is calm / strict…",
+    "He doesn't like…",
+    "Everyone says…"
+   ],
+   "secs": 300,
+   "sample": "My manager is a tall man with short grey hair and glasses. He is very hard-working: he usually arrives at the office before eight and often leaves after seven. He is calm and generous with his time, but he is quite strict about deadlines. He doesn't like long meetings, so our meetings usually take thirty minutes. Everyone in the team says he is reliable.",
+   "check": []
+  },
+  {
+   "id": "sp-1b-q1",
+   "unit": "1B",
+   "kind": "question",
+   "q": "Describe a person you work with: appearance and personality.",
+   "ru": "Опиши коллегу: внешность и характер.",
+   "hints": [
+    "He / She is…",
+    "He / She has… hair",
+    "He / She usually…",
+    "He / She is very… but a bit…"
+   ],
+   "check": [
+    "\\b(is|has)\\b",
+    "\\busually\\b|\\boften\\b|\\bnever\\b"
+   ],
+   "secs": 180,
+   "sample": "My colleague Aliya is slim and has long dark hair. She is very friendly and talkative. She usually helps new people in the team. She is hard-working, but sometimes a bit nervous before audits."
+  },
+  {
+   "id": "sp-1b-q2",
+   "unit": "1B",
+   "kind": "question",
+   "q": "What is your typical working day like?",
+   "ru": "Как проходит твой обычный рабочий день?",
+   "hints": [
+    "I usually get up at…",
+    "I start work at…",
+    "In the morning I…",
+    "After lunch I…",
+    "I finish at…"
+   ],
+   "check": [
+    "\\busually\\b",
+    "\\b(start|finish|check|have)\\b"
+   ],
+   "secs": 180,
+   "sample": "I usually get up at half past six. I start work at eight. In the morning I check emails and plan my day. After lunch I usually test controls or have meetings. I finish work at six."
+  },
+  {
+   "id": "sp-1c-r",
+   "unit": "1C",
+   "kind": "retell",
+   "title": "A busy week",
+   "text": "This week is very busy for our team. The external auditors are visiting the refinery, so we are preparing documents every day. My colleague is working late, and I am checking the risk register. Today I am wearing a suit because we are meeting the auditors at three. Normally I wear a shirt and jeans, but this week is different.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "This week we are…",
+    "My colleague is…",
+    "Today I am wearing…",
+    "Normally I…, but…"
+   ],
+   "secs": 300,
+   "sample": "This week is very busy for our team. The external auditors are visiting the refinery, so we are preparing documents every day. My colleague is working late, and I am checking the risk register. Today I am wearing a suit because we are meeting the auditors at three. Normally I wear a shirt and jeans, but this week is different.",
+   "check": []
+  },
+  {
+   "id": "sp-1c-q1",
+   "unit": "1C",
+   "kind": "question",
+   "q": "What are you working on this week?",
+   "ru": "Над чем ты работаешь на этой неделе?",
+   "hints": [
+    "This week I'm…",
+    "At the moment we're…",
+    "My team is also…"
+   ],
+   "check": [
+    "\\b(am|'m|are|'re|is)\\s+\\w+ing\\b"
+   ],
+   "secs": 180,
+   "sample": "This week I'm preparing a report for head office. At the moment we're testing controls in procurement. My manager is also working on the budget, so we're all very busy."
+  },
+  {
+   "id": "sp-1c-q2",
+   "unit": "1C",
+   "kind": "question",
+   "q": "What do you usually wear to work, and what are you wearing today?",
+   "ru": "Что ты обычно носишь на работу и что на тебе сегодня?",
+   "hints": [
+    "I usually wear…",
+    "Today I'm wearing…",
+    "On site we wear…"
+   ],
+   "check": [
+    "\\busually wear\\b",
+    "\\bwearing\\b"
+   ],
+   "secs": 180,
+   "sample": "I usually wear a shirt and trousers to work. On site we wear a helmet, boots and a uniform. Today I'm wearing a white shirt and a dark jacket because I have an important meeting."
+  }
+ ]
+}

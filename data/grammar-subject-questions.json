@@ -1,0 +1,436 @@
+{
+ "id": "subject-questions",
+ "title": "Subject questions (Who called? What happened?)",
+ "level": "B1",
+ "unit": "12C",
+ "units": [
+  "12C"
+ ],
+ "en": "<p>When <b>who / what / which</b> is the <b>subject</b> (the person or thing that does the action), we <b>don't use do / does / did</b>: <i><b>Who called</b> you? <b>What happened</b>? <b>Which team won</b>?</i></p><p>When who / what is the <b>object</b>, we use the auxiliary as usual: <i><b>Who did you call</b>? <b>What did</b> she <b>say</b>?</i></p><p>Compare: <i>Who <b>loves</b> Aliya? (Someone loves Aliya — who?) / Who <b>does</b> Aliya <b>love</b>? (Aliya loves someone — who?)</i></p><p>The verb in a subject question is usually singular: <i>Who <b>works</b> here? Who <b>has</b> the key?</i></p>",
+ "ru": "Вопрос к подлежащему (кто сделал?) — без do/does/did: Who called you? What happened? Вопрос к дополнению (кого? что?) — с do/does/did: Who did you call? What did she say? Глагол после who — в ед. числе: Who works here?",
+ "boss": {
+  "situation": "Write 6 questions for an incident review. Use at least 3 subject questions (Who reported…? What happened…?) and 3 object questions.",
+  "samples": [
+   "What happened on the night of the incident?",
+   "Who reported the problem first?",
+   "Which control failed?",
+   "Who did you inform after that?",
+   "What did the security team do?",
+   "When did the system start working again?"
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Who ___ you yesterday? — My manager called me.",
+   "opts": [
+    "called",
+    "did call",
+    "did you call"
+   ],
+   "a": 0,
+   "exp": "Who = subject → no did.",
+   "ru": "Кто позвонил — called.",
+   "id": "f-sq-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who ___ yesterday? — I called my manager.",
+   "opts": [
+    "called you",
+    "did you call",
+    "you called"
+   ],
+   "a": 1,
+   "exp": "Who = object → did you call.",
+   "ru": "Кому ты звонил — did you call.",
+   "id": "f-sq-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What ___ at the meeting? — We discussed the budget.",
+   "opts": [
+    "happened",
+    "did happen",
+    "did it happen"
+   ],
+   "a": 0,
+   "exp": "What = subject → happened.",
+   "ru": "Что случилось — happened.",
+   "id": "f-sq-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Which team ___ the project?",
+   "opts": [
+    "won",
+    "did win",
+    "did won"
+   ],
+   "a": 0,
+   "exp": "Which team = subject.",
+   "ru": "won.",
+   "id": "f-sq-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who ___ the key to the archive?",
+   "opts": [
+    "has",
+    "does have",
+    "have"
+   ],
+   "a": 0,
+   "exp": "Subject question, singular verb.",
+   "ru": "Who has.",
+   "id": "f-sq-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What ___ she say? — She said no.",
+   "opts": [
+    "did",
+    "does",
+    "was"
+   ],
+   "a": 0,
+   "exp": "What = object → did.",
+   "ru": "did.",
+   "id": "f-sq-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Who ___ in this office? — Aliya and Marat.",
+   "opts": [
+    "works",
+    "does work",
+    "work"
+   ],
+   "a": 0,
+   "exp": "Subject question → works.",
+   "ru": "Who works.",
+   "id": "f-sq-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "How many people ___ to the training?",
+   "opts": [
+    "came",
+    "did come",
+    "did they come"
+   ],
+   "a": 0,
+   "exp": "How many people = subject.",
+   "ru": "came.",
+   "id": "f-sq-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Who did call you?” is the normal question when you don't know the caller.",
+   "a": false,
+   "exp": "Subject question → Who called you?",
+   "ru": "Who called you?",
+   "id": "f-sq-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“What did the auditor ask?” is an object question.",
+   "a": true,
+   "exp": "The auditor asked something — what?",
+   "ru": "Вопрос к дополнению.",
+   "id": "f-sq-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Who ___ (write) this report? It's excellent.",
+   "a": [
+    "wrote"
+   ],
+   "exp": "Subject question, past.",
+   "ru": "wrote.",
+   "id": "f-sq-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What ___ you do after the incident?",
+   "a": [
+    "did"
+   ],
+   "exp": "Object question.",
+   "ru": "did.",
+   "id": "f-sq-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "What ___ (happen) to the old system?",
+   "a": [
+    "happened"
+   ],
+   "exp": "Subject question.",
+   "ru": "happened.",
+   "id": "f-sq-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Who ___ you send the email to?",
+   "a": [
+    "did"
+   ],
+   "exp": "Object question.",
+   "ru": "did.",
+   "id": "f-sq-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Which department ___ (approve) the budget?",
+   "a": [
+    "approved"
+   ],
+   "exp": "Subject question.",
+   "ru": "approved.",
+   "id": "f-sq-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Who ___ (know) the password?",
+   "a": [
+    "knows"
+   ],
+   "exp": "Subject question, singular.",
+   "ru": "knows.",
+   "id": "f-sq-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "who reported the problem first",
+   "exp": "Subject question.",
+   "ru": "Who reported.",
+   "id": "f-sq-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what did the security team do",
+   "exp": "Object question.",
+   "ru": "What did … do.",
+   "id": "f-sq-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "which control failed",
+   "exp": "Subject question.",
+   "ru": "Which control failed.",
+   "id": "f-sq-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "who did you inform",
+   "exp": "Object question.",
+   "ru": "Who did you inform.",
+   "id": "f-sq-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what happened last night",
+   "exp": "Subject question.",
+   "ru": "What happened.",
+   "id": "f-sq-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how many people saw the accident",
+   "exp": "Subject question.",
+   "ru": "How many people saw.",
+   "id": "f-sq-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Who did write this email?”",
+   "a": [
+    "Who wrote this email?"
+   ],
+   "exp": "Subject question → no did.",
+   "ru": "Who wrote.",
+   "id": "f-sq-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “What did happen?”",
+   "a": [
+    "What happened?"
+   ],
+   "exp": "Subject question → no did.",
+   "ru": "What happened.",
+   "id": "f-sq-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Who you called yesterday?”",
+   "a": [
+    "Who did you call yesterday?"
+   ],
+   "exp": "Object question → did.",
+   "ru": "Who did you call.",
+   "id": "f-sq-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Who work in finance?”",
+   "a": [
+    "Who works in finance?"
+   ],
+   "exp": "Singular verb.",
+   "ru": "Who works.",
+   "id": "f-sq-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “What the director said?”",
+   "a": [
+    "What did the director say?"
+   ],
+   "exp": "Object question → did + say.",
+   "ru": "What did … say.",
+   "id": "f-sq-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Which team did win the prize?”",
+   "a": [
+    "Which team won the prize?"
+   ],
+   "exp": "Subject question → won.",
+   "ru": "Which team won.",
+   "id": "f-sq-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кто тебе позвонил?",
+   "a": [
+    "Who called you?",
+    "Who phoned you?",
+    "Who rang you?"
+   ],
+   "exp": "Subject question.",
+   "ru": "Who called.",
+   "id": "f-sq-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кому ты позвонил?",
+   "a": [
+    "Who did you call?",
+    "Who did you phone?"
+   ],
+   "exp": "Object question.",
+   "ru": "Who did you call.",
+   "id": "f-sq-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что случилось?",
+   "a": [
+    "What happened?",
+    "What's happened?",
+    "What has happened?"
+   ],
+   "exp": "Subject question.",
+   "ru": "What happened.",
+   "id": "f-sq-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что сказал директор?",
+   "a": [
+    "What did the director say?"
+   ],
+   "exp": "Object question.",
+   "ru": "What did … say.",
+   "id": "f-sq-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кто написал этот отчёт?",
+   "a": [
+    "Who wrote this report?"
+   ],
+   "exp": "Subject question.",
+   "ru": "Who wrote.",
+   "id": "f-sq-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кто знает пароль?",
+   "a": [
+    "Who knows the password?"
+   ],
+   "exp": "Singular verb.",
+   "ru": "Who knows.",
+   "id": "f-sq-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Какой контроль не сработал?",
+   "a": [
+    "Which control failed?",
+    "Which control didn't work?",
+    "Which control did not work?"
+   ],
+   "exp": "Subject question.",
+   "ru": "Which control failed.",
+   "id": "f-sq-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Сколько человек пришло на обучение?",
+   "a": [
+    "How many people came to the training?",
+    "How many people came to the training session?"
+   ],
+   "exp": "Subject question.",
+   "ru": "How many people came.",
+   "id": "f-sq-36",
+   "stage": 3
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "speaking-file07",
+ "title": "File 7 · Infinitive, gerund, obligation",
+ "tasks": [
+  {
+   "id": "sp-7a-r",
+   "unit": "7A",
+   "kind": "retell",
+   "title": "How to make a good impression",
+   "text": "If you want to make a good impression at an interview, it is important to prepare. Try to learn about the company before the interview. Decide what to wear and plan how to get there. Remember to arrive ten minutes early. Don't forget to smile and to listen carefully. At the end, it is a good idea to ask one or two questions.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "It is important to…",
+    "Try to…",
+    "Decide what to…",
+    "Remember to…",
+    "Don't forget to…"
+   ],
+   "secs": 300,
+   "sample": "If you want to make a good impression at an interview, it is important to prepare. Try to learn about the company before the interview. Decide what to wear and plan how to get there. Remember to arrive ten minutes early. Don't forget to smile and to listen carefully. At the end, it is a good idea to ask one or two questions.",
+   "check": []
+  },
+  {
+   "id": "sp-7a-q1",
+   "unit": "7A",
+   "kind": "question",
+   "q": "What do you want to achieve this year, and why?",
+   "ru": "Чего ты хочешь достичь в этом году и зачем?",
+   "hints": [
+    "I want to…",
+    "I hope to…",
+    "I'm planning to…",
+    "… to + verb (purpose)"
+   ],
+   "check": [
+    "\\b(want|hope|plan\\w*|need|decided)\\s+to\\b"
+   ],
+   "secs": 180,
+   "sample": "This year I want to reach Intermediate level in English. I hope to pass an interview at an international company. I'm planning to study every day to improve my speaking. I need to save money to do a professional course."
+  },
+  {
+   "id": "sp-7a-q2",
+   "unit": "7A",
+   "kind": "question",
+   "q": "Give advice: how to prepare for an audit.",
+   "ru": "Дай советы: как подготовиться к аудиту.",
+   "hints": [
+    "It's important to…",
+    "Try to…",
+    "Don't forget to…",
+    "It's a good idea to…"
+   ],
+   "check": [
+    "\\bto \\w+\\b"
+   ],
+   "secs": 180,
+   "sample": "It's important to collect all documents early. Try to check the evidence for every control. Don't forget to update the risk register. It's a good idea to do a short walkthrough before the auditors arrive."
+  },
+  {
+   "id": "sp-7b-r",
+   "unit": "7B",
+   "kind": "retell",
+   "title": "What makes people happy",
+   "text": "A survey asked people what makes them happy. Most people said that spending time with family is the most important thing. Many people enjoy doing sport or walking in nature. Some people love cooking for friends. Most people hate waiting in traffic and can't stand doing boring paperwork. Interestingly, people who help others feel happier than people who only think about themselves.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Most people said that spending time…",
+    "Many people enjoy…",
+    "Some people love…",
+    "People hate…",
+    "Helping others…"
+   ],
+   "secs": 300,
+   "sample": "A survey asked people what makes them happy. Most people said that spending time with family is the most important thing. Many people enjoy doing sport or walking in nature. Some people love cooking for friends. Most people hate waiting in traffic and can't stand doing boring paperwork. Interestingly, people who help others feel happier than people who only think about themselves.",
+   "check": []
+  },
+  {
+   "id": "sp-7b-q1",
+   "unit": "7B",
+   "kind": "question",
+   "q": "What do you enjoy doing at work? What do you avoid doing?",
+   "ru": "Что тебе нравится делать на работе? Чего ты избегаешь?",
+   "hints": [
+    "I enjoy…ing",
+    "I don't mind…ing",
+    "I avoid…ing",
+    "I'm good at…ing",
+    "I look forward to…ing"
+   ],
+   "check": [
+    "\\benjoy \\w+ing\\b",
+    "\\bavoid \\w+ing\\b|\\bmind \\w+ing\\b|\\bat \\w+ing\\b"
+   ],
+   "secs": 180,
+   "sample": "I enjoy working with people from different departments. I'm good at finding mistakes in documents. I don't mind working late before an audit. I avoid making promises I cannot keep. I'm looking forward to working in an international team."
+  },
+  {
+   "id": "sp-7b-q2",
+   "unit": "7B",
+   "kind": "question",
+   "q": "What makes you happy? What do you hate doing?",
+   "ru": "Что делает тебя счастливым? Что ты ненавидишь делать?",
+   "hints": [
+    "…ing makes me happy",
+    "I love…ing",
+    "I hate…ing",
+    "I can't stand…ing"
+   ],
+   "check": [
+    "\\b\\w+ing\\b"
+   ],
+   "secs": 180,
+   "sample": "Spending time with my family makes me happy. I love walking by the river in the evening. I hate waiting in queues. I can't stand doing the same thing every day without progress."
+  },
+  {
+   "id": "sp-7c-r",
+   "unit": "7C",
+   "kind": "retell",
+   "title": "Rules on site",
+   "text": "Visitors to the refinery must follow strict rules. First, they have to sign in at the gate and do a short safety induction. They must wear a helmet, boots and glasses. They mustn't smoke or use their phones near the units. They don't have to wear a uniform, but they have to stay with their host all the time. If they break the rules, they have to leave the site.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Visitors must…",
+    "They have to…",
+    "They mustn't…",
+    "They don't have to…",
+    "If they break the rules…"
+   ],
+   "secs": 300,
+   "sample": "Visitors to the refinery must follow strict rules. First, they have to sign in at the gate and do a short safety induction. They must wear a helmet, boots and glasses. They mustn't smoke or use their phones near the units. They don't have to wear a uniform, but they have to stay with their host all the time. If they break the rules, they have to leave the site.",
+   "check": []
+  },
+  {
+   "id": "sp-7c-q1",
+   "unit": "7C",
+   "kind": "question",
+   "q": "Explain the rules a new employee has to follow in your company.",
+   "ru": "Объясни правила, которые должен соблюдать новый сотрудник.",
+   "hints": [
+    "You have to…",
+    "You must…",
+    "You mustn't…",
+    "You don't have to…"
+   ],
+   "check": [
+    "\\bhave to\\b|\\bmust\\b",
+    "\\bmustn't\\b|\\bdon't have to\\b"
+   ],
+   "secs": 180,
+   "sample": "On the first day you have to sign the safety induction. You must wear a helmet on site. You mustn't share your password with anyone. You don't have to come to the Monday meeting in your first week."
+  },
+  {
+   "id": "sp-7c-q2",
+   "unit": "7C",
+   "kind": "question",
+   "q": "What rules did you have at school? Which ones were good?",
+   "ru": "Какие правила были у тебя в школе? Какие были хорошими?",
+   "hints": [
+    "We had to…",
+    "We didn't have to…",
+    "We weren't allowed to…",
+    "I think … was a good rule"
+   ],
+   "check": [
+    "\\bhad to\\b|\\bdidn't have to\\b|\\bwasn't allowed\\b|\\bweren't allowed\\b"
+   ],
+   "secs": 180,
+   "sample": "At school we had to wear a uniform. We weren't allowed to use phones in class. We didn't have to stay after lessons. I think the uniform was a good rule because everyone looked the same."
+  }
+ ]
+}

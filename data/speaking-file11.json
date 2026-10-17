@@ -1,0 +1,174 @@
+{
+ "id": "speaking-file11",
+ "title": "File 11 · Movement & phrasal verbs",
+ "tasks": [
+  {
+   "id": "sp-11a-r",
+   "unit": "11A",
+   "kind": "retell",
+   "title": "The way to the meeting room",
+   "text": "Welcome to our office! Go through the main gate and walk past the security office. Go into the building and take the stairs up to the second floor. Walk along the corridor towards the windows. Go past the kitchen and the printers. The meeting room is the last door on the left, opposite the archive. If you get lost, ask anyone — we are all very friendly.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "Go through…",
+    "Walk past…",
+    "Go up the stairs…",
+    "Walk along the corridor…",
+    "The room is opposite…"
+   ],
+   "secs": 300,
+   "sample": "Welcome to our office! Go through the main gate and walk past the security office. Go into the building and take the stairs up to the second floor. Walk along the corridor towards the windows. Go past the kitchen and the printers. The meeting room is the last door on the left, opposite the archive. If you get lost, ask anyone — we are all very friendly.",
+   "check": []
+  },
+  {
+   "id": "sp-11a-q1",
+   "unit": "11A",
+   "kind": "question",
+   "q": "Explain the way from the entrance of your office to your desk.",
+   "ru": "Объясни дорогу от входа в офис до твоего рабочего места.",
+   "hints": [
+    "Go through…",
+    "Go up / down…",
+    "Walk along…",
+    "Go past…",
+    "It's on the left / right"
+   ],
+   "check": [
+    "\\b(through|along|past|up|down|into|across|towards)\\b"
+   ],
+   "secs": 180,
+   "sample": "Go through the main entrance and show your pass. Go up the stairs to the third floor. Walk along the corridor and go past the kitchen. My office is the third door on the right."
+  },
+  {
+   "id": "sp-11a-q2",
+   "unit": "11A",
+   "kind": "question",
+   "q": "Do you do any sport? Describe a match or a race you watched or took part in.",
+   "ru": "Ты занимаешься спортом? Опиши матч или забег, который ты смотрел или в котором участвовал.",
+   "hints": [
+    "I play / do / go…",
+    "The match was…",
+    "Our team won / lost / drew…",
+    "The best moment was…"
+   ],
+   "check": [
+    "\\b(won|lost|beat|drew|played|ran|scored)\\b"
+   ],
+   "secs": 180,
+   "sample": "I play football with colleagues on Saturdays. Last week we played against the finance team. They scored first, but we beat them 3–2. The best moment was our last goal in the final minute."
+  },
+  {
+   "id": "sp-11b-r",
+   "unit": "11B",
+   "kind": "retell",
+   "title": "A morning person?",
+   "text": "Daulet is not a morning person. His alarm goes off at six, but he usually turns it off and goes back to sleep. He finally gets up at seven, puts on his clothes quickly and runs out of the house. At work he looks through his emails, sets up meetings and fills in forms. In the evening he likes to chill out with his family and puts off his English homework until the weekend.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "His alarm goes off…",
+    "He turns it off…",
+    "He gets up…",
+    "At work he sets up… / fills in…",
+    "He puts off…"
+   ],
+   "secs": 300,
+   "sample": "Daulet is not a morning person. His alarm goes off at six, but he usually turns it off and goes back to sleep. He finally gets up at seven, puts on his clothes quickly and runs out of the house. At work he looks through his emails, sets up meetings and fills in forms. In the evening he likes to chill out with his family and puts off his English homework until the weekend.",
+   "check": []
+  },
+  {
+   "id": "sp-11b-q1",
+   "unit": "11B",
+   "kind": "question",
+   "q": "Leave a voice message to reschedule a meeting. Use phrasal verbs.",
+   "ru": "Оставь голосовое сообщение о переносе встречи. Используй фразовые глаголы.",
+   "hints": [
+    "We need to put off…",
+    "I'll find out…",
+    "Can you set up…?",
+    "I'll call you back…",
+    "I'm looking into…"
+   ],
+   "check": [
+    "\\b(put off|find out|set up|call \\w* ?back|look into|fill in|carry out)\\b"
+   ],
+   "secs": 180,
+   "sample": "Hi Dana, it's Islam. Unfortunately, we need to put off tomorrow's meeting. I'm still looking into the problem with the invoices. I'll find out when the director is free. Can you set up a new call for Thursday? I'll call you back after lunch."
+  },
+  {
+   "id": "sp-11b-q2",
+   "unit": "11B",
+   "kind": "question",
+   "q": "Are you a morning person? Describe your morning routine with phrasal verbs.",
+   "ru": "Ты «жаворонок»? Опиши утро с фразовыми глаголами.",
+   "hints": [
+    "I wake up at…",
+    "I get up…",
+    "I put on…",
+    "I turn off…",
+    "I look through…"
+   ],
+   "check": [
+    "\\b(wake up|get up|put on|turn off|look through|go out)\\b"
+   ],
+   "secs": 180,
+   "sample": "Yes, I'm a morning person. I wake up at six without an alarm. I get up, put on my sports clothes and go out for a short walk. Then I have breakfast and look through the news."
+  },
+  {
+   "id": "sp-11c-r",
+   "unit": "11C",
+   "kind": "retell",
+   "title": "What a coincidence!",
+   "text": "Two new colleagues, Aigerim and Madina, met on their first day. They soon discovered they had a lot in common. Aigerim said, \"I was born in Atyrau.\" Madina said, \"So was I!\" Aigerim said, \"I don't like coffee.\" \"Neither do I!\" They both studied in Almaty and both have a son called Arman. Now they are best friends.",
+   "q": "Read the text, then retell it in your own words (5–8 sentences).",
+   "ru": "Прочитай текст и перескажи его своими словами (5–8 предложений). Можно также пересказать текст урока из учебника.",
+   "hints": [
+    "They had a lot in common",
+    "Aigerim said \"…\" — \"So was I!\"",
+    "\"Neither do I!\"",
+    "They both…"
+   ],
+   "secs": 300,
+   "sample": "Two new colleagues, Aigerim and Madina, met on their first day. They soon discovered they had a lot in common. Aigerim said, \"I was born in Atyrau.\" Madina said, \"So was I!\" Aigerim said, \"I don't like coffee.\" \"Neither do I!\" They both studied in Almaty and both have a son called Arman. Now they are best friends.",
+   "check": []
+  },
+  {
+   "id": "sp-11c-q1",
+   "unit": "11C",
+   "kind": "question",
+   "q": "Agree with five statements about work. Use So do I / Neither do I / So am I…",
+   "ru": "Согласись с пятью утверждениями о работе: So do I / Neither do I / So am I…",
+   "hints": [
+    "So do I.",
+    "Neither do I.",
+    "So am I.",
+    "Neither can I.",
+    "So did I."
+   ],
+   "check": [
+    "\\bso (do|am|did|have|can|will) I\\b|\\bneither (do|am|did|have|can|will) I\\b"
+   ],
+   "secs": 180,
+   "sample": "\"I like my job.\" — So do I. \"I'm tired today.\" — So am I. \"I don't like long meetings.\" — Neither do I. \"I can't find the file.\" — Neither can I. \"I sent the report yesterday.\" — So did I."
+  },
+  {
+   "id": "sp-11c-q2",
+   "unit": "11C",
+   "kind": "question",
+   "q": "What do you have in common with your best friend or a close colleague?",
+   "ru": "Что у тебя общего с лучшим другом или близким коллегой?",
+   "hints": [
+    "We both…",
+    "Neither of us…",
+    "We have … in common",
+    "He / She also…"
+   ],
+   "check": [
+    "\\bboth\\b|\\bneither\\b|\\bin common\\b|\\balso\\b"
+   ],
+   "secs": 180,
+   "sample": "My best friend and I have a lot in common. We both work in the oil industry. We both like football. Neither of us likes shopping. We also have children of the same age."
+  }
+ ]
+}

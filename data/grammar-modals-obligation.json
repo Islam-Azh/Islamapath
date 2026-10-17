@@ -1,0 +1,452 @@
+{
+ "id": "modals-obligation",
+ "title": "have to, must, mustn't, don't have to, should",
+ "level": "B1",
+ "unit": "7C",
+ "units": [
+  "7C",
+  "8A"
+ ],
+ "en": "<p><b>have to</b> — obligation from rules or circumstances: <i>We <b>have to</b> wear a helmet on site.</i> Past: <b>had to</b>. Questions: <b>Do you have to…?</b></p><p><b>must</b> — strong obligation, often the speaker's own opinion or written rules: <i>I <b>must</b> call my mother. Visitors <b>must</b> sign in.</i></p><p><b>mustn't</b> — it is forbidden: <i>You <b>mustn't</b> smoke here.</i> <b>don't have to</b> — it is not necessary (but you can): <i>You <b>don't have to</b> come on Saturday.</i></p><p><b>should / shouldn't</b> — advice, the right thing to do: <i>You <b>should</b> back up your files. You <b>shouldn't</b> work so late.</i></p><p>All of them + infinitive <b>without to</b> (except have to): <i>must go, should go</i>.</p>",
+ "ru": "have to — обязанность по правилам (прошедшее — had to); must — сильная обязанность, личное мнение, письменные правила; mustn't — нельзя (запрет); don't have to — не обязательно; should — совет. После must / should — глагол без to.",
+ "boss": {
+  "situation": "Write instructions for a new colleague: what they must, have to, don't have to and should do in their first week, and one thing they mustn't do.",
+  "samples": [
+   "You have to sign the safety induction on your first day.",
+   "You must wear a helmet on the plant site.",
+   "You don't have to come to the Monday meeting in your first week.",
+   "You mustn't share your password with anyone.",
+   "You should read our main procedures before testing controls."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "You ___ smoke in the office. It's against the rules.",
+   "opts": [
+    "mustn't",
+    "don't have to",
+    "shouldn't"
+   ],
+   "a": 0,
+   "exp": "Forbidden → mustn't.",
+   "ru": "Запрет — mustn't.",
+   "id": "f-mo-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Tomorrow is a holiday, so I ___ go to work.",
+   "opts": [
+    "mustn't",
+    "don't have to",
+    "can't"
+   ],
+   "a": 1,
+   "exp": "Not necessary → don't have to.",
+   "ru": "Не обязательно — don't have to.",
+   "id": "f-mo-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "You look tired. You ___ take a break.",
+   "opts": [
+    "should",
+    "must not",
+    "have"
+   ],
+   "a": 0,
+   "exp": "Advice → should.",
+   "ru": "Совет — should.",
+   "id": "f-mo-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Do you ___ wear a uniform at work?",
+   "opts": [
+    "must",
+    "have to",
+    "should to"
+   ],
+   "a": 1,
+   "exp": "Question about rules → Do you have to…?",
+   "ru": "Do you have to.",
+   "id": "f-mo-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Yesterday I ___ stay late to finish the report.",
+   "opts": [
+    "must",
+    "had to",
+    "have to"
+   ],
+   "a": 1,
+   "exp": "Past obligation → had to.",
+   "ru": "В прошлом — had to.",
+   "id": "f-mo-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Visitors ___ sign in at reception.",
+   "opts": [
+    "must",
+    "mustn't",
+    "should to"
+   ],
+   "a": 0,
+   "exp": "Written rule → must.",
+   "ru": "Правило — must.",
+   "id": "f-mo-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ work on Saturdays — it's in her contract.",
+   "opts": [
+    "has to",
+    "have to",
+    "must to"
+   ],
+   "a": 0,
+   "exp": "she → has to.",
+   "ru": "she — has to.",
+   "id": "f-mo-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "You ___ eat so much sugar. It's bad for you.",
+   "opts": [
+    "shouldn't",
+    "don't have to",
+    "haven't to"
+   ],
+   "a": 0,
+   "exp": "Advice (negative) → shouldn't.",
+   "ru": "Не стоит — shouldn't.",
+   "id": "f-mo-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“You don't have to come” means “You are not allowed to come”.",
+   "a": false,
+   "exp": "don't have to = not necessary; mustn't = not allowed.",
+   "ru": "Не обязательно, а не запрет.",
+   "id": "f-mo-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I must to go” is correct.",
+   "a": false,
+   "exp": "must + infinitive without to: I must go.",
+   "ru": "must go без to.",
+   "id": "f-mo-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "You ___ (not / have to) bring your laptop. We have computers.",
+   "a": [
+    "don't have to",
+    "do not have to"
+   ],
+   "exp": "Not necessary.",
+   "ru": "don't have to.",
+   "id": "f-mo-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (have to) wait an hour for the bus yesterday.",
+   "a": [
+    "had to"
+   ],
+   "exp": "Past → had to.",
+   "ru": "had to.",
+   "id": "f-mo-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "You ___ touch that cable — it's dangerous!",
+   "a": [
+    "mustn't",
+    "must not"
+   ],
+   "exp": "Forbidden.",
+   "ru": "mustn't.",
+   "id": "f-mo-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I think you ___ talk to your manager about it.",
+   "a": [
+    "should"
+   ],
+   "exp": "Advice.",
+   "ru": "should.",
+   "id": "f-mo-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ he have to work tonight?",
+   "a": [
+    "Does"
+   ],
+   "exp": "he → Does … have to.",
+   "ru": "Does.",
+   "id": "f-mo-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Employees ___ wear a helmet on site. It's the law.",
+   "a": [
+    "must",
+    "have to"
+   ],
+   "exp": "Rule → must / have to.",
+   "ru": "must / have to.",
+   "id": "f-mo-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "you must wear a helmet on site",
+   "exp": "must + infinitive.",
+   "ru": "must wear.",
+   "id": "f-mo-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "you do not have to come on saturday",
+   "exp": "Not necessary.",
+   "ru": "do not have to.",
+   "id": "f-mo-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we had to change the plan",
+   "exp": "Past → had to.",
+   "ru": "had to change.",
+   "id": "f-mo-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "you should back up your files every day",
+   "exp": "Advice.",
+   "ru": "should back up.",
+   "id": "f-mo-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "do we have to sign this form",
+   "exp": "Question with have to.",
+   "ru": "do we have to.",
+   "id": "f-mo-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "you must not share your password",
+   "exp": "Forbidden.",
+   "ru": "must not share.",
+   "id": "f-mo-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “You must to sign the form.”",
+   "a": [
+    "You must sign the form."
+   ],
+   "exp": "must + infinitive without to.",
+   "ru": "must sign.",
+   "id": "f-mo-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She have to work late today.”",
+   "a": [
+    "She has to work late today."
+   ],
+   "exp": "she → has to.",
+   "ru": "has to.",
+   "id": "f-mo-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “You mustn't come tomorrow if you don't want. It's optional.”",
+   "a": [
+    "You don't have to come tomorrow if you don't want. It's optional.",
+    "You don't have to come tomorrow if you don't want to. It's optional."
+   ],
+   "exp": "Optional → don't have to.",
+   "ru": "Не обязательно — don't have to.",
+   "id": "f-mo-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Yesterday I must stay at work until nine.”",
+   "a": [
+    "Yesterday I had to stay at work until nine."
+   ],
+   "exp": "Past → had to.",
+   "ru": "had to.",
+   "id": "f-mo-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Do I must pay now?”",
+   "a": [
+    "Do I have to pay now?",
+    "Must I pay now?"
+   ],
+   "exp": "Do I have to…? / Must I…?",
+   "ru": "Do I have to.",
+   "id": "f-mo-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “You should to see a doctor.”",
+   "a": [
+    "You should see a doctor."
+   ],
+   "exp": "should + infinitive without to.",
+   "ru": "should see.",
+   "id": "f-mo-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты должен носить каску на объекте.",
+   "a": [
+    "You must wear a helmet on site.",
+    "You have to wear a helmet on site.",
+    "You must wear a hard hat on site.",
+    "You have to wear a hard hat on site.",
+    "You must wear a helmet on the site.",
+    "You have to wear a helmet on the site."
+   ],
+   "exp": "must / have to.",
+   "ru": "must wear.",
+   "id": "f-mo-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Тебе не обязательно приходить в субботу.",
+   "a": [
+    "You don't have to come on Saturday.",
+    "You do not have to come on Saturday."
+   ],
+   "exp": "Not necessary.",
+   "ru": "don't have to.",
+   "id": "f-mo-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Здесь нельзя курить.",
+   "a": [
+    "You mustn't smoke here.",
+    "You must not smoke here.",
+    "You can't smoke here.",
+    "You cannot smoke here."
+   ],
+   "exp": "Forbidden.",
+   "ru": "mustn't smoke.",
+   "id": "f-mo-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Тебе стоит поговорить с менеджером.",
+   "a": [
+    "You should talk to your manager.",
+    "You should speak to your manager.",
+    "You should talk to the manager.",
+    "You should speak to the manager.",
+    "You should talk with your manager."
+   ],
+   "exp": "Advice.",
+   "ru": "should talk.",
+   "id": "f-mo-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Вчера мне пришлось остаться допоздна.",
+   "a": [
+    "Yesterday I had to stay late.",
+    "I had to stay late yesterday.",
+    "Yesterday I had to stay at work late."
+   ],
+   "exp": "Past → had to.",
+   "ru": "had to stay.",
+   "id": "f-mo-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Тебе нужно подписывать этот документ?",
+   "a": [
+    "Do you have to sign this document?"
+   ],
+   "exp": "Do you have to…?",
+   "ru": "Do you have to.",
+   "id": "f-mo-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Не стоит работать так поздно.",
+   "a": [
+    "You shouldn't work so late.",
+    "You should not work so late."
+   ],
+   "exp": "shouldn't.",
+   "ru": "shouldn't.",
+   "id": "f-mo-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Посетители должны расписаться на ресепшене.",
+   "a": [
+    "Visitors must sign in at reception.",
+    "Visitors have to sign in at reception.",
+    "Visitors must sign in at the reception.",
+    "Visitors have to sign in at the reception."
+   ],
+   "exp": "Rule → must.",
+   "ru": "must sign in.",
+   "id": "f-mo-36",
+   "stage": 3
+  }
+ ]
+}

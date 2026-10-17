@@ -1,0 +1,152 @@
+[
+ {
+  "word": "headache",
+  "ipa": "/ˈhedeɪk/",
+  "ru": "головная боль",
+  "ex": "I have a terrible headache.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "backache",
+  "ipa": "/ˈbækeɪk/",
+  "ru": "боль в спине",
+  "ex": "Sitting all day gives me backache.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "cough",
+  "ipa": "/kɒf/",
+  "ru": "кашель",
+  "ex": "He has a bad cough.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "temperature",
+  "ipa": "/ˈtemprətʃə/",
+  "ru": "температура",
+  "ex": "She has a high temperature.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "feel sick",
+  "ipa": "/fiːl sɪk/",
+  "ru": "чувствовать тошноту",
+  "ex": "I feel sick after the flight.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "take medicine",
+  "ipa": "/teɪk ˈmedsn/",
+  "ru": "принимать лекарство",
+  "ex": "Take this medicine twice a day.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "see a doctor",
+  "ipa": "/siː ə ˈdɒktə/",
+  "ru": "сходить к врачу",
+  "ex": "You should see a doctor.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "sick leave",
+  "ipa": "/sɪk liːv/",
+  "ru": "больничный",
+  "ex": "He is on sick leave this week.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "injury",
+  "ipa": "/ˈɪndʒəri/",
+  "ru": "травма",
+  "ex": "There were no injuries at the plant this year.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "first aid",
+  "ipa": "/ˌfɜːst ˈeɪd/",
+  "ru": "первая помощь",
+  "ex": "All supervisors have first aid training.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "quarter",
+  "ipa": "/ˈkwɔːtə/",
+  "ru": "квартал",
+  "ex": "Sales rose in the third quarter.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "forecast",
+  "ipa": "/ˈfɔːkɑːst/",
+  "ru": "прогноз",
+  "ex": "The forecast for next year is positive.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "figure",
+  "ipa": "/ˈfɪɡə/",
+  "ru": "цифра",
+  "ex": "This figure looks wrong.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "rate",
+  "ipa": "/reɪt/",
+  "ru": "ставка, курс, темп",
+  "ex": "The exchange rate changed again.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "half",
+  "ipa": "/hɑːf/",
+  "ru": "половина",
+  "ex": "Half of the budget is spent.",
+  "topic": "Health and the body",
+  "unit": "5C",
+  "track": "work",
+  "level": "A2"
+ }
+]

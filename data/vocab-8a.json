@@ -1,0 +1,152 @@
+[
+ {
+  "word": "get a job",
+  "ipa": "/ɡet ə dʒɒb/",
+  "ru": "получить работу",
+  "ex": "I want to get a job at TCO.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get better",
+  "ipa": "/ɡet ˈbetə/",
+  "ru": "улучшаться, выздоравливать",
+  "ex": "My English is getting better.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get lost",
+  "ipa": "/ɡet lɒst/",
+  "ru": "заблудиться",
+  "ex": "We got lost in the city.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get on well",
+  "ipa": "/ɡet ɒn wel/",
+  "ru": "хорошо ладить",
+  "ex": "I get on well with my colleagues.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get ready",
+  "ipa": "/ɡet ˈredi/",
+  "ru": "готовиться, собираться",
+  "ex": "I'm getting ready for the interview.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get angry",
+  "ipa": "/ɡet ˈæŋɡri/",
+  "ru": "злиться",
+  "ex": "Don't get angry with him.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get an email",
+  "ipa": "/ɡet ən ˈiːmeɪl/",
+  "ru": "получить письмо",
+  "ex": "I got an email from HR.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get to work",
+  "ipa": "/ɡet tə wɜːk/",
+  "ru": "добираться до работы",
+  "ex": "How do you get to work?",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "get a promotion",
+  "ipa": "/ɡet ə prəˈməʊʃn/",
+  "ru": "получить повышение",
+  "ex": "She got a promotion after two years.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "advise",
+  "ipa": "/ədˈvaɪz/",
+  "ru": "советовать",
+  "ex": "I advise you to talk to your manager.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "internal audit report",
+  "ipa": "/ɪnˌtɜːnl ˈɔːdɪt rɪˌpɔːt/",
+  "ru": "отчёт внутреннего аудита",
+  "ex": "The internal audit report was sent to the board.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "action plan",
+  "ipa": "/ˈækʃn plæn/",
+  "ru": "план мероприятий",
+  "ex": "We prepared an action plan for each finding.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "root cause",
+  "ipa": "/ruːt kɔːz/",
+  "ru": "первопричина",
+  "ex": "What is the root cause of the problem?",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "sample",
+  "ipa": "/ˈsɑːmpl/",
+  "ru": "выборка, образец",
+  "ex": "We tested a sample of 25 invoices.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "walkthrough",
+  "ipa": "/ˈwɔːkθruː/",
+  "ru": "сквозная проверка процесса",
+  "ex": "We did a walkthrough of the payment process.",
+  "topic": "get; advice",
+  "unit": "8A",
+  "track": "work",
+  "level": "B1"
+ }
+]

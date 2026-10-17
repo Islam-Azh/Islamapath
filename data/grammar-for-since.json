@@ -1,0 +1,457 @@
+{
+ "id": "for-since",
+ "title": "Present Perfect + for / since; How long…?",
+ "level": "B1",
+ "unit": "9B",
+ "units": [
+  "9B"
+ ],
+ "en": "<p>For situations that started in the past and continue now, use the <b>Present Perfect</b> (not the Present Simple): <i>I'<b>ve worked</b> here <b>for</b> six years. (I still work here.)</i></p><p><b>for</b> + a period: <i>for two weeks, for a long time, for ages</i>. <b>since</b> + a starting point: <i>since 2019, since Monday, since I was a child</i>.</p><p>Question: <b>How long have you…?</b> <i>How long <b>have you known</b> him?</i></p><p>With action verbs you can also use the <b>Present Perfect Continuous</b>: <i>I'<b>ve been waiting</b> for an hour.</i></p>",
+ "ru": "Ситуация началась в прошлом и продолжается сейчас → Present Perfect (I have worked here for six years), а не Present Simple. for + период (for 5 years), since + начальная точка (since 2019). Вопрос: How long have you…?",
+ "boss": {
+  "situation": "Write about your experience: how long you have worked here, since when you have done each task, how long you have known your manager.",
+  "samples": [
+   "I've worked at the refinery since 2018.",
+   "I've been in internal control for six years.",
+   "I've known my manager since 2020.",
+   "I've used this system for two years.",
+   "I've been learning English since last spring."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I've lived here ___ ten years.",
+   "opts": [
+    "for",
+    "since",
+    "from"
+   ],
+   "a": 0,
+   "exp": "Period → for.",
+   "ru": "Период — for.",
+   "id": "f-fs-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She has worked here ___ 2019.",
+   "opts": [
+    "for",
+    "since",
+    "during"
+   ],
+   "a": 1,
+   "exp": "Starting point → since.",
+   "ru": "С какого момента — since.",
+   "id": "f-fs-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "How long ___ you known Aigerim?",
+   "opts": [
+    "do",
+    "have",
+    "did"
+   ],
+   "a": 1,
+   "exp": "How long have you…?",
+   "ru": "How long have you.",
+   "id": "f-fs-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I ___ him for five years.",
+   "opts": [
+    "know",
+    "have known",
+    "am knowing"
+   ],
+   "a": 1,
+   "exp": "Up to now → Present Perfect.",
+   "ru": "have known.",
+   "id": "f-fs-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We've had this car ___ we moved to Atyrau.",
+   "opts": [
+    "for",
+    "since",
+    "ago"
+   ],
+   "a": 1,
+   "exp": "since + clause.",
+   "ru": "since + событие.",
+   "id": "f-fs-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "He's been ill ___ Monday.",
+   "opts": [
+    "for",
+    "since",
+    "from"
+   ],
+   "a": 1,
+   "exp": "Starting point → since.",
+   "ru": "since Monday.",
+   "id": "f-fs-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "They've been married ___ a long time.",
+   "opts": [
+    "since",
+    "for",
+    "ago"
+   ],
+   "a": 1,
+   "exp": "Period → for.",
+   "ru": "for a long time.",
+   "id": "f-fs-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I ___ in this department since March.",
+   "opts": [
+    "work",
+    "have worked",
+    "am working"
+   ],
+   "a": 1,
+   "exp": "since → Present Perfect.",
+   "ru": "have worked.",
+   "id": "f-fs-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I am here since 9 o'clock” is correct.",
+   "a": false,
+   "exp": "Correct: I've been here since 9 o'clock.",
+   "ru": "I've been here since…",
+   "id": "f-fs-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“for” is used with a period of time, “since” with a starting point.",
+   "a": true,
+   "exp": "for a week / since Monday.",
+   "ru": "for — период, since — начало.",
+   "id": "f-fs-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "I've worked in internal control ___ six years.",
+   "a": [
+    "for"
+   ],
+   "exp": "Period → for.",
+   "ru": "for.",
+   "id": "f-fs-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "We've used this system ___ 2021.",
+   "a": [
+    "since"
+   ],
+   "exp": "Starting point → since.",
+   "ru": "since.",
+   "id": "f-fs-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "How long ___ you had this phone?",
+   "a": [
+    "have"
+   ],
+   "exp": "How long have you…?",
+   "ru": "have.",
+   "id": "f-fs-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "She ___ (be) my manager since last year.",
+   "a": [
+    "'s been",
+    "has been"
+   ],
+   "exp": "Present Perfect of be.",
+   "ru": "has been.",
+   "id": "f-fs-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (not / see) him since the meeting.",
+   "a": [
+    "haven't seen",
+    "have not seen"
+   ],
+   "exp": "Negative Present Perfect.",
+   "ru": "haven't seen.",
+   "id": "f-fs-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I've been waiting ___ an hour!",
+   "a": [
+    "for"
+   ],
+   "exp": "Period → for.",
+   "ru": "for an hour.",
+   "id": "f-fs-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how long have you worked here",
+   "exp": "How long + have + you + participle.",
+   "ru": "How long have you.",
+   "id": "f-fs-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have known her since we were children",
+   "exp": "since + clause.",
+   "ru": "since we were.",
+   "id": "f-fs-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we have used this system for two years",
+   "exp": "for + period.",
+   "ru": "for two years.",
+   "id": "f-fs-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she has been in the meeting since ten",
+   "exp": "since + time.",
+   "ru": "since ten.",
+   "id": "f-fs-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have not had a holiday for a year",
+   "exp": "Negative + for.",
+   "ru": "have not had … for.",
+   "id": "f-fs-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they have lived in atyrau since 2015",
+   "exp": "since + year.",
+   "ru": "since 2015.",
+   "id": "f-fs-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I work here since 2018.”",
+   "a": [
+    "I've worked here since 2018.",
+    "I have worked here since 2018.",
+    "I have been working here since 2018.",
+    "I've been working here since 2018."
+   ],
+   "exp": "since → Present Perfect.",
+   "ru": "have worked.",
+   "id": "f-fs-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I have known him since five years.”",
+   "a": [
+    "I have known him for five years.",
+    "I've known him for five years."
+   ],
+   "exp": "Period → for.",
+   "ru": "for five years.",
+   "id": "f-fs-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “How long do you know your manager?”",
+   "a": [
+    "How long have you known your manager?"
+   ],
+   "exp": "How long have you known…",
+   "ru": "have you known.",
+   "id": "f-fs-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She has been here for Monday.”",
+   "a": [
+    "She has been here since Monday.",
+    "She's been here since Monday."
+   ],
+   "exp": "Starting point → since.",
+   "ru": "since Monday.",
+   "id": "f-fs-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am waiting for you for an hour!”",
+   "a": [
+    "I've been waiting for you for an hour!",
+    "I have been waiting for you for an hour!",
+    "I've been waiting for you for an hour.",
+    "I have been waiting for you for an hour."
+   ],
+   "exp": "Up to now → Present Perfect (Continuous).",
+   "ru": "have been waiting.",
+   "id": "f-fs-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We have this car since 2020.”",
+   "a": [
+    "We've had this car since 2020.",
+    "We have had this car since 2020."
+   ],
+   "exp": "since → Present Perfect.",
+   "ru": "have had.",
+   "id": "f-fs-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я работаю здесь с 2018 года.",
+   "a": [
+    "I've worked here since 2018.",
+    "I have worked here since 2018.",
+    "I have been working here since 2018.",
+    "I've been working here since 2018."
+   ],
+   "exp": "since → Present Perfect.",
+   "ru": "have worked since.",
+   "id": "f-fs-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я знаю его пять лет.",
+   "a": [
+    "I've known him for five years.",
+    "I have known him for five years."
+   ],
+   "exp": "for + period.",
+   "ru": "have known for.",
+   "id": "f-fs-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Как долго ты работаешь в этом отделе?",
+   "a": [
+    "How long have you worked in this department?",
+    "How long have you been working in this department?"
+   ],
+   "exp": "How long have you…",
+   "ru": "How long have you.",
+   "id": "f-fs-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы пользуемся этой системой два года.",
+   "a": [
+    "We've used this system for two years.",
+    "We have used this system for two years.",
+    "We have been using this system for two years.",
+    "We've been using this system for two years."
+   ],
+   "exp": "for + period.",
+   "ru": "for two years.",
+   "id": "f-fs-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я не видел его с понедельника.",
+   "a": [
+    "I haven't seen him since Monday.",
+    "I have not seen him since Monday."
+   ],
+   "exp": "since Monday.",
+   "ru": "haven't seen since.",
+   "id": "f-fs-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Она моя начальница с прошлого года.",
+   "a": [
+    "She's been my manager since last year.",
+    "She has been my manager since last year.",
+    "She has been my boss since last year.",
+    "She's been my boss since last year."
+   ],
+   "exp": "has been since.",
+   "ru": "has been since.",
+   "id": "f-fs-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я жду уже час.",
+   "a": [
+    "I've been waiting for an hour.",
+    "I have been waiting for an hour.",
+    "I've been waiting for an hour already.",
+    "I have been waiting for an hour already."
+   ],
+   "exp": "for an hour.",
+   "ru": "have been waiting.",
+   "id": "f-fs-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я учу английский с прошлой весны.",
+   "a": [
+    "I've been learning English since last spring.",
+    "I have been learning English since last spring.",
+    "I've learned English since last spring.",
+    "I have studied English since last spring.",
+    "I have been studying English since last spring."
+   ],
+   "exp": "since + point.",
+   "ru": "since last spring.",
+   "id": "f-fs-36",
+   "stage": 3
+  }
+ ]
+}

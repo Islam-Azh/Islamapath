@@ -1,0 +1,461 @@
+{
+ "id": "conditionals",
+ "title": "First and second conditional",
+ "level": "B1",
+ "unit": "8B",
+ "units": [
+  "8B",
+  "9A"
+ ],
+ "en": "<p><b>First conditional</b> — a real possibility in the future: <b>If + Present Simple, will + infinitive</b>: <i>If the supplier <b>is</b> late, we <b>will lose</b> a day.</i></p><p>Also with <b>unless</b> (= if not) and imperatives: <i>We won't finish <b>unless</b> you help. If you see him, <b>tell</b> him to call me.</i></p><p><b>Second conditional</b> — an imaginary or unlikely situation now/future: <b>If + Past Simple, would + infinitive</b>: <i>If I <b>had</b> more time, I <b>would study</b> every day. If I <b>were</b> you, I<b>'d take</b> the job.</i></p><p><b>No will / would in the if-part.</b> The if-part can go first (with a comma) or second.</p>",
+ "ru": "1-й тип: реальное будущее — If + Present Simple, will + глагол (If it rains, we will stay). unless = если не. 2-й тип: воображаемое — If + Past Simple, would + глагол (If I had time, I would…; If I were you…). В части с if нет will / would.",
+ "boss": {
+  "situation": "Write about risks: 3 first-conditional sentences (“If the supplier is late, we will…”) and 2 second-conditional sentences (“If I were the director, I would…”).",
+  "samples": [
+   "If the supplier is late, we will miss the deadline.",
+   "If we find a mistake, we will inform the manager.",
+   "We won't get the bonus unless we meet the targets.",
+   "If I were the director, I would hire more auditors.",
+   "If we had a better system, we would save a lot of time."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "If it ___ tomorrow, we'll stay at home.",
+   "opts": [
+    "rains",
+    "will rain",
+    "rained"
+   ],
+   "a": 0,
+   "exp": "If + Present Simple (1st conditional).",
+   "ru": "После if — rains.",
+   "id": "f-co-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "If I ___ rich, I would travel the world.",
+   "opts": [
+    "am",
+    "were",
+    "will be"
+   ],
+   "a": 1,
+   "exp": "2nd conditional: If I were…",
+   "ru": "If I were.",
+   "id": "f-co-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "If you send it today, they ___ get it on Monday.",
+   "opts": [
+    "will",
+    "would",
+    "are"
+   ],
+   "a": 0,
+   "exp": "Real future → will.",
+   "ru": "Реально — will.",
+   "id": "f-co-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "What would you do if you ___ the lottery?",
+   "opts": [
+    "win",
+    "won",
+    "will win"
+   ],
+   "a": 1,
+   "exp": "2nd conditional → past.",
+   "ru": "won.",
+   "id": "f-co-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We won't finish on time ___ you help us.",
+   "opts": [
+    "if",
+    "unless",
+    "when"
+   ],
+   "a": 1,
+   "exp": "unless = if not.",
+   "ru": "unless — если не.",
+   "id": "f-co-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "If I ___ you, I'd apply for that job.",
+   "opts": [
+    "am",
+    "was being",
+    "were"
+   ],
+   "a": 2,
+   "exp": "Advice → If I were you.",
+   "ru": "If I were you.",
+   "id": "f-co-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "If the system ___ down again, call IT.",
+   "opts": [
+    "goes",
+    "will go",
+    "went"
+   ],
+   "a": 0,
+   "exp": "If + Present Simple + imperative.",
+   "ru": "goes.",
+   "id": "f-co-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "She ___ more if she had more time.",
+   "opts": [
+    "will read",
+    "would read",
+    "reads"
+   ],
+   "a": 1,
+   "exp": "2nd conditional → would.",
+   "ru": "would read.",
+   "id": "f-co-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“If I will see her, I will tell her” is correct.",
+   "a": false,
+   "exp": "No will after if: If I see her, I'll tell her.",
+   "ru": "После if без will.",
+   "id": "f-co-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“If I had a car, I would drive to work” is about an imaginary situation.",
+   "a": true,
+   "exp": "2nd conditional = imaginary.",
+   "ru": "Воображаемая ситуация.",
+   "id": "f-co-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "If you ___ (be) late again, you'll lose your bonus.",
+   "a": [
+    "are"
+   ],
+   "exp": "If + Present Simple.",
+   "ru": "are.",
+   "id": "f-co-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "If I ___ (have) more money, I would buy a flat in Almaty.",
+   "a": [
+    "had"
+   ],
+   "exp": "2nd conditional → had.",
+   "ru": "had.",
+   "id": "f-co-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "If we find the error, we ___ (fix) it immediately.",
+   "a": [
+    "'ll fix",
+    "will fix"
+   ],
+   "exp": "1st conditional → will.",
+   "ru": "will fix.",
+   "id": "f-co-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I ___ (not / do) that if I were you.",
+   "a": [
+    "wouldn't do",
+    "would not do"
+   ],
+   "exp": "2nd conditional → wouldn't.",
+   "ru": "wouldn't do.",
+   "id": "f-co-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ you study, you won't pass the exam.",
+   "a": [
+    "Unless"
+   ],
+   "exp": "Unless = if not.",
+   "ru": "Unless.",
+   "id": "f-co-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "If she ___ (know) the answer, she would tell us.",
+   "a": [
+    "knew"
+   ],
+   "exp": "Imaginary → past.",
+   "ru": "knew.",
+   "id": "f-co-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "if the supplier is late we will lose a day",
+   "exp": "1st conditional.",
+   "ru": "If … is, … will.",
+   "id": "f-co-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "if i were you i would talk to him",
+   "exp": "2nd conditional, advice.",
+   "ru": "If I were you.",
+   "id": "f-co-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what will you do if they say no",
+   "exp": "Question + if-clause.",
+   "ru": "will … if.",
+   "id": "f-co-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we would save time if we had a better system",
+   "exp": "Main clause first, no comma.",
+   "ru": "would … if … had.",
+   "id": "f-co-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "call me if you need help",
+   "exp": "Imperative + if.",
+   "ru": "Call me if.",
+   "id": "f-co-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i will not sign it unless i read it",
+   "exp": "unless = if not.",
+   "ru": "unless.",
+   "id": "f-co-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “If I will have time, I will help you.”",
+   "a": [
+    "If I have time, I'll help you.",
+    "If I have time, I will help you."
+   ],
+   "exp": "No will after if.",
+   "ru": "If I have.",
+   "id": "f-co-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “If I would be rich, I would buy a house.”",
+   "a": [
+    "If I were rich, I would buy a house.",
+    "If I were rich, I'd buy a house.",
+    "If I was rich, I would buy a house."
+   ],
+   "exp": "No would after if.",
+   "ru": "If I were.",
+   "id": "f-co-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “If it rains, we stay at home tomorrow.”",
+   "a": [
+    "If it rains, we'll stay at home tomorrow.",
+    "If it rains, we will stay at home tomorrow."
+   ],
+   "exp": "Future result → will.",
+   "ru": "will stay.",
+   "id": "f-co-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “If I had a car, I will drive to work.”",
+   "a": [
+    "If I had a car, I would drive to work.",
+    "If I had a car, I'd drive to work."
+   ],
+   "exp": "2nd conditional → would.",
+   "ru": "would drive.",
+   "id": "f-co-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Unless you don't hurry, you'll miss the bus.”",
+   "a": [
+    "Unless you hurry, you'll miss the bus.",
+    "Unless you hurry, you will miss the bus.",
+    "If you don't hurry, you'll miss the bus.",
+    "If you do not hurry, you will miss the bus."
+   ],
+   "exp": "unless already means if not.",
+   "ru": "unless без not.",
+   "id": "f-co-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “What you would do if you lost your job?”",
+   "a": [
+    "What would you do if you lost your job?"
+   ],
+   "exp": "Question word order: would you.",
+   "ru": "would you do.",
+   "id": "f-co-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Если поставщик опоздает, мы потеряем день.",
+   "a": [
+    "If the supplier is late, we will lose a day.",
+    "If the supplier is late, we'll lose a day."
+   ],
+   "exp": "1st conditional.",
+   "ru": "If … is, … will.",
+   "id": "f-co-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Если бы у меня было больше времени, я бы занимался каждый день.",
+   "a": [
+    "If I had more time, I would study every day.",
+    "If I had more time, I'd study every day.",
+    "If I had more time, I would practise every day.",
+    "If I had more time, I would practice every day."
+   ],
+   "exp": "2nd conditional.",
+   "ru": "If I had … would.",
+   "id": "f-co-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "На твоём месте я бы согласился на эту работу.",
+   "a": [
+    "If I were you, I'd take the job.",
+    "If I were you, I would take the job.",
+    "If I were you, I would take this job.",
+    "If I were you, I would accept the job.",
+    "If I were you, I would accept this job."
+   ],
+   "exp": "If I were you.",
+   "ru": "If I were you.",
+   "id": "f-co-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Если найдёшь ошибку, скажи мне.",
+   "a": [
+    "If you find a mistake, tell me.",
+    "If you find an error, tell me.",
+    "If you find a mistake, let me know.",
+    "If you find an error, let me know."
+   ],
+   "exp": "If + Present + imperative.",
+   "ru": "If you find…",
+   "id": "f-co-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы не закончим, если ты не поможешь.",
+   "a": [
+    "We won't finish unless you help.",
+    "We will not finish unless you help.",
+    "We won't finish if you don't help.",
+    "We will not finish if you do not help.",
+    "We won't finish unless you help us.",
+    "We won't finish if you don't help us."
+   ],
+   "exp": "unless = if not.",
+   "ru": "unless.",
+   "id": "f-co-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Что бы ты сделал, если бы выиграл миллион?",
+   "a": [
+    "What would you do if you won a million?",
+    "What would you do if you won one million?"
+   ],
+   "exp": "2nd conditional question.",
+   "ru": "would … if … won.",
+   "id": "f-co-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Если будет дождь, мы останемся дома.",
+   "a": [
+    "If it rains, we'll stay at home.",
+    "If it rains, we will stay at home.",
+    "If it rains, we will stay home.",
+    "If it rains, we'll stay home."
+   ],
+   "exp": "1st conditional.",
+   "ru": "If it rains.",
+   "id": "f-co-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Если бы я был директором, я бы нанял больше аудиторов.",
+   "a": [
+    "If I were the director, I would hire more auditors.",
+    "If I were the director, I'd hire more auditors.",
+    "If I was the director, I would hire more auditors.",
+    "If I were a director, I would hire more auditors."
+   ],
+   "exp": "2nd conditional.",
+   "ru": "If I were … would.",
+   "id": "f-co-36",
+   "stage": 3
+  }
+ ]
+}

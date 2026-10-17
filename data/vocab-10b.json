@@ -1,0 +1,152 @@
+[
+ {
+  "word": "maths",
+  "ipa": "/mæθs/",
+  "ru": "математика",
+  "ex": "I was good at maths at school.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "history",
+  "ipa": "/ˈhɪstri/",
+  "ru": "история",
+  "ex": "History was my favourite subject.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "geography",
+  "ipa": "/dʒiˈɒɡrəfi/",
+  "ru": "география",
+  "ex": "We studied the geography of Kazakhstan.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "chemistry",
+  "ipa": "/ˈkemɪstri/",
+  "ru": "химия",
+  "ex": "Chemistry is important for refinery engineers.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "physics",
+  "ipa": "/ˈfɪzɪks/",
+  "ru": "физика",
+  "ex": "Physics was difficult for me.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "literature",
+  "ipa": "/ˈlɪtrətʃə/",
+  "ru": "литература",
+  "ex": "We read a lot of literature at school.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "primary school",
+  "ipa": "/ˈpraɪməri skuːl/",
+  "ru": "начальная школа",
+  "ex": "My son goes to primary school.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "secondary school",
+  "ipa": "/ˈsekəndri skuːl/",
+  "ru": "средняя школа",
+  "ex": "I went to secondary school in Atyrau.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "homework",
+  "ipa": "/ˈhəʊmwɜːk/",
+  "ru": "домашнее задание",
+  "ex": "I do my English homework every evening.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "term",
+  "ipa": "/tɜːm/",
+  "ru": "четверть, семестр",
+  "ex": "The school year has four terms.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "unit",
+  "level": "B1"
+ },
+ {
+  "word": "policy",
+  "ipa": "/ˈpɒləsi/",
+  "ru": "политика (документ)",
+  "ex": "Read the company's travel policy.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "approval",
+  "ipa": "/əˈpruːvl/",
+  "ru": "одобрение, согласование",
+  "ex": "The request is waiting for approval.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "signature",
+  "ipa": "/ˈsɪɡnətʃə/",
+  "ru": "подпись",
+  "ex": "We need two signatures on this form.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "archive",
+  "ipa": "/ˈɑːkaɪv/",
+  "ru": "архив",
+  "ex": "Old contracts are kept in the archive.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "work",
+  "level": "B1"
+ },
+ {
+  "word": "version",
+  "ipa": "/ˈvɜːʃn/",
+  "ru": "версия",
+  "ex": "Please send me the latest version.",
+  "topic": "School subjects and education",
+  "unit": "10B",
+  "track": "work",
+  "level": "B1"
+ }
+]

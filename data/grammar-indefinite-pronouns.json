@@ -1,0 +1,456 @@
+{
+ "id": "indefinite-pronouns",
+ "title": "something, anything, nothing, someone, anywhere…",
+ "level": "A2",
+ "unit": "4C",
+ "units": [
+  "4C"
+ ],
+ "en": "<p><b>some-</b> (something, someone/somebody, somewhere) — positive sentences and offers: <i>I need <b>something</b> to drink. Would you like <b>something</b>?</i></p><p><b>any-</b> — questions and negatives: <i>Is there <b>anything</b> wrong? I didn't see <b>anyone</b>.</i></p><p><b>no-</b> (nothing, no one/nobody, nowhere) — negative meaning with a <b>positive</b> verb: <i>I saw <b>nobody</b>. (= I didn't see anybody.)</i></p><p><b>every-</b> — all: <i><b>Everyone</b> is here. <b>Everything</b> is ready.</i> These words take a singular verb.</p>",
+ "ru": "some- — в утверждениях и предложениях (Would you like something?), any- — в вопросах и с not, no- — отрицание с утвердительным глаголом (I saw nobody, не I didn't see nobody). Everyone/everything — глагол в ед. числе (is).",
+ "boss": {
+  "situation": "Write a short audit note: what you checked and what you found. Use something / anything / nothing / someone / no one / everything.",
+  "samples": [
+   "I checked everything in the warehouse.",
+   "Someone left the door open at night.",
+   "We didn't find anything wrong with the stock count.",
+   "Nobody signed the visitors' log on Saturday.",
+   "Nothing is missing, but something must change."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I'm hungry. I want ___ to eat.",
+   "opts": [
+    "something",
+    "anything",
+    "nothing"
+   ],
+   "a": 0,
+   "exp": "Positive sentence → something.",
+   "ru": "Утверждение — something.",
+   "id": "f-ip-1",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Is there ___ in the meeting room?",
+   "opts": [
+    "someone",
+    "anyone",
+    "no one"
+   ],
+   "a": 1,
+   "exp": "Question → anyone.",
+   "ru": "Вопрос — anyone.",
+   "id": "f-ip-2",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I didn't say ___.",
+   "opts": [
+    "nothing",
+    "anything",
+    "something"
+   ],
+   "a": 1,
+   "exp": "Negative verb → anything.",
+   "ru": "С not — anything.",
+   "id": "f-ip-3",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ called you this morning — a man from the bank.",
+   "opts": [
+    "Someone",
+    "Anyone",
+    "Nobody"
+   ],
+   "a": 0,
+   "exp": "Positive, unknown person → someone.",
+   "ru": "Кто-то — someone.",
+   "id": "f-ip-4",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "I looked everywhere but found ___.",
+   "opts": [
+    "anything",
+    "nothing",
+    "something"
+   ],
+   "a": 1,
+   "exp": "Positive verb + negative meaning → nothing.",
+   "ru": "Ничего — nothing.",
+   "id": "f-ip-5",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "___ is ready for the meeting. We can start.",
+   "opts": [
+    "Everything",
+    "Anything",
+    "Nothing"
+   ],
+   "a": 0,
+   "exp": "All → everything.",
+   "ru": "Всё — everything.",
+   "id": "f-ip-6",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "Would you like ___ to drink?",
+   "opts": [
+    "something",
+    "anything",
+    "nothing"
+   ],
+   "a": 0,
+   "exp": "Offer → something.",
+   "ru": "Предложение — something.",
+   "id": "f-ip-7",
+   "stage": 1
+  },
+  {
+   "type": "mc",
+   "q": "We didn't go ___ at the weekend.",
+   "opts": [
+    "somewhere",
+    "anywhere",
+    "nowhere"
+   ],
+   "a": 1,
+   "exp": "Negative → anywhere.",
+   "ru": "С not — anywhere.",
+   "id": "f-ip-8",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“Everybody are happy” is correct.",
+   "a": false,
+   "exp": "Everybody + singular verb: is.",
+   "ru": "Everybody is.",
+   "id": "f-ip-9",
+   "stage": 1
+  },
+  {
+   "type": "tf",
+   "q": "“I didn't see anybody” and “I saw nobody” mean the same.",
+   "a": true,
+   "exp": "Both are negative in meaning.",
+   "ru": "Одно и то же.",
+   "id": "f-ip-10",
+   "stage": 1
+  },
+  {
+   "type": "gap",
+   "q": "Did ___ call while I was out?",
+   "a": [
+    "anyone",
+    "anybody"
+   ],
+   "exp": "Question → anyone.",
+   "ru": "Вопрос — anyone.",
+   "id": "f-ip-11",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "There's ___ in the fridge. It's empty.",
+   "a": [
+    "nothing"
+   ],
+   "exp": "Empty → nothing.",
+   "ru": "Пусто — nothing.",
+   "id": "f-ip-12",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "I need ___ to help me with this report.",
+   "a": [
+    "someone",
+    "somebody"
+   ],
+   "exp": "Positive → someone.",
+   "ru": "Кто-нибудь (нужен) — someone.",
+   "id": "f-ip-13",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Let's go ___ quiet to talk.",
+   "a": [
+    "somewhere"
+   ],
+   "exp": "Positive → somewhere.",
+   "ru": "Куда-нибудь — somewhere.",
+   "id": "f-ip-14",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "___ knows the answer. Even the manager doesn't know.",
+   "a": [
+    "Nobody",
+    "No one"
+   ],
+   "exp": "Nobody + positive verb.",
+   "ru": "Никто — Nobody.",
+   "id": "f-ip-15",
+   "stage": 2
+  },
+  {
+   "type": "gap",
+   "q": "Is there ___ I can do to help?",
+   "a": [
+    "anything"
+   ],
+   "exp": "Question → anything.",
+   "ru": "Вопрос — anything.",
+   "id": "f-ip-16",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i did not find anything wrong",
+   "exp": "Negative verb + anything.",
+   "ru": "not … anything.",
+   "id": "f-ip-17",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "someone has left the door open",
+   "exp": "Positive → someone.",
+   "ru": "someone.",
+   "id": "f-ip-18",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "nobody answered the phone",
+   "exp": "Nobody + positive verb.",
+   "ru": "Nobody + answered.",
+   "id": "f-ip-19",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "is there anything else you need",
+   "exp": "Question → anything.",
+   "ru": "anything else.",
+   "id": "f-ip-20",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "everything is ready for the audit",
+   "exp": "Everything + singular verb.",
+   "ru": "Everything is.",
+   "id": "f-ip-21",
+   "stage": 2
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we have nowhere to keep the old files",
+   "exp": "nowhere + positive verb.",
+   "ru": "have nowhere.",
+   "id": "f-ip-22",
+   "stage": 2
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I didn't see nobody.”",
+   "a": [
+    "I didn't see anybody.",
+    "I didn't see anyone.",
+    "I did not see anybody.",
+    "I did not see anyone.",
+    "I saw nobody.",
+    "I saw no one."
+   ],
+   "exp": "No double negative.",
+   "ru": "Без двойного отрицания.",
+   "id": "f-ip-23",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Everybody are here.”",
+   "a": [
+    "Everybody is here.",
+    "Everyone is here."
+   ],
+   "exp": "Singular verb.",
+   "ru": "Everybody is.",
+   "id": "f-ip-24",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I don't have nothing to say.”",
+   "a": [
+    "I don't have anything to say.",
+    "I do not have anything to say.",
+    "I have nothing to say."
+   ],
+   "exp": "No double negative.",
+   "ru": "Без двойного отрицания.",
+   "id": "f-ip-25",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Nothing didn't happen.”",
+   "a": [
+    "Nothing happened."
+   ],
+   "exp": "Nothing + positive verb.",
+   "ru": "Nothing happened.",
+   "id": "f-ip-26",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I want to go anywhere hot this summer.”",
+   "a": [
+    "I want to go somewhere hot this summer."
+   ],
+   "exp": "Positive → somewhere.",
+   "ru": "Утверждение — somewhere.",
+   "id": "f-ip-27",
+   "stage": 3
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Somebody don't know the password.”",
+   "a": [
+    "Somebody doesn't know the password.",
+    "Somebody does not know the password."
+   ],
+   "exp": "Somebody → singular: doesn't.",
+   "ru": "Somebody doesn't.",
+   "id": "f-ip-28",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Кто-то оставил дверь открытой.",
+   "a": [
+    "Someone left the door open.",
+    "Somebody left the door open.",
+    "Someone has left the door open.",
+    "Somebody has left the door open."
+   ],
+   "exp": "Positive → someone.",
+   "ru": "Someone.",
+   "id": "f-ip-29",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Я ничего не нашёл.",
+   "a": [
+    "I didn't find anything.",
+    "I did not find anything.",
+    "I found nothing."
+   ],
+   "exp": "not … anything / nothing.",
+   "ru": "anything / nothing.",
+   "id": "f-ip-30",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Всё готово.",
+   "a": [
+    "Everything is ready."
+   ],
+   "exp": "Everything + is.",
+   "ru": "Everything is.",
+   "id": "f-ip-31",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Никто не ответил.",
+   "a": [
+    "Nobody answered.",
+    "No one answered.",
+    "Nobody replied.",
+    "No one replied."
+   ],
+   "exp": "Nobody + positive verb.",
+   "ru": "Nobody answered.",
+   "id": "f-ip-32",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Ты что-нибудь слышал?",
+   "a": [
+    "Did you hear anything?",
+    "Have you heard anything?"
+   ],
+   "exp": "Question → anything.",
+   "ru": "anything.",
+   "id": "f-ip-33",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Хотите что-нибудь выпить?",
+   "a": [
+    "Would you like something to drink?",
+    "Do you want something to drink?"
+   ],
+   "exp": "Offer → something.",
+   "ru": "something.",
+   "id": "f-ip-34",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Мы никуда не ходили в выходные.",
+   "a": [
+    "We didn't go anywhere at the weekend.",
+    "We did not go anywhere at the weekend.",
+    "We went nowhere at the weekend.",
+    "We didn't go anywhere on the weekend.",
+    "We did not go anywhere on the weekend."
+   ],
+   "exp": "not … anywhere.",
+   "ru": "anywhere.",
+   "id": "f-ip-35",
+   "stage": 3
+  },
+  {
+   "type": "tr",
+   "q": "Все на совещании.",
+   "a": [
+    "Everyone is at the meeting.",
+    "Everybody is at the meeting.",
+    "Everyone is in the meeting.",
+    "Everybody is in the meeting."
+   ],
+   "exp": "Everyone + is.",
+   "ru": "Everyone is.",
+   "id": "f-ip-36",
+   "stage": 3
+  }
+ ]
+}

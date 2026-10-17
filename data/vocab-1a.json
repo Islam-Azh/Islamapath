@@ -1,0 +1,152 @@
+[
+ {
+  "word": "surname",
+  "ipa": "/ˈsɜːneɪm/",
+  "ru": "фамилия",
+  "ex": "Can you spell your surname, please?",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "be born",
+  "ipa": "/bi bɔːn/",
+  "ru": "родиться",
+  "ex": "I was born in Atyrau.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "grow up",
+  "ipa": "/ɡrəʊ ʌp/",
+  "ru": "расти, вырасти",
+  "ex": "She grew up in a small village.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "hometown",
+  "ipa": "/ˈhəʊmtaʊn/",
+  "ru": "родной город",
+  "ex": "My hometown is on the Ural River.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "nationality",
+  "ipa": "/ˌnæʃəˈnæləti/",
+  "ru": "национальность, гражданство",
+  "ex": "What nationality are your colleagues?",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "free time",
+  "ipa": "/friː taɪm/",
+  "ru": "свободное время",
+  "ex": "What do you do in your free time?",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "go out",
+  "ipa": "/ɡəʊ aʊt/",
+  "ru": "выходить (гулять, развлекаться)",
+  "ex": "We usually go out on Friday evenings.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "do sport",
+  "ipa": "/duː spɔːt/",
+  "ru": "заниматься спортом",
+  "ex": "I try to do sport three times a week.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "play an instrument",
+  "ipa": "/pleɪ ən ˈɪnstrəmənt/",
+  "ru": "играть на инструменте",
+  "ex": "Do you play an instrument?",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "get married",
+  "ipa": "/ɡet ˈmærid/",
+  "ru": "жениться, выйти замуж",
+  "ex": "They got married last summer.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "unit",
+  "level": "A2"
+ },
+ {
+  "word": "job interview",
+  "ipa": "/dʒɒb ˈɪntəvjuː/",
+  "ru": "собеседование",
+  "ex": "I have a job interview on Monday.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "applicant",
+  "ipa": "/ˈæplɪkənt/",
+  "ru": "кандидат, соискатель",
+  "ex": "There were twenty applicants for the job.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "CV",
+  "ipa": "/ˌsiː ˈviː/",
+  "ru": "резюме",
+  "ex": "Please send your CV by email.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "position",
+  "ipa": "/pəˈzɪʃn/",
+  "ru": "должность",
+  "ex": "I am applying for the position of auditor.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "work",
+  "level": "A2"
+ },
+ {
+  "word": "experience",
+  "ipa": "/ɪkˈspɪəriəns/",
+  "ru": "опыт",
+  "ex": "I have six years of experience in internal control.",
+  "topic": "Personal information, common verb phrases",
+  "unit": "1A",
+  "track": "work",
+  "level": "A2"
+ }
+]
