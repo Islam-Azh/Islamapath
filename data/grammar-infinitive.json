@@ -1,0 +1,229 @@
+{
+ "id": "infinitive",
+ "title": "Uses of the infinitive (with to)",
+ "level": "B1",
+ "en": "<p>Use <b>to + infinitive</b>:</p><p>1. After verbs like <b>want, need, decide, hope, plan, learn, forget, promise, offer, manage, would like</b>: <i>I've decided <b>to learn</b> Spanish.</i></p><p>2. To say <b>why</b> (purpose): <i>I went to the bank <b>to get</b> some money</i> (not <i>for get</i>).</p><p>3. After adjectives: <i>It's easy <b>to understand</b>. Nice <b>to meet</b> you.</i></p><p>4. After question words and after something / anything / somewhere: <i>I don't know <b>what to do</b>. Is there anything <b>to eat</b>?</i></p><p>Negative: <b>not to</b> + infinitive: <i>He promised <b>not to be</b> late.</i> With want / ask / tell: <i>She wants <b>me to help</b> her</i> (not <i>wants that I help</i>).</p>",
+ "ru": "to + глагол: после want/need/decide/hope и др.; для цели («чтобы», не for); после прилагательных; после вопросительных слов и something/anything. Отрицание — not to. want/ask/tell + кого-то + to.",
+ "qs": [
+  {
+   "id": "g-in-1",
+   "type": "mc",
+   "q": "I've decided ___ a new car.",
+   "opts": [
+    "to buy",
+    "buying",
+    "buy"
+   ],
+   "a": 0,
+   "exp": "decide + to + infinitive.",
+   "ru": "decide + to."
+  },
+  {
+   "id": "g-in-2",
+   "type": "mc",
+   "q": "She promised ___ late again.",
+   "opts": [
+    "not to be",
+    "to not being",
+    "not be"
+   ],
+   "a": 0,
+   "exp": "Negative infinitive: not to + verb.",
+   "ru": "Отрицание — not to."
+  },
+  {
+   "id": "g-in-3",
+   "type": "gap",
+   "q": "I went to the shop ___ (buy) some milk.",
+   "a": [
+    "to buy"
+   ],
+   "exp": "Purpose → to + infinitive.",
+   "ru": "Цель — to + глагол."
+  },
+  {
+   "id": "g-in-4",
+   "type": "gap",
+   "q": "It's important ___ (drink) enough water.",
+   "a": [
+    "to drink"
+   ],
+   "exp": "Adjective + to + infinitive.",
+   "ru": "Прилагательное + to."
+  },
+  {
+   "id": "g-in-5",
+   "type": "gap",
+   "q": "Would you like ___ (come) to dinner on Saturday?",
+   "a": [
+    "to come"
+   ],
+   "exp": "would like + to + infinitive.",
+   "ru": "would like + to."
+  },
+  {
+   "id": "g-in-6",
+   "type": "mc",
+   "q": "I don't know what ___.",
+   "opts": [
+    "to do",
+    "doing",
+    "do"
+   ],
+   "a": 0,
+   "exp": "Question word + to + infinitive.",
+   "ru": "what + to + глагол."
+  },
+  {
+   "id": "g-in-7",
+   "type": "mc",
+   "q": "Is there anything ___ in the fridge?",
+   "opts": [
+    "to eat",
+    "eating",
+    "eat"
+   ],
+   "a": 0,
+   "exp": "anything / something + to + infinitive.",
+   "ru": "anything + to."
+  },
+  {
+   "id": "g-in-8",
+   "type": "fix",
+   "q": "Correct the mistake: “I'm learning English for get a better job.”",
+   "a": [
+    "I'm learning English to get a better job.",
+    "I am learning English to get a better job.",
+    "I'm learning English in order to get a better job.",
+    "I am learning English in order to get a better job."
+   ],
+   "exp": "Purpose: to + infinitive, not for.",
+   "ru": "Цель — to, не for."
+  },
+  {
+   "id": "g-in-9",
+   "type": "fix",
+   "q": "Correct the mistake: “She wants that I help her.”",
+   "a": [
+    "She wants me to help her."
+   ],
+   "exp": "want + person + to + infinitive.",
+   "ru": "want + кого-то + to."
+  },
+  {
+   "id": "g-in-10",
+   "type": "fix",
+   "q": "Correct the mistake: “It's easy understand this rule.”",
+   "a": [
+    "It's easy to understand this rule.",
+    "It is easy to understand this rule."
+   ],
+   "exp": "Adjective + to + infinitive.",
+   "ru": "После прилагательного — to."
+  },
+  {
+   "id": "g-in-11",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i forgot to send you the report",
+   "exp": "forget + to + infinitive.",
+   "ru": "forget + to + глагол."
+  },
+  {
+   "id": "g-in-12",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "can you tell me where to park",
+   "exp": "Question word + to + infinitive.",
+   "ru": "where + to + глагол."
+  },
+  {
+   "id": "g-in-13",
+   "type": "tf",
+   "q": "In “I came here to learn English”, “to learn” explains why I came.",
+   "a": true,
+   "exp": "to + infinitive = purpose.",
+   "ru": "to + глагол = цель."
+  },
+  {
+   "id": "g-in-14",
+   "type": "tf",
+   "q": "After “would like” we use the -ing form: “I'd like going home.”",
+   "a": false,
+   "exp": "would like + to: I'd like to go home.",
+   "ru": "После would like — to."
+  },
+  {
+   "id": "g-in-15",
+   "type": "mc",
+   "q": "We hope ___ you again soon.",
+   "opts": [
+    "to see",
+    "seeing",
+    "see"
+   ],
+   "a": 0,
+   "exp": "hope + to + infinitive.",
+   "ru": "hope + to."
+  },
+  {
+   "id": "g-in-16",
+   "type": "mc",
+   "q": "I need somewhere ___ tonight.",
+   "opts": [
+    "to stay",
+    "staying",
+    "stay"
+   ],
+   "a": 0,
+   "exp": "somewhere + to + infinitive.",
+   "ru": "somewhere + to."
+  },
+  {
+   "id": "g-in-17",
+   "type": "gap",
+   "q": "I'm sorry ___ (hear) that you're ill.",
+   "a": [
+    "to hear"
+   ],
+   "exp": "Adjective (sorry) + to + infinitive.",
+   "ru": "sorry + to."
+  },
+  {
+   "id": "g-in-18",
+   "type": "gap",
+   "q": "My manager asked me ___ (not / be) late.",
+   "a": [
+    "not to be"
+   ],
+   "exp": "ask + person + not to + infinitive.",
+   "ru": "ask + кого-то + not to."
+  },
+  {
+   "id": "g-in-19",
+   "type": "mc",
+   "q": "Did you manage ___ the tickets?",
+   "opts": [
+    "to get",
+    "getting",
+    "get"
+   ],
+   "a": 0,
+   "exp": "manage + to + infinitive.",
+   "ru": "manage + to."
+  },
+  {
+   "id": "g-in-20",
+   "type": "mc",
+   "q": "They're saving money ___ a house.",
+   "opts": [
+    "to buy",
+    "for buy",
+    "buying"
+   ],
+   "a": 0,
+   "exp": "Purpose → to + infinitive.",
+   "ru": "Цель — to."
+  }
+ ]
+}

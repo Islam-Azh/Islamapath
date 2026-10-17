@@ -1,0 +1,76 @@
+{
+ "id": "l-b1-01",
+ "title": "Arranging a meeting",
+ "level": "B1",
+ "text": "Hi Sara, it's Tom. Are you available on Thursday? I'd like to arrange a meeting to talk about the trip. — Hi Tom. Thursday is difficult. My schedule is really busy, and I have a dentist appointment at four. Can we meet on Friday instead? — Friday works for me. What time? — How about ten? I need to leave at twelve to pick up my son from school. — Ten is perfect. I'll book a room that has a projector. — Great. Could you remind me the day before? I always forget things. — Of course. I'll send you a message on Thursday evening. And I promise the meeting won't take more than an hour. — Oh, and one more thing. Could you bring the price list from the hotel? I think we need to decide which hotel to choose before the end of the month. — Sure. Actually, I've already compared two of them. The one that is near the beach is more expensive, but it's probably more comfortable for the children. — OK, let's look at both on Friday and decide together. — Thanks, Tom. See you on Friday.",
+ "qs": [
+  {
+   "id": "l-b1-01-1",
+   "type": "mc",
+   "q": "Why can't Sara meet on Thursday?",
+   "opts": [
+    "She is busy and has an appointment.",
+    "She is on holiday.",
+    "She is ill."
+   ],
+   "a": 0,
+   "exp": "Busy schedule + dentist appointment at four.",
+   "ru": "Плотный график и приём у стоматолога."
+  },
+  {
+   "id": "l-b1-01-2",
+   "type": "mc",
+   "q": "When will they meet?",
+   "opts": [
+    "on Friday at ten",
+    "on Thursday at four",
+    "on Friday at twelve"
+   ],
+   "a": 0,
+   "exp": "“Friday works for me… How about ten?”",
+   "ru": "В пятницу в десять."
+  },
+  {
+   "id": "l-b1-01-3",
+   "type": "tf",
+   "q": "Sara needs to leave at twelve to pick up her son.",
+   "a": true,
+   "exp": "“I need to leave at twelve to pick up my son”.",
+   "ru": "Да, забрать сына."
+  },
+  {
+   "id": "l-b1-01-4",
+   "type": "mc",
+   "q": "What kind of room will Tom book?",
+   "opts": [
+    "a room that has a projector",
+    "a room near the café",
+    "the biggest room"
+   ],
+   "a": 0,
+   "exp": "“a room that has a projector”.",
+   "ru": "Комнату с проектором."
+  },
+  {
+   "id": "l-b1-01-5",
+   "type": "mc",
+   "q": "What will Tom do on Thursday evening?",
+   "opts": [
+    "send Sara a reminder",
+    "call the dentist",
+    "prepare the slides"
+   ],
+   "a": 0,
+   "exp": "He will send her a message to remind her.",
+   "ru": "Отправит напоминание."
+  },
+  {
+   "id": "l-b1-01-6",
+   "type": "tf",
+   "q": "The hotel near the beach is cheaper.",
+   "a": false,
+   "exp": "“The one that is near the beach is more expensive”.",
+   "ru": "Отель у пляжа дороже."
+  }
+ ]
+}

@@ -1,0 +1,452 @@
+[
+ {
+  "word": "expect",
+  "ipa": "/ɪkˈspekt/",
+  "ru": "ожидать",
+  "ex": "I didn't expect so many people at the party.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 314
+ },
+ {
+  "word": "suggest",
+  "ipa": "/səˈdʒest/",
+  "ru": "предлагать (идею, вариант)",
+  "ex": "I suggest we take a short break.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 329
+ },
+ {
+  "word": "decide",
+  "ipa": "/dɪˈsaɪd/",
+  "ru": "решать, принимать решение",
+  "ex": "We decided to stay at home.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 359
+ },
+ {
+  "word": "explain",
+  "ipa": "/ɪkˈspleɪn/",
+  "ru": "объяснять",
+  "ex": "Can you explain this rule to me?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 489
+ },
+ {
+  "word": "improve",
+  "ipa": "/ɪmˈpruːv/",
+  "ru": "улучшать(ся)",
+  "ex": "My English is improving every week.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 508
+ },
+ {
+  "word": "realize",
+  "ipa": "/ˈrɪəlaɪz/",
+  "ru": "осознавать, понимать (вдруг)",
+  "ex": "I didn't realize it was so late.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 554
+ },
+ {
+  "word": "accept",
+  "ipa": "/əkˈsept/",
+  "ru": "принимать (предложение, подарок)",
+  "ex": "She accepted the job offer.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 561
+ },
+ {
+  "word": "mention",
+  "ipa": "/ˈmenʃn/",
+  "ru": "упоминать",
+  "ex": "He didn't mention the price.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 564
+ },
+ {
+  "word": "prepare",
+  "ipa": "/prɪˈpeə/",
+  "ru": "готовить(ся)",
+  "ex": "I need to prepare for the interview.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 604
+ },
+ {
+  "word": "manage",
+  "ipa": "/ˈmænɪdʒ/",
+  "ru": "суметь (manage to do); руководить",
+  "ex": "Did you manage to find a taxi?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 625
+ },
+ {
+  "word": "notice",
+  "ipa": "/ˈnəʊtɪs/",
+  "ru": "замечать",
+  "ex": "Did you notice anything strange?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 664
+ },
+ {
+  "word": "wonder",
+  "ipa": "/ˈwʌndə/",
+  "ru": "задаваться вопросом, интересоваться",
+  "ex": "I wonder why she left so early.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 665
+ },
+ {
+  "word": "depend",
+  "ipa": "/dɪˈpend/",
+  "ru": "зависеть (depend on)",
+  "ex": "It depends on the weather.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 731
+ },
+ {
+  "word": "avoid",
+  "ipa": "/əˈvɔɪd/",
+  "ru": "избегать",
+  "ex": "I try to avoid coffee in the evening.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 850
+ },
+ {
+  "word": "prefer",
+  "ipa": "/prɪˈfɜː/",
+  "ru": "предпочитать",
+  "ex": "I prefer tea to coffee.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 948
+ },
+ {
+  "word": "fix",
+  "ipa": "/fɪks/",
+  "ru": "чинить, исправлять (разг.)",
+  "ex": "Can you fix my bike?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 972
+ },
+ {
+  "word": "replace",
+  "ipa": "/rɪˈpleɪs/",
+  "ru": "заменять",
+  "ex": "We need to replace the old printer.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 992
+ },
+ {
+  "word": "recommend",
+  "ipa": "/ˌrekəˈmend/",
+  "ru": "рекомендовать, советовать",
+  "ex": "Can you recommend a good restaurant?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1005
+ },
+ {
+  "word": "admit",
+  "ipa": "/ədˈmɪt/",
+  "ru": "признавать (что-то неприятное)",
+  "ex": "He admitted that he was wrong.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1032
+ },
+ {
+  "word": "handle",
+  "ipa": "/ˈhændl/",
+  "ru": "справляться с (трудностью)",
+  "ex": "She handles stress very well.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1039
+ },
+ {
+  "word": "trust",
+  "ipa": "/trʌst/",
+  "ru": "доверять",
+  "ex": "I trust my colleagues.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1073
+ },
+ {
+  "word": "reply",
+  "ipa": "/rɪˈplaɪ/",
+  "ru": "отвечать (на письмо, сообщение)",
+  "ex": "Please reply to my message today.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1106
+ },
+ {
+  "word": "warn",
+  "ipa": "/wɔːn/",
+  "ru": "предупреждать",
+  "ex": "I warned you about the traffic.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1130
+ },
+ {
+  "word": "complain",
+  "ipa": "/kəmˈpleɪn/",
+  "ru": "жаловаться",
+  "ex": "He always complains about the food.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1493
+ },
+ {
+  "word": "relax",
+  "ipa": "/rɪˈlæks/",
+  "ru": "расслабляться, отдыхать",
+  "ex": "I like to relax with a good book.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1483
+ },
+ {
+  "word": "remind",
+  "ipa": "/rɪˈmaɪnd/",
+  "ru": "напоминать (кому-то)",
+  "ex": "Remind me to call my mum.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1457
+ },
+ {
+  "word": "belong",
+  "ipa": "/bɪˈlɒŋ/",
+  "ru": "принадлежать (belong to)",
+  "ex": "This bag belongs to Aliya.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1410
+ },
+ {
+  "word": "afford",
+  "ipa": "/əˈfɔːd/",
+  "ru": "позволить себе (по деньгам)",
+  "ex": "We can't afford a new car this year.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1486
+ },
+ {
+  "word": "appreciate",
+  "ipa": "/əˈpriːʃieɪt/",
+  "ru": "ценить, быть благодарным",
+  "ex": "I really appreciate your help.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1272
+ },
+ {
+  "word": "deserve",
+  "ipa": "/dɪˈzɜːv/",
+  "ru": "заслуживать",
+  "ex": "You deserve a holiday.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1870
+ },
+ {
+  "word": "bother",
+  "ipa": "/ˈbɒðə/",
+  "ru": "беспокоить, мешать",
+  "ex": "Sorry to bother you, but where is the station?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1842
+ },
+ {
+  "word": "disappoint",
+  "ipa": "/ˌdɪsəˈpɔɪnt/",
+  "ru": "разочаровывать",
+  "ex": "The film really disappointed me.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1851
+ },
+ {
+  "word": "confuse",
+  "ipa": "/kənˈfjuːz/",
+  "ru": "путать, сбивать с толку",
+  "ex": "These two words always confuse me.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1917
+ },
+ {
+  "word": "refuse",
+  "ipa": "/rɪˈfjuːz/",
+  "ru": "отказываться",
+  "ex": "He refused to answer the question.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1207
+ },
+ {
+  "word": "encourage",
+  "ipa": "/ɪnˈkʌrɪdʒ/",
+  "ru": "подбадривать, поощрять",
+  "ex": "My teacher encourages me to speak more.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 911
+ },
+ {
+  "word": "invite",
+  "ipa": "/ɪnˈvaɪt/",
+  "ru": "приглашать",
+  "ex": "They invited us to their wedding.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1026
+ },
+ {
+  "word": "promise",
+  "ipa": "/ˈprɒmɪs/",
+  "ru": "обещать",
+  "ex": "I promise I'll call you tomorrow.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 828
+ },
+ {
+  "word": "arrange",
+  "ipa": "/əˈreɪndʒ/",
+  "ru": "договариваться, организовывать",
+  "ex": "Let's arrange a meeting for Friday.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1264
+ },
+ {
+  "word": "delay",
+  "ipa": "/dɪˈleɪ/",
+  "ru": "задерживать; задержка",
+  "ex": "Our flight was delayed by two hours.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1308
+ },
+ {
+  "word": "attend",
+  "ipa": "/əˈtend/",
+  "ru": "посещать (встречу, занятия)",
+  "ex": "I attend English classes on Fridays.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 819
+ },
+ {
+  "word": "earn",
+  "ipa": "/ɜːn/",
+  "ru": "зарабатывать",
+  "ex": "She earns more than her brother.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 925
+ },
+ {
+  "word": "rent",
+  "ipa": "/rent/",
+  "ru": "снимать, арендовать; арендная плата",
+  "ex": "We rent a flat near the centre.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1564
+ },
+ {
+  "word": "repair",
+  "ipa": "/rɪˈpeə/",
+  "ru": "ремонтировать",
+  "ex": "How much does it cost to repair a phone screen?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1876
+ },
+ {
+  "word": "rush",
+  "ipa": "/rʌʃ/",
+  "ru": "спешить, торопиться",
+  "ex": "Don't rush — we have plenty of time.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1697
+ },
+ {
+  "word": "suppose",
+  "ipa": "/səˈpəʊz/",
+  "ru": "полагать, предполагать",
+  "ex": "I suppose you're right.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 610
+ },
+ {
+  "word": "doubt",
+  "ipa": "/daʊt/",
+  "ru": "сомневаться; сомнение",
+  "ex": "I doubt he will come.",
+  "topic": "conversation",
+  "level": "B2",
+  "rank": 873
+ },
+ {
+  "word": "insist",
+  "ipa": "/ɪnˈsɪst/",
+  "ru": "настаивать (insist on)",
+  "ex": "She insisted on paying for dinner.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1549
+ },
+ {
+  "word": "blame",
+  "ipa": "/bleɪm/",
+  "ru": "винить, обвинять",
+  "ex": "Don't blame yourself.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1625
+ },
+ {
+  "word": "achieve",
+  "ipa": "/əˈtʃiːv/",
+  "ru": "достигать",
+  "ex": "You can achieve a lot in a year.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 746
+ },
+ {
+  "word": "succeed",
+  "ipa": "/səkˈsiːd/",
+  "ru": "добиться успеха, удаться (succeed in)",
+  "ex": "She succeeded in passing the exam.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1584
+ }
+]

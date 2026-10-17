@@ -1,0 +1,13 @@
+{
+ "note": "List every data file here. The site loads only files listed in this manifest.",
+ "files": [
+  "grammar-relative-clauses.json",
+  "grammar-infinitive.json",
+  "vocab-conversation-1.json",
+  "vocab-conversation-2.json",
+  "reading-r-b1-01.json",
+  "listening-l-b1-01.json",
+  "baseline-grammar.json",
+  "baseline-words.json"
+ ]
+}

@@ -1,0 +1,452 @@
+[
+ {
+  "word": "probably",
+  "ipa": "/ˈprɒbəbli/",
+  "ru": "вероятно",
+  "ex": "It will probably rain tomorrow.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 328
+ },
+ {
+  "word": "perhaps",
+  "ipa": "/pəˈhæps/",
+  "ru": "может быть",
+  "ex": "Perhaps we should leave now.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 413
+ },
+ {
+  "word": "especially",
+  "ipa": "/ɪˈspeʃəli/",
+  "ru": "особенно",
+  "ex": "I love fruit, especially apples.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 460
+ },
+ {
+  "word": "definitely",
+  "ipa": "/ˈdefɪnətli/",
+  "ru": "определённо, обязательно",
+  "ex": "I'll definitely come to your party.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1555
+ },
+ {
+  "word": "exactly",
+  "ipa": "/ɪɡˈzæktli/",
+  "ru": "точно, именно",
+  "ex": "That's exactly what I wanted.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 670
+ },
+ {
+  "word": "nearly",
+  "ipa": "/ˈnɪəli/",
+  "ru": "почти",
+  "ex": "I nearly missed the bus.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 768
+ },
+ {
+  "word": "instead",
+  "ipa": "/ɪnˈsted/",
+  "ru": "вместо (этого)",
+  "ex": "Let's walk instead of taking a taxi.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 553
+ },
+ {
+  "word": "anyway",
+  "ipa": "/ˈeniweɪ/",
+  "ru": "всё равно, в любом случае",
+  "ex": "It was expensive, but I bought it anyway.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 892
+ },
+ {
+  "word": "obviously",
+  "ipa": "/ˈɒbviəsli/",
+  "ru": "очевидно, конечно",
+  "ex": "Obviously, he was tired after the trip.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 885
+ },
+ {
+  "word": "apparently",
+  "ipa": "/əˈpærəntli/",
+  "ru": "судя по всему, как оказалось",
+  "ex": "Apparently, the shop is closed today.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1275
+ },
+ {
+  "word": "absolutely",
+  "ipa": "/ˈæbsəluːtli/",
+  "ru": "абсолютно, совершенно",
+  "ex": "You're absolutely right.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1076
+ },
+ {
+  "word": "unfortunately",
+  "ipa": "/ʌnˈfɔːtʃənətli/",
+  "ru": "к сожалению",
+  "ex": "Unfortunately, I can't come.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1267
+ },
+ {
+  "word": "basically",
+  "ipa": "/ˈbeɪsɪkli/",
+  "ru": "по сути, в общем",
+  "ex": "Basically, it's a good idea.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1433
+ },
+ {
+  "word": "eventually",
+  "ipa": "/ɪˈventʃuəli/",
+  "ru": "в конце концов (не «эвентуально»)",
+  "ex": "We eventually found the hotel.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1138
+ },
+ {
+  "word": "immediately",
+  "ipa": "/ɪˈmiːdiətli/",
+  "ru": "немедленно, сразу",
+  "ex": "Call me immediately if there's a problem.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 986
+ },
+ {
+  "word": "suddenly",
+  "ipa": "/ˈsʌdənli/",
+  "ru": "вдруг, внезапно",
+  "ex": "Suddenly the lights went out.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 995
+ },
+ {
+  "word": "recently",
+  "ipa": "/ˈriːsntli/",
+  "ru": "недавно",
+  "ex": "I've recently started running.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 638
+ },
+ {
+  "word": "hardly",
+  "ipa": "/ˈhɑːdli/",
+  "ru": "едва, почти не (не «тяжело»)",
+  "ex": "I can hardly hear you.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1338
+ },
+ {
+  "word": "twice",
+  "ipa": "/twaɪs/",
+  "ru": "дважды",
+  "ex": "I go to the gym twice a week.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1306
+ },
+ {
+  "word": "somewhere",
+  "ipa": "/ˈsʌmweə/",
+  "ru": "где-то, куда-то",
+  "ex": "Let's go somewhere warm.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1318
+ },
+ {
+  "word": "extra",
+  "ipa": "/ˈekstrə/",
+  "ru": "дополнительный, лишний",
+  "ex": "Do you have an extra pen?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1056
+ },
+ {
+  "word": "schedule",
+  "ipa": "/ˈʃedjuːl/",
+  "ru": "расписание, график",
+  "ex": "My schedule is very busy this week.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1238
+ },
+ {
+  "word": "comfortable",
+  "ipa": "/ˈkʌmftəbl/",
+  "ru": "удобный, комфортный",
+  "ex": "These shoes are really comfortable.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1382
+ },
+ {
+  "word": "familiar",
+  "ipa": "/fəˈmɪliə/",
+  "ru": "знакомый",
+  "ex": "Your face looks familiar.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1443
+ },
+ {
+  "word": "available",
+  "ipa": "/əˈveɪləbl/",
+  "ru": "свободный, доступный",
+  "ex": "Are you available on Monday?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 459
+ },
+ {
+  "word": "necessary",
+  "ipa": "/ˈnesəsəri/",
+  "ru": "необходимый",
+  "ex": "Is it necessary to book a table?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 676
+ },
+ {
+  "word": "similar",
+  "ipa": "/ˈsɪmələ/",
+  "ru": "похожий",
+  "ex": "Our jobs are very similar.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 594
+ },
+ {
+  "word": "useful",
+  "ipa": "/ˈjuːsfl/",
+  "ru": "полезный (о вещи, информации)",
+  "ex": "This app is really useful.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 917
+ },
+ {
+  "word": "serious",
+  "ipa": "/ˈsɪəriəs/",
+  "ru": "серьёзный",
+  "ex": "Is it a serious problem?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 796
+ },
+ {
+  "word": "huge",
+  "ipa": "/hjuːdʒ/",
+  "ru": "огромный",
+  "ex": "They live in a huge house.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 861
+ },
+ {
+  "word": "tiny",
+  "ipa": "/ˈtaɪni/",
+  "ru": "крошечный",
+  "ex": "My first flat was tiny.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1634
+ },
+ {
+  "word": "empty",
+  "ipa": "/ˈempti/",
+  "ru": "пустой",
+  "ex": "The office was empty on Sunday.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1590
+ },
+ {
+  "word": "safe",
+  "ipa": "/seɪf/",
+  "ru": "безопасный",
+  "ex": "Is it safe to walk here at night?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1025
+ },
+ {
+  "word": "trouble",
+  "ipa": "/ˈtrʌbl/",
+  "ru": "проблема, трудность",
+  "ex": "I had trouble finding your house.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 831
+ },
+ {
+  "word": "unusual",
+  "ipa": "/ʌnˈjuːʒuəl/",
+  "ru": "необычный",
+  "ex": "It's unusual to see snow here in October.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1871
+ },
+ {
+  "word": "impossible",
+  "ipa": "/ɪmˈpɒsəbl/",
+  "ru": "невозможный",
+  "ex": "It's impossible to finish this today.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1348
+ },
+ {
+  "word": "helpful",
+  "ipa": "/ˈhelpfl/",
+  "ru": "готовый помочь, полезный (о человеке)",
+  "ex": "The staff were very helpful.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1711
+ },
+ {
+  "word": "aware",
+  "ipa": "/əˈweə/",
+  "ru": "знающий, осведомлённый (be aware of)",
+  "ex": "Are you aware of the new rules?",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1037
+ },
+ {
+  "word": "proud",
+  "ipa": "/praʊd/",
+  "ru": "гордый (be proud of — гордиться)",
+  "ex": "I'm proud of my son.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1888
+ },
+ {
+  "word": "grateful",
+  "ipa": "/ˈɡreɪtfl/",
+  "ru": "благодарный",
+  "ex": "I'm grateful for your support.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1975
+ },
+ {
+  "word": "calm",
+  "ipa": "/kɑːm/",
+  "ru": "спокойный",
+  "ex": "Stay calm and listen.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1962
+ },
+ {
+  "word": "ordinary",
+  "ipa": "/ˈɔːdnri/",
+  "ru": "обычный, рядовой",
+  "ex": "It was just an ordinary day.",
+  "topic": "conversation",
+  "level": "B1",
+  "rank": 1644
+ },
+ {
+  "word": "opportunity",
+  "ipa": "/ˌɒpəˈtjuːnəti/",
+  "ru": "возможность (удачный случай)",
+  "ex": "This job is a great opportunity.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 520
+ },
+ {
+  "word": "advice",
+  "ipa": "/ədˈvaɪs/",
+  "ru": "совет (неисчисляемое: some advice)",
+  "ex": "Can I give you some advice?",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1038
+ },
+ {
+  "word": "mistake",
+  "ipa": "/mɪˈsteɪk/",
+  "ru": "ошибка",
+  "ex": "Everyone makes mistakes.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1150
+ },
+ {
+  "word": "chance",
+  "ipa": "/tʃɑːns/",
+  "ru": "шанс",
+  "ex": "Give me a chance to explain.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 560
+ },
+ {
+  "word": "choice",
+  "ipa": "/tʃɔɪs/",
+  "ru": "выбор",
+  "ex": "We had no choice.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 565
+ },
+ {
+  "word": "opinion",
+  "ipa": "/əˈpɪnjən/",
+  "ru": "мнение",
+  "ex": "In my opinion, it's too expensive.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 656
+ },
+ {
+  "word": "advantage",
+  "ipa": "/ədˈvɑːntɪdʒ/",
+  "ru": "преимущество",
+  "ex": "One advantage of living here is the park.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 773
+ },
+ {
+  "word": "appointment",
+  "ipa": "/əˈpɔɪntmənt/",
+  "ru": "назначенная встреча, приём (у врача)",
+  "ex": "I have a dentist appointment at five.",
+  "topic": "conversation",
+  "level": "A2",
+  "rank": 1837
+ }
+]

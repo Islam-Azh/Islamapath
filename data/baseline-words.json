@@ -1,0 +1,2708 @@
+{
+ "id": "baseline-words",
+ "title": "Baseline test: 100 pilot words (both directions)",
+ "note": "Part 1: Russian → English with the first letter (typed). Part 2: English → Russian (choose). No feedback until the end.",
+ "qs": [
+  {
+   "id": "bw-ru-1",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "expect",
+   "q": "Translate into English: «ожидать» (e…)",
+   "a": [
+    "expect"
+   ],
+   "exp": "I didn't expect so many people at the party.",
+   "ru": "ожидать"
+  },
+  {
+   "id": "bw-ru-2",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "suggest",
+   "q": "Translate into English: «предлагать (идею)» (s…)",
+   "a": [
+    "suggest"
+   ],
+   "exp": "I suggest we take a short break.",
+   "ru": "предлагать (идею, вариант)"
+  },
+  {
+   "id": "bw-ru-3",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "decide",
+   "q": "Translate into English: «решать» (d…)",
+   "a": [
+    "decide"
+   ],
+   "exp": "We decided to stay at home.",
+   "ru": "решать, принимать решение"
+  },
+  {
+   "id": "bw-ru-4",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "explain",
+   "q": "Translate into English: «объяснять» (e…)",
+   "a": [
+    "explain"
+   ],
+   "exp": "Can you explain this rule to me?",
+   "ru": "объяснять"
+  },
+  {
+   "id": "bw-ru-5",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "improve",
+   "q": "Translate into English: «улучшать» (i…)",
+   "a": [
+    "improve"
+   ],
+   "exp": "My English is improving every week.",
+   "ru": "улучшать(ся)"
+  },
+  {
+   "id": "bw-ru-6",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "realize",
+   "q": "Translate into English: «осознавать» (r…)",
+   "a": [
+    "realize",
+    "realise"
+   ],
+   "exp": "I didn't realize it was so late.",
+   "ru": "осознавать, понимать (вдруг)"
+  },
+  {
+   "id": "bw-ru-7",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "accept",
+   "q": "Translate into English: «принимать (предложение)» (a…)",
+   "a": [
+    "accept"
+   ],
+   "exp": "She accepted the job offer.",
+   "ru": "принимать (предложение, подарок)"
+  },
+  {
+   "id": "bw-ru-8",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "mention",
+   "q": "Translate into English: «упоминать» (m…)",
+   "a": [
+    "mention"
+   ],
+   "exp": "He didn't mention the price.",
+   "ru": "упоминать"
+  },
+  {
+   "id": "bw-ru-9",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "prepare",
+   "q": "Translate into English: «готовиться» (p…)",
+   "a": [
+    "prepare"
+   ],
+   "exp": "I need to prepare for the interview.",
+   "ru": "готовить(ся)"
+  },
+  {
+   "id": "bw-ru-10",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "manage",
+   "q": "Translate into English: «суметь» (m…)",
+   "a": [
+    "manage"
+   ],
+   "exp": "Did you manage to find a taxi?",
+   "ru": "суметь (manage to do); руководить"
+  },
+  {
+   "id": "bw-ru-11",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "notice",
+   "q": "Translate into English: «замечать» (n…)",
+   "a": [
+    "notice"
+   ],
+   "exp": "Did you notice anything strange?",
+   "ru": "замечать"
+  },
+  {
+   "id": "bw-ru-12",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "wonder",
+   "q": "Translate into English: «задаваться вопросом» (w…)",
+   "a": [
+    "wonder"
+   ],
+   "exp": "I wonder why she left so early.",
+   "ru": "задаваться вопросом, интересоваться"
+  },
+  {
+   "id": "bw-ru-13",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "depend",
+   "q": "Translate into English: «зависеть» (d…)",
+   "a": [
+    "depend"
+   ],
+   "exp": "It depends on the weather.",
+   "ru": "зависеть (depend on)"
+  },
+  {
+   "id": "bw-ru-14",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "avoid",
+   "q": "Translate into English: «избегать» (a…)",
+   "a": [
+    "avoid"
+   ],
+   "exp": "I try to avoid coffee in the evening.",
+   "ru": "избегать"
+  },
+  {
+   "id": "bw-ru-15",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "prefer",
+   "q": "Translate into English: «предпочитать» (p…)",
+   "a": [
+    "prefer"
+   ],
+   "exp": "I prefer tea to coffee.",
+   "ru": "предпочитать"
+  },
+  {
+   "id": "bw-ru-16",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "fix",
+   "q": "Translate into English: «чинить» (f…)",
+   "a": [
+    "fix"
+   ],
+   "exp": "Can you fix my bike?",
+   "ru": "чинить, исправлять (разг.)"
+  },
+  {
+   "id": "bw-ru-17",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "replace",
+   "q": "Translate into English: «заменять» (r…)",
+   "a": [
+    "replace"
+   ],
+   "exp": "We need to replace the old printer.",
+   "ru": "заменять"
+  },
+  {
+   "id": "bw-ru-18",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "recommend",
+   "q": "Translate into English: «рекомендовать» (r…)",
+   "a": [
+    "recommend"
+   ],
+   "exp": "Can you recommend a good restaurant?",
+   "ru": "рекомендовать, советовать"
+  },
+  {
+   "id": "bw-ru-19",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "admit",
+   "q": "Translate into English: «признавать» (a…)",
+   "a": [
+    "admit"
+   ],
+   "exp": "He admitted that he was wrong.",
+   "ru": "признавать (что-то неприятное)"
+  },
+  {
+   "id": "bw-ru-20",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "handle",
+   "q": "Translate into English: «справляться с» (h…)",
+   "a": [
+    "handle"
+   ],
+   "exp": "She handles stress very well.",
+   "ru": "справляться с (трудностью)"
+  },
+  {
+   "id": "bw-ru-21",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "trust",
+   "q": "Translate into English: «доверять» (t…)",
+   "a": [
+    "trust"
+   ],
+   "exp": "I trust my colleagues.",
+   "ru": "доверять"
+  },
+  {
+   "id": "bw-ru-22",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "reply",
+   "q": "Translate into English: «отвечать (на письмо)» (r…)",
+   "a": [
+    "reply"
+   ],
+   "exp": "Please reply to my message today.",
+   "ru": "отвечать (на письмо, сообщение)"
+  },
+  {
+   "id": "bw-ru-23",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "warn",
+   "q": "Translate into English: «предупреждать» (w…)",
+   "a": [
+    "warn"
+   ],
+   "exp": "I warned you about the traffic.",
+   "ru": "предупреждать"
+  },
+  {
+   "id": "bw-ru-24",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "complain",
+   "q": "Translate into English: «жаловаться» (c…)",
+   "a": [
+    "complain"
+   ],
+   "exp": "He always complains about the food.",
+   "ru": "жаловаться"
+  },
+  {
+   "id": "bw-ru-25",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "relax",
+   "q": "Translate into English: «расслабляться» (r…)",
+   "a": [
+    "relax"
+   ],
+   "exp": "I like to relax with a good book.",
+   "ru": "расслабляться, отдыхать"
+  },
+  {
+   "id": "bw-ru-26",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "remind",
+   "q": "Translate into English: «напоминать» (r…)",
+   "a": [
+    "remind"
+   ],
+   "exp": "Remind me to call my mum.",
+   "ru": "напоминать (кому-то)"
+  },
+  {
+   "id": "bw-ru-27",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "belong",
+   "q": "Translate into English: «принадлежать» (b…)",
+   "a": [
+    "belong"
+   ],
+   "exp": "This bag belongs to Aliya.",
+   "ru": "принадлежать (belong to)"
+  },
+  {
+   "id": "bw-ru-28",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "afford",
+   "q": "Translate into English: «позволить себе» (a…)",
+   "a": [
+    "afford"
+   ],
+   "exp": "We can't afford a new car this year.",
+   "ru": "позволить себе (по деньгам)"
+  },
+  {
+   "id": "bw-ru-29",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "appreciate",
+   "q": "Translate into English: «ценить» (a…)",
+   "a": [
+    "appreciate"
+   ],
+   "exp": "I really appreciate your help.",
+   "ru": "ценить, быть благодарным"
+  },
+  {
+   "id": "bw-ru-30",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "deserve",
+   "q": "Translate into English: «заслуживать» (d…)",
+   "a": [
+    "deserve"
+   ],
+   "exp": "You deserve a holiday.",
+   "ru": "заслуживать"
+  },
+  {
+   "id": "bw-ru-31",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "bother",
+   "q": "Translate into English: «беспокоить» (b…)",
+   "a": [
+    "bother"
+   ],
+   "exp": "Sorry to bother you, but where is the station?",
+   "ru": "беспокоить, мешать"
+  },
+  {
+   "id": "bw-ru-32",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "disappoint",
+   "q": "Translate into English: «разочаровывать» (d…)",
+   "a": [
+    "disappoint"
+   ],
+   "exp": "The film really disappointed me.",
+   "ru": "разочаровывать"
+  },
+  {
+   "id": "bw-ru-33",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "confuse",
+   "q": "Translate into English: «путать» (c…)",
+   "a": [
+    "confuse"
+   ],
+   "exp": "These two words always confuse me.",
+   "ru": "путать, сбивать с толку"
+  },
+  {
+   "id": "bw-ru-34",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "refuse",
+   "q": "Translate into English: «отказываться» (r…)",
+   "a": [
+    "refuse"
+   ],
+   "exp": "He refused to answer the question.",
+   "ru": "отказываться"
+  },
+  {
+   "id": "bw-ru-35",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "encourage",
+   "q": "Translate into English: «подбадривать» (e…)",
+   "a": [
+    "encourage"
+   ],
+   "exp": "My teacher encourages me to speak more.",
+   "ru": "подбадривать, поощрять"
+  },
+  {
+   "id": "bw-ru-36",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "invite",
+   "q": "Translate into English: «приглашать» (i…)",
+   "a": [
+    "invite"
+   ],
+   "exp": "They invited us to their wedding.",
+   "ru": "приглашать"
+  },
+  {
+   "id": "bw-ru-37",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "promise",
+   "q": "Translate into English: «обещать» (p…)",
+   "a": [
+    "promise"
+   ],
+   "exp": "I promise I'll call you tomorrow.",
+   "ru": "обещать"
+  },
+  {
+   "id": "bw-ru-38",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "arrange",
+   "q": "Translate into English: «договариваться» (a…)",
+   "a": [
+    "arrange"
+   ],
+   "exp": "Let's arrange a meeting for Friday.",
+   "ru": "договариваться, организовывать"
+  },
+  {
+   "id": "bw-ru-39",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "delay",
+   "q": "Translate into English: «задерживать» (d…)",
+   "a": [
+    "delay"
+   ],
+   "exp": "Our flight was delayed by two hours.",
+   "ru": "задерживать; задержка"
+  },
+  {
+   "id": "bw-ru-40",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "attend",
+   "q": "Translate into English: «посещать» (a…)",
+   "a": [
+    "attend"
+   ],
+   "exp": "I attend English classes on Fridays.",
+   "ru": "посещать (встречу, занятия)"
+  },
+  {
+   "id": "bw-ru-41",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "earn",
+   "q": "Translate into English: «зарабатывать» (e…)",
+   "a": [
+    "earn"
+   ],
+   "exp": "She earns more than her brother.",
+   "ru": "зарабатывать"
+  },
+  {
+   "id": "bw-ru-42",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "rent",
+   "q": "Translate into English: «снимать (жильё)» (r…)",
+   "a": [
+    "rent"
+   ],
+   "exp": "We rent a flat near the centre.",
+   "ru": "снимать, арендовать; арендная плата"
+  },
+  {
+   "id": "bw-ru-43",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "repair",
+   "q": "Translate into English: «ремонтировать» (r…)",
+   "a": [
+    "repair"
+   ],
+   "exp": "How much does it cost to repair a phone screen?",
+   "ru": "ремонтировать"
+  },
+  {
+   "id": "bw-ru-44",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "rush",
+   "q": "Translate into English: «спешить» (r…)",
+   "a": [
+    "rush"
+   ],
+   "exp": "Don't rush — we have plenty of time.",
+   "ru": "спешить, торопиться"
+  },
+  {
+   "id": "bw-ru-45",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "suppose",
+   "q": "Translate into English: «полагать» (s…)",
+   "a": [
+    "suppose"
+   ],
+   "exp": "I suppose you're right.",
+   "ru": "полагать, предполагать"
+  },
+  {
+   "id": "bw-ru-46",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "doubt",
+   "q": "Translate into English: «сомневаться» (d…)",
+   "a": [
+    "doubt"
+   ],
+   "exp": "I doubt he will come.",
+   "ru": "сомневаться; сомнение"
+  },
+  {
+   "id": "bw-ru-47",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "insist",
+   "q": "Translate into English: «настаивать» (i…)",
+   "a": [
+    "insist"
+   ],
+   "exp": "She insisted on paying for dinner.",
+   "ru": "настаивать (insist on)"
+  },
+  {
+   "id": "bw-ru-48",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "blame",
+   "q": "Translate into English: «винить» (b…)",
+   "a": [
+    "blame"
+   ],
+   "exp": "Don't blame yourself.",
+   "ru": "винить, обвинять"
+  },
+  {
+   "id": "bw-ru-49",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "achieve",
+   "q": "Translate into English: «достигать» (a…)",
+   "a": [
+    "achieve"
+   ],
+   "exp": "You can achieve a lot in a year.",
+   "ru": "достигать"
+  },
+  {
+   "id": "bw-ru-50",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "succeed",
+   "q": "Translate into English: «добиться успеха» (s…)",
+   "a": [
+    "succeed"
+   ],
+   "exp": "She succeeded in passing the exam.",
+   "ru": "добиться успеха, удаться (succeed in)"
+  },
+  {
+   "id": "bw-ru-51",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "probably",
+   "q": "Translate into English: «вероятно» (p…)",
+   "a": [
+    "probably"
+   ],
+   "exp": "It will probably rain tomorrow.",
+   "ru": "вероятно"
+  },
+  {
+   "id": "bw-ru-52",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "perhaps",
+   "q": "Translate into English: «может быть» (p…)",
+   "a": [
+    "perhaps"
+   ],
+   "exp": "Perhaps we should leave now.",
+   "ru": "может быть"
+  },
+  {
+   "id": "bw-ru-53",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "especially",
+   "q": "Translate into English: «особенно» (e…)",
+   "a": [
+    "especially"
+   ],
+   "exp": "I love fruit, especially apples.",
+   "ru": "особенно"
+  },
+  {
+   "id": "bw-ru-54",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "definitely",
+   "q": "Translate into English: «определённо» (d…)",
+   "a": [
+    "definitely"
+   ],
+   "exp": "I'll definitely come to your party.",
+   "ru": "определённо, обязательно"
+  },
+  {
+   "id": "bw-ru-55",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "exactly",
+   "q": "Translate into English: «именно, точно» (e…)",
+   "a": [
+    "exactly"
+   ],
+   "exp": "That's exactly what I wanted.",
+   "ru": "точно, именно"
+  },
+  {
+   "id": "bw-ru-56",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "nearly",
+   "q": "Translate into English: «почти» (n…)",
+   "a": [
+    "nearly"
+   ],
+   "exp": "I nearly missed the bus.",
+   "ru": "почти"
+  },
+  {
+   "id": "bw-ru-57",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "instead",
+   "q": "Translate into English: «вместо этого» (i…)",
+   "a": [
+    "instead"
+   ],
+   "exp": "Let's walk instead of taking a taxi.",
+   "ru": "вместо (этого)"
+  },
+  {
+   "id": "bw-ru-58",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "anyway",
+   "q": "Translate into English: «всё равно» (a…)",
+   "a": [
+    "anyway"
+   ],
+   "exp": "It was expensive, but I bought it anyway.",
+   "ru": "всё равно, в любом случае"
+  },
+  {
+   "id": "bw-ru-59",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "obviously",
+   "q": "Translate into English: «очевидно» (o…)",
+   "a": [
+    "obviously"
+   ],
+   "exp": "Obviously, he was tired after the trip.",
+   "ru": "очевидно, конечно"
+  },
+  {
+   "id": "bw-ru-60",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "apparently",
+   "q": "Translate into English: «судя по всему» (a…)",
+   "a": [
+    "apparently"
+   ],
+   "exp": "Apparently, the shop is closed today.",
+   "ru": "судя по всему, как оказалось"
+  },
+  {
+   "id": "bw-ru-61",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "absolutely",
+   "q": "Translate into English: «абсолютно» (a…)",
+   "a": [
+    "absolutely"
+   ],
+   "exp": "You're absolutely right.",
+   "ru": "абсолютно, совершенно"
+  },
+  {
+   "id": "bw-ru-62",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "unfortunately",
+   "q": "Translate into English: «к сожалению» (u…)",
+   "a": [
+    "unfortunately"
+   ],
+   "exp": "Unfortunately, I can't come.",
+   "ru": "к сожалению"
+  },
+  {
+   "id": "bw-ru-63",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "basically",
+   "q": "Translate into English: «по сути» (b…)",
+   "a": [
+    "basically"
+   ],
+   "exp": "Basically, it's a good idea.",
+   "ru": "по сути, в общем"
+  },
+  {
+   "id": "bw-ru-64",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "eventually",
+   "q": "Translate into English: «в конце концов» (e…)",
+   "a": [
+    "eventually"
+   ],
+   "exp": "We eventually found the hotel.",
+   "ru": "в конце концов (не «эвентуально»)"
+  },
+  {
+   "id": "bw-ru-65",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "immediately",
+   "q": "Translate into English: «немедленно» (i…)",
+   "a": [
+    "immediately"
+   ],
+   "exp": "Call me immediately if there's a problem.",
+   "ru": "немедленно, сразу"
+  },
+  {
+   "id": "bw-ru-66",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "suddenly",
+   "q": "Translate into English: «внезапно» (s…)",
+   "a": [
+    "suddenly"
+   ],
+   "exp": "Suddenly the lights went out.",
+   "ru": "вдруг, внезапно"
+  },
+  {
+   "id": "bw-ru-67",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "recently",
+   "q": "Translate into English: «недавно» (r…)",
+   "a": [
+    "recently"
+   ],
+   "exp": "I've recently started running.",
+   "ru": "недавно"
+  },
+  {
+   "id": "bw-ru-68",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "hardly",
+   "q": "Translate into English: «едва» (h…)",
+   "a": [
+    "hardly"
+   ],
+   "exp": "I can hardly hear you.",
+   "ru": "едва, почти не (не «тяжело»)"
+  },
+  {
+   "id": "bw-ru-69",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "twice",
+   "q": "Translate into English: «дважды» (t…)",
+   "a": [
+    "twice"
+   ],
+   "exp": "I go to the gym twice a week.",
+   "ru": "дважды"
+  },
+  {
+   "id": "bw-ru-70",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "somewhere",
+   "q": "Translate into English: «где-то» (s…)",
+   "a": [
+    "somewhere"
+   ],
+   "exp": "Let's go somewhere warm.",
+   "ru": "где-то, куда-то"
+  },
+  {
+   "id": "bw-ru-71",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "extra",
+   "q": "Translate into English: «дополнительный» (e…)",
+   "a": [
+    "extra"
+   ],
+   "exp": "Do you have an extra pen?",
+   "ru": "дополнительный, лишний"
+  },
+  {
+   "id": "bw-ru-72",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "schedule",
+   "q": "Translate into English: «расписание» (s…)",
+   "a": [
+    "schedule"
+   ],
+   "exp": "My schedule is very busy this week.",
+   "ru": "расписание, график"
+  },
+  {
+   "id": "bw-ru-73",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "comfortable",
+   "q": "Translate into English: «удобный» (c…)",
+   "a": [
+    "comfortable"
+   ],
+   "exp": "These shoes are really comfortable.",
+   "ru": "удобный, комфортный"
+  },
+  {
+   "id": "bw-ru-74",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "familiar",
+   "q": "Translate into English: «знакомый» (f…)",
+   "a": [
+    "familiar"
+   ],
+   "exp": "Your face looks familiar.",
+   "ru": "знакомый"
+  },
+  {
+   "id": "bw-ru-75",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "available",
+   "q": "Translate into English: «свободный (о времени)» (a…)",
+   "a": [
+    "available"
+   ],
+   "exp": "Are you available on Monday?",
+   "ru": "свободный, доступный"
+  },
+  {
+   "id": "bw-ru-76",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "necessary",
+   "q": "Translate into English: «необходимый» (n…)",
+   "a": [
+    "necessary"
+   ],
+   "exp": "Is it necessary to book a table?",
+   "ru": "необходимый"
+  },
+  {
+   "id": "bw-ru-77",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "similar",
+   "q": "Translate into English: «похожий» (s…)",
+   "a": [
+    "similar"
+   ],
+   "exp": "Our jobs are very similar.",
+   "ru": "похожий"
+  },
+  {
+   "id": "bw-ru-78",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "useful",
+   "q": "Translate into English: «полезный» (u…)",
+   "a": [
+    "useful"
+   ],
+   "exp": "This app is really useful.",
+   "ru": "полезный (о вещи, информации)"
+  },
+  {
+   "id": "bw-ru-79",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "serious",
+   "q": "Translate into English: «серьёзный» (s…)",
+   "a": [
+    "serious"
+   ],
+   "exp": "Is it a serious problem?",
+   "ru": "серьёзный"
+  },
+  {
+   "id": "bw-ru-80",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "huge",
+   "q": "Translate into English: «огромный» (h…)",
+   "a": [
+    "huge"
+   ],
+   "exp": "They live in a huge house.",
+   "ru": "огромный"
+  },
+  {
+   "id": "bw-ru-81",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "tiny",
+   "q": "Translate into English: «крошечный» (t…)",
+   "a": [
+    "tiny"
+   ],
+   "exp": "My first flat was tiny.",
+   "ru": "крошечный"
+  },
+  {
+   "id": "bw-ru-82",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "empty",
+   "q": "Translate into English: «пустой» (e…)",
+   "a": [
+    "empty"
+   ],
+   "exp": "The office was empty on Sunday.",
+   "ru": "пустой"
+  },
+  {
+   "id": "bw-ru-83",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "safe",
+   "q": "Translate into English: «безопасный» (s…)",
+   "a": [
+    "safe"
+   ],
+   "exp": "Is it safe to walk here at night?",
+   "ru": "безопасный"
+  },
+  {
+   "id": "bw-ru-84",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "trouble",
+   "q": "Translate into English: «трудность» (t…)",
+   "a": [
+    "trouble"
+   ],
+   "exp": "I had trouble finding your house.",
+   "ru": "проблема, трудность"
+  },
+  {
+   "id": "bw-ru-85",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "unusual",
+   "q": "Translate into English: «необычный» (u…)",
+   "a": [
+    "unusual"
+   ],
+   "exp": "It's unusual to see snow here in October.",
+   "ru": "необычный"
+  },
+  {
+   "id": "bw-ru-86",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "impossible",
+   "q": "Translate into English: «невозможный» (i…)",
+   "a": [
+    "impossible"
+   ],
+   "exp": "It's impossible to finish this today.",
+   "ru": "невозможный"
+  },
+  {
+   "id": "bw-ru-87",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "helpful",
+   "q": "Translate into English: «готовый помочь» (h…)",
+   "a": [
+    "helpful"
+   ],
+   "exp": "The staff were very helpful.",
+   "ru": "готовый помочь, полезный (о человеке)"
+  },
+  {
+   "id": "bw-ru-88",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "aware",
+   "q": "Translate into English: «осведомлённый» (a…)",
+   "a": [
+    "aware"
+   ],
+   "exp": "Are you aware of the new rules?",
+   "ru": "знающий, осведомлённый (be aware of)"
+  },
+  {
+   "id": "bw-ru-89",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "proud",
+   "q": "Translate into English: «гордый» (p…)",
+   "a": [
+    "proud"
+   ],
+   "exp": "I'm proud of my son.",
+   "ru": "гордый (be proud of — гордиться)"
+  },
+  {
+   "id": "bw-ru-90",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "grateful",
+   "q": "Translate into English: «благодарный» (g…)",
+   "a": [
+    "grateful"
+   ],
+   "exp": "I'm grateful for your support.",
+   "ru": "благодарный"
+  },
+  {
+   "id": "bw-ru-91",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "calm",
+   "q": "Translate into English: «спокойный» (c…)",
+   "a": [
+    "calm"
+   ],
+   "exp": "Stay calm and listen.",
+   "ru": "спокойный"
+  },
+  {
+   "id": "bw-ru-92",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "ordinary",
+   "q": "Translate into English: «обычный» (o…)",
+   "a": [
+    "ordinary"
+   ],
+   "exp": "It was just an ordinary day.",
+   "ru": "обычный, рядовой"
+  },
+  {
+   "id": "bw-ru-93",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "opportunity",
+   "q": "Translate into English: «возможность» (o…)",
+   "a": [
+    "opportunity"
+   ],
+   "exp": "This job is a great opportunity.",
+   "ru": "возможность (удачный случай)"
+  },
+  {
+   "id": "bw-ru-94",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "advice",
+   "q": "Translate into English: «совет» (a…)",
+   "a": [
+    "advice"
+   ],
+   "exp": "Can I give you some advice?",
+   "ru": "совет (неисчисляемое: some advice)"
+  },
+  {
+   "id": "bw-ru-95",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "mistake",
+   "q": "Translate into English: «ошибка» (m…)",
+   "a": [
+    "mistake"
+   ],
+   "exp": "Everyone makes mistakes.",
+   "ru": "ошибка"
+  },
+  {
+   "id": "bw-ru-96",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "chance",
+   "q": "Translate into English: «шанс» (c…)",
+   "a": [
+    "chance"
+   ],
+   "exp": "Give me a chance to explain.",
+   "ru": "шанс"
+  },
+  {
+   "id": "bw-ru-97",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "choice",
+   "q": "Translate into English: «выбор» (c…)",
+   "a": [
+    "choice"
+   ],
+   "exp": "We had no choice.",
+   "ru": "выбор"
+  },
+  {
+   "id": "bw-ru-98",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "opinion",
+   "q": "Translate into English: «мнение» (o…)",
+   "a": [
+    "opinion"
+   ],
+   "exp": "In my opinion, it's too expensive.",
+   "ru": "мнение"
+  },
+  {
+   "id": "bw-ru-99",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "advantage",
+   "q": "Translate into English: «преимущество» (a…)",
+   "a": [
+    "advantage"
+   ],
+   "exp": "One advantage of living here is the park.",
+   "ru": "преимущество"
+  },
+  {
+   "id": "bw-ru-100",
+   "type": "gap",
+   "dir": "ru-en",
+   "word": "appointment",
+   "q": "Translate into English: «приём (у врача)» (a…)",
+   "a": [
+    "appointment"
+   ],
+   "exp": "I have a dentist appointment at five.",
+   "ru": "назначенная встреча, приём (у врача)"
+  },
+  {
+   "id": "bw-en-1",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "expect",
+   "q": "What does “expect” mean?",
+   "opts": [
+    "ожидать",
+    "отвечать (на письмо)",
+    "замечать"
+   ],
+   "a": 0,
+   "exp": "I didn't expect so many people at the party.",
+   "ru": "ожидать"
+  },
+  {
+   "id": "bw-en-2",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "suggest",
+   "q": "What does “suggest” mean?",
+   "opts": [
+    "предлагать (идею)",
+    "приглашать",
+    "осознавать"
+   ],
+   "a": 0,
+   "exp": "I suggest we take a short break.",
+   "ru": "предлагать (идею, вариант)"
+  },
+  {
+   "id": "bw-en-3",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "decide",
+   "q": "What does “decide” mean?",
+   "opts": [
+    "улучшать",
+    "задерживать",
+    "решать"
+   ],
+   "a": 2,
+   "exp": "We decided to stay at home.",
+   "ru": "решать, принимать решение"
+  },
+  {
+   "id": "bw-en-4",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "explain",
+   "q": "What does “explain” mean?",
+   "opts": [
+    "решать",
+    "объяснять",
+    "принимать (предложение)"
+   ],
+   "a": 1,
+   "exp": "Can you explain this rule to me?",
+   "ru": "объяснять"
+  },
+  {
+   "id": "bw-en-5",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "improve",
+   "q": "What does “improve” mean?",
+   "opts": [
+    "улучшать",
+    "заменять",
+    "осознавать"
+   ],
+   "a": 0,
+   "exp": "My English is improving every week.",
+   "ru": "улучшать(ся)"
+  },
+  {
+   "id": "bw-en-6",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "realize",
+   "q": "What does “realize” mean?",
+   "opts": [
+    "договариваться",
+    "осознавать",
+    "объяснять"
+   ],
+   "a": 1,
+   "exp": "I didn't realize it was so late.",
+   "ru": "осознавать, понимать (вдруг)"
+  },
+  {
+   "id": "bw-en-7",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "accept",
+   "q": "What does “accept” mean?",
+   "opts": [
+    "принимать (предложение)",
+    "задерживать",
+    "снимать (жильё)"
+   ],
+   "a": 0,
+   "exp": "She accepted the job offer.",
+   "ru": "принимать (предложение, подарок)"
+  },
+  {
+   "id": "bw-en-8",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "mention",
+   "q": "What does “mention” mean?",
+   "opts": [
+    "чинить",
+    "упоминать",
+    "объяснять"
+   ],
+   "a": 1,
+   "exp": "He didn't mention the price.",
+   "ru": "упоминать"
+  },
+  {
+   "id": "bw-en-9",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "prepare",
+   "q": "What does “prepare” mean?",
+   "opts": [
+    "позволить себе",
+    "готовиться",
+    "справляться с"
+   ],
+   "a": 1,
+   "exp": "I need to prepare for the interview.",
+   "ru": "готовить(ся)"
+  },
+  {
+   "id": "bw-en-10",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "manage",
+   "q": "What does “manage” mean?",
+   "opts": [
+    "доверять",
+    "договариваться",
+    "суметь"
+   ],
+   "a": 2,
+   "exp": "Did you manage to find a taxi?",
+   "ru": "суметь (manage to do); руководить"
+  },
+  {
+   "id": "bw-en-11",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "notice",
+   "q": "What does “notice” mean?",
+   "opts": [
+    "задерживать",
+    "принимать (предложение)",
+    "замечать"
+   ],
+   "a": 2,
+   "exp": "Did you notice anything strange?",
+   "ru": "замечать"
+  },
+  {
+   "id": "bw-en-12",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "wonder",
+   "q": "What does “wonder” mean?",
+   "opts": [
+    "принимать (предложение)",
+    "расслабляться",
+    "задаваться вопросом"
+   ],
+   "a": 2,
+   "exp": "I wonder why she left so early.",
+   "ru": "задаваться вопросом, интересоваться"
+  },
+  {
+   "id": "bw-en-13",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "depend",
+   "q": "What does “depend” mean?",
+   "opts": [
+    "объяснять",
+    "договариваться",
+    "зависеть"
+   ],
+   "a": 2,
+   "exp": "It depends on the weather.",
+   "ru": "зависеть (depend on)"
+  },
+  {
+   "id": "bw-en-14",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "avoid",
+   "q": "What does “avoid” mean?",
+   "opts": [
+    "путать",
+    "полагать",
+    "избегать"
+   ],
+   "a": 2,
+   "exp": "I try to avoid coffee in the evening.",
+   "ru": "избегать"
+  },
+  {
+   "id": "bw-en-15",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "prefer",
+   "q": "What does “prefer” mean?",
+   "opts": [
+    "отвечать (на письмо)",
+    "беспокоить",
+    "предпочитать"
+   ],
+   "a": 2,
+   "exp": "I prefer tea to coffee.",
+   "ru": "предпочитать"
+  },
+  {
+   "id": "bw-en-16",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "fix",
+   "q": "What does “fix” mean?",
+   "opts": [
+    "доверять",
+    "чинить",
+    "расслабляться"
+   ],
+   "a": 1,
+   "exp": "Can you fix my bike?",
+   "ru": "чинить, исправлять (разг.)"
+  },
+  {
+   "id": "bw-en-17",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "replace",
+   "q": "What does “replace” mean?",
+   "opts": [
+    "заменять",
+    "чинить",
+    "сомневаться"
+   ],
+   "a": 0,
+   "exp": "We need to replace the old printer.",
+   "ru": "заменять"
+  },
+  {
+   "id": "bw-en-18",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "recommend",
+   "q": "What does “recommend” mean?",
+   "opts": [
+    "подбадривать",
+    "рекомендовать",
+    "путать"
+   ],
+   "a": 1,
+   "exp": "Can you recommend a good restaurant?",
+   "ru": "рекомендовать, советовать"
+  },
+  {
+   "id": "bw-en-19",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "admit",
+   "q": "What does “admit” mean?",
+   "opts": [
+    "посещать",
+    "признавать",
+    "справляться с"
+   ],
+   "a": 1,
+   "exp": "He admitted that he was wrong.",
+   "ru": "признавать (что-то неприятное)"
+  },
+  {
+   "id": "bw-en-20",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "handle",
+   "q": "What does “handle” mean?",
+   "opts": [
+    "справляться с",
+    "позволить себе",
+    "отказываться"
+   ],
+   "a": 0,
+   "exp": "She handles stress very well.",
+   "ru": "справляться с (трудностью)"
+  },
+  {
+   "id": "bw-en-21",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "trust",
+   "q": "What does “trust” mean?",
+   "opts": [
+    "доверять",
+    "суметь",
+    "путать"
+   ],
+   "a": 0,
+   "exp": "I trust my colleagues.",
+   "ru": "доверять"
+  },
+  {
+   "id": "bw-en-22",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "reply",
+   "q": "What does “reply” mean?",
+   "opts": [
+    "спешить",
+    "улучшать",
+    "отвечать (на письмо)"
+   ],
+   "a": 2,
+   "exp": "Please reply to my message today.",
+   "ru": "отвечать (на письмо, сообщение)"
+  },
+  {
+   "id": "bw-en-23",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "warn",
+   "q": "What does “warn” mean?",
+   "opts": [
+    "отвечать (на письмо)",
+    "предупреждать",
+    "сомневаться"
+   ],
+   "a": 1,
+   "exp": "I warned you about the traffic.",
+   "ru": "предупреждать"
+  },
+  {
+   "id": "bw-en-24",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "complain",
+   "q": "What does “complain” mean?",
+   "opts": [
+    "беспокоить",
+    "жаловаться",
+    "задерживать"
+   ],
+   "a": 1,
+   "exp": "He always complains about the food.",
+   "ru": "жаловаться"
+  },
+  {
+   "id": "bw-en-25",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "relax",
+   "q": "What does “relax” mean?",
+   "opts": [
+    "разочаровывать",
+    "рекомендовать",
+    "расслабляться"
+   ],
+   "a": 2,
+   "exp": "I like to relax with a good book.",
+   "ru": "расслабляться, отдыхать"
+  },
+  {
+   "id": "bw-en-26",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "remind",
+   "q": "What does “remind” mean?",
+   "opts": [
+    "объяснять",
+    "винить",
+    "напоминать"
+   ],
+   "a": 2,
+   "exp": "Remind me to call my mum.",
+   "ru": "напоминать (кому-то)"
+  },
+  {
+   "id": "bw-en-27",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "belong",
+   "q": "What does “belong” mean?",
+   "opts": [
+    "ремонтировать",
+    "договариваться",
+    "принадлежать"
+   ],
+   "a": 2,
+   "exp": "This bag belongs to Aliya.",
+   "ru": "принадлежать (belong to)"
+  },
+  {
+   "id": "bw-en-28",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "afford",
+   "q": "What does “afford” mean?",
+   "opts": [
+    "признавать",
+    "позволить себе",
+    "настаивать"
+   ],
+   "a": 1,
+   "exp": "We can't afford a new car this year.",
+   "ru": "позволить себе (по деньгам)"
+  },
+  {
+   "id": "bw-en-29",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "appreciate",
+   "q": "What does “appreciate” mean?",
+   "opts": [
+    "ценить",
+    "предлагать (идею)",
+    "беспокоить"
+   ],
+   "a": 0,
+   "exp": "I really appreciate your help.",
+   "ru": "ценить, быть благодарным"
+  },
+  {
+   "id": "bw-en-30",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "deserve",
+   "q": "What does “deserve” mean?",
+   "opts": [
+    "заслуживать",
+    "зарабатывать",
+    "упоминать"
+   ],
+   "a": 0,
+   "exp": "You deserve a holiday.",
+   "ru": "заслуживать"
+  },
+  {
+   "id": "bw-en-31",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "bother",
+   "q": "What does “bother” mean?",
+   "opts": [
+    "признавать",
+    "беспокоить",
+    "избегать"
+   ],
+   "a": 1,
+   "exp": "Sorry to bother you, but where is the station?",
+   "ru": "беспокоить, мешать"
+  },
+  {
+   "id": "bw-en-32",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "disappoint",
+   "q": "What does “disappoint” mean?",
+   "opts": [
+    "путать",
+    "разочаровывать",
+    "напоминать"
+   ],
+   "a": 1,
+   "exp": "The film really disappointed me.",
+   "ru": "разочаровывать"
+  },
+  {
+   "id": "bw-en-33",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "confuse",
+   "q": "What does “confuse” mean?",
+   "opts": [
+    "ценить",
+    "напоминать",
+    "путать"
+   ],
+   "a": 2,
+   "exp": "These two words always confuse me.",
+   "ru": "путать, сбивать с толку"
+  },
+  {
+   "id": "bw-en-34",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "refuse",
+   "q": "What does “refuse” mean?",
+   "opts": [
+    "готовиться",
+    "позволить себе",
+    "отказываться"
+   ],
+   "a": 2,
+   "exp": "He refused to answer the question.",
+   "ru": "отказываться"
+  },
+  {
+   "id": "bw-en-35",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "encourage",
+   "q": "What does “encourage” mean?",
+   "opts": [
+    "настаивать",
+    "подбадривать",
+    "принадлежать"
+   ],
+   "a": 1,
+   "exp": "My teacher encourages me to speak more.",
+   "ru": "подбадривать, поощрять"
+  },
+  {
+   "id": "bw-en-36",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "invite",
+   "q": "What does “invite” mean?",
+   "opts": [
+    "суметь",
+    "приглашать",
+    "предпочитать"
+   ],
+   "a": 1,
+   "exp": "They invited us to their wedding.",
+   "ru": "приглашать"
+  },
+  {
+   "id": "bw-en-37",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "promise",
+   "q": "What does “promise” mean?",
+   "opts": [
+    "предпочитать",
+    "суметь",
+    "обещать"
+   ],
+   "a": 2,
+   "exp": "I promise I'll call you tomorrow.",
+   "ru": "обещать"
+  },
+  {
+   "id": "bw-en-38",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "arrange",
+   "q": "What does “arrange” mean?",
+   "opts": [
+    "разочаровывать",
+    "ожидать",
+    "договариваться"
+   ],
+   "a": 2,
+   "exp": "Let's arrange a meeting for Friday.",
+   "ru": "договариваться, организовывать"
+  },
+  {
+   "id": "bw-en-39",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "delay",
+   "q": "What does “delay” mean?",
+   "opts": [
+    "признавать",
+    "задерживать",
+    "заменять"
+   ],
+   "a": 1,
+   "exp": "Our flight was delayed by two hours.",
+   "ru": "задерживать; задержка"
+  },
+  {
+   "id": "bw-en-40",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "attend",
+   "q": "What does “attend” mean?",
+   "opts": [
+    "принадлежать",
+    "посещать",
+    "подбадривать"
+   ],
+   "a": 1,
+   "exp": "I attend English classes on Fridays.",
+   "ru": "посещать (встречу, занятия)"
+  },
+  {
+   "id": "bw-en-41",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "earn",
+   "q": "What does “earn” mean?",
+   "opts": [
+    "сомневаться",
+    "готовиться",
+    "зарабатывать"
+   ],
+   "a": 2,
+   "exp": "She earns more than her brother.",
+   "ru": "зарабатывать"
+  },
+  {
+   "id": "bw-en-42",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "rent",
+   "q": "What does “rent” mean?",
+   "opts": [
+    "заслуживать",
+    "полагать",
+    "снимать (жильё)"
+   ],
+   "a": 2,
+   "exp": "We rent a flat near the centre.",
+   "ru": "снимать, арендовать; арендная плата"
+  },
+  {
+   "id": "bw-en-43",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "repair",
+   "q": "What does “repair” mean?",
+   "opts": [
+    "напоминать",
+    "ремонтировать",
+    "принимать (предложение)"
+   ],
+   "a": 1,
+   "exp": "How much does it cost to repair a phone screen?",
+   "ru": "ремонтировать"
+  },
+  {
+   "id": "bw-en-44",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "rush",
+   "q": "What does “rush” mean?",
+   "opts": [
+    "зависеть",
+    "спешить",
+    "объяснять"
+   ],
+   "a": 1,
+   "exp": "Don't rush — we have plenty of time.",
+   "ru": "спешить, торопиться"
+  },
+  {
+   "id": "bw-en-45",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "suppose",
+   "q": "What does “suppose” mean?",
+   "opts": [
+    "полагать",
+    "замечать",
+    "ценить"
+   ],
+   "a": 0,
+   "exp": "I suppose you're right.",
+   "ru": "полагать, предполагать"
+  },
+  {
+   "id": "bw-en-46",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "doubt",
+   "q": "What does “doubt” mean?",
+   "opts": [
+    "объяснять",
+    "сомневаться",
+    "задерживать"
+   ],
+   "a": 1,
+   "exp": "I doubt he will come.",
+   "ru": "сомневаться; сомнение"
+  },
+  {
+   "id": "bw-en-47",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "insist",
+   "q": "What does “insist” mean?",
+   "opts": [
+    "суметь",
+    "обещать",
+    "настаивать"
+   ],
+   "a": 2,
+   "exp": "She insisted on paying for dinner.",
+   "ru": "настаивать (insist on)"
+  },
+  {
+   "id": "bw-en-48",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "blame",
+   "q": "What does “blame” mean?",
+   "opts": [
+    "посещать",
+    "винить",
+    "жаловаться"
+   ],
+   "a": 1,
+   "exp": "Don't blame yourself.",
+   "ru": "винить, обвинять"
+  },
+  {
+   "id": "bw-en-49",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "achieve",
+   "q": "What does “achieve” mean?",
+   "opts": [
+    "достигать",
+    "избегать",
+    "посещать"
+   ],
+   "a": 0,
+   "exp": "You can achieve a lot in a year.",
+   "ru": "достигать"
+  },
+  {
+   "id": "bw-en-50",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "succeed",
+   "q": "What does “succeed” mean?",
+   "opts": [
+    "зарабатывать",
+    "добиться успеха",
+    "заменять"
+   ],
+   "a": 1,
+   "exp": "She succeeded in passing the exam.",
+   "ru": "добиться успеха, удаться (succeed in)"
+  },
+  {
+   "id": "bw-en-51",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "probably",
+   "q": "What does “probably” mean?",
+   "opts": [
+    "вероятно",
+    "именно, точно",
+    "недавно"
+   ],
+   "a": 0,
+   "exp": "It will probably rain tomorrow.",
+   "ru": "вероятно"
+  },
+  {
+   "id": "bw-en-52",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "perhaps",
+   "q": "What does “perhaps” mean?",
+   "opts": [
+    "внезапно",
+    "может быть",
+    "недавно"
+   ],
+   "a": 1,
+   "exp": "Perhaps we should leave now.",
+   "ru": "может быть"
+  },
+  {
+   "id": "bw-en-53",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "especially",
+   "q": "What does “especially” mean?",
+   "opts": [
+    "особенно",
+    "почти",
+    "определённо"
+   ],
+   "a": 0,
+   "exp": "I love fruit, especially apples.",
+   "ru": "особенно"
+  },
+  {
+   "id": "bw-en-54",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "definitely",
+   "q": "What does “definitely” mean?",
+   "opts": [
+    "недавно",
+    "судя по всему",
+    "определённо"
+   ],
+   "a": 2,
+   "exp": "I'll definitely come to your party.",
+   "ru": "определённо, обязательно"
+  },
+  {
+   "id": "bw-en-55",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "exactly",
+   "q": "What does “exactly” mean?",
+   "opts": [
+    "именно, точно",
+    "вероятно",
+    "едва"
+   ],
+   "a": 0,
+   "exp": "That's exactly what I wanted.",
+   "ru": "точно, именно"
+  },
+  {
+   "id": "bw-en-56",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "nearly",
+   "q": "What does “nearly” mean?",
+   "opts": [
+    "почти",
+    "дважды",
+    "именно, точно"
+   ],
+   "a": 0,
+   "exp": "I nearly missed the bus.",
+   "ru": "почти"
+  },
+  {
+   "id": "bw-en-57",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "instead",
+   "q": "What does “instead” mean?",
+   "opts": [
+    "особенно",
+    "судя по всему",
+    "вместо этого"
+   ],
+   "a": 2,
+   "exp": "Let's walk instead of taking a taxi.",
+   "ru": "вместо (этого)"
+  },
+  {
+   "id": "bw-en-58",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "anyway",
+   "q": "What does “anyway” mean?",
+   "opts": [
+    "всё равно",
+    "по сути",
+    "почти"
+   ],
+   "a": 0,
+   "exp": "It was expensive, but I bought it anyway.",
+   "ru": "всё равно, в любом случае"
+  },
+  {
+   "id": "bw-en-59",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "obviously",
+   "q": "What does “obviously” mean?",
+   "opts": [
+    "очевидно",
+    "вместо этого",
+    "всё равно"
+   ],
+   "a": 0,
+   "exp": "Obviously, he was tired after the trip.",
+   "ru": "очевидно, конечно"
+  },
+  {
+   "id": "bw-en-60",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "apparently",
+   "q": "What does “apparently” mean?",
+   "opts": [
+    "всё равно",
+    "вместо этого",
+    "судя по всему"
+   ],
+   "a": 2,
+   "exp": "Apparently, the shop is closed today.",
+   "ru": "судя по всему, как оказалось"
+  },
+  {
+   "id": "bw-en-61",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "absolutely",
+   "q": "What does “absolutely” mean?",
+   "opts": [
+    "абсолютно",
+    "вероятно",
+    "по сути"
+   ],
+   "a": 0,
+   "exp": "You're absolutely right.",
+   "ru": "абсолютно, совершенно"
+  },
+  {
+   "id": "bw-en-62",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "unfortunately",
+   "q": "What does “unfortunately” mean?",
+   "opts": [
+    "к сожалению",
+    "очевидно",
+    "недавно"
+   ],
+   "a": 0,
+   "exp": "Unfortunately, I can't come.",
+   "ru": "к сожалению"
+  },
+  {
+   "id": "bw-en-63",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "basically",
+   "q": "What does “basically” mean?",
+   "opts": [
+    "по сути",
+    "внезапно",
+    "к сожалению"
+   ],
+   "a": 0,
+   "exp": "Basically, it's a good idea.",
+   "ru": "по сути, в общем"
+  },
+  {
+   "id": "bw-en-64",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "eventually",
+   "q": "What does “eventually” mean?",
+   "opts": [
+    "в конце концов",
+    "определённо",
+    "всё равно"
+   ],
+   "a": 0,
+   "exp": "We eventually found the hotel.",
+   "ru": "в конце концов (не «эвентуально»)"
+  },
+  {
+   "id": "bw-en-65",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "immediately",
+   "q": "What does “immediately” mean?",
+   "opts": [
+    "немедленно",
+    "абсолютно",
+    "вместо этого"
+   ],
+   "a": 0,
+   "exp": "Call me immediately if there's a problem.",
+   "ru": "немедленно, сразу"
+  },
+  {
+   "id": "bw-en-66",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "suddenly",
+   "q": "What does “suddenly” mean?",
+   "opts": [
+    "вероятно",
+    "недавно",
+    "внезапно"
+   ],
+   "a": 2,
+   "exp": "Suddenly the lights went out.",
+   "ru": "вдруг, внезапно"
+  },
+  {
+   "id": "bw-en-67",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "recently",
+   "q": "What does “recently” mean?",
+   "opts": [
+    "недавно",
+    "особенно",
+    "определённо"
+   ],
+   "a": 0,
+   "exp": "I've recently started running.",
+   "ru": "недавно"
+  },
+  {
+   "id": "bw-en-68",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "hardly",
+   "q": "What does “hardly” mean?",
+   "opts": [
+    "едва",
+    "абсолютно",
+    "в конце концов"
+   ],
+   "a": 0,
+   "exp": "I can hardly hear you.",
+   "ru": "едва, почти не (не «тяжело»)"
+  },
+  {
+   "id": "bw-en-69",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "twice",
+   "q": "What does “twice” mean?",
+   "opts": [
+    "по сути",
+    "немедленно",
+    "дважды"
+   ],
+   "a": 2,
+   "exp": "I go to the gym twice a week.",
+   "ru": "дважды"
+  },
+  {
+   "id": "bw-en-70",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "somewhere",
+   "q": "What does “somewhere” mean?",
+   "opts": [
+    "дважды",
+    "где-то",
+    "почти"
+   ],
+   "a": 1,
+   "exp": "Let's go somewhere warm.",
+   "ru": "где-то, куда-то"
+  },
+  {
+   "id": "bw-en-71",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "extra",
+   "q": "What does “extra” mean?",
+   "opts": [
+    "осведомлённый",
+    "похожий",
+    "дополнительный"
+   ],
+   "a": 2,
+   "exp": "Do you have an extra pen?",
+   "ru": "дополнительный, лишний"
+  },
+  {
+   "id": "bw-en-72",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "schedule",
+   "q": "What does “schedule” mean?",
+   "opts": [
+    "выбор",
+    "расписание",
+    "преимущество"
+   ],
+   "a": 1,
+   "exp": "My schedule is very busy this week.",
+   "ru": "расписание, график"
+  },
+  {
+   "id": "bw-en-73",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "comfortable",
+   "q": "What does “comfortable” mean?",
+   "opts": [
+    "обычный",
+    "дополнительный",
+    "удобный"
+   ],
+   "a": 2,
+   "exp": "These shoes are really comfortable.",
+   "ru": "удобный, комфортный"
+  },
+  {
+   "id": "bw-en-74",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "familiar",
+   "q": "What does “familiar” mean?",
+   "opts": [
+    "серьёзный",
+    "знакомый",
+    "готовый помочь"
+   ],
+   "a": 1,
+   "exp": "Your face looks familiar.",
+   "ru": "знакомый"
+  },
+  {
+   "id": "bw-en-75",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "available",
+   "q": "What does “available” mean?",
+   "opts": [
+    "свободный (о времени)",
+    "крошечный",
+    "серьёзный"
+   ],
+   "a": 0,
+   "exp": "Are you available on Monday?",
+   "ru": "свободный, доступный"
+  },
+  {
+   "id": "bw-en-76",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "necessary",
+   "q": "What does “necessary” mean?",
+   "opts": [
+    "обычный",
+    "необходимый",
+    "безопасный"
+   ],
+   "a": 1,
+   "exp": "Is it necessary to book a table?",
+   "ru": "необходимый"
+  },
+  {
+   "id": "bw-en-77",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "similar",
+   "q": "What does “similar” mean?",
+   "opts": [
+    "необходимый",
+    "удобный",
+    "похожий"
+   ],
+   "a": 2,
+   "exp": "Our jobs are very similar.",
+   "ru": "похожий"
+  },
+  {
+   "id": "bw-en-78",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "useful",
+   "q": "What does “useful” mean?",
+   "opts": [
+    "полезный",
+    "осведомлённый",
+    "благодарный"
+   ],
+   "a": 0,
+   "exp": "This app is really useful.",
+   "ru": "полезный (о вещи, информации)"
+  },
+  {
+   "id": "bw-en-79",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "serious",
+   "q": "What does “serious” mean?",
+   "opts": [
+    "необходимый",
+    "спокойный",
+    "серьёзный"
+   ],
+   "a": 2,
+   "exp": "Is it a serious problem?",
+   "ru": "серьёзный"
+  },
+  {
+   "id": "bw-en-80",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "huge",
+   "q": "What does “huge” mean?",
+   "opts": [
+    "похожий",
+    "осведомлённый",
+    "огромный"
+   ],
+   "a": 2,
+   "exp": "They live in a huge house.",
+   "ru": "огромный"
+  },
+  {
+   "id": "bw-en-81",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "tiny",
+   "q": "What does “tiny” mean?",
+   "opts": [
+    "крошечный",
+    "похожий",
+    "необходимый"
+   ],
+   "a": 0,
+   "exp": "My first flat was tiny.",
+   "ru": "крошечный"
+  },
+  {
+   "id": "bw-en-82",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "empty",
+   "q": "What does “empty” mean?",
+   "opts": [
+    "пустой",
+    "спокойный",
+    "свободный (о времени)"
+   ],
+   "a": 0,
+   "exp": "The office was empty on Sunday.",
+   "ru": "пустой"
+  },
+  {
+   "id": "bw-en-83",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "safe",
+   "q": "What does “safe” mean?",
+   "opts": [
+    "благодарный",
+    "обычный",
+    "безопасный"
+   ],
+   "a": 2,
+   "exp": "Is it safe to walk here at night?",
+   "ru": "безопасный"
+  },
+  {
+   "id": "bw-en-84",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "trouble",
+   "q": "What does “trouble” mean?",
+   "opts": [
+    "расписание",
+    "трудность",
+    "возможность"
+   ],
+   "a": 1,
+   "exp": "I had trouble finding your house.",
+   "ru": "проблема, трудность"
+  },
+  {
+   "id": "bw-en-85",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "unusual",
+   "q": "What does “unusual” mean?",
+   "opts": [
+    "необычный",
+    "удобный",
+    "огромный"
+   ],
+   "a": 0,
+   "exp": "It's unusual to see snow here in October.",
+   "ru": "необычный"
+  },
+  {
+   "id": "bw-en-86",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "impossible",
+   "q": "What does “impossible” mean?",
+   "opts": [
+    "невозможный",
+    "дополнительный",
+    "спокойный"
+   ],
+   "a": 0,
+   "exp": "It's impossible to finish this today.",
+   "ru": "невозможный"
+  },
+  {
+   "id": "bw-en-87",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "helpful",
+   "q": "What does “helpful” mean?",
+   "opts": [
+    "благодарный",
+    "пустой",
+    "готовый помочь"
+   ],
+   "a": 2,
+   "exp": "The staff were very helpful.",
+   "ru": "готовый помочь, полезный (о человеке)"
+  },
+  {
+   "id": "bw-en-88",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "aware",
+   "q": "What does “aware” mean?",
+   "opts": [
+    "огромный",
+    "готовый помочь",
+    "осведомлённый"
+   ],
+   "a": 2,
+   "exp": "Are you aware of the new rules?",
+   "ru": "знающий, осведомлённый (be aware of)"
+  },
+  {
+   "id": "bw-en-89",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "proud",
+   "q": "What does “proud” mean?",
+   "opts": [
+    "благодарный",
+    "серьёзный",
+    "гордый"
+   ],
+   "a": 2,
+   "exp": "I'm proud of my son.",
+   "ru": "гордый (be proud of — гордиться)"
+  },
+  {
+   "id": "bw-en-90",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "grateful",
+   "q": "What does “grateful” mean?",
+   "opts": [
+    "благодарный",
+    "спокойный",
+    "полезный"
+   ],
+   "a": 0,
+   "exp": "I'm grateful for your support.",
+   "ru": "благодарный"
+  },
+  {
+   "id": "bw-en-91",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "calm",
+   "q": "What does “calm” mean?",
+   "opts": [
+    "невозможный",
+    "спокойный",
+    "свободный (о времени)"
+   ],
+   "a": 1,
+   "exp": "Stay calm and listen.",
+   "ru": "спокойный"
+  },
+  {
+   "id": "bw-en-92",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "ordinary",
+   "q": "What does “ordinary” mean?",
+   "opts": [
+    "невозможный",
+    "обычный",
+    "серьёзный"
+   ],
+   "a": 1,
+   "exp": "It was just an ordinary day.",
+   "ru": "обычный, рядовой"
+  },
+  {
+   "id": "bw-en-93",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "opportunity",
+   "q": "What does “opportunity” mean?",
+   "opts": [
+    "возможность",
+    "выбор",
+    "совет"
+   ],
+   "a": 0,
+   "exp": "This job is a great opportunity.",
+   "ru": "возможность (удачный случай)"
+  },
+  {
+   "id": "bw-en-94",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "advice",
+   "q": "What does “advice” mean?",
+   "opts": [
+    "преимущество",
+    "совет",
+    "возможность"
+   ],
+   "a": 1,
+   "exp": "Can I give you some advice?",
+   "ru": "совет (неисчисляемое: some advice)"
+  },
+  {
+   "id": "bw-en-95",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "mistake",
+   "q": "What does “mistake” mean?",
+   "opts": [
+    "преимущество",
+    "ошибка",
+    "мнение"
+   ],
+   "a": 1,
+   "exp": "Everyone makes mistakes.",
+   "ru": "ошибка"
+  },
+  {
+   "id": "bw-en-96",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "chance",
+   "q": "What does “chance” mean?",
+   "opts": [
+    "приём (у врача)",
+    "шанс",
+    "мнение"
+   ],
+   "a": 1,
+   "exp": "Give me a chance to explain.",
+   "ru": "шанс"
+  },
+  {
+   "id": "bw-en-97",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "choice",
+   "q": "What does “choice” mean?",
+   "opts": [
+    "выбор",
+    "совет",
+    "шанс"
+   ],
+   "a": 0,
+   "exp": "We had no choice.",
+   "ru": "выбор"
+  },
+  {
+   "id": "bw-en-98",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "opinion",
+   "q": "What does “opinion” mean?",
+   "opts": [
+    "шанс",
+    "мнение",
+    "расписание"
+   ],
+   "a": 1,
+   "exp": "In my opinion, it's too expensive.",
+   "ru": "мнение"
+  },
+  {
+   "id": "bw-en-99",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "advantage",
+   "q": "What does “advantage” mean?",
+   "opts": [
+    "мнение",
+    "преимущество",
+    "расписание"
+   ],
+   "a": 1,
+   "exp": "One advantage of living here is the park.",
+   "ru": "преимущество"
+  },
+  {
+   "id": "bw-en-100",
+   "type": "mc",
+   "dir": "en-ru",
+   "word": "appointment",
+   "q": "What does “appointment” mean?",
+   "opts": [
+    "ошибка",
+    "преимущество",
+    "приём (у врача)"
+   ],
+   "a": 2,
+   "exp": "I have a dentist appointment at five.",
+   "ru": "назначенная встреча, приём (у врача)"
+  }
+ ]
+}

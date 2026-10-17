@@ -1,0 +1,237 @@
+{
+ "id": "relative-clauses",
+ "title": "Defining relative clauses (who / which / that / where)",
+ "level": "B1",
+ "en": "<p>A <b>relative clause</b> tells us <i>which</i> person, thing or place we mean: <i>The woman <b>who lives next door</b> is a doctor.</i></p><p><b>who</b> — people · <b>which</b> — things · <b>that</b> — people or things · <b>where</b> — places (where = in / at which).</p><p>Don't repeat the subject or object: <i>The man who called me</i> (not <i>who <s>he</s> called me</i>); <i>the book that I bought</i> (not <i>that I bought <s>it</s></i>).</p><p>When who / which / that is the <b>object</b> of the clause, you can leave it out: <i>The film (that) we saw was great.</i> When it is the <b>subject</b>, you can't: <i>The man <b>who</b> lives here…</i></p><p>Use <b>where</b> only when the verb doesn't need an object: <i>the city <b>where</b> I live</i>, but <i>the city <b>that</b> I want to visit</i> (visit + object).</p>",
+ "ru": "who — люди, which — предметы, that — и то и другое, where — места. Не повторяйте подлежащее или дополнение внутри придаточного. Если who/which/that — дополнение, его можно опустить; если подлежащее — нельзя.",
+ "qs": [
+  {
+   "id": "g-rc-1",
+   "type": "mc",
+   "q": "A nurse is a person ___ looks after sick people.",
+   "opts": [
+    "who",
+    "which",
+    "where"
+   ],
+   "a": 0,
+   "exp": "A person → who.",
+   "ru": "Человек — who."
+  },
+  {
+   "id": "g-rc-2",
+   "type": "mc",
+   "q": "A fridge is a machine ___ keeps food cold.",
+   "opts": [
+    "who",
+    "which",
+    "where"
+   ],
+   "a": 1,
+   "exp": "A thing → which.",
+   "ru": "Предмет — which."
+  },
+  {
+   "id": "g-rc-3",
+   "type": "mc",
+   "q": "A library is a place ___ you can borrow books.",
+   "opts": [
+    "where",
+    "which",
+    "who"
+   ],
+   "a": 0,
+   "exp": "A place + a full clause (you can borrow books) → where.",
+   "ru": "Место — where."
+  },
+  {
+   "id": "g-rc-4",
+   "type": "mc",
+   "q": "I've lost the keys ___ you gave me.",
+   "opts": [
+    "that",
+    "who",
+    "where"
+   ],
+   "a": 0,
+   "exp": "Things → that / which.",
+   "ru": "Предметы — that."
+  },
+  {
+   "id": "g-rc-5",
+   "type": "mc",
+   "q": "Is this the restaurant ___ you had your birthday party?",
+   "opts": [
+    "where",
+    "who",
+    "what"
+   ],
+   "a": 0,
+   "exp": "A place → where.",
+   "ru": "Место — where."
+  },
+  {
+   "id": "g-rc-6",
+   "type": "mc",
+   "q": "The man ___ lives next door is a pilot.",
+   "opts": [
+    "who",
+    "which",
+    "where"
+   ],
+   "a": 0,
+   "exp": "A person, subject of the clause → who.",
+   "ru": "Человек — who."
+  },
+  {
+   "id": "g-rc-7",
+   "type": "gap",
+   "q": "The film ___ we watched last night was boring.",
+   "a": [
+    "that",
+    "which"
+   ],
+   "exp": "A thing → that / which (you can also leave it out).",
+   "ru": "Предмет — that/which (можно опустить)."
+  },
+  {
+   "id": "g-rc-8",
+   "type": "gap",
+   "q": "Do you know a shop ___ sells cheap phones?",
+   "a": [
+    "that",
+    "which"
+   ],
+   "exp": "A thing, subject of the clause → that / which.",
+   "ru": "Подлежащее придаточного — that/which."
+  },
+  {
+   "id": "g-rc-9",
+   "type": "gap",
+   "q": "My sister has a friend ___ speaks five languages.",
+   "a": [
+    "who",
+    "that"
+   ],
+   "exp": "A person → who / that.",
+   "ru": "Человек — who/that."
+  },
+  {
+   "id": "g-rc-10",
+   "type": "gap",
+   "q": "This is the hotel ___ we stayed last summer.",
+   "a": [
+    "where"
+   ],
+   "exp": "A place, “stay” needs no object → where.",
+   "ru": "Место — where."
+  },
+  {
+   "id": "g-rc-11",
+   "type": "fix",
+   "q": "Correct the mistake: “The book who I bought is very interesting.”",
+   "a": [
+    "The book that I bought is very interesting.",
+    "The book which I bought is very interesting.",
+    "The book I bought is very interesting."
+   ],
+   "exp": "A thing → that / which, not who.",
+   "ru": "Для предметов — that/which."
+  },
+  {
+   "id": "g-rc-12",
+   "type": "fix",
+   "q": "Correct the mistake: “She's the teacher which helped me with my exam.”",
+   "a": [
+    "She's the teacher who helped me with my exam.",
+    "She is the teacher who helped me with my exam.",
+    "She's the teacher that helped me with my exam.",
+    "She is the teacher that helped me with my exam."
+   ],
+   "exp": "A person → who / that, not which.",
+   "ru": "Для людей — who/that."
+  },
+  {
+   "id": "g-rc-13",
+   "type": "fix",
+   "q": "Correct the mistake: “The man who he called me was very polite.”",
+   "a": [
+    "The man who called me was very polite.",
+    "The man that called me was very polite."
+   ],
+   "exp": "Don't repeat the subject after who.",
+   "ru": "Не повторяйте he после who."
+  },
+  {
+   "id": "g-rc-14",
+   "type": "fix",
+   "q": "Correct the mistake: “This is the town where I was born in.”",
+   "a": [
+    "This is the town where I was born.",
+    "This is the town that I was born in.",
+    "This is the town which I was born in.",
+    "This is the town I was born in."
+   ],
+   "exp": "“where” already means “in which” — remove “in”.",
+   "ru": "where уже включает in."
+  },
+  {
+   "id": "g-rc-15",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the woman who works in the bank is my aunt",
+   "exp": "Noun + who + verb, then the main verb.",
+   "ru": "Существительное + who + глагол, затем главный глагол."
+  },
+  {
+   "id": "g-rc-16",
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "this is the app that i use every day",
+   "exp": "Noun + that + subject + verb.",
+   "ru": "Существительное + that + подлежащее + глагол."
+  },
+  {
+   "id": "g-rc-17",
+   "type": "tf",
+   "q": "In “The cake that she made was delicious”, we can leave out “that”.",
+   "a": true,
+   "exp": "“that” is the object of “made” → it can go.",
+   "ru": "that — дополнение, его можно опустить."
+  },
+  {
+   "id": "g-rc-18",
+   "type": "tf",
+   "q": "In “The man who lives here is a doctor”, we can leave out “who”.",
+   "a": false,
+   "exp": "“who” is the subject of “lives” → it must stay.",
+   "ru": "who — подлежащее, опустить нельзя."
+  },
+  {
+   "id": "g-rc-19",
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "opts": [
+    "The person I talked to was very kind.",
+    "The person who I talked was very kind.",
+    "The person which I talked to was very kind."
+   ],
+   "a": 0,
+   "exp": "Object pronoun left out; the preposition stays at the end.",
+   "ru": "Местоимение опущено, предлог остаётся в конце."
+  },
+  {
+   "id": "g-rc-20",
+   "type": "mc",
+   "q": "Paris is the city ___ I want to visit most.",
+   "opts": [
+    "where",
+    "that",
+    "who"
+   ],
+   "a": 1,
+   "exp": "“visit” needs an object → that / which, not where.",
+   "ru": "После visit нужно дополнение — that, не where."
+  }
+ ]
+}

@@ -1,0 +1,453 @@
+{
+ "id": "baseline-grammar",
+ "title": "Baseline test: relative clauses + infinitive",
+ "note": "Before/after test. Items differ from the practice exercises. Give no feedback until the end.",
+ "qs": [
+  {
+   "id": "bl-rc-1",
+   "type": "mc",
+   "q": "A dentist is a person ___ looks after your teeth.",
+   "opts": [
+    "who",
+    "which",
+    "where"
+   ],
+   "a": 0,
+   "exp": "Person → who.",
+   "ru": "Человек — who.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-2",
+   "type": "mc",
+   "q": "A dishwasher is a machine ___ washes plates.",
+   "opts": [
+    "which",
+    "who",
+    "where"
+   ],
+   "a": 0,
+   "exp": "Thing → which.",
+   "ru": "Предмет — which.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-3",
+   "type": "mc",
+   "q": "A gym is a place ___ people do exercise.",
+   "opts": [
+    "where",
+    "which",
+    "who"
+   ],
+   "a": 0,
+   "exp": "Place + full clause → where.",
+   "ru": "Место — where.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-4",
+   "type": "mc",
+   "q": "The bus ___ goes to the airport leaves every hour.",
+   "opts": [
+    "that",
+    "who",
+    "where"
+   ],
+   "a": 0,
+   "exp": "Thing → that.",
+   "ru": "Предмет — that.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-5",
+   "type": "mc",
+   "q": "I met a man ___ works for an oil company.",
+   "opts": [
+    "who",
+    "which",
+    "where"
+   ],
+   "a": 0,
+   "exp": "Person → who.",
+   "ru": "Человек — who.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-6",
+   "type": "gap",
+   "q": "Is this the phone ___ you bought yesterday?",
+   "a": [
+    "that",
+    "which"
+   ],
+   "exp": "Thing → that / which.",
+   "ru": "Предмет — that/which.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-7",
+   "type": "gap",
+   "q": "I know a café ___ they make great coffee.",
+   "a": [
+    "where"
+   ],
+   "exp": "Place + full clause → where.",
+   "ru": "Место — where.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-8",
+   "type": "gap",
+   "q": "We need someone ___ can speak English and Kazakh.",
+   "a": [
+    "who",
+    "that"
+   ],
+   "exp": "Person → who / that.",
+   "ru": "Человек — who/that.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-9",
+   "type": "fix",
+   "q": "Correct the mistake: “The report who you sent me was very useful.”",
+   "a": [
+    "The report that you sent me was very useful.",
+    "The report which you sent me was very useful.",
+    "The report you sent me was very useful."
+   ],
+   "exp": "Thing → that / which.",
+   "ru": "Предмет — that/which.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-10",
+   "type": "fix",
+   "q": "Correct the mistake: “The girl which sits next to me is from Aktau.”",
+   "a": [
+    "The girl who sits next to me is from Aktau.",
+    "The girl that sits next to me is from Aktau."
+   ],
+   "exp": "Person → who / that.",
+   "ru": "Человек — who/that.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-11",
+   "type": "fix",
+   "q": "Correct the mistake: “That's the shop where I bought it there.”",
+   "a": [
+    "That's the shop where I bought it.",
+    "That is the shop where I bought it."
+   ],
+   "exp": "“where” already means “there” — remove it.",
+   "ru": "where уже означает «там».",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-12",
+   "type": "fix",
+   "q": "Correct the mistake: “The people who they work here are friendly.”",
+   "a": [
+    "The people who work here are friendly.",
+    "The people that work here are friendly."
+   ],
+   "exp": "Don't repeat the subject.",
+   "ru": "Не повторяйте подлежащее.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-13",
+   "type": "mc",
+   "q": "Which sentence is correct?",
+   "opts": [
+    "The car I wanted was too expensive.",
+    "The car who I wanted was too expensive.",
+    "The car where I wanted was too expensive."
+   ],
+   "a": 0,
+   "exp": "Object pronoun can be left out.",
+   "ru": "Местоимение-дополнение опущено.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-14",
+   "type": "mc",
+   "q": "Almaty is the city ___ I want to show you.",
+   "opts": [
+    "that",
+    "where",
+    "who"
+   ],
+   "a": 0,
+   "exp": "“show” needs an object → that.",
+   "ru": "После show нужно дополнение — that.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-15",
+   "type": "tf",
+   "q": "In “The film that we saw was great”, you can leave out “that”.",
+   "a": true,
+   "exp": "Object → can be left out.",
+   "ru": "Дополнение — можно опустить.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-16",
+   "type": "tf",
+   "q": "In “The woman who called you is my boss”, you can leave out “who”.",
+   "a": false,
+   "exp": "Subject → must stay.",
+   "ru": "Подлежащее — нельзя опустить.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-17",
+   "type": "mc",
+   "q": "This is the office ___ my father worked for thirty years.",
+   "opts": [
+    "where",
+    "which",
+    "who"
+   ],
+   "a": 0,
+   "exp": "Place + full clause → where.",
+   "ru": "Место — where.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-rc-18",
+   "type": "gap",
+   "q": "The man ___ fixed my car was very honest.",
+   "a": [
+    "who",
+    "that"
+   ],
+   "exp": "Person → who / that.",
+   "ru": "Человек — who/that.",
+   "topic": "relative-clauses"
+  },
+  {
+   "id": "bl-in-1",
+   "type": "mc",
+   "q": "We've decided ___ to the sea this summer.",
+   "opts": [
+    "to go",
+    "going",
+    "go"
+   ],
+   "a": 0,
+   "exp": "decide + to.",
+   "ru": "decide + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-2",
+   "type": "mc",
+   "q": "I hope ___ you soon.",
+   "opts": [
+    "to see",
+    "seeing",
+    "see"
+   ],
+   "a": 0,
+   "exp": "hope + to.",
+   "ru": "hope + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-3",
+   "type": "mc",
+   "q": "She offered ___ me to the station.",
+   "opts": [
+    "to drive",
+    "driving",
+    "drive"
+   ],
+   "a": 0,
+   "exp": "offer + to.",
+   "ru": "offer + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-4",
+   "type": "gap",
+   "q": "I went to the post office ___ (send) a parcel.",
+   "a": [
+    "to send"
+   ],
+   "exp": "Purpose → to.",
+   "ru": "Цель — to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-5",
+   "type": "gap",
+   "q": "It's difficult ___ (find) a cheap flat here.",
+   "a": [
+    "to find"
+   ],
+   "exp": "Adjective + to.",
+   "ru": "Прилагательное + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-6",
+   "type": "gap",
+   "q": "Would you like ___ (have) a cup of tea?",
+   "a": [
+    "to have"
+   ],
+   "exp": "would like + to.",
+   "ru": "would like + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-7",
+   "type": "mc",
+   "q": "I don't know how ___ this machine.",
+   "opts": [
+    "to use",
+    "using",
+    "use"
+   ],
+   "a": 0,
+   "exp": "how + to.",
+   "ru": "how + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-8",
+   "type": "mc",
+   "q": "Do you want something ___?",
+   "opts": [
+    "to drink",
+    "drinking",
+    "drink"
+   ],
+   "a": 0,
+   "exp": "something + to.",
+   "ru": "something + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-9",
+   "type": "fix",
+   "q": "Correct the mistake: “I called him for ask about the meeting.”",
+   "a": [
+    "I called him to ask about the meeting."
+   ],
+   "exp": "Purpose → to, not for.",
+   "ru": "Цель — to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-10",
+   "type": "fix",
+   "q": "Correct the mistake: “My boss wants that I finish the report today.”",
+   "a": [
+    "My boss wants me to finish the report today."
+   ],
+   "exp": "want + person + to.",
+   "ru": "want + кого-то + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-11",
+   "type": "fix",
+   "q": "Correct the mistake: “It's nice meet you.”",
+   "a": [
+    "It's nice to meet you.",
+    "It is nice to meet you.",
+    "Nice to meet you."
+   ],
+   "exp": "Adjective + to.",
+   "ru": "Прилагательное + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-12",
+   "type": "gap",
+   "q": "The doctor told me ___ (not / eat) sugar.",
+   "a": [
+    "not to eat"
+   ],
+   "exp": "tell + person + not to.",
+   "ru": "tell + кого-то + not to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-13",
+   "type": "mc",
+   "q": "Did you manage ___ the problem?",
+   "opts": [
+    "to solve",
+    "solving",
+    "solve"
+   ],
+   "a": 0,
+   "exp": "manage + to.",
+   "ru": "manage + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-14",
+   "type": "mc",
+   "q": "I'm saving money ___ a new laptop.",
+   "opts": [
+    "to buy",
+    "for buy",
+    "buying"
+   ],
+   "a": 0,
+   "exp": "Purpose → to.",
+   "ru": "Цель — to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-15",
+   "type": "tf",
+   "q": "“I'd like going home” is correct.",
+   "a": false,
+   "exp": "I'd like to go home.",
+   "ru": "Правильно: I'd like to go.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-16",
+   "type": "tf",
+   "q": "In “She came to Astana to study”, “to study” explains why she came.",
+   "a": true,
+   "exp": "Purpose.",
+   "ru": "Цель.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-17",
+   "type": "mc",
+   "q": "I need somewhere ___ my car.",
+   "opts": [
+    "to park",
+    "parking",
+    "park"
+   ],
+   "a": 0,
+   "exp": "somewhere + to.",
+   "ru": "somewhere + to.",
+   "topic": "infinitive"
+  },
+  {
+   "id": "bl-in-18",
+   "type": "gap",
+   "q": "I'm happy ___ (help) you.",
+   "a": [
+    "to help"
+   ],
+   "exp": "Adjective + to.",
+   "ru": "Прилагательное + to.",
+   "topic": "infinitive"
+  }
+ ]
+}

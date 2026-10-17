@@ -1,0 +1,76 @@
+{
+ "id": "r-b1-01",
+ "title": "The flat I didn't want",
+ "level": "B1",
+ "text": "Last year, Daniyar decided to move to Almaty for a new job. He expected to find a flat quickly, but unfortunately it wasn't easy. The first flat that he saw was tiny, and the second one, which was near the centre, was too expensive — he simply couldn't afford it. A colleague who had lived in the city for years gave him some useful advice: “Look for something near a metro station, not in the centre. It's the best way to save money and time.” Daniyar followed her advice. Eventually he found a comfortable flat in a quiet area where many young families live. The rent was reasonable, and the station was only five minutes away. Now he has a simple routine: he leaves home at eight to avoid the traffic, and he uses the journey to learn new English words on his phone. “At first I was disappointed,” he says, “but now I realize that the flat I didn't want is the place that I like most. I really appreciate my colleague's help. Sometimes the best opportunities are the ones you don't expect.”",
+ "qs": [
+  {
+   "id": "r-b1-01-1",
+   "type": "mc",
+   "q": "Why didn't Daniyar take the second flat?",
+   "opts": [
+    "It was too expensive.",
+    "It was too small.",
+    "It was far from the metro."
+   ],
+   "a": 0,
+   "exp": "He couldn't afford it.",
+   "ru": "Он не мог себе его позволить."
+  },
+  {
+   "id": "r-b1-01-2",
+   "type": "tf",
+   "q": "The first flat he saw was very big.",
+   "a": false,
+   "exp": "It was tiny.",
+   "ru": "Она была крошечной."
+  },
+  {
+   "id": "r-b1-01-3",
+   "type": "mc",
+   "q": "Who gave him advice?",
+   "opts": [
+    "a colleague who knew the city",
+    "the owner of the flat",
+    "a friend from school"
+   ],
+   "a": 0,
+   "exp": "A colleague who had lived in the city for years.",
+   "ru": "Коллега, давно живущая в городе."
+  },
+  {
+   "id": "r-b1-01-4",
+   "type": "mc",
+   "q": "What does he do on his way to work?",
+   "opts": [
+    "He learns English words.",
+    "He reads the news.",
+    "He calls his family."
+   ],
+   "a": 0,
+   "exp": "He uses the journey to learn new English words.",
+   "ru": "Учит английские слова в дороге."
+  },
+  {
+   "id": "r-b1-01-5",
+   "type": "tf",
+   "q": "He leaves home at eight to avoid the traffic.",
+   "a": true,
+   "exp": "“he leaves home at eight to avoid the traffic”.",
+   "ru": "Чтобы избежать пробок."
+  },
+  {
+   "id": "r-b1-01-6",
+   "type": "mc",
+   "q": "What is the main idea of the text?",
+   "opts": [
+    "A good result can come from something unexpected.",
+    "Big cities are always too expensive.",
+    "It is impossible to find a flat in Almaty."
+   ],
+   "a": 0,
+   "exp": "“the best opportunities are the ones you don't expect”.",
+   "ru": "Лучшие возможности — неожиданные."
+  }
+ ]
+}
