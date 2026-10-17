@@ -13,7 +13,7 @@
   "word": "population",
   "ipa": "/ˌpɒpjuˈleɪʃn/",
   "ru": "население",
-  "ex": "Atyrau has a population of about 300,000.",
+  "ex": "Our city has a growing population.",
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "unit",
@@ -107,7 +107,8 @@
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Procurement"
  },
  {
   "word": "supplier",
@@ -117,7 +118,8 @@
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Procurement"
  },
  {
   "word": "contract",
@@ -127,7 +129,8 @@
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Procurement"
  },
  {
   "word": "tender",
@@ -137,7 +140,8 @@
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Procurement"
  },
  {
   "word": "purchase",
@@ -147,6 +151,7 @@
   "topic": "Describing a town or city",
   "unit": "5B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Procurement"
  }
 ]

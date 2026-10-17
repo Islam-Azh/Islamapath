@@ -20,10 +20,10 @@
   "level": "A2"
  },
  {
-  "word": "interested",
-  "ipa": "/ˈɪntrəstɪd/",
-  "ru": "заинтересованный",
-  "ex": "I'm interested in finance.",
+  "word": "interesting",
+  "ipa": "/ˈɪntrəstɪŋ/",
+  "ru": "интересный",
+  "ex": "It was an interesting training course.",
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "unit",
@@ -107,7 +107,8 @@
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "calculate",
@@ -117,7 +118,8 @@
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "estimate",
@@ -127,7 +129,8 @@
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "average",
@@ -137,7 +140,8 @@
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "round up",
@@ -147,6 +151,7 @@
   "topic": "Adjectives ending -ed and -ing",
   "unit": "4C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

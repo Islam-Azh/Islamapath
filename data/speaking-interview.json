@@ -1,7 +1,7 @@
 {
  "id": "speaking-interview",
  "title": "Interview simulator",
- "note": "Replace [X] with your real numbers.",
+ "note": "Replace [X] with your real facts. Samples are models, not your real story — change them.",
  "sets": [
   {
    "id": "basics",
@@ -19,7 +19,11 @@
       "I'm responsible for…"
      ],
      "secs": 90,
-     "sample": "My name is Islam. I work as a leading specialist in internal control at an oil refinery in Atyrau. I've worked in internal control for [X] years. I'm responsible for testing controls, risk assessment and business continuity."
+     "sample": "My name is Islam. I work as a leading specialist in internal control at an oil refinery in Atyrau. I've worked in internal control for [X] years. I'm responsible for testing controls, risk assessment and business continuity.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "about-you"
     },
     {
      "id": "iv-1-2",
@@ -32,7 +36,11 @@
       "Every month I…"
      ],
      "secs": 90,
-     "sample": "I test key controls in processes like procurement and payments. I prepare reports for management. I work with the risk owners and the internal auditors. Every quarter I update the risk register."
+     "sample": "I test key controls in processes like procurement and payments. I prepare reports for management. I work with the risk owners and the internal auditors. Every quarter I update the risk register.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "about-you"
     },
     {
      "id": "iv-1-3",
@@ -44,7 +52,11 @@
       "For example, …"
      ],
      "secs": 90,
-     "sample": "I'm good at finding problems in processes. I'm very organised and reliable. For example, I always finish my reports before the deadline."
+     "sample": "I'm good at finding problems in processes. I'm very organised and reliable. For example, I always finish my reports before the deadline.",
+     "level": "A2",
+     "file": 6,
+     "grammar": "gerund",
+     "type": "about-you"
     },
     {
      "id": "iv-1-4",
@@ -56,7 +68,11 @@
       "Now I…"
      ],
      "secs": 90,
-     "sample": "My English is not perfect yet, but I'm working on it: I study every day and have lessons with a teacher. Now I can talk about my job much more confidently."
+     "sample": "My English is not perfect yet, but I'm working on it: I study every day and have lessons with a teacher. Now I can talk about my job much more confidently.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "about-you"
     },
     {
      "id": "iv-1-5",
@@ -68,7 +84,11 @@
       "I'm going to…"
      ],
      "secs": 90,
-     "sample": "In five years I'd like to work as a risk or control manager in an international company. I hope I'll lead a small team. I'm going to get a professional certificate."
+     "sample": "In five years I'd like to work as a risk or control manager in an international company. I hope I'll lead a small team. I'm going to get a professional certificate.",
+     "level": "A2",
+     "file": 3,
+     "grammar": "future-forms",
+     "type": "motivation"
     }
    ]
   },
@@ -88,7 +108,11 @@
       "As a result…"
      ],
      "secs": 90,
-     "sample": "The situation was that we paid some invoices twice. My task was to find the reason. I checked the process and found that there was no control for duplicate invoices. As a result, we introduced an automatic check, and the problem stopped."
+     "sample": "The situation was that we paid some invoices twice. My task was to find the reason. I checked the process and found that there was no control for duplicate invoices. As a result, we introduced an automatic check, and the problem stopped.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
     },
     {
      "id": "iv-2-2",
@@ -101,7 +125,11 @@
       "In the end…"
      ],
      "secs": 90,
-     "sample": "Last year the auditors came two weeks earlier than planned. We had to prepare all the documents very quickly. I organised a plan and divided the tasks in the team. In the end we finished on time, and there were only two small findings."
+     "sample": "Last year the auditors came two weeks earlier than planned. We had to prepare all the documents very quickly. I organised a plan and divided the tasks in the team. In the end we finished on time, and there were only two small findings.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
     },
     {
      "id": "iv-2-3",
@@ -113,7 +141,11 @@
       "I try to find…"
      ],
      "secs": 90,
-     "sample": "First, I listen carefully to understand their point of view. Then I explain my position with facts and evidence. I try to find a solution that is good for both sides."
+     "sample": "First, I listen carefully to understand their point of view. Then I explain my position with facts and evidence. I try to find a solution that is good for both sides.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "behavioural"
     },
     {
      "id": "iv-2-4",
@@ -125,7 +157,11 @@
       "This helped the company to…"
      ],
      "secs": 90,
-     "sample": "My biggest achievement was building a risk and control matrix for the whole refinery. I worked with all departments for six months. This helped the company to reduce audit findings."
+     "sample": "My biggest achievement was building a risk and control matrix for the whole refinery. I worked with all departments for six months. This helped the company to reduce audit findings.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
     },
     {
      "id": "iv-2-5",
@@ -138,7 +174,11 @@
       "Since then I always…"
      ],
      "secs": 90,
-     "sample": "Once I sent a report with a wrong figure. I realised that I had not checked the final version. I fixed it by sending a correction the same day. Since then I always ask a colleague to check important reports."
+     "sample": "Once I sent a report with a wrong figure. I realised that I had not checked the final version. I fixed it by sending a correction the same day. Since then I always ask a colleague to check important reports.",
+     "level": "B1",
+     "file": 12,
+     "grammar": "past-perfect",
+     "type": "behavioural"
     }
    ]
   },
@@ -157,7 +197,11 @@
       "I would like to…"
      ],
      "secs": 90,
-     "sample": "I want to work for your company because it is one of the leaders in the oil and gas industry. Your company has high standards in safety and governance. I would like to learn from international experts and use my experience in internal control."
+     "sample": "I want to work for your company because it is one of the leaders in the oil and gas industry. Your company has high standards in safety and governance. I would like to learn from international experts and use my experience in internal control.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "motivation"
     },
     {
      "id": "iv-3-2",
@@ -169,7 +213,11 @@
       "I want to grow…"
      ],
      "secs": 90,
-     "sample": "I've learned a lot in my current job, and I'm grateful for it. Now I'm looking for new challenges in an international environment. I want to grow professionally and use English every day."
+     "sample": "I've learned a lot in my current job, and I'm grateful for it. Now I'm looking for new challenges in an international environment. I want to grow professionally and use English every day.",
+     "level": "B1",
+     "file": 4,
+     "grammar": "present-perfect",
+     "type": "motivation"
     },
     {
      "id": "iv-3-3",
@@ -181,7 +229,11 @@
       "I take part in…"
      ],
      "secs": 90,
-     "sample": "I read about new standards in risk management and ISO. I'm studying English and preparing for a professional certificate. I also take part in training courses organised by our head office."
+     "sample": "I read about new standards in risk management and ISO. I'm studying English and preparing for a professional certificate. I also take part in training courses organised by our head office.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "motivation"
     },
     {
      "id": "iv-3-4",
@@ -193,7 +245,11 @@
       "Before I send…, I…"
      ],
      "secs": 90,
-     "sample": "I always check the source documents. I use checklists for every control test. Before I send a report, I read it again and compare the figures with the system."
+     "sample": "I always check the source documents. I use checklists for every control test. Before I send a report, I read it again and compare the figures with the system.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "professional"
     },
     {
      "id": "iv-3-5",
@@ -205,9 +261,949 @@
       "What are the next steps?"
      ],
      "secs": 90,
-     "sample": "Yes, thank you. Could you tell me more about the team I would work with? What does a typical day look like in this position? And what are the next steps in the selection process?"
+     "sample": "Yes, thank you. Could you tell me more about the team I would work with? What does a typical day look like in this position? And what are the next steps in the selection process?",
+     "level": "B1",
+     "file": 12,
+     "grammar": "indirect-questions",
+     "type": "closing"
+    }
+   ]
+  },
+  {
+   "id": "daily",
+   "title": "Set 4 · Your working day",
+   "level": "A2",
+   "qs": [
+    {
+     "id": "iv-4-1",
+     "q": "What does a typical working day look like for you?",
+     "ru": "Как выглядит ваш обычный рабочий день?",
+     "hints": [
+      "I usually start at…",
+      "First I…",
+      "After lunch I…",
+      "At the end of the day I…"
+     ],
+     "secs": 90,
+     "sample": "I usually start at eight. First I check my emails and the plan for the day. Then I work on control tests or reports. After lunch I often have meetings with process owners. At the end of the day I update my task list.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "daily-work"
+    },
+    {
+     "id": "iv-4-2",
+     "q": "Who do you work with most often?",
+     "ru": "С кем вы чаще всего работаете?",
+     "hints": [
+      "I work closely with…",
+      "We meet…",
+      "They help me to…"
+     ],
+     "secs": 90,
+     "sample": "I work closely with the finance and procurement departments. We meet every week to discuss risks and controls. They help me to understand how the processes really work.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "daily-work"
+    },
+    {
+     "id": "iv-4-3",
+     "q": "What tools or systems do you use every day?",
+     "ru": "Какими инструментами или системами вы пользуетесь каждый день?",
+     "hints": [
+      "I use … for…",
+      "Most of the time I…",
+      "It helps me to…"
+     ],
+     "secs": 90,
+     "sample": "I use Excel every day for risk and control matrices. Most of the time I also work in our document system. It helps me to find the evidence for each control quickly.",
+     "level": "A2",
+     "file": 3,
+     "grammar": "relative-clauses",
+     "type": "daily-work"
+    },
+    {
+     "id": "iv-4-4",
+     "q": "What do you like most about your job?",
+     "ru": "Что вам больше всего нравится в работе?",
+     "hints": [
+      "I really like…",
+      "I enjoy … -ing",
+      "The best part is…"
+     ],
+     "secs": 90,
+     "sample": "I really like solving problems in processes. I enjoy working with people from different departments. The best part is when a control I suggested starts to work and the risk goes down.",
+     "level": "A2",
+     "file": 7,
+     "grammar": "gerund",
+     "type": "daily-work"
+    },
+    {
+     "id": "iv-4-5",
+     "q": "What is the most difficult part of your job?",
+     "ru": "Какая часть вашей работы самая сложная?",
+     "hints": [
+      "The most difficult part is…",
+      "It is hard to… because…",
+      "I deal with it by … -ing"
+     ],
+     "secs": 90,
+     "sample": "The most difficult part is getting documents on time. It is hard to finish tests when people are very busy. I deal with it by planning early and sending reminders.",
+     "level": "A2",
+     "file": 5,
+     "grammar": "comparatives",
+     "type": "daily-work"
+    },
+    {
+     "id": "iv-4-6",
+     "q": "How is your department organised?",
+     "ru": "Как устроен ваш отдел?",
+     "hints": [
+      "There are … people in…",
+      "… is responsible for…",
+      "I report to…"
+     ],
+     "secs": 90,
+     "sample": "There are [X] people in our department. One group is responsible for risk management, and another group works on internal control. I report to the head of the department.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "daily-work"
+    }
+   ]
+  },
+  {
+   "id": "now",
+   "title": "Set 5 · Now and recently",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-5-1",
+     "q": "What are you working on at the moment?",
+     "ru": "Над чем вы сейчас работаете?",
+     "hints": [
+      "At the moment I'm…",
+      "This month we're…",
+      "The goal is to…"
+     ],
+     "secs": 90,
+     "sample": "At the moment I'm updating the risk and control matrix for procurement. This month we're also preparing for an internal audit. The goal is to close all the old findings before the audit starts.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "experience"
+    },
+    {
+     "id": "iv-5-2",
+     "q": "What have you achieved this year?",
+     "ru": "Чего вы добились в этом году?",
+     "hints": [
+      "This year I've…",
+      "I've also…",
+      "As a result…"
+     ],
+     "secs": 90,
+     "sample": "This year I've tested more than [X] key controls. I've also helped two departments to write new procedures. As a result, the number of audit findings has gone down.",
+     "level": "B1",
+     "file": 4,
+     "grammar": "present-perfect",
+     "type": "experience"
+    },
+    {
+     "id": "iv-5-3",
+     "q": "What have you learned recently?",
+     "ru": "Чему вы научились в последнее время?",
+     "hints": [
+      "Recently I've learned…",
+      "I've started to…",
+      "It has helped me to…"
+     ],
+     "secs": 90,
+     "sample": "Recently I've learned how to build simple dashboards in Excel. I've also started to read standards in English. It has helped me to prepare reports faster.",
+     "level": "B1",
+     "file": 4,
+     "grammar": "present-perfect",
+     "type": "experience"
+    },
+    {
+     "id": "iv-5-4",
+     "q": "Have you ever led a project or a team?",
+     "ru": "Вы когда-нибудь руководили проектом или командой?",
+     "hints": [
+      "Yes, I have. / Not officially, but…",
+      "Last year I…",
+      "I was responsible for…"
+     ],
+     "secs": 90,
+     "sample": "Not officially, but I have led several small projects. Last year I coordinated the business continuity plan for our refinery. I was responsible for the timeline and for collecting information from all departments.",
+     "level": "B1",
+     "file": 4,
+     "grammar": "present-perfect",
+     "type": "experience"
+    },
+    {
+     "id": "iv-5-5",
+     "q": "What haven't you finished yet, and why?",
+     "ru": "Что вы ещё не закончили и почему?",
+     "hints": [
+      "I haven't … yet because…",
+      "I've already…",
+      "I plan to finish it by…"
+     ],
+     "secs": 90,
+     "sample": "I haven't finished the review of our IT controls yet because we are still waiting for some documents. I've already tested half of them. I plan to finish it by the end of the month.",
+     "level": "B1",
+     "file": 4,
+     "grammar": "present-perfect",
+     "type": "experience"
+    }
+   ]
+  },
+  {
+   "id": "career",
+   "title": "Set 6 · Your career story",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-6-1",
+     "q": "How did you start your career?",
+     "ru": "Как вы начали свою карьеру?",
+     "hints": [
+      "After university I…",
+      "My first job was…",
+      "Then I moved to…"
+     ],
+     "secs": 90,
+     "sample": "After university I started working as a [X]. My first job was in [X], where I learned how a big company works. Then I moved to internal control because I wanted to understand risks better.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "career"
+    },
+    {
+     "id": "iv-6-2",
+     "q": "Why did you choose this profession?",
+     "ru": "Почему вы выбрали эту профессию?",
+     "hints": [
+      "I chose it because…",
+      "I was interested in…",
+      "I wanted to…"
+     ],
+     "secs": 90,
+     "sample": "I chose it because I like analysing information and finding the reasons for problems. I was interested in how companies protect themselves from risks. I wanted a job where I can see the whole business.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "career"
+    },
+    {
+     "id": "iv-6-3",
+     "q": "How has your job changed since you started?",
+     "ru": "Как изменилась ваша работа с тех пор, как вы начали?",
+     "hints": [
+      "When I started, I used to…",
+      "Now I…",
+      "The biggest change is…"
+     ],
+     "secs": 90,
+     "sample": "When I started, I used to do mostly simple checks. Now I plan the work myself and present results to managers. The biggest change is that I take more responsibility.",
+     "level": "B1",
+     "file": 10,
+     "grammar": "used-to",
+     "type": "career"
+    },
+    {
+     "id": "iv-6-4",
+     "q": "What were you doing before you joined your current company?",
+     "ru": "Чем вы занимались до прихода в текущую компанию?",
+     "hints": [
+      "Before that, I was working…",
+      "I was responsible for…",
+      "I left because…"
+     ],
+     "secs": 90,
+     "sample": "Before that, I was working at [X]. I was responsible for [X]. I left because I wanted to grow and work in a bigger company.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-continuous",
+     "type": "career"
+    },
+    {
+     "id": "iv-6-5",
+     "q": "Tell me about your education.",
+     "ru": "Расскажите о своём образовании.",
+     "hints": [
+      "I graduated from … in…",
+      "My degree is in…",
+      "I have also done courses in…"
+     ],
+     "secs": 90,
+     "sample": "I graduated from [X] university in [X]. My degree is in [X]. I have also done courses in risk management and ISO standards.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "present-perfect",
+     "type": "career"
+    },
+    {
+     "id": "iv-6-6",
+     "q": "How long have you worked for your current company?",
+     "ru": "Как долго вы работаете в текущей компании?",
+     "hints": [
+      "I've worked there for… / since…",
+      "During this time I…",
+      "I have been in my current role since…"
+     ],
+     "secs": 90,
+     "sample": "I've worked there for [X] years, since [X]. During this time I have worked on many audits and projects. I have been in my current role since [X].",
+     "level": "B1",
+     "file": 9,
+     "grammar": "for-since",
+     "type": "career"
+    }
+   ]
+  },
+  {
+   "id": "professional",
+   "title": "Set 7 · Risk and internal control",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-7-1",
+     "q": "How do you identify risks in a process?",
+     "ru": "Как вы выявляете риски в процессе?",
+     "hints": [
+      "First, I … the process",
+      "I talk to people who…",
+      "Then I ask: what could go wrong?"
+     ],
+     "secs": 90,
+     "sample": "First, I describe the process step by step. I talk to the people who do the work every day. Then I ask a simple question for each step: what could go wrong, and what would the impact be?",
+     "level": "B1",
+     "file": 3,
+     "grammar": "relative-clauses",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-2",
+     "q": "What is a key control? Give an example.",
+     "ru": "Что такое ключевой контроль? Приведите пример.",
+     "hints": [
+      "A key control is a control which…",
+      "For example, …",
+      "If it fails, …"
+     ],
+     "secs": 90,
+     "sample": "A key control is a control which prevents or finds a serious error. For example, a manager approves every payment above a certain amount. If it fails, the company can lose money.",
+     "level": "B1",
+     "file": 3,
+     "grammar": "relative-clauses",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-3",
+     "q": "How do you test whether a control works?",
+     "ru": "Как вы проверяете, работает ли контроль?",
+     "hints": [
+      "I choose a sample of…",
+      "I check the evidence…",
+      "If I find exceptions, …"
+     ],
+     "secs": 90,
+     "sample": "I choose a sample of transactions, for example twenty-five invoices. I check the evidence, such as signatures and system records. If I find exceptions, I discuss them with the control owner.",
+     "level": "B1",
+     "file": 10,
+     "grammar": "passive",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-4",
+     "q": "What do you do if you find a weakness in a control?",
+     "ru": "Что вы делаете, если находите слабое место в контроле?",
+     "hints": [
+      "First, I make sure…",
+      "Then I agree an action plan with…",
+      "I follow up…"
+     ],
+     "secs": 90,
+     "sample": "First, I make sure that the weakness is real and I have enough evidence. Then I agree an action plan with the control owner. I follow up until the action is finished.",
+     "level": "B1",
+     "file": 8,
+     "grammar": "conditionals",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-5",
+     "q": "How do you explain a risk to a manager who is not an expert?",
+     "ru": "Как вы объясняете риск руководителю, который не специалист?",
+     "hints": [
+      "I use simple words…",
+      "I give a real example…",
+      "I show the possible impact in money or time"
+     ],
+     "secs": 90,
+     "sample": "I use simple words and avoid technical terms. I give a real example from our company. I also show the possible impact in money or time, because managers understand that quickly.",
+     "level": "B1",
+     "file": 3,
+     "grammar": "relative-clauses",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-6",
+     "q": "What is segregation of duties, and why is it important?",
+     "ru": "Что такое разделение обязанностей и почему это важно?",
+     "hints": [
+      "It means that…",
+      "One person shouldn't…",
+      "It reduces the risk of…"
+     ],
+     "secs": 90,
+     "sample": "It means that different people do different parts of a process. One person shouldn't create a supplier, approve the order and make the payment. It reduces the risk of fraud and errors.",
+     "level": "B1",
+     "file": 8,
+     "grammar": "modals-obligation",
+     "type": "professional"
+    },
+    {
+     "id": "iv-7-7",
+     "q": "How do you work with internal and external auditors?",
+     "ru": "Как вы работаете с внутренними и внешними аудиторами?",
+     "hints": [
+      "I prepare…",
+      "I answer their questions…",
+      "After the audit we…"
+     ],
+     "secs": 90,
+     "sample": "I prepare documents and evidence before they arrive. I answer their questions and organise meetings with process owners. After the audit we agree action plans for all findings.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "professional"
+    }
+   ]
+  },
+  {
+   "id": "continuity",
+   "title": "Set 8 · Business continuity and ISO",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-8-1",
+     "q": "What is business continuity planning?",
+     "ru": "Что такое планирование непрерывности бизнеса?",
+     "hints": [
+      "It is a way to…",
+      "We decide in advance…",
+      "The plan shows who…"
+     ],
+     "secs": 90,
+     "sample": "It is a way to keep the most important processes working during a crisis. We decide in advance what to do if something serious happens. The plan shows who does what and how fast we must recover.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "professional"
+    },
+    {
+     "id": "iv-8-2",
+     "q": "What would you do if the main IT system stopped working?",
+     "ru": "Что бы вы сделали, если бы основная ИТ-система перестала работать?",
+     "hints": [
+      "First, I would…",
+      "We would switch to…",
+      "I would inform…"
+     ],
+     "secs": 90,
+     "sample": "First, I would check the continuity plan for this system. We would switch to the manual procedure or to the backup system. I would inform the managers and keep a record of all actions.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "conditionals",
+     "type": "professional"
+    },
+    {
+     "id": "iv-8-3",
+     "q": "How do you prepare for an ISO audit?",
+     "ru": "Как вы готовитесь к аудиту по ISO?",
+     "hints": [
+      "A month before, we…",
+      "We check that…",
+      "We also train…"
+     ],
+     "secs": 90,
+     "sample": "A month before, we review all the procedures and records. We check that every requirement has evidence. We also train the people who will talk to the auditors.",
+     "level": "B1",
+     "file": 3,
+     "grammar": "future-forms",
+     "type": "professional"
+    },
+    {
+     "id": "iv-8-4",
+     "q": "Describe an emergency exercise you took part in.",
+     "ru": "Опишите учения по ЧС, в которых вы участвовали.",
+     "hints": [
+      "Last year we had…",
+      "While we were…, …",
+      "After the exercise we…"
+     ],
+     "secs": 90,
+     "sample": "Last year we had an exercise for a gas leak scenario. While we were evacuating the building, we checked how long each step took. After the exercise we found two problems and updated the plan.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-continuous",
+     "type": "professional"
+    },
+    {
+     "id": "iv-8-5",
+     "q": "How do you make sure people follow a procedure?",
+     "ru": "Как вы добиваетесь, чтобы люди соблюдали процедуру?",
+     "hints": [
+      "I explain why…",
+      "We have to…",
+      "I check…"
+     ],
+     "secs": 90,
+     "sample": "I explain why the procedure is important, not only what to do. We have to make the procedure simple and clear. I also check it regularly and give feedback.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "modals-obligation",
+     "type": "professional"
+    }
+   ]
+  },
+  {
+   "id": "behavioural",
+   "title": "Set 9 · Behavioural questions (STAR)",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-9-1",
+     "q": "Tell me about a time you had to meet a tight deadline.",
+     "ru": "Расскажите, как вам пришлось уложиться в жёсткий срок.",
+     "hints": [
+      "The situation was…",
+      "I had to … in only…",
+      "So I…",
+      "In the end…"
+     ],
+     "secs": 90,
+     "sample": "The situation was that management needed a risk report in two days. I had to collect data from five departments in only forty-eight hours. So I divided the work and called each department myself. In the end we sent the report on time.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-2",
+     "q": "Describe a situation when you had to persuade someone.",
+     "ru": "Опишите ситуацию, когда вам пришлось кого-то убедить.",
+     "hints": [
+      "A manager didn’t want to…",
+      "I showed him…",
+      "Finally he agreed to…"
+     ],
+     "secs": 90,
+     "sample": "A manager didn't want to add a new approval step because it takes time. I showed him two real cases where the company lost money without this control. Finally he agreed to try it for three months.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-3",
+     "q": "Tell me about a time you worked with people who were very different from you.",
+     "ru": "Расскажите о работе с людьми, которые очень отличались от вас.",
+     "hints": [
+      "In one project, the team…",
+      "At first it was difficult because…",
+      "We learned to…"
+     ],
+     "secs": 90,
+     "sample": "In one project, the team included engineers, lawyers and accountants. At first it was difficult because everyone used different words. We learned to agree on simple definitions at the start.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-4",
+     "q": "Describe a time you had to learn something new quickly.",
+     "ru": "Расскажите, как вам пришлось быстро освоить что-то новое.",
+     "hints": [
+      "When I…, I didn’t know…",
+      "I decided to…",
+      "After two weeks I could…"
+     ],
+     "secs": 90,
+     "sample": "When I started working on business continuity, I didn't know the standard well. I decided to read the main parts every evening and ask experts questions. After two weeks I could explain it to my colleagues.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-5",
+     "q": "Tell me about a time you didn't agree with your manager.",
+     "ru": "Расскажите, когда вы не согласились с руководителем.",
+     "hints": [
+      "My manager wanted to…, but I thought…",
+      "I explained…",
+      "We agreed to…"
+     ],
+     "secs": 90,
+     "sample": "My manager wanted to close a finding quickly, but I thought the problem wasn't really fixed. I explained my reasons and showed the test results. We agreed to test the control again after one month.",
+     "level": "B1",
+     "file": 12,
+     "grammar": "reported-speech",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-6",
+     "q": "Describe a decision you made without all the information.",
+     "ru": "Опишите решение, которое вы приняли без полной информации.",
+     "hints": [
+      "We had to decide…",
+      "I didn’t have…, so I…",
+      "Later it turned out that…"
+     ],
+     "secs": 90,
+     "sample": "We had to decide whether to stop a payment to a supplier. I didn't have all the documents, so I asked for a short delay and informed my manager. Later it turned out that the invoice was a duplicate.",
+     "level": "B1",
+     "file": 12,
+     "grammar": "past-perfect",
+     "type": "behavioural"
+    },
+    {
+     "id": "iv-9-7",
+     "q": "Tell me about a time you helped a colleague.",
+     "ru": "Расскажите, как вы помогли коллеге.",
+     "hints": [
+      "A new colleague…",
+      "I showed her how to…",
+      "Now she…"
+     ],
+     "secs": 90,
+     "sample": "A new colleague had problems with her first control test. I showed her how to choose a sample and what evidence to collect. Now she does tests on her own.",
+     "level": "B1",
+     "file": 2,
+     "grammar": "past-simple",
+     "type": "behavioural"
+    }
+   ]
+  },
+  {
+   "id": "future",
+   "title": "Set 10 · Future and imagination",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-10-1",
+     "q": "What would you do in your first month in this job?",
+     "ru": "Что бы вы делали в первый месяц на этой работе?",
+     "hints": [
+      "First, I would…",
+      "I would also like to…",
+      "By the end of the month I would…"
+     ],
+     "secs": 90,
+     "sample": "First, I would meet my team and the key people in other departments. I would also like to read the main policies and the last audit reports. By the end of the month I would have a clear plan for my work.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "conditionals",
+     "type": "future"
+    },
+    {
+     "id": "iv-10-2",
+     "q": "What will be the biggest risks in our industry in the next five years?",
+     "ru": "Какими будут главные риски в нашей отрасли в ближайшие пять лет?",
+     "hints": [
+      "I think … will…",
+      "I don't think … will…",
+      "… might…"
+     ],
+     "secs": 90,
+     "sample": "I think cyber risks will become more serious. Prices for oil will probably change a lot. Also, new environmental rules might increase costs for refineries.",
+     "level": "B1",
+     "file": 6,
+     "grammar": "will-wont",
+     "type": "future"
+    },
+    {
+     "id": "iv-10-3",
+     "q": "If you got this job, what would you change first?",
+     "ru": "Если бы вы получили эту работу, что бы вы изменили в первую очередь?",
+     "hints": [
+      "If I got the job, I would…",
+      "I wouldn’t change … until…",
+      "I would start with…"
+     ],
+     "secs": 90,
+     "sample": "If I got the job, I wouldn't change anything in the first weeks until I understood the processes. I would start with the risks that have the biggest impact. Then I would suggest simple improvements.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "conditionals",
+     "type": "future"
+    },
+    {
+     "id": "iv-10-4",
+     "q": "What might stop you from reaching your goals?",
+     "ru": "Что может помешать вам достичь своих целей?",
+     "hints": [
+      "… might…",
+      "If…, I will…",
+      "To avoid this, I…"
+     ],
+     "secs": 90,
+     "sample": "Lack of time might be a problem, because my job is very busy. If I don't plan my study time, I will not improve fast enough. To avoid this, I study a little every day.",
+     "level": "B1",
+     "file": 10,
+     "grammar": "might",
+     "type": "future"
+    },
+    {
+     "id": "iv-10-5",
+     "q": "How are you going to improve your professional skills this year?",
+     "ru": "Как вы собираетесь улучшать свои профессиональные навыки в этом году?",
+     "hints": [
+      "I'm going to…",
+      "I'm also planning to…",
+      "I hope to…"
+     ],
+     "secs": 90,
+     "sample": "I'm going to reach Intermediate level in English. I'm also planning to take a course in risk management. I hope to get a professional certificate next year.",
+     "level": "B1",
+     "file": 3,
+     "grammar": "future-forms",
+     "type": "future"
+    }
+   ]
+  },
+  {
+   "id": "tricky",
+   "title": "Set 11 · Tricky questions",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-11-1",
+     "q": "Why should we hire you?",
+     "ru": "Почему мы должны нанять именно вас?",
+     "hints": [
+      "I have experience in…",
+      "I am good at…",
+      "I can help your company to…"
+     ],
+     "secs": 90,
+     "sample": "I have [X] years of experience in internal control and risk management. I am good at finding problems and explaining them simply. I can help your company to make processes safer and more efficient.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-2",
+     "q": "What are your salary expectations?",
+     "ru": "Каковы ваши ожидания по зарплате?",
+     "hints": [
+      "I would like to know more about…",
+      "Based on my experience, I expect…",
+      "I am open to discuss…"
+     ],
+     "secs": 90,
+     "sample": "I would like to know more about the responsibilities and the benefits first. Based on my experience and the market, I expect a salary in the range of [X]. But I am open to discuss it.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-3",
+     "q": "What would your colleagues say about you?",
+     "ru": "Что бы о вас сказали ваши коллеги?",
+     "hints": [
+      "They would say that I am…",
+      "They often ask me to…",
+      "Sometimes they say I…"
+     ],
+     "secs": 90,
+     "sample": "They would say that I am reliable and careful with details. They often ask me to check important documents. Sometimes they say I ask too many questions, but that is part of my job.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "conditionals",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-4",
+     "q": "Describe yourself in three words.",
+     "ru": "Опишите себя тремя словами.",
+     "hints": [
+      "Organised: …",
+      "Curious: …",
+      "Reliable: …"
+     ],
+     "secs": 90,
+     "sample": "Organised, curious and reliable. Organised, because I always plan my work. Curious, because I like to understand how things work. Reliable, because people know I finish what I start.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-5",
+     "q": "What do you do when you don't know the answer to a question?",
+     "ru": "Что вы делаете, если не знаете ответа на вопрос?",
+     "hints": [
+      "I say honestly that…",
+      "I find out…",
+      "I come back with…"
+     ],
+     "secs": 90,
+     "sample": "I say honestly that I am not sure. I find out the answer from documents or experts. Then I come back with the correct information as soon as possible.",
+     "level": "B1",
+     "file": 11,
+     "grammar": "phrasal-verbs",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-6",
+     "q": "Are you ready to relocate or to work on shifts?",
+     "ru": "Готовы ли вы к переезду или работе посменно?",
+     "hints": [
+      "Yes, I am ready to… / I would prefer…",
+      "For me it is important…",
+      "I have already…"
+     ],
+     "secs": 90,
+     "sample": "Yes, I am ready to relocate for the right position. For me it is important to know the conditions in advance. I have already worked on projects with long hours, so it is not a problem.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "tricky"
+    },
+    {
+     "id": "iv-11-7",
+     "q": "Is there anything that could stop you from starting soon?",
+     "ru": "Есть ли что-то, что может помешать вам скоро приступить?",
+     "hints": [
+      "My notice period is…",
+      "I would need to…",
+      "I could start…"
+     ],
+     "secs": 90,
+     "sample": "My notice period is one month. I would need to hand over my tasks to a colleague. I could start right after that.",
+     "level": "B1",
+     "file": 9,
+     "grammar": "conditionals",
+     "type": "tricky"
+    }
+   ]
+  },
+  {
+   "id": "communication",
+   "title": "Set 12 · Communication and English",
+   "level": "B1",
+   "qs": [
+    {
+     "id": "iv-12-1",
+     "q": "How often do you use English at work?",
+     "ru": "Как часто вы используете английский на работе?",
+     "hints": [
+      "I use English when I…",
+      "I read … in English",
+      "I would like to use it more…"
+     ],
+     "secs": 90,
+     "sample": "I use English when I read international standards and some reports. I also write short emails in English. I would like to use it more, especially in meetings.",
+     "level": "A2",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "communication"
+    },
+    {
+     "id": "iv-12-2",
+     "q": "How do you deal with a difficult email or message?",
+     "ru": "Как вы справляетесь со сложным письмом или сообщением?",
+     "hints": [
+      "I don't answer immediately…",
+      "I read it again and…",
+      "If it is serious, I call…"
+     ],
+     "secs": 90,
+     "sample": "I don't answer immediately if I feel angry. I read it again and try to understand the real problem. If it is serious, I call the person, because talking is often better than writing.",
+     "level": "B1",
+     "file": 8,
+     "grammar": "conditionals",
+     "type": "communication"
+    },
+    {
+     "id": "iv-12-3",
+     "q": "How do you prepare for a presentation?",
+     "ru": "Как вы готовитесь к презентации?",
+     "hints": [
+      "First, I think about…",
+      "I make … slides",
+      "I practise…"
+     ],
+     "secs": 90,
+     "sample": "First, I think about the audience and the main message. I make only a few slides with clear numbers. I practise at least twice and prepare answers to possible questions.",
+     "level": "B1",
+     "file": 1,
+     "grammar": "present-simple-continuous",
+     "type": "communication"
+    },
+    {
+     "id": "iv-12-4",
+     "q": "How do you react to criticism?",
+     "ru": "Как вы реагируете на критику?",
+     "hints": [
+      "I listen carefully…",
+      "I ask for examples…",
+      "I try to use it to…"
+     ],
+     "secs": 90,
+     "sample": "I listen carefully and try not to take it personally. I ask for examples so I understand what to change. I try to use it to improve my work.",
+     "level": "B1",
+     "file": 7,
+     "grammar": "infinitive",
+     "type": "communication"
+    },
+    {
+     "id": "iv-12-5",
+     "q": "How do you organise your time when you have too much work?",
+     "ru": "Как вы организуете время, когда работы слишком много?",
+     "hints": [
+      "When I have too many tasks, I…",
+      "I do the most important … first",
+      "I ask for help if…"
+     ],
+     "secs": 90,
+     "sample": "When I have too many tasks, I write them all down. I do the most important and urgent ones first. I ask for help or move a deadline if there isn't enough time.",
+     "level": "B1",
+     "file": 5,
+     "grammar": "quantifiers",
+     "type": "communication"
+    },
+    {
+     "id": "iv-12-6",
+     "q": "Do you know what our company does in Kazakhstan?",
+     "ru": "Знаете ли вы, чем наша компания занимается в Казахстане?",
+     "hints": [
+      "Yes, I know that your company…",
+      "I read that…",
+      "I would like to know more about…"
+     ],
+     "secs": 90,
+     "sample": "Yes, I know that your company works in the oil and gas industry. I read about your projects on your website. I would like to know more about how risk management is organised in your team.",
+     "level": "B1",
+     "file": 12,
+     "grammar": "indirect-questions",
+     "type": "communication"
     }
    ]
   }
- ]
+ ],
+ "rotation": {
+  "sessionSize": 5,
+  "cooldownDays": 21,
+  "returnAfterDays": 42,
+  "lockByFile": true,
+  "rule": "Show only questions with file <= student current File. Never show a question answered in the last 21 days. After 42 days, show it once again and keep both recordings for comparison. Each session: up to 2 never-answered questions + the rest the longest-unseen. Mode \"Mock interview\": 5 random unlocked questions in a row, no hints, no preparation time."
+ }
 }

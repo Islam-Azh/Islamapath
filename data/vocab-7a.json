@@ -22,7 +22,7 @@
  {
   "word": "need",
   "ipa": "/niːd/",
-  "ru": "нуждаться, быть нужно",
+  "ru": "нуждаться; need to … = нужно (сделать)",
   "ex": "I need to finish this today.",
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
@@ -107,7 +107,8 @@
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "balance sheet",
@@ -117,7 +118,8 @@
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "income statement",
@@ -127,7 +129,8 @@
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "equity",
@@ -137,7 +140,8 @@
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "impairment",
@@ -147,6 +151,7 @@
   "topic": "Verbs + infinitive; goals",
   "unit": "7A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  }
 ]

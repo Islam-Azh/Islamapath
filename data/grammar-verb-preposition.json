@@ -1,0 +1,245 @@
+{
+ "id": "verb-preposition",
+ "title": "Verb + preposition (depend on, apply for…)",
+ "level": "B1",
+ "unit": "3B",
+ "units": [
+  "3B"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   129,
+   130,
+   132,
+   133,
+   135,
+   136
+  ],
+  "essentialGrammarInUse": [
+   112,
+   113
+  ]
+ },
+ "en": "<p>Many verbs need a fixed preposition before an object: <i><b>depend on</b>, <b>apply for</b>, <b>wait for</b>, <b>pay for</b>, <b>ask for</b>, <b>listen to</b>, <b>talk to</b>, <b>belong to</b>, <b>agree with</b>, <b>deal with</b>, <b>think about</b>, <b>worry about</b>, <b>look at</b>, <b>arrive at / in</b>, <b>focus on</b>, <b>result in</b></i>.</p><p>After a preposition use a noun, a pronoun or <b>-ing</b>: <i>I'm thinking <b>about changing</b> jobs.</i></p><p>In questions the preposition usually goes at the end: <i>Who are you waiting <b>for</b>? What does it depend <b>on</b>?</i></p><p>No preposition: <i>discuss something, enter a room, call somebody, answer a question</i>.</p>",
+ "ru": "Многие глаголы требуют свой предлог: depend on, apply for, wait for, listen to, agree with, deal with, focus on. После предлога — существительное или -ing. В вопросе предлог в конце: What does it depend on? Без предлога: discuss, enter, call, answer.",
+ "boss": {
+  "situation": "Write 5 sentences about a work problem using five different verb + preposition combinations (for example: depend on, deal with, wait for, agree with, focus on).",
+  "samples": [
+   "The project depends on the new budget.",
+   "We are still waiting for the documents from procurement.",
+   "I don't agree with the deadline.",
+   "My team is dealing with the delay.",
+   "This week we will focus on the most serious risks."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "It depends ___ the weather.",
+   "opts": [
+    "of",
+    "on",
+    "from"
+   ],
+   "a": 1,
+   "exp": "depend on.",
+   "ru": "depend on.",
+   "stage": 1,
+   "id": "f-vp-1"
+  },
+  {
+   "type": "mc",
+   "q": "I want to apply ___ this job.",
+   "opts": [
+    "to",
+    "on",
+    "for"
+   ],
+   "a": 2,
+   "exp": "apply for a job (apply to a company).",
+   "ru": "apply for a job.",
+   "stage": 1,
+   "id": "f-vp-2"
+  },
+  {
+   "type": "mc",
+   "q": "Who are you waiting ___?",
+   "opts": [
+    "—",
+    "for",
+    "to"
+   ],
+   "a": 1,
+   "exp": "wait for; preposition at the end of the question.",
+   "ru": "wait for — в конце вопроса.",
+   "stage": 1,
+   "id": "f-vp-3"
+  },
+  {
+   "type": "mc",
+   "q": "Let's discuss ___ the plan.",
+   "opts": [
+    "about",
+    "—",
+    "on"
+   ],
+   "a": 1,
+   "exp": "discuss has no preposition.",
+   "ru": "discuss без about.",
+   "stage": 1,
+   "id": "f-vp-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I agree with you” is correct.",
+   "a": true,
+   "exp": "agree with somebody.",
+   "ru": "agree with.",
+   "stage": 1,
+   "id": "f-vp-5"
+  },
+  {
+   "type": "tf",
+   "q": "“Please listen me” is correct.",
+   "a": false,
+   "exp": "listen to me.",
+   "ru": "listen to.",
+   "stage": 1,
+   "id": "f-vp-6"
+  },
+  {
+   "type": "gap",
+   "q": "She is responsible for dealing ___ complaints.",
+   "a": [
+    "with"
+   ],
+   "exp": "deal with.",
+   "ru": "deal with.",
+   "stage": 2,
+   "id": "f-vp-7"
+  },
+  {
+   "type": "gap",
+   "q": "This laptop belongs ___ the company.",
+   "a": [
+    "to"
+   ],
+   "exp": "belong to.",
+   "ru": "belong to.",
+   "stage": 2,
+   "id": "f-vp-8"
+  },
+  {
+   "type": "gap",
+   "q": "We need to focus ___ the key risks.",
+   "a": [
+    "on"
+   ],
+   "exp": "focus on.",
+   "ru": "focus on.",
+   "stage": 2,
+   "id": "f-vp-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "what does the price depend on",
+   "exp": "Preposition at the end of the question.",
+   "ru": "on — в конце.",
+   "stage": 2,
+   "id": "f-vp-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i am thinking about changing my job",
+   "exp": "Preposition + -ing.",
+   "ru": "about changing.",
+   "stage": 2,
+   "id": "f-vp-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they paid for the training",
+   "exp": "pay for something.",
+   "ru": "paid for.",
+   "stage": 2,
+   "id": "f-vp-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm waiting the bus.”",
+   "a": [
+    "I'm waiting for the bus.",
+    "I am waiting for the bus."
+   ],
+   "exp": "wait for.",
+   "ru": "wait for.",
+   "stage": 3,
+   "id": "f-vp-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We discussed about the results.”",
+   "a": [
+    "We discussed the results."
+   ],
+   "exp": "discuss — no about.",
+   "ru": "discuss без about.",
+   "stage": 3,
+   "id": "f-vp-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He applied to the position of auditor.”",
+   "a": [
+    "He applied for the position of auditor."
+   ],
+   "exp": "apply for a position.",
+   "ru": "apply for.",
+   "stage": 3,
+   "id": "f-vp-15"
+  },
+  {
+   "type": "tr",
+   "q": "Это зависит от бюджета.",
+   "a": [
+    "It depends on the budget.",
+    "That depends on the budget."
+   ],
+   "exp": "depend on.",
+   "ru": "depends on.",
+   "stage": 3,
+   "id": "f-vp-16"
+  },
+  {
+   "type": "tr",
+   "q": "Я согласен с тобой.",
+   "a": [
+    "I agree with you."
+   ],
+   "exp": "agree with.",
+   "ru": "agree with.",
+   "stage": 3,
+   "id": "f-vp-17"
+  },
+  {
+   "type": "tr",
+   "q": "Мы ждём ответа от поставщика.",
+   "a": [
+    "We are waiting for an answer from the supplier.",
+    "We're waiting for an answer from the supplier.",
+    "We are waiting for a reply from the supplier.",
+    "We're waiting for a reply from the supplier.",
+    "We are waiting for the supplier's answer.",
+    "We are waiting for a response from the supplier."
+   ],
+   "exp": "wait for.",
+   "ru": "waiting for.",
+   "stage": 3,
+   "id": "f-vp-18"
+  }
+ ]
+}

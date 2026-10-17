@@ -1,0 +1,237 @@
+{
+ "id": "adverbs",
+ "title": "Adverbs of manner (quick → quickly)",
+ "level": "A2",
+ "unit": "8C",
+ "units": [
+  "8C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   100,
+   101
+  ],
+  "essentialGrammarInUse": [
+   86
+  ]
+ },
+ "en": "<p>Adjectives describe <b>nouns</b>: <i>a <b>careful</b> auditor</i>. Adverbs describe <b>verbs</b> — how we do something: <i>She checks the figures <b>carefully</b>.</i></p><p>Usually adjective + <b>-ly</b>: <i>quick → quickly, clear → clearly, easy → easily, careful → carefully</i>.</p><p>Irregular: <b>good → well</b>, <b>fast → fast</b>, <b>hard → hard</b>, <b>late → late</b>, <b>early → early</b>. Careful: <b>hardly</b> = almost not; <b>lately</b> = recently.</p><p>After <b>be, look, feel, seem, sound</b> use an adjective: <i>You <b>look tired</b>. That <b>sounds good</b>.</i></p><p>Position: usually after the verb + object: <i>She speaks English <b>well</b></i> (not <i>speaks well English</i>).</p>",
+ "ru": "Прилагательное — к существительному (a careful auditor), наречие — к глаголу (checks carefully). Обычно + -ly. Исключения: good → well, fast, hard, late, early. hardly = почти не. После be, look, feel, seem — прилагательное (You look tired). Наречие после дополнения: speaks English well.",
+ "boss": {
+  "situation": "Describe how three colleagues work, using adverbs (carefully, quickly, well, hard…) and one sentence with look / sound + adjective.",
+  "samples": [
+   "Aigerim checks every document carefully.",
+   "Daniyar works very hard and often stays late.",
+   "Our manager explains things clearly.",
+   "Marat speaks English well because he studied in London.",
+   "The new plan sounds good, but it looks difficult."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "She speaks English very ___.",
+   "opts": [
+    "good",
+    "well",
+    "goodly"
+   ],
+   "a": 1,
+   "exp": "good → well (adverb).",
+   "ru": "well.",
+   "stage": 1,
+   "id": "f-adv-1"
+  },
+  {
+   "type": "mc",
+   "q": "Please drive ___. The road is icy.",
+   "opts": [
+    "careful",
+    "carefully"
+   ],
+   "a": 1,
+   "exp": "How you drive → adverb.",
+   "ru": "carefully.",
+   "stage": 1,
+   "id": "f-adv-2"
+  },
+  {
+   "type": "mc",
+   "q": "You look ___. Did you sleep well?",
+   "opts": [
+    "tired",
+    "tiredly"
+   ],
+   "a": 0,
+   "exp": "look + adjective.",
+   "ru": "look tired.",
+   "stage": 1,
+   "id": "f-adv-3"
+  },
+  {
+   "type": "mc",
+   "q": "He works very ___. He's always the last to leave.",
+   "opts": [
+    "hard",
+    "hardly"
+   ],
+   "a": 0,
+   "exp": "hard = with a lot of effort; hardly = almost not.",
+   "ru": "hard.",
+   "stage": 1,
+   "id": "f-adv-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I hardly work” means I work a lot.",
+   "a": false,
+   "exp": "hardly = almost not.",
+   "ru": "hardly — почти не.",
+   "stage": 1,
+   "id": "f-adv-5"
+  },
+  {
+   "type": "tf",
+   "q": "“The plan sounds good” is correct.",
+   "a": true,
+   "exp": "sound + adjective.",
+   "ru": "sounds good.",
+   "stage": 1,
+   "id": "f-adv-6"
+  },
+  {
+   "type": "gap",
+   "q": "He answered the question ___ (quick).",
+   "a": [
+    "quickly"
+   ],
+   "exp": "How → adverb.",
+   "ru": "quickly.",
+   "stage": 2,
+   "id": "f-adv-7"
+  },
+  {
+   "type": "gap",
+   "q": "The train arrived ___ (late).",
+   "a": [
+    "late"
+   ],
+   "exp": "late → late (no -ly).",
+   "ru": "late.",
+   "stage": 2,
+   "id": "f-adv-8"
+  },
+  {
+   "type": "gap",
+   "q": "You can ___ (easy) find the file in the archive.",
+   "a": [
+    "easily"
+   ],
+   "exp": "y → ily.",
+   "ru": "easily.",
+   "stage": 2,
+   "id": "f-adv-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she checks the figures very carefully",
+   "exp": "Adverb after the object.",
+   "ru": "carefully.",
+   "stage": 2,
+   "id": "f-adv-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he speaks english very well",
+   "exp": "Adverb after the object.",
+   "ru": "speaks English well.",
+   "stage": 2,
+   "id": "f-adv-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "please explain it clearly",
+   "exp": "Adverb after the verb + object.",
+   "ru": "clearly.",
+   "stage": 2,
+   "id": "f-adv-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He drives very fastly.”",
+   "a": [
+    "He drives very fast."
+   ],
+   "exp": "fast → fast.",
+   "ru": "fast.",
+   "stage": 3,
+   "id": "f-adv-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She speaks well English.”",
+   "a": [
+    "She speaks English well."
+   ],
+   "exp": "Adverb after the object.",
+   "ru": "speaks English well.",
+   "stage": 3,
+   "id": "f-adv-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I did the test good.”",
+   "a": [
+    "I did the test well.",
+    "I did well in the test."
+   ],
+   "exp": "Adverb → well.",
+   "ru": "well.",
+   "stage": 3,
+   "id": "f-adv-15"
+  },
+  {
+   "type": "tr",
+   "q": "Говори, пожалуйста, медленно.",
+   "a": [
+    "Please speak slowly.",
+    "Speak slowly, please.",
+    "Could you speak slowly, please?",
+    "Please speak more slowly."
+   ],
+   "exp": "Adverb → slowly.",
+   "ru": "slowly.",
+   "stage": 3,
+   "id": "f-adv-16"
+  },
+  {
+   "type": "tr",
+   "q": "Он хорошо говорит по-английски.",
+   "a": [
+    "He speaks English well.",
+    "He speaks good English."
+   ],
+   "exp": "well after the object.",
+   "ru": "speaks English well.",
+   "stage": 3,
+   "id": "f-adv-17"
+  },
+  {
+   "type": "tr",
+   "q": "Внимательно проверь цифры.",
+   "a": [
+    "Check the figures carefully.",
+    "Check the numbers carefully.",
+    "Carefully check the figures."
+   ],
+   "exp": "Adverb → carefully.",
+   "ru": "carefully.",
+   "stage": 3,
+   "id": "f-adv-18"
+  }
+ ]
+}

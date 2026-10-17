@@ -1,0 +1,243 @@
+{
+ "id": "time-prepositions",
+ "title": "Prepositions of time: at, on, in",
+ "level": "A2",
+ "unit": "2B",
+ "units": [
+  "2B"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   121,
+   122
+  ],
+  "essentialGrammarInUse": [
+   103,
+   104
+  ]
+ },
+ "en": "<p><b>at</b> + clock time and some expressions: <i>at 9 o'clock, at lunchtime, at night, at the weekend, at the moment</i>.</p><p><b>on</b> + days and dates: <i>on Monday, on 5 May, on my birthday, on Friday morning</i>.</p><p><b>in</b> + months, years, seasons, parts of the day, periods: <i>in March, in 2026, in winter, in the morning, in two weeks</i> (= after two weeks).</p><p><b>No preposition</b> with <i>this, next, last, every, tomorrow, yesterday</i>: <i>I'll see you <b>next Monday</b>.</i></p>",
+ "ru": "at — время на часах, at night, at the weekend. on — дни и даты (on Monday, on 5 May). in — месяцы, годы, сезоны, части дня (in the morning), in two weeks = через две недели. Без предлога: next, last, this, every, tomorrow.",
+ "boss": {
+  "situation": "Describe your working week and next month's plans: use at, on and in at least twice each, and one sentence with next or every.",
+  "samples": [
+   "I start work at eight o'clock.",
+   "On Mondays we have a team meeting.",
+   "In the afternoon I usually test controls.",
+   "The audit starts on 3 November.",
+   "In December we prepare the annual report, and next month I'm going on a training course."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "The meeting starts ___ 10 a.m.",
+   "opts": [
+    "in",
+    "on",
+    "at"
+   ],
+   "a": 2,
+   "exp": "Clock time → at.",
+   "ru": "Время — at.",
+   "stage": 1,
+   "id": "f-tp-1"
+  },
+  {
+   "type": "mc",
+   "q": "I was born ___ 1990.",
+   "opts": [
+    "at",
+    "on",
+    "in"
+   ],
+   "a": 2,
+   "exp": "Year → in.",
+   "ru": "Год — in.",
+   "stage": 1,
+   "id": "f-tp-2"
+  },
+  {
+   "type": "mc",
+   "q": "We have a call ___ Tuesday.",
+   "opts": [
+    "on",
+    "in",
+    "at"
+   ],
+   "a": 0,
+   "exp": "Day → on.",
+   "ru": "День — on.",
+   "stage": 1,
+   "id": "f-tp-3"
+  },
+  {
+   "type": "mc",
+   "q": "I'll finish it ___ two days.",
+   "opts": [
+    "after",
+    "in",
+    "on"
+   ],
+   "a": 1,
+   "exp": "in + period = after that time from now.",
+   "ru": "Через два дня — in two days.",
+   "stage": 1,
+   "id": "f-tp-4"
+  },
+  {
+   "type": "tf",
+   "q": "“See you on next week” is correct.",
+   "a": false,
+   "exp": "No preposition with next: See you next week.",
+   "ru": "next — без предлога.",
+   "stage": 1,
+   "id": "f-tp-5"
+  },
+  {
+   "type": "tf",
+   "q": "“I don't work at the weekend” is correct British English.",
+   "a": true,
+   "exp": "at the weekend (British).",
+   "ru": "at the weekend.",
+   "stage": 1,
+   "id": "f-tp-6"
+  },
+  {
+   "type": "gap",
+   "q": "The report is due ___ 30 June.",
+   "a": [
+    "on"
+   ],
+   "exp": "Date → on.",
+   "ru": "Дата — on.",
+   "stage": 2,
+   "id": "f-tp-7"
+  },
+  {
+   "type": "gap",
+   "q": "I usually read ___ the evening.",
+   "a": [
+    "in"
+   ],
+   "exp": "Part of the day → in the evening (but at night).",
+   "ru": "in the evening.",
+   "stage": 2,
+   "id": "f-tp-8"
+  },
+  {
+   "type": "gap",
+   "q": "Our busiest month is December. Everyone works hard ___ winter.",
+   "a": [
+    "in"
+   ],
+   "exp": "Season → in.",
+   "ru": "Сезон — in.",
+   "stage": 2,
+   "id": "f-tp-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the audit starts on monday morning",
+   "exp": "Day + part of the day → on Monday morning.",
+   "ru": "on Monday morning.",
+   "stage": 2,
+   "id": "f-tp-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i check my emails at nine every day",
+   "exp": "at + clock time; every — no preposition.",
+   "ru": "at nine, every day.",
+   "stage": 2,
+   "id": "f-tp-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we moved to atyrau in 2018",
+   "exp": "Year → in.",
+   "ru": "in 2018.",
+   "stage": 2,
+   "id": "f-tp-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'll call you in Friday.”",
+   "a": [
+    "I'll call you on Friday.",
+    "I will call you on Friday."
+   ],
+   "exp": "Day → on.",
+   "ru": "День — on.",
+   "stage": 3,
+   "id": "f-tp-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He works in night.”",
+   "a": [
+    "He works at night."
+   ],
+   "exp": "at night (but in the morning).",
+   "ru": "at night.",
+   "stage": 3,
+   "id": "f-tp-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We met at last year.”",
+   "a": [
+    "We met last year."
+   ],
+   "exp": "No preposition with last.",
+   "ru": "last — без предлога.",
+   "stage": 3,
+   "id": "f-tp-15"
+  },
+  {
+   "type": "tr",
+   "q": "Совещание в понедельник в 9 утра.",
+   "a": [
+    "The meeting is on Monday at 9 a.m.",
+    "The meeting is on Monday at nine.",
+    "The meeting is at 9 a.m. on Monday.",
+    "The meeting is on Monday at 9am.",
+    "The meeting is at nine on Monday."
+   ],
+   "exp": "on + day, at + time.",
+   "ru": "on Monday at 9.",
+   "stage": 3,
+   "id": "f-tp-16"
+  },
+  {
+   "type": "tr",
+   "q": "Я закончу через неделю.",
+   "a": [
+    "I'll finish in a week.",
+    "I will finish in a week.",
+    "I'll finish it in a week.",
+    "I will finish it in a week.",
+    "I'll finish in one week."
+   ],
+   "exp": "in + period = through.",
+   "ru": "in a week.",
+   "stage": 3,
+   "id": "f-tp-17"
+  },
+  {
+   "type": "tr",
+   "q": "Я родился в мае.",
+   "a": [
+    "I was born in May."
+   ],
+   "exp": "Month → in.",
+   "ru": "in May.",
+   "stage": 3,
+   "id": "f-tp-18"
+  }
+ ]
+}

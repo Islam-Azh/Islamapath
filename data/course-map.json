@@ -1,6 +1,6 @@
 {
  "book": "English File Pre-intermediate (4th ed.)",
- "note": "Descriptions are original. No exercises from the book are copied.",
+ "note": "Descriptions are original. No exercises from English File or Grammar in Use are copied. questionFilter = practice the questions of the shared grammar file tagged with this lesson code (field \"lessons\"). extraGrammar = extra topic needed for Intermediate, shown after the main topic of the lesson.",
  "lessons": [
   {
    "code": "1A",
@@ -11,11 +11,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 1A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Word order in questions» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 49; если тема трудная — Essential Grammar in Use (синяя): юниты 44, 46, 47 — упражнения в книге, проверка по ключам",
     "Слова урока: «Personal information, common verb phrases» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
    ],
    "speaking": "Ask and answer 5 questions to get to know a new colleague.",
-   "vocabTopic": "Personal information, common verb phrases"
+   "vocabTopic": "Personal information, common verb phrases",
+   "books": {
+    "grammarInUse": [
+     49
+    ],
+    "essentialGrammarInUse": [
+     44,
+     46,
+     47
+    ]
+   },
+   "extraGrammar": [
+    "articles"
+   ]
   },
   {
    "code": "1B",
@@ -26,11 +40,23 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 1B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Simple vs Present Continuous» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 2; если тема трудная — Essential Grammar in Use (синяя): юниты 5, 6, 7 — упражнения в книге, проверка по ключам",
     "Слова урока: «Describing people: appearance and personality» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
    ],
    "speaking": "Describe your typical working day.",
-   "vocabTopic": "Describing people: appearance and personality"
+   "vocabTopic": "Describing people: appearance and personality",
+   "books": {
+    "grammarInUse": [
+     2
+    ],
+    "essentialGrammarInUse": [
+     5,
+     6,
+     7
+    ]
+   },
+   "questionFilter": "1B"
   },
   {
    "code": "1C",
@@ -41,11 +67,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 1C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Simple vs Present Continuous» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 1, 3, 4; если тема трудная — Essential Grammar in Use (синяя): юниты 3, 4, 8 — упражнения в книге, проверка по ключам",
     "Слова урока: «Clothes, prepositions of place» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file01.json)"
    ],
    "speaking": "What are you working on this week?",
-   "vocabTopic": "Clothes, prepositions of place"
+   "vocabTopic": "Clothes, prepositions of place",
+   "books": {
+    "grammarInUse": [
+     1,
+     3,
+     4
+    ],
+    "essentialGrammarInUse": [
+     3,
+     4,
+     8
+    ]
+   },
+   "questionFilter": "1C"
   },
   {
    "code": "2A",
@@ -56,11 +96,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 2A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Past Simple» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 5; если тема трудная — Essential Grammar in Use (синяя): юниты 10, 11, 12 — упражнения в книге, проверка по ключам",
     "Слова урока: «Holidays» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
    ],
    "speaking": "Tell me about your last business trip.",
-   "vocabTopic": "Holidays"
+   "vocabTopic": "Holidays",
+   "books": {
+    "grammarInUse": [
+     5
+    ],
+    "essentialGrammarInUse": [
+     10,
+     11,
+     12
+    ]
+   }
   },
   {
    "code": "2B",
@@ -71,11 +122,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 2B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Past Continuous» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 6; если тема трудная — Essential Grammar in Use (синяя): юниты 13, 14 — упражнения в книге, проверка по ключам",
     "Слова урока: «Prepositions of time and place; photos and memories» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
    ],
    "speaking": "Describe a day when something unexpected happened at work.",
-   "vocabTopic": "Prepositions of time and place; photos and memories"
+   "vocabTopic": "Prepositions of time and place; photos and memories",
+   "books": {
+    "grammarInUse": [
+     6
+    ],
+    "essentialGrammarInUse": [
+     13,
+     14
+    ]
+   },
+   "extraGrammar": [
+    "time-prepositions"
+   ]
   },
   {
    "code": "2C",
@@ -86,11 +150,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 2C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Sequencers and connectors» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 113, 116, 119; если тема трудная — Essential Grammar in Use (синяя): юниты 97, 98, 105 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verb phrases (telling a story)» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file02.json)"
    ],
    "speaking": "Explain how a document is approved in your department.",
-   "vocabTopic": "Verb phrases (telling a story)"
+   "vocabTopic": "Verb phrases (telling a story)",
+   "books": {
+    "grammarInUse": [
+     113,
+     116,
+     119
+    ],
+    "essentialGrammarInUse": [
+     97,
+     98,
+     105
+    ]
+   }
   },
   {
    "code": "3A",
@@ -101,11 +178,21 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 3A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Future: be going to, Present Continuous, will» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 20; если тема трудная — Essential Grammar in Use (синяя): юниты 26 — упражнения в книге, проверка по ключам",
     "Слова урока: «Airports and travel plans» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
    ],
    "speaking": "What are you going to do this year?",
-   "vocabTopic": "Airports and travel plans"
+   "vocabTopic": "Airports and travel plans",
+   "books": {
+    "grammarInUse": [
+     20
+    ],
+    "essentialGrammarInUse": [
+     26
+    ]
+   },
+   "questionFilter": "3A"
   },
   {
    "code": "3B",
@@ -116,11 +203,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 3B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Future: be going to, Present Continuous, will» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 19; если тема трудная — Essential Grammar in Use (синяя): юниты 25 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verbs + prepositions; arrangements» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
    ],
    "speaking": "Talk about your arrangements for next week.",
-   "vocabTopic": "Verbs + prepositions; arrangements"
+   "vocabTopic": "Verbs + prepositions; arrangements",
+   "books": {
+    "grammarInUse": [
+     19
+    ],
+    "essentialGrammarInUse": [
+     25
+    ]
+   },
+   "questionFilter": "3B",
+   "extraGrammar": [
+    "verb-preposition"
+   ]
   },
   {
    "code": "3C",
@@ -131,11 +231,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 3C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Defining relative clauses (who / which / that / where)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 92, 93; если тема трудная — Essential Grammar in Use (синяя): юниты 101, 102 — упражнения в книге, проверка по ключам",
     "Слова урока: «Paraphrasing; people and things at work» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file03.json)"
    ],
    "speaking": "Describe three roles in your department: “A risk owner is a person who…”.",
-   "vocabTopic": "Paraphrasing; people and things at work"
+   "vocabTopic": "Paraphrasing; people and things at work",
+   "books": {
+    "grammarInUse": [
+     92,
+     93
+    ],
+    "essentialGrammarInUse": [
+     101,
+     102
+    ]
+   }
   },
   {
    "code": "4A",
@@ -146,11 +257,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 4A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 7, 111; если тема трудная — Essential Grammar in Use (синяя): юниты 15, 16, 95 — упражнения в книге, проверка по ключам",
     "Слова урока: «Housework, make or do» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
    ],
    "speaking": "Give a status update: what have you already done, what haven't you done yet?",
-   "vocabTopic": "Housework, make or do"
+   "vocabTopic": "Housework, make or do",
+   "books": {
+    "grammarInUse": [
+     7,
+     111
+    ],
+    "essentialGrammarInUse": [
+     15,
+     16,
+     95
+    ]
+   },
+   "questionFilter": "4A"
   },
   {
    "code": "4B",
@@ -161,11 +285,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 4B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 8, 13, 14; если тема трудная — Essential Grammar in Use (синяя): юниты 17, 20 — упражнения в книге, проверка по ключам",
     "Слова урока: «Shopping» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
    ],
    "speaking": "Talk about a place you have visited and when you went there.",
-   "vocabTopic": "Shopping"
+   "vocabTopic": "Shopping",
+   "books": {
+    "grammarInUse": [
+     8,
+     13,
+     14
+    ],
+    "essentialGrammarInUse": [
+     17,
+     20
+    ]
+   },
+   "questionFilter": "4B"
   },
   {
    "code": "4C",
@@ -176,11 +313,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 4C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «something, anything, nothing, someone, anywhere…» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 86; если тема трудная — Essential Grammar in Use (синяя): юниты 78, 79 — упражнения в книге, проверка по ключам",
     "Слова урока: «Adjectives ending -ed and -ing» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file04.json)"
    ],
    "speaking": "Describe what you found during a check: something, nothing, nobody, everything.",
-   "vocabTopic": "Adjectives ending -ed and -ing"
+   "vocabTopic": "Adjectives ending -ed and -ing",
+   "books": {
+    "grammarInUse": [
+     86
+    ],
+    "essentialGrammarInUse": [
+     78,
+     79
+    ]
+   },
+   "extraGrammar": [
+    "adjectives-ed-ing"
+   ]
   },
   {
    "code": "5A",
@@ -191,11 +341,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 5A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Comparatives, superlatives, as … as» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 105, 106, 107; если тема трудная — Essential Grammar in Use (синяя): юниты 87, 88, 89 — упражнения в книге, проверка по ключам",
     "Слова урока: «Time expressions; spend, waste, save time» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
    ],
    "speaking": "Compare two systems or tools you use at work.",
-   "vocabTopic": "Time expressions; spend, waste, save time"
+   "vocabTopic": "Time expressions; spend, waste, save time",
+   "books": {
+    "grammarInUse": [
+     105,
+     106,
+     107
+    ],
+    "essentialGrammarInUse": [
+     87,
+     88,
+     89
+    ]
+   },
+   "questionFilter": "5A"
   },
   {
    "code": "5B",
@@ -206,11 +370,21 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 5B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Comparatives, superlatives, as … as» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 108; если тема трудная — Essential Grammar in Use (синяя): юниты 90 — упражнения в книге, проверка по ключам",
     "Слова урока: «Describing a town or city» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
    ],
    "speaking": "Describe the best and the worst project you have ever worked on.",
-   "vocabTopic": "Describing a town or city"
+   "vocabTopic": "Describing a town or city",
+   "books": {
+    "grammarInUse": [
+     108
+    ],
+    "essentialGrammarInUse": [
+     90
+    ]
+   },
+   "questionFilter": "5B"
   },
   {
    "code": "5C",
@@ -221,11 +395,27 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 5C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Quantifiers: much, many, a lot of, a few, a little, too, enough» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 87, 103; если тема трудная — Essential Grammar in Use (синяя): юниты 83, 84, 91, 92 — упражнения в книге, проверка по ключам",
     "Слова урока: «Health and the body» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file05.json)"
    ],
    "speaking": "Describe your workload: too much, too many, not enough.",
-   "vocabTopic": "Health and the body"
+   "vocabTopic": "Health and the body",
+   "books": {
+    "grammarInUse": [
+     87,
+     103
+    ],
+    "essentialGrammarInUse": [
+     83,
+     84,
+     91,
+     92
+    ]
+   },
+   "extraGrammar": [
+    "so-such-too-enough"
+   ]
   },
   {
    "code": "6A",
@@ -236,11 +426,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 6A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «will / won't: predictions, decisions, offers, promises» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 21, 23; если тема трудная — Essential Grammar in Use (синяя): юниты 27, 28 — упражнения в книге, проверка по ключам",
     "Слова урока: «Opposite verbs» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
    ],
    "speaking": "Make 3 predictions about your company next year.",
-   "vocabTopic": "Opposite verbs"
+   "vocabTopic": "Opposite verbs",
+   "books": {
+    "grammarInUse": [
+     21,
+     23
+    ],
+    "essentialGrammarInUse": [
+     27,
+     28
+    ]
+   }
   },
   {
    "code": "6B",
@@ -251,11 +452,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 6B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «will / won't: predictions, decisions, offers, promises» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 21, 22; если тема трудная — Essential Grammar in Use (синяя): юниты 27, 28 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verb + back; promises» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
    ],
    "speaking": "Reply to a colleague with 2 offers and 1 promise.",
-   "vocabTopic": "Verb + back; promises"
+   "vocabTopic": "Verb + back; promises",
+   "books": {
+    "grammarInUse": [
+     21,
+     22
+    ],
+    "essentialGrammarInUse": [
+     27,
+     28
+    ]
+   }
   },
   {
    "code": "6C",
@@ -266,11 +478,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 6C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Review of verb forms (present, past, future)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 2, 5, 7, 20, 21; если тема трудная — Essential Grammar in Use (синяя): юниты 23, 24 — упражнения в книге, проверка по ключам",
     "Слова урока: «Adjectives + prepositions» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file06.json)"
    ],
    "speaking": "Tell me about your career: past, present and future.",
-   "vocabTopic": "Adjectives + prepositions"
+   "vocabTopic": "Adjectives + prepositions",
+   "books": {
+    "grammarInUse": [
+     2,
+     5,
+     7,
+     20,
+     21
+    ],
+    "essentialGrammarInUse": [
+     23,
+     24
+    ]
+   }
   },
   {
    "code": "7A",
@@ -281,11 +507,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 7A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Uses of the infinitive (with to)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 54, 55, 64, 65; если тема трудная — Essential Grammar in Use (синяя): юниты 52, 53, 54 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verbs + infinitive; goals» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
    ],
    "speaking": "What do you want to achieve this year, and why?",
-   "vocabTopic": "Verbs + infinitive; goals"
+   "vocabTopic": "Verbs + infinitive; goals",
+   "books": {
+    "grammarInUse": [
+     54,
+     55,
+     64,
+     65
+    ],
+    "essentialGrammarInUse": [
+     52,
+     53,
+     54
+    ]
+   }
   },
   {
    "code": "7B",
@@ -296,11 +536,27 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 7B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Verb + -ing (gerund)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 53, 60, 62; если тема трудная — Essential Grammar in Use (синяя): юниты 51, 52, 112 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verbs + -ing; feelings» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
    ],
    "speaking": "What do you enjoy doing at work? What do you avoid doing?",
-   "vocabTopic": "Verbs + -ing; feelings"
+   "vocabTopic": "Verbs + -ing; feelings",
+   "books": {
+    "grammarInUse": [
+     53,
+     60,
+     62
+    ],
+    "essentialGrammarInUse": [
+     51,
+     52,
+     112
+    ]
+   },
+   "extraGrammar": [
+    "verb-ing-or-to"
+   ]
   },
   {
    "code": "7C",
@@ -311,11 +567,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 7C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «have to, must, mustn't, don't have to, should» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 31, 32; если тема трудная — Essential Grammar in Use (синяя): юниты 31, 33 — упражнения в книге, проверка по ключам",
     "Слова урока: «Rules and obligations; school» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file07.json)"
    ],
    "speaking": "Explain the rules a new employee has to follow.",
-   "vocabTopic": "Rules and obligations; school"
+   "vocabTopic": "Rules and obligations; school",
+   "books": {
+    "grammarInUse": [
+     31,
+     32
+    ],
+    "essentialGrammarInUse": [
+     31,
+     33
+    ]
+   },
+   "questionFilter": "7C",
+   "check": "Сверить лексическую тему урока 7C с оглавлением учебника (возможно, modifiers: a bit, quite, really…)"
   },
   {
    "code": "8A",
@@ -326,11 +595,21 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 8A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «have to, must, mustn't, don't have to, should» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 33; если тема трудная — Essential Grammar in Use (синяя): юниты 32 — упражнения в книге, проверка по ключам",
     "Слова урока: «get; advice» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
    ],
    "speaking": "Give advice to a colleague who is always late with reports.",
-   "vocabTopic": "get; advice"
+   "vocabTopic": "get; advice",
+   "books": {
+    "grammarInUse": [
+     33
+    ],
+    "essentialGrammarInUse": [
+     32
+    ]
+   },
+   "questionFilter": "8A"
   },
   {
    "code": "8B",
@@ -341,11 +620,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 8B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «First and second conditional» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 25, 38; если тема трудная — Essential Grammar in Use (синяя): юниты 99 — упражнения в книге, проверка по ключам",
     "Слова урока: «Confusing verbs; if and risks» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
    ],
    "speaking": "Talk about 3 risks: “If …, we will …”.",
-   "vocabTopic": "Confusing verbs; if and risks"
+   "vocabTopic": "Confusing verbs; if and risks",
+   "books": {
+    "grammarInUse": [
+     25,
+     38
+    ],
+    "essentialGrammarInUse": [
+     99
+    ]
+   },
+   "questionFilter": "8B"
   },
   {
    "code": "8C",
@@ -356,11 +646,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 8C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Possessive pronouns: mine, yours, his, hers, ours, theirs» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 83; если тема трудная — Essential Grammar in Use (синяя): юниты 60, 61, 62 — упражнения в книге, проверка по ключам",
     "Слова урока: «Adverbs of manner; possessions» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file08.json)"
    ],
    "speaking": "Explain who is responsible for what in your team.",
-   "vocabTopic": "Adverbs of manner; possessions"
+   "vocabTopic": "Adverbs of manner; possessions",
+   "books": {
+    "grammarInUse": [
+     83
+    ],
+    "essentialGrammarInUse": [
+     60,
+     61,
+     62
+    ]
+   },
+   "extraGrammar": [
+    "adverbs"
+   ]
   },
   {
    "code": "9A",
@@ -371,11 +675,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 9A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «First and second conditional» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 38, 39; если тема трудная — Essential Grammar in Use (синяя): юниты 100 — упражнения в книге, проверка по ключам",
     "Слова урока: «Animals; imaginary situations» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
    ],
    "speaking": "What would you change if you were the director?",
-   "vocabTopic": "Animals; imaginary situations"
+   "vocabTopic": "Animals; imaginary situations",
+   "books": {
+    "grammarInUse": [
+     38,
+     39
+    ],
+    "essentialGrammarInUse": [
+     100
+    ]
+   },
+   "questionFilter": "9A"
   },
   {
    "code": "9B",
@@ -386,11 +701,25 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 9B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Perfect + for / since; How long…?» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 11, 12; если тема трудная — Essential Grammar in Use (синяя): юниты 18, 19 — упражнения в книге, проверка по ключам",
     "Слова урока: «Fears and phobias; how long» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
    ],
    "speaking": "How long have you worked in your job and done each of your tasks?",
-   "vocabTopic": "Fears and phobias; how long"
+   "vocabTopic": "Fears and phobias; how long",
+   "books": {
+    "grammarInUse": [
+     11,
+     12
+    ],
+    "essentialGrammarInUse": [
+     18,
+     19
+    ]
+   },
+   "extraGrammar": [
+    "present-perfect-continuous"
+   ]
   },
   {
    "code": "9C",
@@ -401,11 +730,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 9C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Present Perfect (yet, just, already) and Past Simple» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 13, 14; если тема трудная — Essential Grammar in Use (синяя): юниты 20 — упражнения в книге, проверка по ключам",
     "Слова урока: «Biographies; career» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file09.json)"
    ],
    "speaking": "Tell me about your achievements: what have you done and when?",
-   "vocabTopic": "Biographies; career"
+   "vocabTopic": "Biographies; career",
+   "books": {
+    "grammarInUse": [
+     13,
+     14
+    ],
+    "essentialGrammarInUse": [
+     20
+    ]
+   },
+   "questionFilter": "9C"
   },
   {
    "code": "10A",
@@ -416,11 +756,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 10A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «The passive (present and past)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 42, 43; если тема трудная — Essential Grammar in Use (синяя): юниты 21, 22 — упражнения в книге, проверка по ключам",
     "Слова урока: «Inventions; verbs: invent, discover» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
    ],
    "speaking": "Describe a work process in the passive.",
-   "vocabTopic": "Inventions; verbs: invent, discover"
+   "vocabTopic": "Inventions; verbs: invent, discover",
+   "books": {
+    "grammarInUse": [
+     42,
+     43
+    ],
+    "essentialGrammarInUse": [
+     21,
+     22
+    ]
+   }
   },
   {
    "code": "10B",
@@ -431,11 +782,23 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 10B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «used to» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 18; если тема трудная — Essential Grammar in Use (синяя): юниты 36 — упражнения в книге, проверка по ключам",
     "Слова урока: «School subjects and education» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
    ],
    "speaking": "How has your job changed in the last five years?",
-   "vocabTopic": "School subjects and education"
+   "vocabTopic": "School subjects and education",
+   "books": {
+    "grammarInUse": [
+     18
+    ],
+    "essentialGrammarInUse": [
+     36
+    ]
+   },
+   "extraGrammar": [
+    "be-used-to"
+   ]
   },
   {
    "code": "10C",
@@ -446,11 +809,24 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 10C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «might / might not (possibility)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 29, 30; если тема трудная — Essential Grammar in Use (синяя): юниты 29 — упражнения в книге, проверка по ключам",
     "Слова урока: «Word building: nouns from verbs and adjectives» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file10.json)"
    ],
    "speaking": "What might happen next month? Talk about possible risks.",
-   "vocabTopic": "Word building: nouns from verbs and adjectives"
+   "vocabTopic": "Word building: nouns from verbs and adjectives",
+   "books": {
+    "grammarInUse": [
+     29,
+     30
+    ],
+    "essentialGrammarInUse": [
+     29
+    ]
+   },
+   "extraGrammar": [
+    "can-could-able"
+   ]
   },
   {
    "code": "11A",
@@ -461,11 +837,21 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 11A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Prepositions of movement» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 126; если тема трудная — Essential Grammar in Use (синяя): юниты 108, 110 — упражнения в книге, проверка по ключам",
     "Слова урока: «Sports and movement» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
    ],
    "speaking": "Explain the way from the entrance to your office.",
-   "vocabTopic": "Sports and movement"
+   "vocabTopic": "Sports and movement",
+   "books": {
+    "grammarInUse": [
+     126
+    ],
+    "essentialGrammarInUse": [
+     108,
+     110
+    ]
+   }
   },
   {
    "code": "11B",
@@ -476,11 +862,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 11B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Phrasal verbs (work and everyday)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 137, 138; если тема трудная — Essential Grammar in Use (синяя): юниты 114, 115 — упражнения в книге, проверка по ключам",
     "Слова урока: «Phrasal verbs; daily routine» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
    ],
    "speaking": "Leave a voice message to reschedule a meeting.",
-   "vocabTopic": "Phrasal verbs; daily routine"
+   "vocabTopic": "Phrasal verbs; daily routine",
+   "books": {
+    "grammarInUse": [
+     137,
+     138
+    ],
+    "essentialGrammarInUse": [
+     114,
+     115
+    ]
+   }
   },
   {
    "code": "11C",
@@ -491,11 +888,23 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 11C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «So do I / Neither do I» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 51; если тема трудная — Essential Grammar in Use (синяя): юниты 42 — упражнения в книге, проверка по ключам",
     "Слова урока: «Similarities; agreeing» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file11.json)"
    ],
    "speaking": "Agree with 5 statements about work: So do I / Neither do I.",
-   "vocabTopic": "Similarities; agreeing"
+   "vocabTopic": "Similarities; agreeing",
+   "books": {
+    "grammarInUse": [
+     51
+    ],
+    "essentialGrammarInUse": [
+     42
+    ]
+   },
+   "extraGrammar": [
+    "question-tags"
+   ]
   },
   {
    "code": "12A",
@@ -506,11 +915,18 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 12A (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Past Perfect» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 15 — упражнения в книге, проверка по ключам",
     "Слова урока: «Verb phrases; strange stories» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
    ],
    "speaking": "Tell the story of a problem at work and what had happened before you noticed it.",
-   "vocabTopic": "Verb phrases; strange stories"
+   "vocabTopic": "Verb phrases; strange stories",
+   "books": {
+    "grammarInUse": [
+     15
+    ],
+    "essentialGrammarInUse": []
+   }
   },
   {
    "code": "12B",
@@ -521,11 +937,22 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 12B (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Reported speech (statements, questions, requests)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 47, 48; если тема трудная — Essential Grammar in Use (синяя): юниты 50, 53 — упражнения в книге, проверка по ключам",
     "Слова урока: «say or tell; gossip and news» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
    ],
    "speaking": "Report what people said at your last meeting.",
-   "vocabTopic": "say or tell; gossip and news"
+   "vocabTopic": "say or tell; gossip and news",
+   "books": {
+    "grammarInUse": [
+     47,
+     48
+    ],
+    "essentialGrammarInUse": [
+     50,
+     53
+    ]
+   }
   },
   {
    "code": "12C",
@@ -536,11 +963,29 @@
    "todo": [
     "Учебник English File Pre-intermediate: урок 12C (Student's Book + Workbook) — с Айнурой и по её ДЗ",
     "Сайт: тема «Subject questions (Who called? What happened?)» — теория, 3 уровня и Босс",
+    "Книга по грамматике: Grammar in Use (красная): юниты 49; если тема трудная — Essential Grammar in Use (синяя): юниты 45 — упражнения в книге, проверка по ключам",
     "Слова урока: «Questions and quizzes; review» + рабочая лексика — 15 карточек",
     "Говорение: пересказ + 2 вопроса (speaking-file12.json)"
    ],
    "speaking": "Ask 6 questions about an incident at work.",
-   "vocabTopic": "Questions and quizzes; review"
+   "vocabTopic": "Questions and quizzes; review",
+   "books": {
+    "grammarInUse": [
+     49
+    ],
+    "essentialGrammarInUse": [
+     45
+    ]
+   },
+   "extraGrammar": [
+    "indirect-questions"
+   ]
   }
- ]
+ ],
+ "goal": "Intermediate (B1) by March 2027",
+ "books": {
+  "grammarInUse": "Raymond Murphy, English Grammar in Use, 5th ed. (Cambridge, 2019) — red, intermediate",
+  "essentialGrammarInUse": "Raymond Murphy, Essential Grammar in Use, 4th ed. (Cambridge, 2015) — blue, elementary",
+  "note": "Only unit numbers are referenced. No text or exercises are copied from the books."
+ }
 }

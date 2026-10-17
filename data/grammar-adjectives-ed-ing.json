@@ -1,0 +1,238 @@
+{
+ "id": "adjectives-ed-ing",
+ "title": "Adjectives ending -ed and -ing",
+ "level": "B1",
+ "unit": "4C",
+ "units": [
+  "4C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   98
+  ],
+  "essentialGrammarInUse": [
+   85
+  ]
+ },
+ "en": "<p><b>-ed</b> adjectives describe how a <b>person feels</b>: <i>I'm <b>bored</b>. She was <b>surprised</b>. We were <b>tired</b>.</i></p><p><b>-ing</b> adjectives describe the <b>thing or person that causes</b> the feeling: <i>The meeting was <b>boring</b>. The results were <b>surprising</b>. It was a <b>tiring</b> day.</i></p><p>Common pairs: <i>interested / interesting, excited / exciting, worried / worrying, confused / confusing, disappointed / disappointing, embarrassed / embarrassing, relaxed / relaxing, amazed / amazing</i>.</p>",
+ "ru": "-ed — что чувствует человек (I'm bored — мне скучно). -ing — что вызывает чувство (The meeting is boring — совещание скучное). Пары: interested/interesting, worried/worrying, confused/confusing, disappointed/disappointing.",
+ "boss": {
+  "situation": "Describe your last week at work: 3 sentences about how you felt (-ed) and 3 about things or events (-ing).",
+  "samples": [
+   "On Monday I was very tired after the trip.",
+   "The training on Tuesday was really interesting.",
+   "I was surprised by the audit results.",
+   "The new procedure is a bit confusing.",
+   "I'm excited about the new project.",
+   "It was a tiring but satisfying week."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "The film was so ___ that I fell asleep.",
+   "opts": [
+    "bored",
+    "boring"
+   ],
+   "a": 1,
+   "exp": "The film causes the feeling → boring.",
+   "ru": "Фильм скучный — boring.",
+   "stage": 1,
+   "id": "f-edi-1"
+  },
+  {
+   "type": "mc",
+   "q": "I'm ___ in risk management.",
+   "opts": [
+    "interested",
+    "interesting"
+   ],
+   "a": 0,
+   "exp": "How I feel → interested.",
+   "ru": "Мне интересно — interested.",
+   "stage": 1,
+   "id": "f-edi-2"
+  },
+  {
+   "type": "mc",
+   "q": "The instructions are very ___. Nobody understands them.",
+   "opts": [
+    "confused",
+    "confusing"
+   ],
+   "a": 1,
+   "exp": "Instructions cause confusion → confusing.",
+   "ru": "Инструкции запутанные — confusing.",
+   "stage": 1,
+   "id": "f-edi-3"
+  },
+  {
+   "type": "mc",
+   "q": "She was ___ when she got the job offer.",
+   "opts": [
+    "excited",
+    "exciting"
+   ],
+   "a": 0,
+   "exp": "Her feeling → excited.",
+   "ru": "Она взволнована — excited.",
+   "stage": 1,
+   "id": "f-edi-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I am boring” means the same as “I am bored”.",
+   "a": false,
+   "exp": "I am boring = other people find me boring!",
+   "ru": "boring — я скучный человек!",
+   "stage": 1,
+   "id": "f-edi-5"
+  },
+  {
+   "type": "tf",
+   "q": "“The results were disappointing” describes the results.",
+   "a": true,
+   "exp": "-ing describes the cause.",
+   "ru": "-ing — сами результаты.",
+   "stage": 1,
+   "id": "f-edi-6"
+  },
+  {
+   "type": "gap",
+   "q": "We were very ___ (worry) about the deadline.",
+   "a": [
+    "worried"
+   ],
+   "exp": "Feeling → worried.",
+   "ru": "worried.",
+   "stage": 2,
+   "id": "f-edi-7"
+  },
+  {
+   "type": "gap",
+   "q": "It was an ___ (amaze) presentation.",
+   "a": [
+    "amazing"
+   ],
+   "exp": "The presentation causes the feeling → amazing.",
+   "ru": "amazing.",
+   "stage": 2,
+   "id": "f-edi-8"
+  },
+  {
+   "type": "gap",
+   "q": "I feel ___ (relax) after a walk.",
+   "a": [
+    "relaxed"
+   ],
+   "exp": "Feeling → relaxed.",
+   "ru": "relaxed.",
+   "stage": 2,
+   "id": "f-edi-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the new system is very confusing",
+   "exp": "Cause → -ing.",
+   "ru": "confusing.",
+   "stage": 2,
+   "id": "f-edi-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i was surprised by the results",
+   "exp": "Feeling → -ed.",
+   "ru": "surprised.",
+   "stage": 2,
+   "id": "f-edi-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it was a really tiring day",
+   "exp": "Thing → -ing.",
+   "ru": "tiring.",
+   "stage": 2,
+   "id": "f-edi-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm very interesting in finance.”",
+   "a": [
+    "I'm very interested in finance.",
+    "I am very interested in finance."
+   ],
+   "exp": "Feeling → interested.",
+   "ru": "interested.",
+   "stage": 3,
+   "id": "f-edi-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The meeting was very bored.”",
+   "a": [
+    "The meeting was very boring."
+   ],
+   "exp": "Thing → boring.",
+   "ru": "boring.",
+   "stage": 3,
+   "id": "f-edi-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “We were disappointing with the results.”",
+   "a": [
+    "We were disappointed with the results.",
+    "We were disappointed by the results."
+   ],
+   "exp": "Feeling → disappointed.",
+   "ru": "disappointed.",
+   "stage": 3,
+   "id": "f-edi-15"
+  },
+  {
+   "type": "tr",
+   "q": "Мне было скучно на совещании.",
+   "a": [
+    "I was bored at the meeting.",
+    "I was bored in the meeting.",
+    "I was bored during the meeting."
+   ],
+   "exp": "Feeling → bored.",
+   "ru": "bored.",
+   "stage": 3,
+   "id": "f-edi-16"
+  },
+  {
+   "type": "tr",
+   "q": "Это очень интересный проект.",
+   "a": [
+    "This is a very interesting project.",
+    "It's a very interesting project.",
+    "It is a very interesting project."
+   ],
+   "exp": "Thing → interesting.",
+   "ru": "interesting.",
+   "stage": 3,
+   "id": "f-edi-17"
+  },
+  {
+   "type": "tr",
+   "q": "Я устал после долгого дня.",
+   "a": [
+    "I'm tired after a long day.",
+    "I am tired after a long day.",
+    "I was tired after a long day.",
+    "I'm tired after the long day."
+   ],
+   "exp": "Feeling → tired.",
+   "ru": "tired.",
+   "stage": 3,
+   "id": "f-edi-18"
+  }
+ ]
+}

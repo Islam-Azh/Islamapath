@@ -33,7 +33,11 @@
    "exp": "Result now → Present Perfect.",
    "ru": "Результат сейчас — have lost.",
    "id": "f-pp-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "mc",
@@ -47,7 +51,11 @@
    "exp": "Last year → Past Simple.",
    "ru": "Last year — went.",
    "id": "f-pp-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "mc",
@@ -61,7 +69,10 @@
    "exp": "Question, end of sentence → yet.",
    "ru": "В вопросе в конце — yet.",
    "id": "f-pp-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "mc",
@@ -75,7 +86,10 @@
    "exp": "A very short time ago → just.",
    "ru": "Только что — just.",
    "id": "f-pp-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "mc",
@@ -89,7 +103,11 @@
    "exp": "Experience → Have you ever…?",
    "ru": "Опыт — Have you ever.",
    "id": "f-pp-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "mc",
@@ -103,7 +121,10 @@
    "exp": "Negative → yet at the end.",
    "ru": "В отрицании — yet.",
    "id": "f-pp-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "mc",
@@ -117,7 +138,11 @@
    "exp": "Question with when → Past Simple.",
    "ru": "When — did.",
    "id": "f-pp-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "mc",
@@ -131,7 +156,11 @@
    "exp": "write – wrote – written.",
    "ru": "written.",
    "id": "f-pp-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "mc",
@@ -145,7 +174,10 @@
    "exp": "Earlier than expected → already.",
    "ru": "Уже — already.",
    "id": "f-pp-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "mc",
@@ -159,7 +191,11 @@
    "exp": "Experience → have never had.",
    "ru": "Опыт — have never had.",
    "id": "f-pp-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tf",
@@ -168,7 +204,11 @@
    "exp": "Yesterday → I saw him yesterday.",
    "ru": "С yesterday — Past Simple.",
    "id": "f-pp-11",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tf",
@@ -177,7 +217,11 @@
    "exp": "has gone = went and is still there; has been = went and came back.",
    "ru": "gone — ещё там.",
    "id": "f-pp-12",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "gap",
@@ -189,7 +233,10 @@
    "exp": "already between have and the participle.",
    "ru": "have already sent.",
    "id": "f-pp-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "gap",
@@ -200,7 +247,11 @@
    "exp": "Experience → have + been.",
    "ru": "Have … been.",
    "id": "f-pp-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "gap",
@@ -212,7 +263,10 @@
    "exp": "Negative + yet.",
    "ru": "hasn't finished.",
    "id": "f-pp-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "gap",
@@ -223,7 +277,11 @@
    "exp": "Last Monday → Past Simple.",
    "ru": "Last Monday — met.",
    "id": "f-pp-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "gap",
@@ -234,7 +292,10 @@
    "exp": "just + past participle.",
    "ru": "just had.",
    "id": "f-pp-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "gap",
@@ -245,7 +306,11 @@
    "exp": "This month (not finished) → have.",
    "ru": "have.",
    "id": "f-pp-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "order",
@@ -254,7 +319,10 @@
    "exp": "yet at the end of the question.",
    "ru": "yet — в конце.",
    "id": "f-pp-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "order",
@@ -263,7 +331,10 @@
    "exp": "just between have and the participle.",
    "ru": "have just spoken.",
    "id": "f-pp-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "order",
@@ -272,7 +343,11 @@
    "exp": "never between has and the participle.",
    "ru": "has never been.",
    "id": "f-pp-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "order",
@@ -281,7 +356,10 @@
    "exp": "already in the middle.",
    "ru": "have already approved.",
    "id": "f-pp-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "order",
@@ -290,7 +368,11 @@
    "exp": "when → Past Simple.",
    "ru": "When did…",
    "id": "f-pp-23",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "order",
@@ -299,7 +381,10 @@
    "exp": "Negative + yet.",
    "ru": "have not … yet.",
    "id": "f-pp-24",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "fix",
@@ -310,7 +395,11 @@
    "exp": "Last week → Past Simple.",
    "ru": "Last week — finished.",
    "id": "f-pp-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "fix",
@@ -322,7 +411,11 @@
    "exp": "Life experience → Have you ever…?",
    "ru": "Опыт — Have you ever.",
    "id": "f-pp-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "fix",
@@ -333,7 +426,11 @@
    "exp": "go – went – gone.",
    "ru": "has gone.",
    "id": "f-pp-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "fix",
@@ -345,7 +442,10 @@
    "exp": "yet goes at the end.",
    "ru": "yet — в конце.",
    "id": "f-pp-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "fix",
@@ -356,7 +456,11 @@
    "exp": "when → Past Simple.",
    "ru": "When — did.",
    "id": "f-pp-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "fix",
@@ -368,7 +472,10 @@
    "exp": "already goes between has and the participle.",
    "ru": "has already signed.",
    "id": "f-pp-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "tr",
@@ -381,7 +488,10 @@
    "exp": "already + Present Perfect.",
    "ru": "already sent.",
    "id": "f-pp-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "tr",
@@ -392,7 +502,11 @@
    "exp": "Experience → Have you ever…",
    "ru": "Have you ever.",
    "id": "f-pp-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tr",
@@ -408,7 +522,10 @@
    "exp": "just + Present Perfect.",
    "ru": "just spoken.",
    "id": "f-pp-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "tr",
@@ -422,7 +539,10 @@
    "exp": "Negative + yet.",
    "ru": "hasn't … yet.",
    "id": "f-pp-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "tr",
@@ -434,7 +554,11 @@
    "exp": "Experience → never been.",
    "ru": "never been.",
    "id": "f-pp-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tr",
@@ -445,7 +569,11 @@
    "exp": "Last year → Past Simple.",
    "ru": "met.",
    "id": "f-pp-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tr",
@@ -459,7 +587,10 @@
    "exp": "Question → yet (or already).",
    "ru": "yet.",
    "id": "f-pp-37",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4A"
+   ]
   },
   {
    "type": "tr",
@@ -472,7 +603,11 @@
    "exp": "when → Past Simple.",
    "ru": "When did.",
    "id": "f-pp-38",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tr",
@@ -487,7 +622,11 @@
    "exp": "Result now → Present Perfect.",
    "ru": "have lost.",
    "id": "f-pp-39",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   },
   {
    "type": "tr",
@@ -499,7 +638,11 @@
    "exp": "gone = still there.",
    "ru": "has gone.",
    "id": "f-pp-40",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "4B",
+    "9C"
+   ]
   }
  ]
 }

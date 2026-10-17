@@ -107,7 +107,8 @@
   "topic": "Health and the body",
   "unit": "5C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "forecast",
@@ -117,17 +118,19 @@
   "topic": "Health and the body",
   "unit": "5C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
-  "word": "figure",
-  "ipa": "/ˈfɪɡə/",
-  "ru": "цифра",
-  "ex": "This figure looks wrong.",
+  "word": "percentage",
+  "ipa": "/pəˈsentɪdʒ/",
+  "ru": "процентная доля",
+  "ex": "What percentage of invoices were paid late?",
   "topic": "Health and the body",
   "unit": "5C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "rate",
@@ -137,7 +140,8 @@
   "topic": "Health and the body",
   "unit": "5C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "half",
@@ -147,6 +151,7 @@
   "topic": "Health and the body",
   "unit": "5C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

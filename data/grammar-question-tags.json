@@ -1,0 +1,237 @@
+{
+ "id": "question-tags",
+ "title": "Question tags (…, isn't it? …, don't you?)",
+ "level": "B1",
+ "unit": "11C",
+ "units": [
+  "11C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   52
+  ],
+  "essentialGrammarInUse": [
+   41
+  ]
+ },
+ "en": "<p>A <b>question tag</b> is a short question at the end of a sentence. We use it to check information or to invite the other person to agree.</p><p><b>Positive sentence → negative tag</b>: <i>It's cold, <b>isn't it</b>? You work in finance, <b>don't you</b>?</i></p><p><b>Negative sentence → positive tag</b>: <i>You aren't busy, <b>are you</b>? He didn't call, <b>did he</b>?</i></p><p>Use the same auxiliary (am/is/are, do/does/did, have, can, will…). No auxiliary in the sentence → <b>do / does / did</b>. Special: <i>I'm late, <b>aren't I</b>? Let's start, <b>shall we</b>?</i></p>",
+ "ru": "Хвостик-вопрос: утверждение → отрицательный хвост (It's cold, isn't it?), отрицание → положительный (You aren't busy, are you?). Тот же вспомогательный глагол; если его нет — do/does/did. Исключения: I'm…, aren't I? Let's…, shall we?",
+ "boss": {
+  "situation": "You are meeting a new colleague. Check 5 facts about them with question tags (both positive and negative sentences).",
+  "samples": [
+   "You're from Almaty, aren't you?",
+   "You joined the company last month, didn't you?",
+   "You haven't worked in audit before, have you?",
+   "You can speak Kazakh, can't you?",
+   "You don't have a meeting now, do you?"
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "It's a nice day, ___?",
+   "opts": [
+    "is it",
+    "isn't it",
+    "doesn't it"
+   ],
+   "a": 1,
+   "exp": "Positive → negative tag with is.",
+   "ru": "isn't it.",
+   "stage": 1,
+   "id": "f-qt-1"
+  },
+  {
+   "type": "mc",
+   "q": "You work in finance, ___?",
+   "opts": [
+    "don't you",
+    "aren't you",
+    "do you"
+   ],
+   "a": 0,
+   "exp": "No auxiliary → do; positive → don't you.",
+   "ru": "don't you.",
+   "stage": 1,
+   "id": "f-qt-2"
+  },
+  {
+   "type": "mc",
+   "q": "She didn't come, ___?",
+   "opts": [
+    "didn't she",
+    "did she",
+    "does she"
+   ],
+   "a": 1,
+   "exp": "Negative → positive tag.",
+   "ru": "did she.",
+   "stage": 1,
+   "id": "f-qt-3"
+  },
+  {
+   "type": "mc",
+   "q": "They have finished, ___?",
+   "opts": [
+    "haven't they",
+    "didn't they",
+    "have they"
+   ],
+   "a": 0,
+   "exp": "Same auxiliary have.",
+   "ru": "haven't they.",
+   "stage": 1,
+   "id": "f-qt-4"
+  },
+  {
+   "type": "tf",
+   "q": "“You can swim, can you?” is correct.",
+   "a": false,
+   "exp": "Positive → negative: can't you?",
+   "ru": "can't you.",
+   "stage": 1,
+   "id": "f-qt-5"
+  },
+  {
+   "type": "tf",
+   "q": "“I'm right, aren't I?” is correct.",
+   "a": true,
+   "exp": "I am → aren't I (special).",
+   "ru": "aren't I.",
+   "stage": 1,
+   "id": "f-qt-6"
+  },
+  {
+   "type": "gap",
+   "q": "He'll be here soon, ___ he?",
+   "a": [
+    "won't"
+   ],
+   "exp": "will → won't.",
+   "ru": "won't.",
+   "stage": 2,
+   "id": "f-qt-7"
+  },
+  {
+   "type": "gap",
+   "q": "You aren't tired, ___ you?",
+   "a": [
+    "are"
+   ],
+   "exp": "Negative → positive.",
+   "ru": "are.",
+   "stage": 2,
+   "id": "f-qt-8"
+  },
+  {
+   "type": "gap",
+   "q": "Let's start, ___ we?",
+   "a": [
+    "shall"
+   ],
+   "exp": "Let's → shall we.",
+   "ru": "shall.",
+   "stage": 2,
+   "id": "f-qt-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "you are not busy are you",
+   "exp": "Negative sentence → positive tag.",
+   "ru": "are you.",
+   "stage": 2,
+   "id": "f-qt-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "he did not call did he",
+   "exp": "Negative Past Simple → did he.",
+   "ru": "did he.",
+   "stage": 2,
+   "id": "f-qt-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we will not be late will we",
+   "exp": "Negative with will → will we.",
+   "ru": "will we.",
+   "stage": 2,
+   "id": "f-qt-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “You're the new auditor, isn't it?”",
+   "a": [
+    "You're the new auditor, aren't you?",
+    "You are the new auditor, aren't you?"
+   ],
+   "exp": "you are → aren't you.",
+   "ru": "aren't you.",
+   "stage": 3,
+   "id": "f-qt-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He works here, isn't he?”",
+   "a": [
+    "He works here, doesn't he?"
+   ],
+   "exp": "No auxiliary → does.",
+   "ru": "doesn't he.",
+   "stage": 3,
+   "id": "f-qt-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “They didn't sign it, didn't they?”",
+   "a": [
+    "They didn't sign it, did they?"
+   ],
+   "exp": "Negative → positive tag.",
+   "ru": "did they.",
+   "stage": 3,
+   "id": "f-qt-15"
+  },
+  {
+   "type": "tr",
+   "q": "Ты ведь из Атырау, да?",
+   "a": [
+    "You're from Atyrau, aren't you?",
+    "You are from Atyrau, aren't you?"
+   ],
+   "exp": "Positive → aren't you.",
+   "ru": "aren't you?",
+   "stage": 3,
+   "id": "f-qt-16"
+  },
+  {
+   "type": "tr",
+   "q": "Отчёт ещё не готов, да?",
+   "a": [
+    "The report isn't ready yet, is it?",
+    "The report is not ready yet, is it?"
+   ],
+   "exp": "Negative → is it.",
+   "ru": "is it?",
+   "stage": 3,
+   "id": "f-qt-17"
+  },
+  {
+   "type": "tr",
+   "q": "Ты вчера звонил поставщику, правда?",
+   "a": [
+    "You called the supplier yesterday, didn't you?",
+    "You phoned the supplier yesterday, didn't you?",
+    "You rang the supplier yesterday, didn't you?"
+   ],
+   "exp": "Past Simple → didn't you.",
+   "ru": "didn't you?",
+   "stage": 3,
+   "id": "f-qt-18"
+  }
+ ]
+}

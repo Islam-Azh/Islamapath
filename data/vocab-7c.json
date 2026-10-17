@@ -107,17 +107,19 @@
   "topic": "Rules and obligations; school",
   "unit": "7C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "hard hat",
   "ipa": "/hɑːd hæt/",
-  "ru": "каска",
+  "ru": "защитная каска",
   "ex": "Wear a hard hat in this area.",
   "topic": "Rules and obligations; school",
   "unit": "7C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "flammable",
@@ -127,7 +129,8 @@
   "topic": "Rules and obligations; school",
   "unit": "7C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "risk assessment",
@@ -137,7 +140,8 @@
   "topic": "Rules and obligations; school",
   "unit": "7C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "near miss",
@@ -147,6 +151,7 @@
   "topic": "Rules and obligations; school",
   "unit": "7C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  }
 ]

@@ -42,7 +42,7 @@
  {
   "word": "take back",
   "ipa": "/teɪk bæk/",
-  "ru": "вернуть (в магазин)",
+  "ru": "вернуть товар (в магазин), отнести обратно",
   "ex": "I took the shoes back because they were small.",
   "topic": "Shopping",
   "unit": "4B",
@@ -107,7 +107,8 @@
   "topic": "Shopping",
   "unit": "4B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "promotion",
@@ -117,7 +118,8 @@
   "topic": "Shopping",
   "unit": "4B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "department",
@@ -127,7 +129,8 @@
   "topic": "Shopping",
   "unit": "4B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "report to",
@@ -137,7 +140,8 @@
   "topic": "Shopping",
   "unit": "4B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "responsible for",
@@ -147,6 +151,7 @@
   "topic": "Shopping",
   "unit": "4B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

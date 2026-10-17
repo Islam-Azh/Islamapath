@@ -107,7 +107,8 @@
   "topic": "Biographies; career",
   "unit": "9C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "salary expectations",
@@ -117,7 +118,8 @@
   "topic": "Biographies; career",
   "unit": "9C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "benefits",
@@ -127,7 +129,8 @@
   "topic": "Biographies; career",
   "unit": "9C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "full-time",
@@ -137,7 +140,8 @@
   "topic": "Biographies; career",
   "unit": "9C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "shift",
@@ -147,6 +151,7 @@
   "topic": "Biographies; career",
   "unit": "9C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

@@ -1,0 +1,247 @@
+{
+ "id": "present-perfect-continuous",
+ "title": "Present Perfect Continuous (I have been doing)",
+ "level": "B1",
+ "unit": "9B",
+ "units": [
+  "9B"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   9,
+   10
+  ],
+  "essentialGrammarInUse": [
+   18
+  ]
+ },
+ "en": "<p><b>have / has been + -ing</b> — an activity that started in the past and is still going on (or just stopped), often with <b>for, since, how long</b>: <i>I'<b>ve been working</b> here <b>for</b> six years. How long <b>have</b> you <b>been learning</b> English?</i></p><p>Also for a recent activity with a visible result: <i>You look tired. — I'<b>ve been preparing</b> for the audit all day.</i></p><p><b>Continuous</b> = the activity, how long. <b>Simple</b> = the result, how many: <i>I've been writing reports all morning. I've written three reports.</i></p><p>State verbs (know, like, have = own) stay simple: <i>I'<b>ve known</b> him for years.</i></p>",
+ "ru": "have/has been + -ing — действие началось в прошлом и продолжается до сих пор (for, since, how long): I've been working here for six years. Continuous — процесс, как долго; Simple — результат, сколько. Глаголы состояния (know, like) — только Simple: I've known him for years.",
+ "boss": {
+  "situation": "Talk about your job and your English: 3 sentences with have been + -ing (how long) and 2 with the Present Perfect Simple (results).",
+  "samples": [
+   "I've been working in internal control for six years.",
+   "I've been learning English with Ainura since September.",
+   "Recently I've been preparing for an audit.",
+   "I've already tested twelve controls this month.",
+   "I've known my manager for a long time."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I ___ here since 2019.",
+   "opts": [
+    "work",
+    "have been working",
+    "am working"
+   ],
+   "a": 1,
+   "exp": "Since + still continues → Present Perfect Continuous.",
+   "ru": "С 2019 и до сих пор — have been working.",
+   "stage": 1,
+   "id": "f-ppc-1"
+  },
+  {
+   "type": "mc",
+   "q": "How long ___ learning English?",
+   "opts": [
+    "are you",
+    "have you been",
+    "do you"
+   ],
+   "a": 1,
+   "exp": "How long + still going → have you been.",
+   "ru": "How long have you been.",
+   "stage": 1,
+   "id": "f-ppc-2"
+  },
+  {
+   "type": "mc",
+   "q": "I've ___ him for ten years.",
+   "opts": [
+    "been knowing",
+    "known"
+   ],
+   "a": 1,
+   "exp": "know is a state verb → simple.",
+   "ru": "known.",
+   "stage": 1,
+   "id": "f-ppc-3"
+  },
+  {
+   "type": "mc",
+   "q": "You look tired. — I ___ all day.",
+   "opts": [
+    "have been travelling",
+    "travel",
+    "have travelled"
+   ],
+   "a": 0,
+   "exp": "Recent activity with a visible result → continuous.",
+   "ru": "Процесс, видимый результат.",
+   "stage": 1,
+   "id": "f-ppc-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I've been writing three reports today” is the best choice.",
+   "a": false,
+   "exp": "Number of results → simple: I've written three reports.",
+   "ru": "Количество — Simple.",
+   "stage": 1,
+   "id": "f-ppc-5"
+  },
+  {
+   "type": "tf",
+   "q": "“She has been waiting for an hour” means she is still waiting.",
+   "a": true,
+   "exp": "Continuous with for → still going on.",
+   "ru": "Всё ещё ждёт.",
+   "stage": 1,
+   "id": "f-ppc-6"
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (wait) for the documents since Monday.",
+   "a": [
+    "have been waiting",
+    "'ve been waiting"
+   ],
+   "exp": "Since + still → have been waiting.",
+   "ru": "have been waiting.",
+   "stage": 2,
+   "id": "f-ppc-7"
+  },
+  {
+   "type": "gap",
+   "q": "How long has she ___ (work) in this department?",
+   "a": [
+    "been working"
+   ],
+   "exp": "has been + -ing.",
+   "ru": "been working.",
+   "stage": 2,
+   "id": "f-ppc-8"
+  },
+  {
+   "type": "gap",
+   "q": "It ___ (rain) all morning. The roads are wet.",
+   "a": [
+    "has been raining",
+    "'s been raining"
+   ],
+   "exp": "Activity until now, visible result.",
+   "ru": "has been raining.",
+   "stage": 2,
+   "id": "f-ppc-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have been working here for six years",
+   "exp": "have been + -ing + for.",
+   "ru": "have been working.",
+   "stage": 2,
+   "id": "f-ppc-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "how long have you been studying english",
+   "exp": "Question: how long have you been + -ing.",
+   "ru": "how long have you been.",
+   "stage": 2,
+   "id": "f-ppc-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "they have been testing the system since june",
+   "exp": "since + start point.",
+   "ru": "since June.",
+   "stage": 2,
+   "id": "f-ppc-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am working here since 2018.”",
+   "a": [
+    "I have been working here since 2018.",
+    "I've been working here since 2018.",
+    "I have worked here since 2018.",
+    "I've worked here since 2018."
+   ],
+   "exp": "since → Present Perfect, not Present Continuous.",
+   "ru": "Не am working.",
+   "stage": 3,
+   "id": "f-ppc-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “How long are you waiting?”",
+   "a": [
+    "How long have you been waiting?"
+   ],
+   "exp": "How long + until now → have you been waiting.",
+   "ru": "have you been waiting.",
+   "stage": 3,
+   "id": "f-ppc-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I have been knowing her since school.”",
+   "a": [
+    "I have known her since school.",
+    "I've known her since school."
+   ],
+   "exp": "know → simple.",
+   "ru": "have known.",
+   "stage": 3,
+   "id": "f-ppc-15"
+  },
+  {
+   "type": "tr",
+   "q": "Я изучаю английский уже два года.",
+   "a": [
+    "I have been learning English for two years.",
+    "I've been learning English for two years.",
+    "I have been studying English for two years.",
+    "I've been studying English for two years."
+   ],
+   "exp": "for + still going.",
+   "ru": "have been learning.",
+   "stage": 3,
+   "id": "f-ppc-16"
+  },
+  {
+   "type": "tr",
+   "q": "Как долго ты здесь работаешь?",
+   "a": [
+    "How long have you been working here?",
+    "How long have you worked here?"
+   ],
+   "exp": "How long + until now.",
+   "ru": "How long have you been working.",
+   "stage": 3,
+   "id": "f-ppc-17"
+  },
+  {
+   "type": "tr",
+   "q": "Мы ждём с девяти утра.",
+   "a": [
+    "We have been waiting since nine a.m.",
+    "We've been waiting since nine a.m.",
+    "We have been waiting since 9 a.m.",
+    "We've been waiting since 9 a.m.",
+    "We have been waiting since nine o'clock.",
+    "We've been waiting since nine in the morning."
+   ],
+   "exp": "since + start.",
+   "ru": "have been waiting since.",
+   "stage": 3,
+   "id": "f-ppc-18"
+  }
+ ]
+}

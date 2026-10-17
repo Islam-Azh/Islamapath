@@ -107,7 +107,8 @@
   "topic": "Housework, make or do",
   "unit": "4A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "finding",
@@ -117,7 +118,8 @@
   "topic": "Housework, make or do",
   "unit": "4A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "evidence",
@@ -127,7 +129,8 @@
   "topic": "Housework, make or do",
   "unit": "4A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "compliance",
@@ -137,7 +140,8 @@
   "topic": "Housework, make or do",
   "unit": "4A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "recommendation",
@@ -147,6 +151,7 @@
   "topic": "Housework, make or do",
   "unit": "4A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Audit"
  }
 ]

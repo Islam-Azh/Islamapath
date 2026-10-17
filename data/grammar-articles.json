@@ -1,0 +1,250 @@
+{
+ "id": "articles",
+ "title": "Articles: a / an, the, no article",
+ "level": "A2",
+ "unit": "1A",
+ "units": [
+  "1A"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   72,
+   73,
+   74,
+   75
+  ],
+  "essentialGrammarInUse": [
+   65,
+   69,
+   70,
+   71,
+   72
+  ]
+ },
+ "en": "<p><b>a / an</b> — one thing, first time we mention it, or a job: <i>I work in <b>a</b> big company. She's <b>an</b> auditor.</i> <b>an</b> before a vowel sound: <i>an hour, an email, a university.</i></p><p><b>the</b> — we both know which one; there is only one; second mention: <i>Can you close <b>the</b> door? <b>The</b> director wants to see you. I read a report. <b>The</b> report was long.</i></p><p><b>No article</b> — things in general (plural or uncountable): <i><b>Safety</b> is important. I like <b>numbers</b>.</i> Also: <i>at work, at home, go to bed, by car, on Monday, in 2025</i>.</p>",
+ "ru": "a/an — один, впервые, профессия (an перед гласным звуком: an hour). the — понятно какой, единственный, уже упоминали. Без артикля — вообще (Safety is important), at work, at home, by car, on Monday.",
+ "boss": {
+  "situation": "Describe your company and your job in 5 sentences. Use a / an, the and no article at least once each.",
+  "samples": [
+   "I work for an oil refinery in Atyrau.",
+   "The refinery is a subsidiary of a big national company.",
+   "I am a specialist in internal control.",
+   "The head of our department is very experienced.",
+   "I think safety is the most important thing at work."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "She's ___ engineer.",
+   "opts": [
+    "a",
+    "an",
+    "the"
+   ],
+   "a": 1,
+   "exp": "Job + vowel sound → an engineer.",
+   "ru": "Профессия, гласный звук — an.",
+   "stage": 1,
+   "id": "f-art-1"
+  },
+  {
+   "type": "mc",
+   "q": "Can you open ___ window, please? It's hot.",
+   "opts": [
+    "a",
+    "the",
+    "—"
+   ],
+   "a": 1,
+   "exp": "We both know which window → the.",
+   "ru": "Понятно какое — the.",
+   "stage": 1,
+   "id": "f-art-2"
+  },
+  {
+   "type": "mc",
+   "q": "___ is very important in our industry.",
+   "opts": [
+    "The safety",
+    "Safety",
+    "A safety"
+   ],
+   "a": 1,
+   "exp": "General idea, uncountable → no article.",
+   "ru": "Вообще — без артикля.",
+   "stage": 1,
+   "id": "f-art-3"
+  },
+  {
+   "type": "mc",
+   "q": "I waited for ___ hour.",
+   "opts": [
+    "a",
+    "an",
+    "the"
+   ],
+   "a": 1,
+   "exp": "hour starts with a vowel sound /aʊ/ → an.",
+   "ru": "an hour — h не читается.",
+   "stage": 1,
+   "id": "f-art-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I go to the work by bus” is correct.",
+   "a": false,
+   "exp": "at work / go to work — no article.",
+   "ru": "go to work — без the.",
+   "stage": 1,
+   "id": "f-art-5"
+  },
+  {
+   "type": "tf",
+   "q": "“The sun rises in the east” uses the correctly.",
+   "a": true,
+   "exp": "Only one sun → the.",
+   "ru": "Единственный — the.",
+   "stage": 1,
+   "id": "f-art-6"
+  },
+  {
+   "type": "gap",
+   "q": "I read a report yesterday. ___ report was very long.",
+   "a": [
+    "The"
+   ],
+   "exp": "Second mention → the.",
+   "ru": "Второй раз — the.",
+   "stage": 2,
+   "id": "f-art-7"
+  },
+  {
+   "type": "gap",
+   "q": "He is ___ university student.",
+   "a": [
+    "a"
+   ],
+   "exp": "university starts with the sound /j/ → a.",
+   "ru": "a university — звук /ju/.",
+   "stage": 2,
+   "id": "f-art-8"
+  },
+  {
+   "type": "gap",
+   "q": "___ moon is very bright tonight.",
+   "a": [
+    "The"
+   ],
+   "exp": "Only one moon → the.",
+   "ru": "Единственная — the.",
+   "stage": 2,
+   "id": "f-art-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the director wants to see you",
+   "exp": "Only one director here → the.",
+   "ru": "Конкретный директор — the.",
+   "stage": 2,
+   "id": "f-art-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i work in an international company",
+   "exp": "First mention, vowel sound → an.",
+   "ru": "an international.",
+   "stage": 2,
+   "id": "f-art-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we go to work by car",
+   "exp": "go to work, by car — no article.",
+   "ru": "Без артикля.",
+   "stage": 2,
+   "id": "f-art-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am auditor.”",
+   "a": [
+    "I am an auditor.",
+    "I'm an auditor."
+   ],
+   "exp": "Jobs need a/an.",
+   "ru": "Профессия — an auditor.",
+   "stage": 3,
+   "id": "f-art-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “The money is not everything.”",
+   "a": [
+    "Money is not everything.",
+    "Money isn't everything."
+   ],
+   "exp": "General idea → no article.",
+   "ru": "Вообще — без the.",
+   "stage": 3,
+   "id": "f-art-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Please send me a report you wrote yesterday.”",
+   "a": [
+    "Please send me the report you wrote yesterday."
+   ],
+   "exp": "We know which report → the.",
+   "ru": "Известный отчёт — the.",
+   "stage": 3,
+   "id": "f-art-15"
+  },
+  {
+   "type": "tr",
+   "q": "Я работаю в большой компании.",
+   "a": [
+    "I work in a big company.",
+    "I work for a big company.",
+    "I work at a big company.",
+    "I work in a large company.",
+    "I work for a large company."
+   ],
+   "exp": "First mention → a.",
+   "ru": "a big company.",
+   "stage": 3,
+   "id": "f-art-16"
+  },
+  {
+   "type": "tr",
+   "q": "Директор сейчас на совещании.",
+   "a": [
+    "The director is in a meeting now.",
+    "The director is at a meeting now.",
+    "The director is in a meeting at the moment.",
+    "The director is at a meeting at the moment."
+   ],
+   "exp": "The director (known); a meeting (one of many).",
+   "ru": "The director … a meeting.",
+   "stage": 3,
+   "id": "f-art-17"
+  },
+  {
+   "type": "tr",
+   "q": "Безопасность — наш главный приоритет.",
+   "a": [
+    "Safety is our main priority.",
+    "Safety is our top priority.",
+    "Safety is our first priority."
+   ],
+   "exp": "General idea → no article.",
+   "ru": "Safety без артикля.",
+   "stage": 3,
+   "id": "f-art-18"
+  }
+ ]
+}

@@ -107,7 +107,8 @@
   "topic": "Questions and quizzes; review",
   "unit": "12C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "shortlist",
@@ -117,7 +118,8 @@
   "topic": "Questions and quizzes; review",
   "unit": "12C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "probation period",
@@ -127,7 +129,8 @@
   "topic": "Questions and quizzes; review",
   "unit": "12C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "negotiate a salary",
@@ -137,7 +140,8 @@
   "topic": "Questions and quizzes; review",
   "unit": "12C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "accept an offer",
@@ -147,6 +151,7 @@
   "topic": "Questions and quizzes; review",
   "unit": "12C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

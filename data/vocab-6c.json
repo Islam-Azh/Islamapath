@@ -2,7 +2,7 @@
  {
   "word": "good at",
   "ipa": "/ɡʊd ət/",
-  "ru": "хорош в",
+  "ru": "хорошо уметь, быть сильным в (be good at)",
   "ex": "I'm good at numbers.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -12,7 +12,7 @@
  {
   "word": "bad at",
   "ipa": "/bæd ət/",
-  "ru": "плох в",
+  "ru": "плохо уметь, быть слабым в (be bad at)",
   "ex": "He's bad at remembering names.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -22,7 +22,7 @@
  {
   "word": "interested in",
   "ipa": "/ˈɪntrəstɪd ɪn/",
-  "ru": "интересующийся",
+  "ru": "интересоваться (be interested in)",
   "ex": "I'm interested in finance.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -32,7 +32,7 @@
  {
   "word": "keen on",
   "ipa": "/kiːn ɒn/",
-  "ru": "увлечённый, любящий",
+  "ru": "увлекаться, очень любить (be keen on)",
   "ex": "I'm keen on football.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -42,7 +42,7 @@
  {
   "word": "proud of",
   "ipa": "/praʊd əv/",
-  "ru": "гордый",
+  "ru": "гордиться (be proud of)",
   "ex": "I'm proud of my team.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -50,10 +50,10 @@
   "level": "A2"
  },
  {
-  "word": "worried about",
-  "ipa": "/ˈwʌrid əˈbaʊt/",
-  "ru": "обеспокоенный чем-то",
-  "ex": "I'm worried about the deadline.",
+  "word": "afraid of",
+  "ipa": "/əˈfreɪd əv/",
+  "ru": "бояться (be afraid of)",
+  "ex": "Many people are afraid of public speaking.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "unit",
@@ -62,7 +62,7 @@
  {
   "word": "angry with",
   "ipa": "/ˈæŋɡri wɪð/",
-  "ru": "злой на (кого-то)",
+  "ru": "злиться на (кого-то) (be angry with)",
   "ex": "The manager was angry with us.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -72,7 +72,7 @@
  {
   "word": "famous for",
   "ipa": "/ˈfeɪməs fə/",
-  "ru": "знаменитый чем-то",
+  "ru": "известный (чем-то) (be famous for)",
   "ex": "Atyrau is famous for oil and fish.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -82,7 +82,7 @@
  {
   "word": "tired of",
   "ipa": "/ˈtaɪəd əv/",
-  "ru": "уставший от",
+  "ru": "устать от (be tired of)",
   "ex": "I'm tired of long meetings.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -92,7 +92,7 @@
  {
   "word": "different from",
   "ipa": "/ˈdɪfrənt frəm/",
-  "ru": "отличающийся от",
+  "ru": "отличаться от (be different from)",
   "ex": "This job is different from my last one.",
   "topic": "Adjectives + prepositions",
   "unit": "6C",
@@ -107,7 +107,8 @@
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "skills",
@@ -117,7 +118,8 @@
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "strength",
@@ -127,7 +129,8 @@
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "weakness",
@@ -137,7 +140,8 @@
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "team player",
@@ -147,6 +151,7 @@
   "topic": "Adjectives + prepositions",
   "unit": "6C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

@@ -107,17 +107,19 @@
   "topic": "Personal information, common verb phrases",
   "unit": "1A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "applicant",
   "ipa": "/ˈæplɪkənt/",
-  "ru": "кандидат, соискатель",
+  "ru": "соискатель (тот, кто подал заявку)",
   "ex": "There were twenty applicants for the job.",
   "topic": "Personal information, common verb phrases",
   "unit": "1A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "CV",
@@ -127,7 +129,8 @@
   "topic": "Personal information, common verb phrases",
   "unit": "1A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "position",
@@ -137,7 +140,8 @@
   "topic": "Personal information, common verb phrases",
   "unit": "1A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "experience",
@@ -147,6 +151,7 @@
   "topic": "Personal information, common verb phrases",
   "unit": "1A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

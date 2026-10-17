@@ -107,7 +107,8 @@
   "topic": "Sports and movement",
   "unit": "11A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "performance",
@@ -117,27 +118,30 @@
   "topic": "Sports and movement",
   "unit": "11A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "deviation",
   "ipa": "/ˌdiːviˈeɪʃn/",
-  "ru": "отклонение",
+  "ru": "отступление (от правила или плана)",
   "ex": "Explain any deviation from the budget.",
   "topic": "Sports and movement",
   "unit": "11A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "variance",
   "ipa": "/ˈveəriəns/",
-  "ru": "расхождение, отклонение (факт/план)",
+  "ru": "отклонение факта от плана (бюджета)",
   "ex": "There is a big variance in costs.",
   "topic": "Sports and movement",
   "unit": "11A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "reconcile",
@@ -147,6 +151,7 @@
   "topic": "Sports and movement",
   "unit": "11A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

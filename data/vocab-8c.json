@@ -42,7 +42,7 @@
  {
   "word": "hard",
   "ipa": "/hɑːd/",
-  "ru": "усердно",
+  "ru": "усердно, много (work hard)",
   "ex": "He works very hard.",
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
@@ -107,7 +107,8 @@
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "storage tank",
@@ -117,7 +118,8 @@
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "valve",
@@ -127,7 +129,8 @@
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "spill",
@@ -137,7 +140,8 @@
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "environment",
@@ -147,6 +151,7 @@
   "topic": "Adverbs of manner; possessions",
   "unit": "8C",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  }
 ]

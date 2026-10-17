@@ -40,10 +40,10 @@
   "level": "A2"
  },
  {
-  "word": "switch off",
-  "ipa": "/swɪtʃ ɒf/",
-  "ru": "выключать",
-  "ex": "Switch off the lights when you leave.",
+  "word": "turn off",
+  "ipa": "/tɜːn ɒf/",
+  "ru": "выключать (↔ turn on)",
+  "ex": "Turn off the lights when you leave.",
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "unit",
@@ -62,7 +62,7 @@
  {
   "word": "turn on",
   "ipa": "/tɜːn ɒn/",
-  "ru": "включать",
+  "ru": "включать (↔ turn off)",
   "ex": "Turn on the projector, please.",
   "topic": "Opposite verbs",
   "unit": "6A",
@@ -107,7 +107,8 @@
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "leak",
@@ -117,7 +118,8 @@
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "emergency",
@@ -127,7 +129,8 @@
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "evacuate",
@@ -137,7 +140,8 @@
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "fire drill",
@@ -147,6 +151,7 @@
   "topic": "Opposite verbs",
   "unit": "6A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  }
 ]

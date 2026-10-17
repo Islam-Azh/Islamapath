@@ -32,7 +32,10 @@
    "exp": "Forbidden → mustn't.",
    "ru": "Запрет — mustn't.",
    "id": "f-mo-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -46,7 +49,10 @@
    "exp": "Not necessary → don't have to.",
    "ru": "Не обязательно — don't have to.",
    "id": "f-mo-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -60,7 +66,10 @@
    "exp": "Advice → should.",
    "ru": "Совет — should.",
    "id": "f-mo-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "mc",
@@ -74,7 +83,10 @@
    "exp": "Question about rules → Do you have to…?",
    "ru": "Do you have to.",
    "id": "f-mo-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -88,7 +100,10 @@
    "exp": "Past obligation → had to.",
    "ru": "В прошлом — had to.",
    "id": "f-mo-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -102,7 +117,10 @@
    "exp": "Written rule → must.",
    "ru": "Правило — must.",
    "id": "f-mo-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -116,7 +134,10 @@
    "exp": "she → has to.",
    "ru": "she — has to.",
    "id": "f-mo-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "mc",
@@ -130,7 +151,10 @@
    "exp": "Advice (negative) → shouldn't.",
    "ru": "Не стоит — shouldn't.",
    "id": "f-mo-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "tf",
@@ -139,7 +163,10 @@
    "exp": "don't have to = not necessary; mustn't = not allowed.",
    "ru": "Не обязательно, а не запрет.",
    "id": "f-mo-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tf",
@@ -148,7 +175,10 @@
    "exp": "must + infinitive without to: I must go.",
    "ru": "must go без to.",
    "id": "f-mo-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "gap",
@@ -160,7 +190,10 @@
    "exp": "Not necessary.",
    "ru": "don't have to.",
    "id": "f-mo-11",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "gap",
@@ -171,7 +204,10 @@
    "exp": "Past → had to.",
    "ru": "had to.",
    "id": "f-mo-12",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "gap",
@@ -183,7 +219,10 @@
    "exp": "Forbidden.",
    "ru": "mustn't.",
    "id": "f-mo-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "gap",
@@ -194,7 +233,10 @@
    "exp": "Advice.",
    "ru": "should.",
    "id": "f-mo-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "gap",
@@ -205,7 +247,10 @@
    "exp": "he → Does … have to.",
    "ru": "Does.",
    "id": "f-mo-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "gap",
@@ -217,7 +262,10 @@
    "exp": "Rule → must / have to.",
    "ru": "must / have to.",
    "id": "f-mo-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "order",
@@ -226,7 +274,10 @@
    "exp": "must + infinitive.",
    "ru": "must wear.",
    "id": "f-mo-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "order",
@@ -235,7 +286,10 @@
    "exp": "Not necessary.",
    "ru": "do not have to.",
    "id": "f-mo-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "order",
@@ -244,7 +298,10 @@
    "exp": "Past → had to.",
    "ru": "had to change.",
    "id": "f-mo-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "order",
@@ -253,7 +310,10 @@
    "exp": "Advice.",
    "ru": "should back up.",
    "id": "f-mo-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "order",
@@ -262,7 +322,10 @@
    "exp": "Question with have to.",
    "ru": "do we have to.",
    "id": "f-mo-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "order",
@@ -271,7 +334,10 @@
    "exp": "Forbidden.",
    "ru": "must not share.",
    "id": "f-mo-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -282,7 +348,10 @@
    "exp": "must + infinitive without to.",
    "ru": "must sign.",
    "id": "f-mo-23",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -293,7 +362,10 @@
    "exp": "she → has to.",
    "ru": "has to.",
    "id": "f-mo-24",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -305,7 +377,10 @@
    "exp": "Optional → don't have to.",
    "ru": "Не обязательно — don't have to.",
    "id": "f-mo-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -316,7 +391,10 @@
    "exp": "Past → had to.",
    "ru": "had to.",
    "id": "f-mo-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -328,7 +406,10 @@
    "exp": "Do I have to…? / Must I…?",
    "ru": "Do I have to.",
    "id": "f-mo-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "fix",
@@ -339,7 +420,10 @@
    "exp": "should + infinitive without to.",
    "ru": "should see.",
    "id": "f-mo-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "tr",
@@ -355,7 +439,10 @@
    "exp": "must / have to.",
    "ru": "must wear.",
    "id": "f-mo-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tr",
@@ -367,7 +454,10 @@
    "exp": "Not necessary.",
    "ru": "don't have to.",
    "id": "f-mo-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tr",
@@ -381,7 +471,10 @@
    "exp": "Forbidden.",
    "ru": "mustn't smoke.",
    "id": "f-mo-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tr",
@@ -396,7 +489,10 @@
    "exp": "Advice.",
    "ru": "should talk.",
    "id": "f-mo-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "tr",
@@ -409,7 +505,10 @@
    "exp": "Past → had to.",
    "ru": "had to stay.",
    "id": "f-mo-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tr",
@@ -420,7 +519,10 @@
    "exp": "Do you have to…?",
    "ru": "Do you have to.",
    "id": "f-mo-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   },
   {
    "type": "tr",
@@ -432,7 +534,10 @@
    "exp": "shouldn't.",
    "ru": "shouldn't.",
    "id": "f-mo-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8A"
+   ]
   },
   {
    "type": "tr",
@@ -446,7 +551,10 @@
    "exp": "Rule → must.",
    "ru": "must sign in.",
    "id": "f-mo-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "7C"
+   ]
   }
  ]
 }

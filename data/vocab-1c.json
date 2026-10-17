@@ -107,7 +107,8 @@
   "topic": "Clothes, prepositions of place",
   "unit": "1C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "asset",
@@ -117,7 +118,8 @@
   "topic": "Clothes, prepositions of place",
   "unit": "1C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "liability",
@@ -127,7 +129,8 @@
   "topic": "Clothes, prepositions of place",
   "unit": "1C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "revenue",
@@ -137,7 +140,8 @@
   "topic": "Clothes, prepositions of place",
   "unit": "1C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "expense",
@@ -147,6 +151,7 @@
   "topic": "Clothes, prepositions of place",
   "unit": "1C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "IFRS & reporting"
  }
 ]

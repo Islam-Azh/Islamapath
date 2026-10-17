@@ -107,7 +107,8 @@
   "topic": "Animals; imaginary situations",
   "unit": "9A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "currency",
@@ -117,7 +118,8 @@
   "topic": "Animals; imaginary situations",
   "unit": "9A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "million",
@@ -127,7 +129,8 @@
   "topic": "Animals; imaginary situations",
   "unit": "9A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "billion",
@@ -137,7 +140,8 @@
   "topic": "Animals; imaginary situations",
   "unit": "9A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "growth",
@@ -147,6 +151,7 @@
   "topic": "Animals; imaginary situations",
   "unit": "9A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

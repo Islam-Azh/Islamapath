@@ -1,0 +1,240 @@
+{
+ "id": "so-such-too-enough",
+ "title": "so / such, too / enough",
+ "level": "B1",
+ "unit": "5C",
+ "units": [
+  "5C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   102,
+   103
+  ],
+  "essentialGrammarInUse": [
+   91,
+   92
+  ]
+ },
+ "en": "<p><b>so</b> + adjective / adverb: <i>It was <b>so</b> hot. He speaks <b>so</b> fast.</i> <b>such (a)</b> + (adjective) + noun: <i>It was <b>such a</b> hot day. They are <b>such</b> nice people.</i> Often + <b>that</b>: <i>It was so late <b>that</b> we took a taxi.</i></p><p><b>too</b> + adjective = more than necessary (a problem): <i>The report is <b>too long</b>.</i> <b>too much / too many</b> + noun.</p><p><b>enough</b>: <b>adjective + enough</b> — <i>It isn't <b>big enough</b>.</i> <b>enough + noun</b> — <i>We don't have <b>enough time</b>.</i> Also: <i>too … <b>to</b> do, … enough <b>to</b> do</i>.</p>",
+ "ru": "so + прилагательное (so hot), such (a) + существительное (such a hot day). too — слишком (проблема): too long, too much/many. enough — достаточно: big enough (после прилагательного), enough time (перед существительным).",
+ "boss": {
+  "situation": "Describe a difficult project: use so, such, too and enough at least once each.",
+  "samples": [
+   "The project was so complex that we needed two extra months.",
+   "It was such a busy period for our team.",
+   "There were too many changes in the plan.",
+   "We didn't have enough people.",
+   "The deadline was too short to test everything."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "It was ___ a long meeting.",
+   "opts": [
+    "so",
+    "such",
+    "too"
+   ],
+   "a": 1,
+   "exp": "a + adjective + noun → such a.",
+   "ru": "such a long meeting.",
+   "stage": 1,
+   "id": "f-sst-1"
+  },
+  {
+   "type": "mc",
+   "q": "The box is too heavy ___ carry.",
+   "opts": [
+    "for",
+    "to",
+    "that"
+   ],
+   "a": 1,
+   "exp": "too + adjective + to + verb.",
+   "ru": "too heavy to carry.",
+   "stage": 1,
+   "id": "f-sst-2"
+  },
+  {
+   "type": "mc",
+   "q": "We don't have ___ to finish today.",
+   "opts": [
+    "enough time",
+    "time enough",
+    "too time"
+   ],
+   "a": 0,
+   "exp": "enough + noun.",
+   "ru": "enough time.",
+   "stage": 1,
+   "id": "f-sst-3"
+  },
+  {
+   "type": "mc",
+   "q": "He was ___ tired that he went to bed at eight.",
+   "opts": [
+    "such",
+    "so",
+    "too"
+   ],
+   "a": 1,
+   "exp": "so + adjective + that.",
+   "ru": "so tired that.",
+   "stage": 1,
+   "id": "f-sst-4"
+  },
+  {
+   "type": "tf",
+   "q": "“The room isn't enough big” is correct.",
+   "a": false,
+   "exp": "Adjective + enough: big enough.",
+   "ru": "big enough.",
+   "stage": 1,
+   "id": "f-sst-5"
+  },
+  {
+   "type": "tf",
+   "q": "“There are too many emails” is correct.",
+   "a": true,
+   "exp": "too many + countable plural.",
+   "ru": "too many emails.",
+   "stage": 1,
+   "id": "f-sst-6"
+  },
+  {
+   "type": "gap",
+   "q": "They are ___ friendly people.",
+   "a": [
+    "such"
+   ],
+   "exp": "such + adjective + plural noun.",
+   "ru": "such.",
+   "stage": 2,
+   "id": "f-sst-7"
+  },
+  {
+   "type": "gap",
+   "q": "This coffee is ___ hot. I can't drink it.",
+   "a": [
+    "too"
+   ],
+   "exp": "Problem → too hot.",
+   "ru": "too.",
+   "stage": 2,
+   "id": "f-sst-8"
+  },
+  {
+   "type": "gap",
+   "q": "Is your English good ___ for the interview?",
+   "a": [
+    "enough"
+   ],
+   "exp": "Adjective + enough.",
+   "ru": "good enough.",
+   "stage": 2,
+   "id": "f-sst-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "the report was too long to read",
+   "exp": "too + adj + to.",
+   "ru": "too long to read.",
+   "stage": 2,
+   "id": "f-sst-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "it was such a good presentation",
+   "exp": "such a + adj + noun.",
+   "ru": "such a good.",
+   "stage": 2,
+   "id": "f-sst-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we did not have enough information",
+   "exp": "enough + noun.",
+   "ru": "enough information.",
+   "stage": 2,
+   "id": "f-sst-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “It was so a nice day.”",
+   "a": [
+    "It was such a nice day."
+   ],
+   "exp": "such a + noun.",
+   "ru": "such a.",
+   "stage": 3,
+   "id": "f-sst-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He is enough old to drive.”",
+   "a": [
+    "He is old enough to drive.",
+    "He's old enough to drive."
+   ],
+   "exp": "Adjective + enough.",
+   "ru": "old enough.",
+   "stage": 3,
+   "id": "f-sst-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “There is too much people here.”",
+   "a": [
+    "There are too many people here."
+   ],
+   "exp": "people is countable → too many.",
+   "ru": "too many people.",
+   "stage": 3,
+   "id": "f-sst-15"
+  },
+  {
+   "type": "tr",
+   "q": "Здесь слишком шумно.",
+   "a": [
+    "It's too noisy here.",
+    "It is too noisy here."
+   ],
+   "exp": "too + adjective.",
+   "ru": "too noisy.",
+   "stage": 3,
+   "id": "f-sst-16"
+  },
+  {
+   "type": "tr",
+   "q": "У нас недостаточно денег.",
+   "a": [
+    "We don't have enough money.",
+    "We do not have enough money.",
+    "We haven't got enough money."
+   ],
+   "exp": "enough + noun.",
+   "ru": "enough money.",
+   "stage": 3,
+   "id": "f-sst-17"
+  },
+  {
+   "type": "tr",
+   "q": "Это был такой трудный год!",
+   "a": [
+    "It was such a difficult year!",
+    "It was such a hard year!",
+    "That was such a difficult year!"
+   ],
+   "exp": "such a + adj + noun.",
+   "ru": "such a difficult year.",
+   "stage": 3,
+   "id": "f-sst-18"
+  }
+ ]
+}

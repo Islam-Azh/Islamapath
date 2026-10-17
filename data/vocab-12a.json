@@ -107,7 +107,8 @@
   "topic": "Verb phrases; strange stories",
   "unit": "12A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "write off",
@@ -117,17 +118,19 @@
   "topic": "Verb phrases; strange stories",
   "unit": "12A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "inventory",
   "ipa": "/ˈɪnvəntri/",
-  "ru": "запасы; инвентаризация",
-  "ex": "We count the inventory every year.",
+  "ru": "товарно-материальные запасы (ТМЗ)",
+  "ex": "Inventory includes crude oil and spare parts.",
   "topic": "Verb phrases; strange stories",
   "unit": "12A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "stock count",
@@ -137,16 +140,18 @@
   "topic": "Verb phrases; strange stories",
   "unit": "12A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "discrepancy",
   "ipa": "/dɪsˈkrepənsi/",
-  "ru": "расхождение",
+  "ru": "несоответствие, расхождение в данных",
   "ex": "We found a discrepancy in the stock.",
   "topic": "Verb phrases; strange stories",
   "unit": "12A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  }
 ]

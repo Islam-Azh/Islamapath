@@ -107,7 +107,8 @@
   "topic": "get; advice",
   "unit": "8A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "action plan",
@@ -117,7 +118,8 @@
   "topic": "get; advice",
   "unit": "8A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "root cause",
@@ -127,7 +129,8 @@
   "topic": "get; advice",
   "unit": "8A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "sample",
@@ -137,7 +140,8 @@
   "topic": "get; advice",
   "unit": "8A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Audit"
  },
  {
   "word": "walkthrough",
@@ -147,6 +151,7 @@
   "topic": "get; advice",
   "unit": "8A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Audit"
  }
 ]

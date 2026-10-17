@@ -30,10 +30,10 @@
   "level": "A2"
  },
  {
-  "word": "spare time",
-  "ipa": "/speə taɪm/",
-  "ru": "свободное время",
-  "ex": "What do you do in your spare time?",
+  "word": "deadline",
+  "ipa": "/ˈdedlaɪn/",
+  "ru": "крайний срок",
+  "ex": "The deadline for the report is Friday.",
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "unit",
@@ -42,7 +42,7 @@
  {
   "word": "in time",
   "ipa": "/ɪn taɪm/",
-  "ru": "вовремя (успеть)",
+  "ru": "вовремя, заранее (успеть до чего-то)",
   "ex": "We arrived in time for the meeting.",
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
@@ -107,7 +107,8 @@
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "segregation of duties",
@@ -117,7 +118,8 @@
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "approve",
@@ -127,7 +129,8 @@
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "authorise",
@@ -137,7 +140,8 @@
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "fraud",
@@ -147,6 +151,7 @@
   "topic": "Time expressions; spend, waste, save time",
   "unit": "5A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  }
 ]

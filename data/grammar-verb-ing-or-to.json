@@ -1,0 +1,239 @@
+{
+ "id": "verb-ing-or-to",
+ "title": "Verb + -ing or to: remember, forget, stop, try",
+ "level": "B1",
+ "unit": "7B",
+ "units": [
+  "7B"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   56,
+   57
+  ],
+  "essentialGrammarInUse": [
+   52
+  ]
+ },
+ "en": "<p>Some verbs change their meaning:</p><p><b>remember / forget + to do</b> — a thing you need to do (before): <i><b>Remember to lock</b> the door. I <b>forgot to send</b> the file.</i> <b>remember + -ing</b> — a memory of the past: <i>I <b>remember meeting</b> him in 2019.</i></p><p><b>stop + -ing</b> — finish an activity: <i>He <b>stopped smoking</b>.</i> <b>stop + to do</b> — stop in order to do something: <i>We <b>stopped to have</b> lunch.</i></p><p><b>try to do</b> — make an effort: <i>I'm <b>trying to finish</b>.</i> <b>try + -ing</b> — do it as an experiment: <i><b>Try restarting</b> the computer.</i></p><p>No change: <i>like, love, hate, start, begin, continue</i> + -ing or to.</p>",
+ "ru": "remember/forget to do — не забыть сделать; remember doing — помнить, как делал. stop doing — перестать; stop to do — остановиться, чтобы. try to do — стараться; try doing — попробовать (как способ). like/start/begin — оба варианта без разницы.",
+ "boss": {
+  "situation": "Write 5 sentences about your work habits using remember, forget, stop and try — with both -ing and to.",
+  "samples": [
+   "I always remember to save my files.",
+   "I remember making a big mistake in my first report.",
+   "Last week I forgot to call the supplier.",
+   "I stopped working late because I was always tired.",
+   "If Excel is slow, try closing other programs."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Please remember ___ the lights.",
+   "opts": [
+    "turning off",
+    "to turn off"
+   ],
+   "a": 1,
+   "exp": "A thing you need to do → remember to do.",
+   "ru": "Не забудь — to turn off.",
+   "stage": 1,
+   "id": "f-vit-1"
+  },
+  {
+   "type": "mc",
+   "q": "I remember ___ him at the conference last year.",
+   "opts": [
+    "meeting",
+    "to meet"
+   ],
+   "a": 0,
+   "exp": "A memory → remember + -ing.",
+   "ru": "Помню, как встретил — meeting.",
+   "stage": 1,
+   "id": "f-vit-2"
+  },
+  {
+   "type": "mc",
+   "q": "He stopped ___ two years ago. He feels much better now.",
+   "opts": [
+    "smoking",
+    "to smoke"
+   ],
+   "a": 0,
+   "exp": "Finish an activity → stop + -ing.",
+   "ru": "Бросил — stopped smoking.",
+   "stage": 1,
+   "id": "f-vit-3"
+  },
+  {
+   "type": "mc",
+   "q": "If the printer doesn't work, try ___ it off and on again.",
+   "opts": [
+    "to turn",
+    "turning"
+   ],
+   "a": 1,
+   "exp": "An experiment → try + -ing.",
+   "ru": "Попробуй — turning.",
+   "stage": 1,
+   "id": "f-vit-4"
+  },
+  {
+   "type": "tf",
+   "q": "“We stopped to have lunch” means we finished having lunch.",
+   "a": false,
+   "exp": "stop to do = stop in order to do it.",
+   "ru": "Остановились, чтобы пообедать.",
+   "stage": 1,
+   "id": "f-vit-5"
+  },
+  {
+   "type": "tf",
+   "q": "“I forgot to send the email” means the email was not sent.",
+   "a": true,
+   "exp": "forget to do → you didn't do it.",
+   "ru": "Письмо не отправлено.",
+   "stage": 1,
+   "id": "f-vit-6"
+  },
+  {
+   "type": "gap",
+   "q": "I'm trying ___ (finish) the report before five.",
+   "a": [
+    "to finish"
+   ],
+   "exp": "Effort → try to do.",
+   "ru": "to finish.",
+   "stage": 2,
+   "id": "f-vit-7"
+  },
+  {
+   "type": "gap",
+   "q": "Don't forget ___ (sign) the form.",
+   "a": [
+    "to sign"
+   ],
+   "exp": "Need to do → forget to do.",
+   "ru": "to sign.",
+   "stage": 2,
+   "id": "f-vit-8"
+  },
+  {
+   "type": "gap",
+   "q": "She started ___ (work) here in 2020.",
+   "a": [
+    "working",
+    "to work"
+   ],
+   "exp": "start + -ing or to — both correct.",
+   "ru": "Оба варианта.",
+   "stage": 2,
+   "id": "f-vit-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i forgot to call the auditor",
+   "exp": "forget to do.",
+   "ru": "forgot to call.",
+   "stage": 2,
+   "id": "f-vit-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we stopped to buy some coffee",
+   "exp": "stop to do = in order to.",
+   "ru": "stopped to buy.",
+   "stage": 2,
+   "id": "f-vit-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i remember reading this report",
+   "exp": "remember + -ing = memory.",
+   "ru": "remember reading.",
+   "stage": 2,
+   "id": "f-vit-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Remember sending me the file tomorrow.”",
+   "a": [
+    "Remember to send me the file tomorrow."
+   ],
+   "exp": "Future task → remember to do.",
+   "ru": "to send.",
+   "stage": 3,
+   "id": "f-vit-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “He stopped to work at 6 and went home.”",
+   "a": [
+    "He stopped working at 6 and went home."
+   ],
+   "exp": "Finish an activity → stopped working.",
+   "ru": "stopped working.",
+   "stage": 3,
+   "id": "f-vit-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I tried call you but the line was busy.”",
+   "a": [
+    "I tried to call you but the line was busy.",
+    "I tried to call you, but the line was busy."
+   ],
+   "exp": "Effort → tried to call.",
+   "ru": "tried to call.",
+   "stage": 3,
+   "id": "f-vit-15"
+  },
+  {
+   "type": "tr",
+   "q": "Не забудь закрыть дверь.",
+   "a": [
+    "Don't forget to close the door.",
+    "Do not forget to close the door.",
+    "Remember to close the door.",
+    "Don't forget to lock the door."
+   ],
+   "exp": "forget to do.",
+   "ru": "to close.",
+   "stage": 3,
+   "id": "f-vit-16"
+  },
+  {
+   "type": "tr",
+   "q": "Он перестал работать по выходным.",
+   "a": [
+    "He stopped working at weekends.",
+    "He stopped working on weekends.",
+    "He has stopped working at weekends.",
+    "He stopped working at the weekend."
+   ],
+   "exp": "stop + -ing.",
+   "ru": "stopped working.",
+   "stage": 3,
+   "id": "f-vit-17"
+  },
+  {
+   "type": "tr",
+   "q": "Попробуй перезагрузить компьютер.",
+   "a": [
+    "Try restarting the computer.",
+    "Try restarting your computer.",
+    "Try rebooting the computer."
+   ],
+   "exp": "Experiment → try + -ing.",
+   "ru": "Try restarting.",
+   "stage": 3,
+   "id": "f-vit-18"
+  }
+ ]
+}

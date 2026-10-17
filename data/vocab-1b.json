@@ -107,7 +107,8 @@
   "topic": "Describing people: appearance and personality",
   "unit": "1B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "per cent",
@@ -117,7 +118,8 @@
   "topic": "Describing people: appearance and personality",
   "unit": "1B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "total",
@@ -127,17 +129,19 @@
   "topic": "Describing people: appearance and personality",
   "unit": "1B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "increase",
   "ipa": "/ɪnˈkriːs/",
-  "ru": "увеличиваться; рост",
+  "ru": "увеличиваться; увеличение",
   "ex": "Our expenses increased last year.",
   "topic": "Describing people: appearance and personality",
   "unit": "1B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "decrease",
@@ -147,6 +151,7 @@
   "topic": "Describing people: appearance and personality",
   "unit": "1B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

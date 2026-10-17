@@ -1,0 +1,238 @@
+{
+ "id": "be-used-to",
+ "title": "be used to / get used to",
+ "level": "B1",
+ "unit": "10B",
+ "units": [
+  "10B"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   61
+  ],
+  "essentialGrammarInUse": [
+   36
+  ]
+ },
+ "en": "<p><b>used to + verb</b> = past habit (not now): <i>I <b>used to work</b> in Almaty.</i></p><p><b>be used to + noun / -ing</b> = it is normal for me, not strange: <i>I'<b>m used to working</b> long hours. She <b>isn't used to</b> the cold.</i></p><p><b>get used to + noun / -ing</b> = become used to something new: <i>It took me a month to <b>get used to</b> the new system. You'll <b>get used to getting up</b> early.</i></p><p>After <b>be / get used to</b> — always <b>-ing</b>, not the infinitive.</p>",
+ "ru": "used to + глагол — раньше (сейчас нет). be used to + -ing / существительное — привык (для меня это нормально). get used to + -ing — привыкать (к новому). После be/get used to — всегда -ing.",
+ "boss": {
+  "situation": "Describe changes in your life or job: one sentence with used to, two with be used to and two with get used to.",
+  "samples": [
+   "I used to work in a small office.",
+   "Now I'm used to working in a big team.",
+   "I'm not used to speaking English in meetings yet.",
+   "It took me a few months to get used to the new ERP system.",
+   "I'm sure I will get used to the new schedule."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "I'm used to ___ early.",
+   "opts": [
+    "get up",
+    "getting up",
+    "got up"
+   ],
+   "a": 1,
+   "exp": "be used to + -ing.",
+   "ru": "be used to getting up.",
+   "stage": 1,
+   "id": "f-buto-1"
+  },
+  {
+   "type": "mc",
+   "q": "I ___ smoke, but I stopped five years ago.",
+   "opts": [
+    "used to",
+    "am used to",
+    "get used to"
+   ],
+   "a": 0,
+   "exp": "Past habit → used to + verb.",
+   "ru": "Раньше — used to smoke.",
+   "stage": 1,
+   "id": "f-buto-2"
+  },
+  {
+   "type": "mc",
+   "q": "It took me a while to ___ the new system.",
+   "opts": [
+    "used to",
+    "get used to",
+    "be use to"
+   ],
+   "a": 1,
+   "exp": "Become used to → get used to.",
+   "ru": "Привыкнуть — get used to.",
+   "stage": 1,
+   "id": "f-buto-3"
+  },
+  {
+   "type": "mc",
+   "q": "She isn't used to ___ in English.",
+   "opts": [
+    "work",
+    "working",
+    "worked"
+   ],
+   "a": 1,
+   "exp": "be used to + -ing.",
+   "ru": "working.",
+   "stage": 1,
+   "id": "f-buto-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I am used to work late” is correct.",
+   "a": false,
+   "exp": "be used to + -ing: I am used to working late.",
+   "ru": "После be used to — -ing.",
+   "stage": 1,
+   "id": "f-buto-5"
+  },
+  {
+   "type": "tf",
+   "q": "“He used to live in Astana” means he lives there now.",
+   "a": false,
+   "exp": "used to = past, not now.",
+   "ru": "Раньше жил, сейчас — нет.",
+   "stage": 1,
+   "id": "f-buto-6"
+  },
+  {
+   "type": "gap",
+   "q": "Don't worry, you'll get used to ___ (drive) in the city.",
+   "a": [
+    "driving"
+   ],
+   "exp": "get used to + -ing.",
+   "ru": "driving.",
+   "stage": 2,
+   "id": "f-buto-7"
+  },
+  {
+   "type": "gap",
+   "q": "I'm not used ___ the cold weather.",
+   "a": [
+    "to"
+   ],
+   "exp": "be used to + noun.",
+   "ru": "used to.",
+   "stage": 2,
+   "id": "f-buto-8"
+  },
+  {
+   "type": "gap",
+   "q": "We ___ (use to) have meetings every day, but now it's once a week.",
+   "a": [
+    "used to"
+   ],
+   "exp": "Past habit.",
+   "ru": "used to.",
+   "stage": 2,
+   "id": "f-buto-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i am used to working long hours",
+   "exp": "be used to + -ing.",
+   "ru": "am used to working.",
+   "stage": 2,
+   "id": "f-buto-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "she is getting used to the new job",
+   "exp": "get used to + noun.",
+   "ru": "getting used to.",
+   "stage": 2,
+   "id": "f-buto-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "we used to work in the same office",
+   "exp": "used to + verb.",
+   "ru": "used to work.",
+   "stage": 2,
+   "id": "f-buto-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I'm used to get up at six.”",
+   "a": [
+    "I'm used to getting up at six.",
+    "I am used to getting up at six."
+   ],
+   "exp": "be used to + -ing.",
+   "ru": "getting up.",
+   "stage": 3,
+   "id": "f-buto-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I am used to living in Almaty when I was a student.”",
+   "a": [
+    "I used to live in Almaty when I was a student."
+   ],
+   "exp": "Past habit → used to + verb.",
+   "ru": "used to live.",
+   "stage": 3,
+   "id": "f-buto-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “You will soon get use to it.”",
+   "a": [
+    "You will soon get used to it.",
+    "You'll soon get used to it."
+   ],
+   "exp": "get used to.",
+   "ru": "used.",
+   "stage": 3,
+   "id": "f-buto-15"
+  },
+  {
+   "type": "tr",
+   "q": "Я привык работать допоздна.",
+   "a": [
+    "I'm used to working late.",
+    "I am used to working late."
+   ],
+   "exp": "be used to + -ing.",
+   "ru": "am used to working.",
+   "stage": 3,
+   "id": "f-buto-16"
+  },
+  {
+   "type": "tr",
+   "q": "Раньше я жил в Алматы.",
+   "a": [
+    "I used to live in Almaty."
+   ],
+   "exp": "Past habit → used to.",
+   "ru": "used to live.",
+   "stage": 3,
+   "id": "f-buto-17"
+  },
+  {
+   "type": "tr",
+   "q": "Ты скоро привыкнешь к новой системе.",
+   "a": [
+    "You will soon get used to the new system.",
+    "You'll soon get used to the new system.",
+    "You'll get used to the new system soon.",
+    "You will get used to the new system soon."
+   ],
+   "exp": "get used to + noun.",
+   "ru": "get used to.",
+   "stage": 3,
+   "id": "f-buto-18"
+  }
+ ]
+}

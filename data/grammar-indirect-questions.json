@@ -1,0 +1,244 @@
+{
+ "id": "indirect-questions",
+ "title": "Indirect questions (Do you know where…? Could you tell me…?)",
+ "level": "B1",
+ "unit": "12C",
+ "units": [
+  "12C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   50
+  ],
+  "essentialGrammarInUse": [
+   49
+  ]
+ },
+ "en": "<p>Indirect questions are more <b>polite</b>. They start with <i>Do you know…? Could you tell me…? I'd like to know… I wonder…</i></p><p>After the beginning, use <b>normal word order</b> (subject + verb), <b>no do / does / did</b>: <i>Where <b>is</b> the office? → Do you know where <b>the office is</b>? What time <b>does</b> it start? → Could you tell me what time <b>it starts</b>?</i></p><p>Yes / no questions → <b>if / whether</b>: <i>Is he in? → Do you know <b>if he is</b> in?</i></p><p>Very useful at interviews: <i>Could you tell me <b>what the next steps are</b>?</i></p>",
+ "ru": "Вежливые вопросы: Do you know…? Could you tell me…? Дальше — прямой порядок слов (подлежащее + глагол), без do/does/did: Could you tell me where the office is? Вопрос да/нет → if: Do you know if he is in?",
+ "boss": {
+  "situation": "At the end of an interview, ask 5 polite indirect questions about the job and the company.",
+  "samples": [
+   "Could you tell me what a typical day looks like?",
+   "Do you know when the team was created?",
+   "I'd like to know how performance is measured.",
+   "Could you tell me if there is a training programme?",
+   "Do you know when I will hear from you?"
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "Could you tell me where ___?",
+   "opts": [
+    "is the toilet",
+    "the toilet is",
+    "does the toilet"
+   ],
+   "a": 1,
+   "exp": "Indirect → subject + verb.",
+   "ru": "where the toilet is.",
+   "stage": 1,
+   "id": "f-iq-1"
+  },
+  {
+   "type": "mc",
+   "q": "Do you know what time ___?",
+   "opts": [
+    "the meeting starts",
+    "does the meeting start",
+    "starts the meeting"
+   ],
+   "a": 0,
+   "exp": "No does in indirect questions.",
+   "ru": "what time the meeting starts.",
+   "stage": 1,
+   "id": "f-iq-2"
+  },
+  {
+   "type": "mc",
+   "q": "I'd like to know ___ the job includes travel.",
+   "opts": [
+    "if",
+    "does",
+    "is"
+   ],
+   "a": 0,
+   "exp": "Yes/no question → if.",
+   "ru": "if.",
+   "stage": 1,
+   "id": "f-iq-3"
+  },
+  {
+   "type": "mc",
+   "q": "Can you tell me how much ___?",
+   "opts": [
+    "does it cost",
+    "it costs",
+    "costs it"
+   ],
+   "a": 1,
+   "exp": "Normal word order.",
+   "ru": "how much it costs.",
+   "stage": 1,
+   "id": "f-iq-4"
+  },
+  {
+   "type": "tf",
+   "q": "“Do you know where does he work?” is correct.",
+   "a": false,
+   "exp": "No does: Do you know where he works?",
+   "ru": "Без does.",
+   "stage": 1,
+   "id": "f-iq-5"
+  },
+  {
+   "type": "tf",
+   "q": "“Could you tell me what the next steps are?” is correct.",
+   "a": true,
+   "exp": "Subject (the next steps) + verb (are).",
+   "ru": "Порядок правильный.",
+   "stage": 1,
+   "id": "f-iq-6"
+  },
+  {
+   "type": "gap",
+   "q": "Do you know when the auditors ___ (arrive)? — Next Monday.",
+   "a": [
+    "are arriving",
+    "will arrive",
+    "arrive"
+   ],
+   "exp": "Normal word order after when.",
+   "ru": "Прямой порядок.",
+   "stage": 2,
+   "id": "f-iq-7"
+  },
+  {
+   "type": "gap",
+   "q": "Could you tell me ___ the director is in his office?",
+   "a": [
+    "if",
+    "whether"
+   ],
+   "exp": "Yes/no → if / whether.",
+   "ru": "if / whether.",
+   "stage": 2,
+   "id": "f-iq-8"
+  },
+  {
+   "type": "gap",
+   "q": "I wonder why she ___ (leave) so early yesterday.",
+   "a": [
+    "left"
+   ],
+   "exp": "Past, no did: why she left.",
+   "ru": "why she left.",
+   "stage": 2,
+   "id": "f-iq-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "do you know where the archive is",
+   "exp": "Indirect: where + subject + verb.",
+   "ru": "where the archive is.",
+   "stage": 2,
+   "id": "f-iq-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "could you tell me what the salary is",
+   "exp": "Normal order after what.",
+   "ru": "what the salary is.",
+   "stage": 2,
+   "id": "f-iq-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i would like to know if there is a training programme",
+   "exp": "Yes/no → if.",
+   "ru": "if there is.",
+   "stage": 2,
+   "id": "f-iq-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Could you tell me where is the meeting room?”",
+   "a": [
+    "Could you tell me where the meeting room is?"
+   ],
+   "exp": "Subject before verb.",
+   "ru": "where the meeting room is.",
+   "stage": 3,
+   "id": "f-iq-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Do you know what time does the bank open?”",
+   "a": [
+    "Do you know what time the bank opens?"
+   ],
+   "exp": "No does.",
+   "ru": "what time the bank opens.",
+   "stage": 3,
+   "id": "f-iq-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “Can you tell me did he call?”",
+   "a": [
+    "Can you tell me if he called?",
+    "Can you tell me whether he called?"
+   ],
+   "exp": "Yes/no → if + past.",
+   "ru": "if he called.",
+   "stage": 3,
+   "id": "f-iq-15"
+  },
+  {
+   "type": "tr",
+   "q": "Не подскажете, где находится отдел кадров?",
+   "a": [
+    "Could you tell me where the HR department is?",
+    "Do you know where the HR department is?",
+    "Could you tell me where HR is?",
+    "Can you tell me where the HR department is?"
+   ],
+   "exp": "Indirect → subject + verb.",
+   "ru": "where … is.",
+   "stage": 3,
+   "id": "f-iq-16"
+  },
+  {
+   "type": "tr",
+   "q": "Вы не знаете, во сколько начинается собеседование?",
+   "a": [
+    "Do you know what time the interview starts?",
+    "Do you know when the interview starts?",
+    "Do you know what time the interview begins?"
+   ],
+   "exp": "No does.",
+   "ru": "what time … starts.",
+   "stage": 3,
+   "id": "f-iq-17"
+  },
+  {
+   "type": "tr",
+   "q": "Можно узнать, какие следующие шаги?",
+   "a": [
+    "Could you tell me what the next steps are?",
+    "Can you tell me what the next steps are?",
+    "May I ask what the next steps are?",
+    "I'd like to know what the next steps are."
+   ],
+   "exp": "Subject + verb.",
+   "ru": "what the next steps are.",
+   "stage": 3,
+   "id": "f-iq-18"
+  }
+ ]
+}

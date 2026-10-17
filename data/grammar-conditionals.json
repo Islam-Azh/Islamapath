@@ -32,7 +32,10 @@
    "exp": "If + Present Simple (1st conditional).",
    "ru": "После if — rains.",
    "id": "f-co-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "mc",
@@ -46,7 +49,10 @@
    "exp": "2nd conditional: If I were…",
    "ru": "If I were.",
    "id": "f-co-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "mc",
@@ -60,7 +66,10 @@
    "exp": "Real future → will.",
    "ru": "Реально — will.",
    "id": "f-co-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "mc",
@@ -74,7 +83,10 @@
    "exp": "2nd conditional → past.",
    "ru": "won.",
    "id": "f-co-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "mc",
@@ -88,7 +100,10 @@
    "exp": "unless = if not.",
    "ru": "unless — если не.",
    "id": "f-co-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "mc",
@@ -102,7 +117,10 @@
    "exp": "Advice → If I were you.",
    "ru": "If I were you.",
    "id": "f-co-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "mc",
@@ -116,7 +134,10 @@
    "exp": "If + Present Simple + imperative.",
    "ru": "goes.",
    "id": "f-co-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "mc",
@@ -130,7 +151,10 @@
    "exp": "2nd conditional → would.",
    "ru": "would read.",
    "id": "f-co-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "tf",
@@ -139,7 +163,10 @@
    "exp": "No will after if: If I see her, I'll tell her.",
    "ru": "После if без will.",
    "id": "f-co-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "tf",
@@ -148,7 +175,10 @@
    "exp": "2nd conditional = imaginary.",
    "ru": "Воображаемая ситуация.",
    "id": "f-co-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "gap",
@@ -159,7 +189,10 @@
    "exp": "If + Present Simple.",
    "ru": "are.",
    "id": "f-co-11",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "gap",
@@ -170,7 +203,10 @@
    "exp": "2nd conditional → had.",
    "ru": "had.",
    "id": "f-co-12",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "gap",
@@ -182,7 +218,10 @@
    "exp": "1st conditional → will.",
    "ru": "will fix.",
    "id": "f-co-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "gap",
@@ -194,7 +233,10 @@
    "exp": "2nd conditional → wouldn't.",
    "ru": "wouldn't do.",
    "id": "f-co-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "gap",
@@ -205,7 +247,10 @@
    "exp": "Unless = if not.",
    "ru": "Unless.",
    "id": "f-co-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "gap",
@@ -216,7 +261,10 @@
    "exp": "Imaginary → past.",
    "ru": "knew.",
    "id": "f-co-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "order",
@@ -225,7 +273,10 @@
    "exp": "1st conditional.",
    "ru": "If … is, … will.",
    "id": "f-co-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "order",
@@ -234,7 +285,10 @@
    "exp": "2nd conditional, advice.",
    "ru": "If I were you.",
    "id": "f-co-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "order",
@@ -243,7 +297,10 @@
    "exp": "Question + if-clause.",
    "ru": "will … if.",
    "id": "f-co-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "order",
@@ -252,7 +309,10 @@
    "exp": "Main clause first, no comma.",
    "ru": "would … if … had.",
    "id": "f-co-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "order",
@@ -261,7 +321,10 @@
    "exp": "Imperative + if.",
    "ru": "Call me if.",
    "id": "f-co-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "order",
@@ -270,7 +333,10 @@
    "exp": "unless = if not.",
    "ru": "unless.",
    "id": "f-co-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "fix",
@@ -282,7 +348,10 @@
    "exp": "No will after if.",
    "ru": "If I have.",
    "id": "f-co-23",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "fix",
@@ -295,7 +364,10 @@
    "exp": "No would after if.",
    "ru": "If I were.",
    "id": "f-co-24",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "fix",
@@ -307,7 +379,10 @@
    "exp": "Future result → will.",
    "ru": "will stay.",
    "id": "f-co-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "fix",
@@ -319,7 +394,10 @@
    "exp": "2nd conditional → would.",
    "ru": "would drive.",
    "id": "f-co-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "fix",
@@ -333,7 +411,10 @@
    "exp": "unless already means if not.",
    "ru": "unless без not.",
    "id": "f-co-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "fix",
@@ -344,7 +425,10 @@
    "exp": "Question word order: would you.",
    "ru": "would you do.",
    "id": "f-co-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "tr",
@@ -356,7 +440,10 @@
    "exp": "1st conditional.",
    "ru": "If … is, … will.",
    "id": "f-co-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "tr",
@@ -370,7 +457,10 @@
    "exp": "2nd conditional.",
    "ru": "If I had … would.",
    "id": "f-co-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "tr",
@@ -385,7 +475,10 @@
    "exp": "If I were you.",
    "ru": "If I were you.",
    "id": "f-co-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "tr",
@@ -399,7 +492,10 @@
    "exp": "If + Present + imperative.",
    "ru": "If you find…",
    "id": "f-co-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "tr",
@@ -415,7 +511,10 @@
    "exp": "unless = if not.",
    "ru": "unless.",
    "id": "f-co-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "tr",
@@ -427,7 +526,10 @@
    "exp": "2nd conditional question.",
    "ru": "would … if … won.",
    "id": "f-co-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   },
   {
    "type": "tr",
@@ -441,7 +543,10 @@
    "exp": "1st conditional.",
    "ru": "If it rains.",
    "id": "f-co-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "8B"
+   ]
   },
   {
    "type": "tr",
@@ -455,7 +560,10 @@
    "exp": "2nd conditional.",
    "ru": "If I were … would.",
    "id": "f-co-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "9A"
+   ]
   }
  ]
 }

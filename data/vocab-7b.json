@@ -12,7 +12,7 @@
  {
   "word": "mind",
   "ipa": "/maɪnd/",
-  "ru": "возражать",
+  "ru": "возражать (I don't mind = я не против)",
   "ex": "I don't mind working late.",
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
@@ -62,7 +62,7 @@
  {
   "word": "keep",
   "ipa": "/kiːp/",
-  "ru": "продолжать (делать)",
+  "ru": "продолжать (делать): keep + -ing",
   "ex": "He keeps making the same mistake.",
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
@@ -107,17 +107,19 @@
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "candidate",
   "ipa": "/ˈkændɪdət/",
-  "ru": "кандидат",
+  "ru": "кандидат (на должность)",
   "ex": "She is the best candidate.",
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "qualification",
@@ -127,7 +129,8 @@
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "reference",
@@ -137,7 +140,8 @@
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  },
  {
   "word": "notice period",
@@ -147,6 +151,7 @@
   "topic": "Verbs + -ing; feelings",
   "unit": "7B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Job search & interview"
  }
 ]

@@ -107,7 +107,8 @@
   "topic": "School subjects and education",
   "unit": "10B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Meetings & office"
  },
  {
   "word": "approval",
@@ -117,7 +118,8 @@
   "topic": "School subjects and education",
   "unit": "10B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Meetings & office"
  },
  {
   "word": "signature",
@@ -127,7 +129,8 @@
   "topic": "School subjects and education",
   "unit": "10B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Meetings & office"
  },
  {
   "word": "archive",
@@ -137,7 +140,8 @@
   "topic": "School subjects and education",
   "unit": "10B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Meetings & office"
  },
  {
   "word": "version",
@@ -147,6 +151,7 @@
   "topic": "School subjects and education",
   "unit": "10B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Meetings & office"
  }
 ]

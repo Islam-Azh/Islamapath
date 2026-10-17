@@ -32,7 +32,10 @@
    "exp": "Every day = routine → Present Simple; he → goes.",
    "ru": "Каждый день — goes.",
    "id": "f-psc-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "mc",
@@ -46,7 +49,10 @@
    "exp": "Happening now → Present Continuous.",
    "ru": "Прямо сейчас — am talking.",
    "id": "f-psc-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "mc",
@@ -60,7 +66,10 @@
    "exp": "This week = temporary → Continuous.",
    "ru": "На этой неделе — are testing.",
    "id": "f-psc-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "mc",
@@ -74,7 +83,10 @@
    "exp": "General fact → Present Simple negative.",
    "ru": "Факт — doesn't drink.",
    "id": "f-psc-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "mc",
@@ -88,7 +100,10 @@
    "exp": "State verb → no continuous.",
    "ru": "understand — глагол состояния.",
    "id": "f-psc-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "mc",
@@ -102,7 +117,10 @@
    "exp": "Usually = habit → Do you…?",
    "ru": "Привычка — Do.",
    "id": "f-psc-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "mc",
@@ -116,7 +134,10 @@
    "exp": "Look! = now → Continuous.",
    "ru": "Look! — сейчас.",
    "id": "f-psc-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "mc",
@@ -130,7 +151,10 @@
    "exp": "Scientific fact → Present Simple.",
    "ru": "Факт — boils.",
    "id": "f-psc-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tf",
@@ -139,7 +163,10 @@
    "exp": "need is a state verb: I need a new laptop.",
    "ru": "need — без -ing.",
    "id": "f-psc-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "tf",
@@ -148,7 +175,10 @@
    "exp": "Today = temporary → Continuous is more natural.",
    "ru": "Временно — Continuous.",
    "id": "f-psc-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "gap",
@@ -160,7 +190,10 @@
    "exp": "State verb like, he → doesn't like.",
    "ru": "Он не любит — doesn't like.",
    "id": "f-psc-11",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "gap",
@@ -171,7 +204,10 @@
    "exp": "At the moment → are you doing.",
    "ru": "Сейчас — are you doing.",
    "id": "f-psc-12",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "gap",
@@ -182,7 +218,10 @@
    "exp": "Routine, team (it) → meets.",
    "ru": "Каждый понедельник — meets.",
    "id": "f-psc-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "gap",
@@ -193,7 +232,10 @@
    "exp": "Temporary situation → am staying.",
    "ru": "Временно — am staying.",
    "id": "f-psc-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "gap",
@@ -204,7 +246,10 @@
    "exp": "Fact question, it → Does … have.",
    "ru": "Does … have.",
    "id": "f-psc-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "gap",
@@ -215,7 +260,10 @@
    "exp": "Changing situation around now → Continuous.",
    "ru": "Меняется сейчас — are going.",
    "id": "f-psc-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "order",
@@ -224,7 +272,10 @@
    "exp": "Adverb of frequency before the main verb.",
    "ru": "usually — перед глаголом.",
    "id": "f-psc-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "order",
@@ -233,7 +284,10 @@
    "exp": "Temporary → am/is/are + -ing.",
    "ru": "На этой неделе — are preparing.",
    "id": "f-psc-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "order",
@@ -242,7 +296,10 @@
    "exp": "Negative: does not + infinitive.",
    "ru": "does not + work.",
    "id": "f-psc-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "order",
@@ -251,7 +308,10 @@
    "exp": "Continuous question, preposition at the end.",
    "ru": "on — в конце.",
    "id": "f-psc-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "order",
@@ -260,7 +320,10 @@
    "exp": "How often + do + subject + verb.",
    "ru": "How often do you…",
    "id": "f-psc-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "order",
@@ -269,7 +332,10 @@
    "exp": "never before the main verb.",
    "ru": "never — перед глаголом.",
    "id": "f-psc-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "fix",
@@ -280,7 +346,10 @@
    "exp": "he / she / it → verb + s.",
    "ru": "She — works.",
    "id": "f-psc-23",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "fix",
@@ -291,7 +360,10 @@
    "exp": "know is a state verb.",
    "ru": "know — без -ing.",
    "id": "f-psc-24",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "fix",
@@ -302,7 +374,10 @@
    "exp": "she → does.",
    "ru": "She — does.",
    "id": "f-psc-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "fix",
@@ -314,7 +389,10 @@
    "exp": "Now → is coming.",
    "ru": "Сейчас — is coming.",
    "id": "f-psc-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "fix",
@@ -326,7 +404,10 @@
    "exp": "After doesn't → infinitive without -s.",
    "ru": "После doesn't — work.",
    "id": "f-psc-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "fix",
@@ -337,7 +418,10 @@
    "exp": "Usual routine → Present Simple, no am.",
    "ru": "Привычка — без am.",
    "id": "f-psc-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tr",
@@ -350,7 +434,10 @@
    "exp": "Permanent job → Present Simple.",
    "ru": "Постоянно — work.",
    "id": "f-psc-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tr",
@@ -365,7 +452,10 @@
    "exp": "Now → Continuous.",
    "ru": "Сейчас — am preparing.",
    "id": "f-psc-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "tr",
@@ -377,7 +467,10 @@
    "exp": "Fact → doesn't + infinitive.",
    "ru": "doesn't drink.",
    "id": "f-psc-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tr",
@@ -390,7 +483,10 @@
    "exp": "Routine → Present Simple.",
    "ru": "Каждый понедельник — meet.",
    "id": "f-psc-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tr",
@@ -402,7 +498,10 @@
    "exp": "Temporary → Continuous.",
    "ru": "На этой неделе — am working.",
    "id": "f-psc-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "tr",
@@ -414,7 +513,10 @@
    "exp": "State verb → Simple.",
    "ru": "understand — Simple.",
    "id": "f-psc-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   },
   {
    "type": "tr",
@@ -428,7 +530,10 @@
    "exp": "Habit → do you do.",
    "ru": "Обычно — do you do.",
    "id": "f-psc-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1B"
+   ]
   },
   {
    "type": "tr",
@@ -443,7 +548,10 @@
    "exp": "Now → is talking.",
    "ru": "Сейчас — is talking.",
    "id": "f-psc-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "1C"
+   ]
   }
  ]
 }

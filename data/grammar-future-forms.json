@@ -32,7 +32,10 @@
    "exp": "Prediction from evidence → going to.",
    "ru": "По признакам — going to.",
    "id": "f-ff-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "mc",
@@ -46,7 +49,10 @@
    "exp": "Fixed arrangement → Present Continuous.",
    "ru": "Договорённость — am seeing.",
    "id": "f-ff-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "mc",
@@ -60,7 +66,10 @@
    "exp": "Decision now → will.",
    "ru": "Решение сейчас — will.",
    "id": "f-ff-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "mc",
@@ -74,7 +83,10 @@
    "exp": "Plan/intention → going to.",
    "ru": "План — going to.",
    "id": "f-ff-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "mc",
@@ -88,7 +100,10 @@
    "exp": "Opinion with I think → will.",
    "ru": "I think — will.",
    "id": "f-ff-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "mc",
@@ -102,7 +117,10 @@
    "exp": "Promise → won't.",
    "ru": "Обещание — won't.",
    "id": "f-ff-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "mc",
@@ -116,7 +134,10 @@
    "exp": "Arrangement question → are you doing.",
    "ru": "Планы на выходные — are you doing.",
    "id": "f-ff-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "mc",
@@ -130,7 +151,10 @@
    "exp": "Offer → will.",
    "ru": "Предложение помощи — will.",
    "id": "f-ff-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tf",
@@ -139,7 +163,10 @@
    "exp": "Present Continuous for arrangements.",
    "ru": "Договорённость.",
    "id": "f-ff-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tf",
@@ -148,7 +175,10 @@
    "exp": "Booked arrangement → I'm seeing the doctor at 3.",
    "ru": "Лучше I'm seeing.",
    "id": "f-ff-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "gap",
@@ -159,7 +189,10 @@
    "exp": "Arrangement → are having.",
    "ru": "are having.",
    "id": "f-ff-11",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "gap",
@@ -170,7 +203,10 @@
    "exp": "Decision now → will go.",
    "ru": "will go.",
    "id": "f-ff-12",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "gap",
@@ -181,7 +217,10 @@
    "exp": "Plan → is going to study.",
    "ru": "is going to study.",
    "id": "f-ff-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "gap",
@@ -192,7 +231,10 @@
    "exp": "Prediction from evidence → going to.",
    "ru": "are going to fall.",
    "id": "f-ff-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "gap",
@@ -204,7 +246,10 @@
    "exp": "Promise → won't.",
    "ru": "won't be.",
    "id": "f-ff-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "gap",
@@ -215,7 +260,10 @@
    "exp": "Question: are you going to…",
    "ru": "are you going to.",
    "id": "f-ff-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "order",
@@ -224,7 +272,10 @@
    "exp": "Plan → am going to + verb.",
    "ru": "am going to apply.",
    "id": "f-ff-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "order",
@@ -233,7 +284,10 @@
    "exp": "Arrangement → Present Continuous.",
    "ru": "are meeting.",
    "id": "f-ff-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "order",
@@ -242,7 +296,10 @@
    "exp": "I think + will.",
    "ru": "I think … will.",
    "id": "f-ff-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "order",
@@ -251,7 +308,10 @@
    "exp": "Question with going to.",
    "ru": "are you going to do.",
    "id": "f-ff-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "order",
@@ -260,7 +320,10 @@
    "exp": "Arrangement (ticket bought).",
    "ru": "is flying.",
    "id": "f-ff-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "order",
@@ -269,7 +332,10 @@
    "exp": "Promise / decision → will.",
    "ru": "will send.",
    "id": "f-ff-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "fix",
@@ -281,7 +347,10 @@
    "exp": "Need am: I am going to.",
    "ru": "Нужен am.",
    "id": "f-ff-23",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "fix",
@@ -295,7 +364,10 @@
    "exp": "Evidence → going to.",
    "ru": "По признакам — going to.",
    "id": "f-ff-24",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "fix",
@@ -307,7 +379,10 @@
    "exp": "Arrangement → Present Continuous.",
    "ru": "Договорённость — am meeting.",
    "id": "f-ff-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "fix",
@@ -319,7 +394,10 @@
    "exp": "Offer → will.",
    "ru": "Предложение — will.",
    "id": "f-ff-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "fix",
@@ -330,7 +408,10 @@
    "exp": "going to + verb.",
    "ru": "going to.",
    "id": "f-ff-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "fix",
@@ -342,7 +423,10 @@
    "exp": "Opinion about the future → will.",
    "ru": "Мнение — will.",
    "id": "f-ff-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -356,7 +440,10 @@
    "exp": "Plan → going to.",
    "ru": "Собираюсь — going to.",
    "id": "f-ff-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "tr",
@@ -372,7 +459,10 @@
    "exp": "Arrangement → Present Continuous.",
    "ru": "Договорённость — am meeting.",
    "id": "f-ff-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -384,7 +474,10 @@
    "exp": "Offer → will.",
    "ru": "Помогу — will help.",
    "id": "f-ff-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -398,7 +491,10 @@
    "exp": "I think + will.",
    "ru": "I think … will.",
    "id": "f-ff-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -410,7 +506,10 @@
    "exp": "Arrangement / plan.",
    "ru": "are you doing.",
    "id": "f-ff-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -424,7 +523,10 @@
    "exp": "Evidence → going to.",
    "ru": "going to rain.",
    "id": "f-ff-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3A"
+   ]
   },
   {
    "type": "tr",
@@ -437,7 +539,10 @@
    "exp": "Promise → won't.",
    "ru": "won't be late.",
    "id": "f-ff-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   },
   {
    "type": "tr",
@@ -451,7 +556,10 @@
    "exp": "Arrangement → are flying.",
    "ru": "are flying.",
    "id": "f-ff-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "3B"
+   ]
   }
  ]
 }

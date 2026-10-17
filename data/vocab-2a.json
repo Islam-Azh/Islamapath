@@ -107,7 +107,8 @@
   "topic": "Holidays",
   "unit": "2A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "crude oil",
@@ -117,7 +118,8 @@
   "topic": "Holidays",
   "unit": "2A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "pipeline",
@@ -127,7 +129,8 @@
   "topic": "Holidays",
   "unit": "2A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "safety",
@@ -137,7 +140,8 @@
   "topic": "Holidays",
   "unit": "2A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "hazard",
@@ -147,6 +151,7 @@
   "topic": "Holidays",
   "unit": "2A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  }
 ]

@@ -1,0 +1,248 @@
+{
+ "id": "can-could-able",
+ "title": "can, could, be able to",
+ "level": "A2",
+ "unit": "10C",
+ "units": [
+  "10C"
+ ],
+ "kind": "extra",
+ "books": {
+  "grammarInUse": [
+   26,
+   27
+  ],
+  "essentialGrammarInUse": [
+   30
+  ]
+ },
+ "en": "<p><b>can</b> — ability now, possibility, permission: <i>I <b>can</b> read IFRS reports. <b>Can</b> I use your phone?</i></p><p><b>could</b> — general ability in the past: <i>I <b>could</b> swim when I was five.</i> Also polite requests: <i><b>Could</b> you send me the file?</i></p><p><b>be able to</b> — for forms that <i>can</i> doesn't have: future, present perfect, after another verb: <i>I'<b>ll be able to</b> start in May. I <b>haven't been able to</b> call him. I'd like <b>to be able to</b> speak fluently.</i></p><p>One specific success in the past → <b>was / were able to</b> or <b>managed to</b>: <i>The fire spread fast, but everyone <b>was able to</b> leave.</i> (Negative <i>couldn't</i> is always fine.)</p>",
+ "ru": "can — умею/могу сейчас, разрешение. could — умел в прошлом, вежливая просьба. be able to — для будущего (will be able to), Present Perfect (haven't been able to), после других глаголов. Один конкретный успех в прошлом — was able to / managed to.",
+ "boss": {
+  "situation": "Write about your skills: 2 sentences with can, 1 with could (past), 1 with will be able to and 1 with have(n't) been able to.",
+  "samples": [
+   "I can build a risk matrix in Excel.",
+   "I can't speak English fluently yet.",
+   "When I was a student, I could study all night.",
+   "Next year I will be able to give presentations in English.",
+   "I haven't been able to finish the course because of work."
+  ]
+ },
+ "qs": [
+  {
+   "type": "mc",
+   "q": "When I was ten, I ___ play chess very well.",
+   "opts": [
+    "can",
+    "could",
+    "will be able to"
+   ],
+   "a": 1,
+   "exp": "General ability in the past → could.",
+   "ru": "В детстве умел — could.",
+   "stage": 1,
+   "id": "f-cca-1"
+  },
+  {
+   "type": "mc",
+   "q": "I'm sorry, I ___ come to the meeting tomorrow.",
+   "opts": [
+    "can't",
+    "couldn't",
+    "wasn't able"
+   ],
+   "a": 0,
+   "exp": "Possibility about the future → can't (or won't be able to).",
+   "ru": "Не смогу — can't.",
+   "stage": 1,
+   "id": "f-cca-2"
+  },
+  {
+   "type": "mc",
+   "q": "After the course you ___ use the system on your own.",
+   "opts": [
+    "can",
+    "will be able to",
+    "could"
+   ],
+   "a": 1,
+   "exp": "Future ability → will be able to.",
+   "ru": "Будешь уметь — will be able to.",
+   "stage": 1,
+   "id": "f-cca-3"
+  },
+  {
+   "type": "mc",
+   "q": "___ you send me the report, please?",
+   "opts": [
+    "Could",
+    "Able",
+    "Are you able"
+   ],
+   "a": 0,
+   "exp": "Polite request → Could you…?",
+   "ru": "Вежливая просьба — Could.",
+   "stage": 1,
+   "id": "f-cca-4"
+  },
+  {
+   "type": "tf",
+   "q": "“I will can help you tomorrow” is correct.",
+   "a": false,
+   "exp": "No will can → I will be able to help you.",
+   "ru": "will be able to.",
+   "stage": 1,
+   "id": "f-cca-5"
+  },
+  {
+   "type": "tf",
+   "q": "“I haven't been able to contact him” is correct.",
+   "a": true,
+   "exp": "Present perfect → been able to.",
+   "ru": "haven't been able to.",
+   "stage": 1,
+   "id": "f-cca-6"
+  },
+  {
+   "type": "gap",
+   "q": "I'd like ___ (be able to) speak English fluently.",
+   "a": [
+    "to be able to"
+   ],
+   "exp": "After another verb → to be able to.",
+   "ru": "to be able to.",
+   "stage": 2,
+   "id": "f-cca-7"
+  },
+  {
+   "type": "gap",
+   "q": "Sorry, I ___ (not / can) find the file yesterday.",
+   "a": [
+    "couldn't",
+    "could not"
+   ],
+   "exp": "Past negative → couldn't.",
+   "ru": "couldn't.",
+   "stage": 2,
+   "id": "f-cca-8"
+  },
+  {
+   "type": "gap",
+   "q": "___ I ask you a question?",
+   "a": [
+    "Can",
+    "Could",
+    "May"
+   ],
+   "exp": "Permission → Can / Could / May I…?",
+   "ru": "Can / Could I.",
+   "stage": 2,
+   "id": "f-cca-9"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i will be able to start in may",
+   "exp": "Future → will be able to.",
+   "ru": "will be able to.",
+   "stage": 2,
+   "id": "f-cca-10"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "could you speak more slowly please",
+   "exp": "Polite request.",
+   "ru": "Could you…",
+   "stage": 2,
+   "id": "f-cca-11"
+  },
+  {
+   "type": "order",
+   "q": "Put the words in the correct order.",
+   "a": "i have not been able to call him yet",
+   "exp": "Present perfect + be able to.",
+   "ru": "have not been able to.",
+   "stage": 2,
+   "id": "f-cca-12"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I will can finish it tomorrow.”",
+   "a": [
+    "I will be able to finish it tomorrow.",
+    "I'll be able to finish it tomorrow.",
+    "I can finish it tomorrow."
+   ],
+   "exp": "No will can.",
+   "ru": "will be able to.",
+   "stage": 3,
+   "id": "f-cca-13"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “She cans speak three languages.”",
+   "a": [
+    "She can speak three languages."
+   ],
+   "exp": "can has no -s.",
+   "ru": "can без -s.",
+   "stage": 3,
+   "id": "f-cca-14"
+  },
+  {
+   "type": "fix",
+   "q": "Correct the mistake: “I didn't could answer the question.”",
+   "a": [
+    "I couldn't answer the question.",
+    "I could not answer the question.",
+    "I wasn't able to answer the question."
+   ],
+   "exp": "Past negative → couldn't.",
+   "ru": "couldn't.",
+   "stage": 3,
+   "id": "f-cca-15"
+  },
+  {
+   "type": "tr",
+   "q": "Я умею работать с большими таблицами.",
+   "a": [
+    "I can work with big spreadsheets.",
+    "I can work with large spreadsheets.",
+    "I can work with big tables.",
+    "I can work with large tables."
+   ],
+   "exp": "Ability now → can.",
+   "ru": "can work.",
+   "stage": 3,
+   "id": "f-cca-16"
+  },
+  {
+   "type": "tr",
+   "q": "Ты не мог бы мне помочь?",
+   "a": [
+    "Could you help me?",
+    "Could you help me, please?",
+    "Can you help me?"
+   ],
+   "exp": "Polite request → Could you…?",
+   "ru": "Could you help me?",
+   "stage": 3,
+   "id": "f-cca-17"
+  },
+  {
+   "type": "tr",
+   "q": "В следующем году я смогу говорить свободнее.",
+   "a": [
+    "Next year I will be able to speak more fluently.",
+    "Next year I'll be able to speak more fluently.",
+    "I will be able to speak more fluently next year.",
+    "I'll be able to speak more fluently next year."
+   ],
+   "exp": "Future → will be able to.",
+   "ru": "will be able to.",
+   "stage": 3,
+   "id": "f-cca-18"
+  }
+ ]
+}

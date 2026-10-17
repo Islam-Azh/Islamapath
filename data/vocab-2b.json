@@ -12,7 +12,7 @@
  {
   "word": "on time",
   "ipa": "/ɒn taɪm/",
-  "ru": "вовремя",
+  "ru": "вовремя (точно по графику, не опоздав)",
   "ex": "The report was ready on time.",
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
@@ -107,7 +107,8 @@
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "risk",
@@ -117,7 +118,8 @@
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "control owner",
@@ -127,7 +129,8 @@
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "process",
@@ -137,7 +140,8 @@
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "procedure",
@@ -147,6 +151,7 @@
   "topic": "Prepositions of time and place; photos and memories",
   "unit": "2B",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Internal control & risk"
  }
 ]

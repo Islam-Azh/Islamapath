@@ -30,10 +30,10 @@
   "level": "A2"
  },
  {
-  "word": "somewhere where",
-  "ipa": "/ˈsʌmweə weə/",
+  "word": "a place where",
+  "ipa": "/ə pleɪs weə/",
   "ru": "место, где",
-  "ex": "It's somewhere where you keep files.",
+  "ex": "It's a place where we keep old files.",
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "unit",
@@ -107,7 +107,8 @@
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "PPE",
@@ -117,27 +118,30 @@
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
-  "word": "helmet",
-  "ipa": "/ˈhelmɪt/",
-  "ru": "каска",
-  "ex": "Put on your helmet before you enter.",
+  "word": "safety glasses",
+  "ipa": "/ˈseɪfti ˌɡlɑːsɪz/",
+  "ru": "защитные очки",
+  "ex": "Wear safety glasses in the workshop.",
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "shutdown",
   "ipa": "/ˈʃʌtdaʊn/",
-  "ru": "остановка (установки), ППР",
+  "ru": "плановая остановка установки (на ремонт)",
   "ex": "The plant shutdown lasts three weeks.",
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  },
  {
   "word": "maintenance",
@@ -147,6 +151,7 @@
   "topic": "Paraphrasing; people and things at work",
   "unit": "3C",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Oil & gas / HSE"
  }
 ]

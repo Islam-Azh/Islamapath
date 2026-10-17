@@ -32,7 +32,10 @@
    "exp": "Short adjective → -er.",
    "ru": "long — longer.",
    "id": "f-cs-1",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "mc",
@@ -46,7 +49,10 @@
    "exp": "Superlative of a long adjective → the most.",
    "ru": "the most expensive.",
    "id": "f-cs-2",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "mc",
@@ -60,7 +66,10 @@
    "exp": "good → better.",
    "ru": "good — better.",
    "id": "f-cs-3",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "mc",
@@ -74,7 +83,10 @@
    "exp": "cold → colder.",
    "ru": "colder.",
    "id": "f-cs-4",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "mc",
@@ -88,7 +100,10 @@
    "exp": "as … as.",
    "ru": "as … as.",
    "id": "f-cs-5",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "mc",
@@ -102,7 +117,10 @@
    "exp": "Superlative + ever.",
    "ru": "the worst … ever.",
    "id": "f-cs-6",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "mc",
@@ -116,7 +134,10 @@
    "exp": "y → ier.",
    "ru": "easier.",
    "id": "f-cs-7",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "mc",
@@ -130,7 +151,10 @@
    "exp": "far → further / farther.",
    "ru": "far — further.",
    "id": "f-cs-8",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tf",
@@ -139,7 +163,10 @@
    "exp": "not as … as = less.",
    "ru": "Старая быстрее.",
    "id": "f-cs-9",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tf",
@@ -148,7 +175,10 @@
    "exp": "Don't use more with -er: taller.",
    "ru": "Не more + -er.",
    "id": "f-cs-10",
-   "stage": 1
+   "stage": 1,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "gap",
@@ -159,7 +189,10 @@
    "exp": "One vowel + one consonant → double: bigger.",
    "ru": "bigger.",
    "id": "f-cs-11",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "gap",
@@ -170,7 +203,10 @@
    "exp": "Long adjective → the most.",
    "ru": "the most interesting.",
    "id": "f-cs-12",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "gap",
@@ -181,7 +217,10 @@
    "exp": "bad → worst.",
    "ru": "worst.",
    "id": "f-cs-13",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "gap",
@@ -192,7 +231,10 @@
    "exp": "Long adjective → more.",
    "ru": "more difficult.",
    "id": "f-cs-14",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "gap",
@@ -203,7 +245,10 @@
    "exp": "as + adjective (base form) + as.",
    "ru": "as new as.",
    "id": "f-cs-15",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "gap",
@@ -214,7 +259,10 @@
    "exp": "busy → busiest.",
    "ru": "busiest.",
    "id": "f-cs-16",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "order",
@@ -223,7 +271,10 @@
    "exp": "Comparative + than.",
    "ru": "faster than.",
    "id": "f-cs-17",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "order",
@@ -232,7 +283,10 @@
    "exp": "Superlative + ever.",
    "ru": "the best … ever.",
    "id": "f-cs-18",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "order",
@@ -241,7 +295,10 @@
    "exp": "not as … as.",
    "ru": "not as … as.",
    "id": "f-cs-19",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "order",
@@ -250,7 +307,10 @@
    "exp": "Superlative question.",
    "ru": "the most important.",
    "id": "f-cs-20",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "order",
@@ -259,7 +319,10 @@
    "exp": "Comparative + than.",
    "ru": "bigger than.",
    "id": "f-cs-21",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "order",
@@ -268,7 +331,10 @@
    "exp": "Superlative + of.",
    "ru": "the worst … of.",
    "id": "f-cs-22",
-   "stage": 2
+   "stage": 2,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "fix",
@@ -279,7 +345,10 @@
    "exp": "easy → easier.",
    "ru": "easier.",
    "id": "f-cs-23",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "fix",
@@ -292,7 +361,10 @@
    "exp": "Short adjective → the tallest.",
    "ru": "the tallest.",
    "id": "f-cs-24",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "fix",
@@ -303,7 +375,10 @@
    "exp": "Comparatives use than.",
    "ru": "than, не that.",
    "id": "f-cs-25",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "fix",
@@ -315,7 +390,10 @@
    "exp": "Superlative → the best.",
    "ru": "the best.",
    "id": "f-cs-26",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "fix",
@@ -327,7 +405,10 @@
    "exp": "as … as.",
    "ru": "as … as.",
    "id": "f-cs-27",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "fix",
@@ -340,7 +421,10 @@
    "exp": "Don't use most with -est.",
    "ru": "Без most.",
    "id": "f-cs-28",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "tr",
@@ -352,7 +436,10 @@
    "exp": "faster than.",
    "ru": "faster than.",
    "id": "f-cs-29",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tr",
@@ -367,7 +454,10 @@
    "exp": "the most + long adjective.",
    "ru": "the most important.",
    "id": "f-cs-30",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "tr",
@@ -379,7 +469,10 @@
    "exp": "good → better.",
    "ru": "better.",
    "id": "f-cs-31",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tr",
@@ -395,7 +488,10 @@
    "exp": "not as … as.",
    "ru": "not as cold as.",
    "id": "f-cs-32",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tr",
@@ -410,7 +506,10 @@
    "exp": "the best … ever.",
    "ru": "the best … ever.",
    "id": "f-cs-33",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "tr",
@@ -423,7 +522,10 @@
    "exp": "cheap → cheaper.",
    "ru": "cheaper.",
    "id": "f-cs-34",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   },
   {
    "type": "tr",
@@ -437,7 +539,10 @@
    "exp": "busy → the busiest.",
    "ru": "the busiest.",
    "id": "f-cs-35",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5B"
+   ]
   },
   {
    "type": "tr",
@@ -451,7 +556,10 @@
    "exp": "more difficult / harder than.",
    "ru": "more difficult than.",
    "id": "f-cs-36",
-   "stage": 3
+   "stage": 3,
+   "lessons": [
+    "5A"
+   ]
   }
  ]
 }

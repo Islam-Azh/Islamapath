@@ -107,7 +107,8 @@
   "topic": "Airports and travel plans",
   "unit": "3A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "invoice",
@@ -117,7 +118,8 @@
   "topic": "Airports and travel plans",
   "unit": "3A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "payment",
@@ -127,7 +129,8 @@
   "topic": "Airports and travel plans",
   "unit": "3A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "profit",
@@ -137,7 +140,8 @@
   "topic": "Airports and travel plans",
   "unit": "3A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  },
  {
   "word": "loss",
@@ -147,6 +151,7 @@
   "topic": "Airports and travel plans",
   "unit": "3A",
   "track": "work",
-  "level": "A2"
+  "level": "B1",
+  "area": "Numbers & finance"
  }
 ]

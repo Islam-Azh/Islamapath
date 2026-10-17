@@ -107,7 +107,8 @@
   "topic": "Fears and phobias; how long",
   "unit": "9B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "control test",
@@ -117,17 +118,19 @@
   "topic": "Fears and phobias; how long",
   "unit": "9B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "exception",
   "ipa": "/ɪkˈsepʃn/",
-  "ru": "отклонение, исключение",
+  "ru": "исключение; ошибка, найденная в выборке",
   "ex": "We found two exceptions in the sample.",
   "topic": "Fears and phobias; how long",
   "unit": "9B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "deficiency",
@@ -137,7 +140,8 @@
   "topic": "Fears and phobias; how long",
   "unit": "9B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Internal control & risk"
  },
  {
   "word": "effective",
@@ -147,6 +151,7 @@
   "topic": "Fears and phobias; how long",
   "unit": "9B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Internal control & risk"
  }
 ]

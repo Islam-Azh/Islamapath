@@ -13,7 +13,7 @@
   "word": "discover",
   "ipa": "/dɪˈskʌvə/",
   "ru": "открывать (обнаружить)",
-  "ex": "They discovered oil here in 1899.",
+  "ex": "They discovered oil in this region more than a hundred years ago.",
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "unit",
@@ -22,8 +22,8 @@
  {
   "word": "design",
   "ipa": "/dɪˈzaɪn/",
-  "ru": "проектировать; дизайн",
-  "ex": "The plant was designed by a French company.",
+  "ru": "проектировать, разрабатывать; дизайн",
+  "ex": "Our team designed a new checklist.",
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "unit",
@@ -107,7 +107,8 @@
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "provision",
@@ -117,7 +118,8 @@
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "accrual",
@@ -127,7 +129,8 @@
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "lease",
@@ -137,7 +140,8 @@
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  },
  {
   "word": "auditor's opinion",
@@ -147,6 +151,7 @@
   "topic": "Inventions; verbs: invent, discover",
   "unit": "10A",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "IFRS & reporting"
  }
 ]

@@ -107,7 +107,8 @@
   "topic": "say or tell; gossip and news",
   "unit": "12B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Corporate governance"
  },
  {
   "word": "subsidiary",
@@ -117,7 +118,8 @@
   "topic": "say or tell; gossip and news",
   "unit": "12B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Corporate governance"
  },
  {
   "word": "board of directors",
@@ -127,7 +129,8 @@
   "topic": "say or tell; gossip and news",
   "unit": "12B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Corporate governance"
  },
  {
   "word": "audit committee",
@@ -137,7 +140,8 @@
   "topic": "say or tell; gossip and news",
   "unit": "12B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Corporate governance"
  },
  {
   "word": "shareholder",
@@ -147,6 +151,7 @@
   "topic": "say or tell; gossip and news",
   "unit": "12B",
   "track": "work",
-  "level": "B1"
+  "level": "B1",
+  "area": "Corporate governance"
  }
 ]
