@@ -32,10 +32,11 @@ function summary(t){const ls=[1,2,3].filter(l=>qsOf(t,l).length);const st=ls.red
 function startLevel(t,l,o={}){const g=GRAMMAR[t];if(!g)return toast('Topic not found');
   if(!open(t,l)&&!o.force)return toast('Finish the previous level first (70%)');
   const qs=shuffle(qsOf(t,l)).slice(0,LV[l].size);if(!qs.length)return toast('No exercises for this level yet');
-  listRun(Object.assign({title:`${g.title} · Level ${l}`,kind:'practice',back:'/grammar/'+t,reshuffle:true,glevel:{t,l},
-    onFinish:r=>{const c=r.answers.filter(a=>a.ok).length,n=r.answers.length;if(!n)return;const sc=c/n;const x=rec(t);const before=x[l]?x[l].best:null;
-      x[l]={best:Math.max(before||0,sc),last:sc,date:new Date().toISOString(),tries:((x[l]&&x[l].tries)||0)+1};
-      if(sc>=PASS&&(before==null||before<PASS))setTimeout(()=>toast(l<3?`🔓 Level ${l+1} is open!`:'⚔️ Boss is open!'),300)}},o),qs)}
+  listRun(Object.assign({title:`${g.title} · Level ${l}`,kind:'practice',back:'/grammar/'+t,reshuffle:true,glevel:{t,l}},o),qs)}
+function recordLevel(r){if(!r||!r.glevel||!r.answers||!r.answers.length)return;const {t,l}=r.glevel;const c=r.answers.filter(a=>a.ok).length,n=r.answers.length;const sc=c/n;const x=rec(t);const before=x[l]?x[l].best:null;
+  x[l]={best:Math.max(before||0,sc),last:sc,date:new Date().toISOString(),tries:((x[l]&&x[l].tries)||0)+1};
+  if(sc>=PASS&&(before==null||before<PASS))setTimeout(()=>toast(l<3?`🔓 Level ${l+1} is open!`:'⚔️ Boss is open!'),300)}
+const _finishL=finishRun;finishRun=function(){const r=RUN;_finishL();try{if(isStudent())recordLevel(r);save();if(typeof Cloud!=='undefined'&&Cloud.flushNow)Cloud.flushNow()}catch(e){console.error(e)}};
 
 /* ---------- boss ---------- */
 function bossData(t){const g=GRAMMAR[t]||{};const b=g.boss||{};
@@ -47,7 +48,7 @@ A.bossSubmit=()=>{const b=UI.boss;if(!b)return;b.ans=[0,1,2,3,4].map(i=>(($('#bo
   const filled=b.ans.filter(x=>wc(x)>=3).length;if(filled<5)return toast(`Write all 5 sentences (at least 3 words each) — now ${filled}/5`);
   const d=bossData(b.t);const hits=d.check.length?b.ans.map(a=>d.check.some(re=>{try{return new RegExp(re,'i').test(a)}catch(e){return false}})):null;
   const p=P();p.boss=p.boss||{};p.boss[b.t]={date:new Date().toISOString(),answers:b.ans};b.sent=true;b.hits=hits;
-  logMinutes(Math.min((Date.now()-b.t0)/60000,30));save();render()};
+  logMinutes(Math.min((Date.now()-b.t0)/60000,30));save();if(Cloud.flushNow)Cloud.flushNow();render()};
 A.bossToTeacher=()=>{const b=UI.boss;if(!b)return;const d=bossData(b.t);const id='w-'+uid();
   S.subs.push({id,type:'writing',taskId:'boss-'+b.t,prompt:'Boss · '+topicName(b.t)+': '+d.situation,text:b.ans.map((a,i)=>`${i+1}. ${a}`).join('\n'),pre:[],status:'submitted',date:new Date().toISOString()});
   notify('teacher',`${S.users.student.name} sent Boss sentences: ${topicName(b.t)}`,'/t/review/'+id);b.toTeacher=true;save();toast('Sent to '+S.users.teacher.name);render()};

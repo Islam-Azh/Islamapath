@@ -390,7 +390,7 @@ function seed(){
 }
 function mkCard(v){return {id:'v-'+uid(),word:v[0],ipa:v[1],ru:v[2],ex:v[3],topic:v[4],ef:2.5,reps:0,interval:0,due:dkey(),added:new Date().toISOString()}}
 function load(){try{S=JSON.parse(localStorage.getItem(KEY))}catch(e){S=null}if(!S||S.v!==1)S=seed();const base=seed();Object.keys(base).forEach(k=>{if(S[k]===undefined)S[k]=base[k]})}
-function cacheLocal(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){toast('Could not save — browser storage is full or blocked.')}}
+function cacheLocal(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){toast('Could not save — browser storage is full or blocked.')}try{if(typeof Cloud!=='undefined'&&Cloud.on&&Cloud.user)Cloud.saveBase()}catch(e){}}
 function save(){cacheLocal();if(Cloud.on&&Cloud.ready)Cloud.queue()}
 
 /* ---------- Cloud sync (Supabase) ----------
@@ -398,55 +398,138 @@ function save(){cacheLocal();if(Cloud.on&&Cloud.ready)Cloud.queue()}
    (theme, hints, audio speed, current role) never leave the browser.      */
 const SHARED_KEYS=['users','schedule','course','levels','placementDraft','retakeAllowed','lessonProgress','topicStats','attempts','mistakes','vocab','homework','hwTemplates','subs','customTests','customQ','activity','notifs','drafts'];
 const TEACHER_KEYS=['notes'];
+/* ============================================================
+   Cloud sync (METHODIKA §17, task D51)
+   • key ownership: the student's progress is written only by the student; the teacher writes only her keys;
+     homework / subs / notifs / users are written by both and merged item by item (by id)
+   • 3-way merge: base = the server copy this browser saw last; if the server changed meanwhile
+     (another tab, phone, teacher) the changes are merged, never overwritten
+   • immediate save after finished blocks; keepalive save when the tab closes; visible status + retry
+   ============================================================ */
+const OWN={student:['program','game','vocab','attempts','mistakes','topicStats','lessonProgress','activity','levels','placementDraft','drafts'],
+  teacher:['notes','customTests','customQ','course','retakeAllowed','schedule','hwTemplates']};
+const clone=v=>v===undefined?undefined:JSON.parse(JSON.stringify(v));
+const jsn=v=>JSON.stringify(v===undefined?null:v);
+const idOf=x=>x&&typeof x==='object'?(x.id!=null?'i:'+x.id:x.qid!=null?'q:'+x.qid:null):null;
+function merge3(base,local,remote){
+  const sb=jsn(base),sl=jsn(local),sr=jsn(remote);
+  if(sl===sr)return clone(local);if(sl===sb)return clone(remote);if(sr===sb)return clone(local);
+  if(Array.isArray(local)&&Array.isArray(remote)){
+    const keyed=a=>a.length&&a.every(x=>idOf(x));
+    if((keyed(local)||!local.length)&&(keyed(remote)||!remote.length)&&(local.length||remote.length)){
+      const bm=new Map((Array.isArray(base)?base:[]).filter(idOf).map(x=>[idOf(x),x]));
+      const lm=new Map(local.map(x=>[idOf(x),x])),rm=new Map(remote.map(x=>[idOf(x),x]));const out=[];const seen=new Set();
+      const take=id=>{if(seen.has(id))return;seen.add(id);const b=bm.get(id),l=lm.get(id),r=rm.get(id);
+        if(l&&r)return out.push(merge3(b,l,r));
+        if(l&&!r){if(b&&jsn(b)===jsn(l))return;return out.push(clone(l))}       // deleted remotely (and unchanged here) → drop
+        if(r&&!l){if(b&&jsn(b)===jsn(r))return;return out.push(clone(r))}};     // deleted here (and unchanged there) → drop
+      local.forEach(x=>take(idOf(x)));remote.forEach(x=>take(idOf(x)));return out}
+    const out=clone(local);remote.forEach(x=>{if(!out.some(y=>jsn(y)===jsn(x)))out.push(clone(x))});return out}
+  if(local&&remote&&typeof local==='object'&&typeof remote==='object'&&!Array.isArray(local)&&!Array.isArray(remote)){
+    const b=base&&typeof base==='object'&&!Array.isArray(base)?base:{};const out={};
+    new Set(Object.keys(local).concat(Object.keys(remote))).forEach(k=>{
+      if(!(k in remote)){if(k in b&&jsn(b[k])===jsn(local[k]))return;out[k]=clone(local[k]);return}
+      if(!(k in local)){if(k in b&&jsn(b[k])===jsn(remote[k]))return;out[k]=clone(remote[k]);return}
+      out[k]=merge3(b[k],local[k],remote[k])});return out}
+  if(typeof local==='number'&&typeof remote==='number')return Math.max(local,remote);
+  return clone(local)}
 const Cloud={
   on:!!(window.TS_CONFIG&&TS_CONFIG.supabaseUrl&&TS_CONFIG.supabaseAnonKey),
-  sb:null,user:null,ready:false,hashes:{},timer:null,saving:false,again:false,channel:null,pendingRender:false,status:'',
+  sb:null,user:null,ready:false,hashes:{},base:{},ver:{},timer:null,saving:false,again:false,channel:null,pendingRender:false,status:'',token:'',lastError:'',lastSaved:null,
   keys(){return Cloud.role()==='teacher'?SHARED_KEYS.concat(TEACHER_KEYS):SHARED_KEYS},
   role(){return S&&S.role},
-  setStatus(st){Cloud.status=st;const el=$('#sync');if(el){const m={saved:['☁️','All changes saved'],saving:['⏳','Saving…'],offline:['⚠️','Not saved — no connection. Will retry.']}[st]||['',''];el.textContent=m[0];el.title=m[1]}},
+  canWrite(k){const r=Cloud.role();if(r==='student')return !OWN.teacher.includes(k)&&!TEACHER_KEYS.includes(k);if(r==='teacher')return !OWN.student.includes(k);return false},
+  baseKey(){return KEY+':base:'+(Cloud.user?Cloud.user.id:'')},
+  saveBase(){try{localStorage.setItem(Cloud.baseKey(),JSON.stringify({base:Cloud.base,ver:Cloud.ver}))}catch(e){}},
+  loadBase(){try{const d=JSON.parse(localStorage.getItem(Cloud.baseKey())||'null');return d&&d.base?d:null}catch(e){return null}},
+  log(msg){const p=S&&S.program;const line=new Date().toISOString().slice(0,19)+' '+msg;console.error('[sync] '+msg);if(p){p.syncLog=(p.syncLog||[]).concat([line]).slice(-20)}},
+  setStatus(st,err){Cloud.status=st;if(err)Cloud.lastError=err;const el=$('#sync');if(el){const m={saved:['☁️','All changes saved'+(Cloud.lastSaved?' · '+new Date(Cloud.lastSaved).toLocaleTimeString():'')],saving:['⏳','Saving…'],offline:['⚠️','Not saved: '+(Cloud.lastError||'no connection')+'. Click to retry.']}[st]||['',''];el.textContent=m[0];el.title=m[1];el.style.cursor=st==='offline'?'pointer':''}},
   queue(){clearTimeout(Cloud.timer);Cloud.setStatus('saving');Cloud.timer=setTimeout(Cloud.flush,700)},
+  flushNow(){if(!Cloud.on||!Cloud.ready)return Promise.resolve();clearTimeout(Cloud.timer);return Cloud.flush()},
+  changed(){return Cloud.keys().filter(k=>Cloud.canWrite(k)&&jsn(S[k])!==Cloud.hashes[k])},
   async flush(){
-    if(!Cloud.ready)return;if(Cloud.saving){Cloud.again=true;return}
-    const rows=[];Cloud.keys().forEach(k=>{const s=JSON.stringify(S[k]===undefined?null:S[k]);if(Cloud.hashes[k]!==s)rows.push({key:k,value:S[k]===undefined?null:S[k],scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:new Date().toISOString(),_s:s})});
-    if(!rows.length){Cloud.setStatus('saved');return}
-    Cloud.saving=true;
-    const {error}=await Cloud.sb.from('app_state').upsert(rows.map(({_s,...r})=>r));
-    Cloud.saving=false;
-    if(error){console.error(error);Cloud.setStatus('offline');clearTimeout(Cloud.timer);Cloud.timer=setTimeout(Cloud.flush,5000);return}
-    rows.forEach(r=>Cloud.hashes[r.key]=r._s);
-    if(Cloud.again){Cloud.again=false;return Cloud.flush()}
-    Cloud.setStatus('saved');
+    if(!Cloud.ready||!Cloud.user)return;if(Cloud.saving){Cloud.again=true;return}
+    const keys=Cloud.changed();if(!keys.length){Cloud.setStatus('saved');return}
+    Cloud.saving=true;Cloud.setStatus('saving');let mergedSome=false;
+    try{
+      const {data:srv,error:e1}=await Cloud.sb.from('app_state').select('key,value,updated_at').in('key',keys);
+      if(e1)throw e1;
+      const sm={};(srv||[]).forEach(r=>sm[r.key]=r);
+      const now=new Date().toISOString();const rows=[];
+      keys.forEach(k=>{let v=S[k]===undefined?null:S[k];const r=sm[k];
+        if(r&&jsn(r.value)!==Cloud.hashes[k]&&Cloud.hashes[k]!==undefined){v=merge3(Cloud.base[k],v,r.value);S[k]=v;mergedSome=true}
+        else if(r&&Cloud.hashes[k]===undefined&&jsn(r.value)!==jsn(v)){v=merge3(undefined,v,r.value);S[k]=v;mergedSome=true}
+        rows.push({key:k,value:v,scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now})});
+      const {error}=await Cloud.sb.from('app_state').upsert(rows);
+      if(error)throw error;
+      rows.forEach(r=>{const s=jsn(r.value);Cloud.hashes[r.key]=s;Cloud.base[r.key]=JSON.parse(s);Cloud.ver[r.key]=r.updated_at});
+      Cloud.lastSaved=Date.now();Cloud.lastError='';cacheLocal();
+      if(mergedSome){indexQuestions();Cloud.remoteRender()}
+      Cloud.saving=false;
+      if(Cloud.again){Cloud.again=false;return Cloud.flush()}
+      Cloud.setStatus('saved');
+    }catch(err){Cloud.saving=false;const msg=(err&&(err.message||err.code))||String(err);Cloud.log('save failed: '+msg);
+      if(/jwt|401|expired|token/i.test(msg)&&Cloud.sb.auth.refreshSession){try{const {data,error}=await Cloud.sb.auth.refreshSession();if(!error&&data&&data.session){Cloud.token=data.session.access_token;return Cloud.flush()}}catch(e){}
+        Cloud.setStatus('offline','session expired — sign in again');toast('Session expired. Your progress is kept on this device — sign in again to save it.');Cloud.relogin=true;render();return}
+      if(Cloud.status!=='offline')toast('⚠️ Not saved: '+msg+'. Tap ⚠️ to retry.');
+      Cloud.setStatus('offline',msg);clearTimeout(Cloud.timer);Cloud.timer=setTimeout(Cloud.flush,5000)}
   },
+  /* last chance when the tab is closing: one small request that survives the page */
+  beacon(){if(!Cloud.ready||!Cloud.user||!Cloud.token)return;const keys=Cloud.changed();if(!keys.length)return;
+    const now=new Date().toISOString();const pri=['program','game','vocab','lessonProgress','topicStats','mistakes','activity','subs','homework'];
+    keys.sort((a,b)=>(pri.indexOf(a)<0?99:pri.indexOf(a))-(pri.indexOf(b)<0?99:pri.indexOf(b)));
+    const rows=[];let size=2;for(const k of keys){const r={key:k,value:S[k]===undefined?null:S[k],scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now};const s=JSON.stringify(r).length;if(size+s>60000)continue;size+=s+1;rows.push(r)}
+    if(!rows.length)return;
+    try{fetch(TS_CONFIG.supabaseUrl.replace(/\/$/,'')+'/rest/v1/app_state?on_conflict=key',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json',apikey:TS_CONFIG.supabaseAnonKey,Authorization:'Bearer '+Cloud.token,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(rows)});
+      rows.forEach(r=>{Cloud.hashes[r.key]=jsn(r.value);Cloud.base[r.key]=clone(r.value);Cloud.ver[r.key]=now});cacheLocal()}catch(e){}},
   async pull(){
-    const {data,error}=await Cloud.sb.from('app_state').select('key,value');
+    const {data,error}=await Cloud.sb.from('app_state').select('key,value,updated_at');
     if(error)throw error;
-    const base=seed();const got={};(data||[]).forEach(r=>got[r.key]=r.value);
-    Cloud.keys().forEach(k=>{if(k in got){S[k]=got[k];Cloud.hashes[k]=JSON.stringify(got[k])}else{if(S[k]===undefined||!Cloud.ready)S[k]=got[k]??base[k];delete Cloud.hashes[k]}});
-    indexQuestions();
-  },
+    const base=seed();const got={},at={};(data||[]).forEach(r=>{got[r.key]=r.value;at[r.key]=r.updated_at});
+    let changedLocal=false;
+    Cloud.keys().forEach(k=>{
+      if(k in got){const local=S[k],sv=got[k];const known=Cloud.hashes[k]!==undefined;
+        const dirty=known&&jsn(local)!==Cloud.hashes[k]&&Cloud.canWrite(k);
+        if(dirty){S[k]=merge3(Cloud.base[k],local,sv);changedLocal=true}else S[k]=sv;
+        Cloud.hashes[k]=jsn(sv);Cloud.base[k]=clone(sv);Cloud.ver[k]=at[k]}
+      else{if(S[k]===undefined||!Cloud.ready)S[k]=got[k]??base[k];delete Cloud.hashes[k];delete Cloud.base[k]}});
+    indexQuestions();cacheLocal();return changedLocal},
+  /* first load: merge what this device saved locally but did not send (closed tab, offline) */
+  async startPull(){if(!Cloud.ready){const stored=Cloud.loadBase();let sameUser=false;try{sameUser=localStorage.getItem(KEY+':user')===Cloud.user.id}catch(e){}
+      Cloud.hashes={};Cloud.base={};Cloud.ver={};
+      if(stored&&sameUser){Cloud.base=stored.base||{};Cloud.ver=stored.ver||{};Object.keys(Cloud.base).forEach(k=>Cloud.hashes[k]=jsn(Cloud.base[k]))}}
+    const merged=await Cloud.pull();try{localStorage.setItem(KEY+':user',Cloud.user.id)}catch(e){}return merged},
   async start(user){
     Cloud.user=user;
+    try{const {data}=await Cloud.sb.auth.getSession();Cloud.token=data&&data.session?data.session.access_token:''}catch(e){}
+    if(Cloud.sb.auth.onAuthStateChange&&!Cloud.authSub){try{Cloud.authSub=Cloud.sb.auth.onAuthStateChange((ev,ses)=>{Cloud.token=ses?ses.access_token:'';if(ses&&Cloud.relogin){Cloud.relogin=false;Cloud.flush()}})}catch(e){}}
     const {data:prof,error}=await Cloud.sb.from('profiles').select('role,name').eq('id',user.id).maybeSingle();
     if(error||!prof){await Cloud.sb.auth.signOut();Cloud.user=null;S.role=null;return 'This account has no role yet. Ask to run step 4 of supabase-setup.sql.'}
     S.role=prof.role;
     const named=()=>{if(S.users&&S.users[prof.role]){const cur=S.users[prof.role].name;if(prof.name&&(!cur||cur==='Islam'||cur==='Айнура'||cur==='Ms Teacher'))S.users[prof.role].name=prof.name;S.users[prof.role].email=user.email||''}};
-    try{await Cloud.pull();named();Cloud.ready=true;cacheLocal();Cloud.flush()}
-    catch(e){console.error(e);named();toast('No connection to the server — showing the copy saved on this device. Changes will not be saved until it reconnects.');Cloud.retryPull()}
+    try{await Cloud.startPull();named();Cloud.ready=true;cacheLocal();Cloud.flush()}
+    catch(e){console.error(e);Cloud.log('load failed: '+(e.message||e));named();toast('No connection to the server — showing the copy saved on this device. Your work is kept and will be saved when the connection is back.');Cloud.retryPull()}
     Cloud.listen();return null;
   },
-  retryPull(){setTimeout(async()=>{if(!Cloud.user)return;try{await Cloud.pull();Cloud.ready=true;cacheLocal();Cloud.setStatus('saved');render()}catch(e){Cloud.setStatus('offline');Cloud.retryPull()}},10000)},
-  async refresh(){if(!Cloud.ready||!Cloud.user)return;clearTimeout(Cloud.timer);await Cloud.flush();if(Cloud.status!=='saved')return;try{const before=JSON.stringify(Cloud.keys().map(k=>Cloud.hashes[k]));await Cloud.pull();cacheLocal();if(JSON.stringify(Cloud.keys().map(k=>Cloud.hashes[k]))!==before)Cloud.remoteRender()}catch(e){Cloud.setStatus('offline')}},
+  retryPull(){setTimeout(async()=>{if(!Cloud.user)return;try{await Cloud.startPull();Cloud.ready=true;cacheLocal();await Cloud.flush();render()}catch(e){Cloud.setStatus('offline','no connection');Cloud.retryPull()}},10000)},
+  async refresh(){if(!Cloud.ready||!Cloud.user)return;clearTimeout(Cloud.timer);
+    try{const before=jsn(Cloud.keys().map(k=>Cloud.hashes[k]));const merged=await Cloud.pull();cacheLocal();if(merged)await Cloud.flush();
+      if(merged||jsn(Cloud.keys().map(k=>Cloud.hashes[k]))!==before)Cloud.remoteRender();if(!Cloud.changed().length)Cloud.setStatus('saved')}catch(e){Cloud.setStatus('offline','no connection')}},
   listen(){
     if(Cloud.channel)Cloud.sb.removeChannel(Cloud.channel);
     Cloud.channel=Cloud.sb.channel('app_state').on('postgres_changes',{event:'*',schema:'public',table:'app_state'},p=>{
-      const row=p.new;if(!row||!row.key||!Cloud.keys().includes(row.key))return;
-      if(Cloud.user&&row.updated_by===Cloud.user.id)return;
-      const s=JSON.stringify(row.value);if(Cloud.hashes[row.key]===s)return;
-      Cloud.hashes[row.key]=s;S[row.key]=row.value;if(row.key==='customQ')indexQuestions();cacheLocal();Cloud.remoteRender();
+      const row=p.new;if(!row||!row.key||!Cloud.keys().includes(row.key))return;const k=row.key;
+      if(row.updated_at&&row.updated_at===Cloud.ver[k])return;            // my own write
+      const s=jsn(row.value);if(Cloud.hashes[k]===s)return;
+      const dirty=Cloud.canWrite(k)&&Cloud.hashes[k]!==undefined&&jsn(S[k])!==Cloud.hashes[k];
+      S[k]=dirty?merge3(Cloud.base[k],S[k],row.value):row.value;
+      Cloud.hashes[k]=s;Cloud.base[k]=clone(row.value);Cloud.ver[k]=row.updated_at;
+      if(k==='customQ')indexQuestions();cacheLocal();if(dirty)Cloud.queue();Cloud.remoteRender();
     }).subscribe();
   },
   remoteRender(){const a=document.activeElement;if(a&&/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||Rec.active){Cloud.pendingRender=true;return}Cloud.pendingRender=false;render()},
-  async stop(){clearTimeout(Cloud.timer);await Cloud.flush();if(Cloud.channel){Cloud.sb.removeChannel(Cloud.channel);Cloud.channel=null}Cloud.ready=false;Cloud.hashes={};await Cloud.sb.auth.signOut();Cloud.user=null}
+  async stop(){clearTimeout(Cloud.timer);await Cloud.flush();if(Cloud.changed().length&&Cloud.status==='offline'){toast('Not saved yet — check the connection, then sign out again.');return false}
+    if(Cloud.channel){Cloud.sb.removeChannel(Cloud.channel);Cloud.channel=null}Cloud.ready=false;Cloud.hashes={};Cloud.base={};Cloud.ver={};await Cloud.sb.auth.signOut();Cloud.user=null;return true}
 };
 
 const AudioDB={db:null,
@@ -619,7 +702,7 @@ function render(){
     <span class="badge acc">${S.role==='teacher'?'Teacher':'Student'} · ${esc(u.name)}</span><span class="spacer"></span>
     <button class="iconbtn" onclick="A.togglePanel()" aria-label="Notifications">🔔${unread?`<span class="dot">${unread}</span>`:''}</button>
     <button class="iconbtn" onclick="A.cycleTheme()" aria-label="Toggle theme" title="Theme: ${S.settings.theme}">${S.settings.theme==='dark'?'🌙':S.settings.theme==='light'?'☀️':'🌓'}</button>
-    ${Cloud.on?`<span id="sync" class="small" aria-live="polite" title=""></span>`:''}
+    ${Cloud.on?`<span id="sync" class="small" aria-live="polite" title="" onclick="Cloud.flushNow()" role="button" tabindex="0"></span>`:''}
     <button class="iconbtn" onclick="A.logout()">${Cloud.on?'Sign out':'Switch role'}</button>
     ${UI.panel?notifPanel():''}</header>
     <nav class="side" aria-label="Main">${nav}</nav><main id="main">${html}</main></div>`;
@@ -1153,7 +1236,7 @@ const TV={dashboard:tDash,homework:tHomework,review:tReview,tests:tTests,course:
 const A={};window.A=A;
 A.login=r=>{S.role=r;save();location.hash=r==='teacher'?'/t/dashboard':'/dashboard';render()};
 A.logout=async()=>{UI.panel=false;RUN=null;clearInterval(TIMER);TIMER=null;
-  if(Cloud.on){await Cloud.stop();S=seed();S.settings=JSON.parse(localStorage.getItem(KEY)||'{}').settings||S.settings;S.role=null;localStorage.removeItem(KEY);cacheLocal();indexQuestions();location.hash='';render();return}
+  if(Cloud.on){if(!(await Cloud.stop()))return render();S=seed();S.settings=JSON.parse(localStorage.getItem(KEY)||'{}').settings||S.settings;S.role=null;localStorage.removeItem(KEY);cacheLocal();indexQuestions();location.hash='';render();return}
   S.role=null;save();location.hash='';render()};
 A.signIn=async e=>{e.preventDefault();const email=$('#li-email').value.trim(),password=$('#li-pass').value;const btn=$('#li-btn');btn.disabled=true;btn.textContent='Signing in…';UI.loginErr='';
   const {data,error}=await Cloud.sb.auth.signInWithPassword({email,password});
@@ -1379,7 +1462,8 @@ A.delNote=id=>{S.notes=S.notes.filter(n=>n.id!==id);save();render()};
 load();indexQuestions();
 window.addEventListener('hashchange',render);
 document.addEventListener('focusout',()=>setTimeout(()=>{const a=document.activeElement;if(Cloud.pendingRender&&!(a&&/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName))&&!Rec.active)Cloud.remoteRender()},150));
-document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Cloud.on)Cloud.refresh();else if(Cloud.on&&Cloud.ready){clearTimeout(Cloud.timer);Cloud.flush()}});
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&Cloud.on)Cloud.refresh();else if(Cloud.on&&Cloud.ready){cacheLocal();clearTimeout(Cloud.timer);Cloud.flush()}});
+window.addEventListener('pagehide',()=>{try{cacheLocal()}catch(e){}if(Cloud.on&&Cloud.ready)Cloud.beacon()});
 window.addEventListener('beforeunload',e=>{if(Cloud.on&&(Cloud.status==='saving'||Cloud.status==='offline')){e.preventDefault();e.returnValue=''}});
 document.addEventListener('keydown',e=>{if(e.key==='Enter'&&RUN&&RUN.state==='feedback'&&document.activeElement&&document.activeElement.tagName!=='BUTTON'){e.preventDefault();A.next()}});
 document.addEventListener('click',e=>{const pop=$('#wordpop');if(pop&&pop.innerHTML&&!e.target.closest('.pop')&&!e.target.classList.contains('w'))pop.innerHTML='';
@@ -1404,6 +1488,7 @@ boot();
 <script src="trainer.js"></script>
 <script src="speak.js"></script>
 <script src="progress.js"></script>
+<script src="resume.js"></script>
 <script src="design.js"></script>
 </body>
 </html>

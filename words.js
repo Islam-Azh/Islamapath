@@ -67,7 +67,7 @@ function answer(res){const w=UI.wq,c=cur();if(!w||!c||w.state!=='ask')return;
   w.res=res;w.state='shown';save();render();setTimeout(()=>{const b=$('#wnext');if(b)b.focus()},0)}
 function next(){const w=UI.wq;if(!w)return;w.i++;w.state='ask';w.res=null;w.given='';if(w.i>=w.q.length)return finish();render();setTimeout(()=>{const el=$('#wtype');if(el)el.focus()},0)}
 function finish(){const w=UI.wq;const ids=Object.keys(w.first);const known=ids.filter(k=>w.first[k]).length;
-  logMinutes(Math.min((Date.now()-w.t0)/60000,60));w.state='done';w.result={n:ids.length,known,acc:ids.length?known/ids.length:1};save();render()}
+  logMinutes(Math.min((Date.now()-w.t0)/60000,60));w.state='done';w.result={n:ids.length,known,acc:ids.length?known/ids.length:1};save();if(Cloud.flushNow)Cloud.flushNow();render()}
 function close(){const w=UI.wq;UI.wq=null;const cb=w&&w.onDone,res=w&&w.result,back=w&&w.back;if(cb&&res){cb(res)}else go(back||'/today')}
 function quit(){const w=UI.wq;UI.wq=null;save();go(w&&w.back||'/today')}
 

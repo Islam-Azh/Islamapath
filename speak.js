@@ -119,7 +119,7 @@ A.skSave=async()=>{syncTr();const s=UI.sk;if(!s)return;const at=s.attempts[s.bes
   if(s.hw){sub.status='submitted';notify('teacher',`New retelling from ${S.users.student.name}`,'/t/homework/'+s.hw.id)}
   S.subs.push(sub);s.saved=id;s.phase='saved';
   if(isStudent()&&window.TS_PROGRAM&&!s.onDone&&!s.hw)TS_PROGRAM.award(s.kind==='diary'?50:30,'speaking','Speaking: '+KINDS[s.kind].name);
-  save();render()};
+  save();if(Cloud.flushNow)Cloud.flushNow();render()};
 A.skIvSave=async()=>{const s=UI.sk;if(!s||!s.iv)return;const id='s-'+uid();toast('Saving the interview…');const items=[];
   for(const [i,a] of s.iv.answers.entries()){let key=null;try{key=await AudioStore.put('a-'+id+'-'+(i+1),a.blob)}catch(e){console.error(e)}items.push({q:a.q.q,qid:a.q.id,audioKey:key,transcript:a.transcript,secs:a.secs,words:a.a.words,wpm:a.a.wpm})}
   const old=S.subs.filter(x=>x.kind==='interview'&&x.set===s.iv.set);old.forEach(o=>removeAudio((o.items||[]).map(x=>x.audioKey).filter(Boolean)));S.subs=S.subs.filter(x=>!old.includes(x));
@@ -202,7 +202,7 @@ async function playDiary(){const keys=S.subs.filter(s=>s.type==='speaking'&&s.di
 /* ---------- storage rule: delete audio after 90 days (diary is kept) ---------- */
 async function removeAudio(keys){if(!keys.length)return true;if(!Cloud.on){try{for(const k of keys)await AudioDB.del?.(k)}catch(e){}return true}
   try{const {error}=await Cloud.sb.storage.from('audio').remove(keys);return !error}catch(e){return false}}
-async function cleanup(){if(!S||!S.role)return;const p=P();const k=dkey();if(p.audioCleanup===k)return;p.audioCleanup=k;
+async function cleanup(){if(!S||S.role!=='student')return;const p=P();const k=dkey();if(p.audioCleanup===k)return;p.audioCleanup=k;
   const old=iso=>iso&&(Date.now()-new Date(iso))>90*864e5;let changed=false;
   for(const s of S.subs){if(s.type!=='speaking'||s.diary)continue;const base=(s.review&&s.review.at)||s.date;if(!old(base))continue;
     const keys=[s.audioKey].concat((s.items||[]).map(x=>x.audioKey)).concat(s.review&&s.review.voiceKey?[s.review.voiceKey]:[]).filter(Boolean);if(!keys.length)continue;

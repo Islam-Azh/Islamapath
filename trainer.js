@@ -119,7 +119,7 @@ function complete(id,acc,extra){const s=current();if(!s)return;const b=s.blocks.
   b.xp=acc==null?0:Math.round(b.reward*(acc>=0.8?1:0.5));if(extra)Object.assign(b,extra);
   if(b.xp)award(b.xp,b.skill,'Block: '+b.title);
   if(!curBlock(s)){s.doneAt=new Date().toISOString();setTimeout(()=>{try{window.TS_FX&&TS_FX.confetti()}catch(e){}},200)}
-  save()}
+  save();if(typeof Cloud!=='undefined'&&Cloud.flushNow)Cloud.flushNow()}
 A.tSkip=id=>{const s=current();const b=s&&s.blocks.find(x=>x.id===id);if(!b)return;b.status='skipped';b.xp=0;if(!curBlock(s))s.doneAt=new Date().toISOString();save();render()};
 const _finish=finishRun;
 finishRun=function(){const r=RUN;_finish();try{if(r&&r.planBlock){const n=r.answers.length,c=r.answers.filter(a=>a.ok).length;complete(r.planBlock,n?c/n:null);render()}}catch(e){console.error(e)}};

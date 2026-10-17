@@ -498,7 +498,7 @@ const _login=A.login;A.login=r=>{_login(r);if(r==='student')location.hash='/toda
 const _signIn=A.signIn;A.signIn=async e=>{await _signIn(e);if(S.role==='student'&&location.hash==='#/dashboard')location.hash='/today'};
 const _seed=seed;seed=function(){const s=_seed();s.game=newGame();s.program=newProgram();return s};
 SHARED_KEYS.push('game','program');
-const _pull=Cloud.pull;Cloud.pull=async function(){await _pull.apply(Cloud,arguments);ensure();indexQuestions()};
+const _pull=Cloud.pull;Cloud.pull=async function(){const r=await _pull.apply(Cloud,arguments);ensure();indexQuestions();return r};
 
 function decorate(){if(!S||!S.role)return;try{ensure();
  if(Cloud.on&&!Cloud.ready&&!Cloud.booted)return;

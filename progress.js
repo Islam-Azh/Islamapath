@@ -21,7 +21,7 @@ function fold(){const p=P();const k=dkey();if(p.foldDay===k)return;p.foldDay=k;c
   S.attempts.forEach(a=>{if(new Date(a.date).getTime()>=cut)return keep.push(a);const m=a.date.slice(0,7);const st=p.attStats[m]=p.attStats[m]||{c:0,t:0,runs:0,topics:{}};st.runs++;
     (a.answers||[]).forEach(x=>{st.t++;if(x.ok)st.c++;if(x.topic){const tp=st.topics[x.topic]=st.topics[x.topic]||{c:0,t:0};tp.t++;if(x.ok)tp.c++}});n++});
   if(n){S.attempts=keep;save()}}
-setTimeout(()=>{try{if(S.role)fold()}catch(e){console.error(e)}},3000);
+setTimeout(()=>{try{if(isStudent())fold()}catch(e){console.error(e)}},3000);
 
 /* ---------- accuracy helpers ---------- */
 function acc30(topic){const from=Date.now()-30*864e5;let c=0,t=0;S.attempts.forEach(a=>{if(new Date(a.date).getTime()<from)return;(a.answers||[]).forEach(x=>{if(x.topic===topic){t++;if(x.ok)c++}})});
