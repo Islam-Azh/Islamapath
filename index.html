@@ -410,6 +410,10 @@ const OWN={student:['program','game','vocab','attempts','mistakes','topicStats',
   teacher:['notes','customTests','customQ','course','retakeAllowed','schedule','hwTemplates']};
 const clone=v=>v===undefined?undefined:JSON.parse(JSON.stringify(v));
 const jsn=v=>JSON.stringify(v===undefined?null:v);
+/* the database column `value` cannot be empty (NOT NULL): an empty value (e.g. placementDraft:null) made the WHOLE save fail.
+   Empty values travel as {__null:true} and are turned back into null when read. */
+const enc=v=>v===undefined||v===null?{__null:true}:v;
+const dec=v=>v&&typeof v==='object'&&!Array.isArray(v)&&v.__null===true&&Object.keys(v).length===1?null:v;
 const idOf=x=>x&&typeof x==='object'?(x.id!=null?'i:'+x.id:x.qid!=null?'q:'+x.qid:null):null;
 function merge3(base,local,remote){
   const sb=jsn(base),sl=jsn(local),sr=jsn(remote);
@@ -440,7 +444,7 @@ const Cloud={
   role(){return S&&S.role},
   canWrite(k){const r=Cloud.role();if(r==='student')return !OWN.teacher.includes(k)&&!TEACHER_KEYS.includes(k);if(r==='teacher')return !OWN.student.includes(k);return false},
   baseKey(){return KEY+':base:'+(Cloud.user?Cloud.user.id:'')},
-  saveBase(){try{localStorage.setItem(Cloud.baseKey(),JSON.stringify({base:Cloud.base,ver:Cloud.ver}))}catch(e){}},
+  saveBase(){if(!Cloud.baseLoaded)return;try{localStorage.setItem(Cloud.baseKey(),JSON.stringify({base:Cloud.base,ver:Cloud.ver}))}catch(e){}},
   loadBase(){try{const d=JSON.parse(localStorage.getItem(Cloud.baseKey())||'null');return d&&d.base?d:null}catch(e){return null}},
   log(msg){const p=S&&S.program;const line=new Date().toISOString().slice(0,19)+' '+msg;console.error('[sync] '+msg);if(p){p.syncLog=(p.syncLog||[]).concat([line]).slice(-20)}},
   setStatus(st,err){Cloud.status=st;if(err)Cloud.lastError=err;const el=$('#sync');if(el){const m={saved:['☁️','All changes saved'+(Cloud.lastSaved?' · '+new Date(Cloud.lastSaved).toLocaleTimeString():'')],saving:['⏳','Saving…'],offline:['⚠️','Not saved: '+(Cloud.lastError||'no connection')+'. Click to retry.']}[st]||['',''];el.textContent=m[0];el.title=m[1];el.style.cursor=st==='offline'?'pointer':''}},
@@ -454,15 +458,15 @@ const Cloud={
     try{
       const {data:srv,error:e1}=await Cloud.sb.from('app_state').select('key,value,updated_at').in('key',keys);
       if(e1)throw e1;
-      const sm={};(srv||[]).forEach(r=>sm[r.key]=r);
+      const sm={};(srv||[]).forEach(r=>sm[r.key]={...r,value:dec(r.value)});
       const now=new Date().toISOString();const rows=[];
       keys.forEach(k=>{let v=S[k]===undefined?null:S[k];const r=sm[k];
         if(r&&jsn(r.value)!==Cloud.hashes[k]&&Cloud.hashes[k]!==undefined){v=merge3(Cloud.base[k],v,r.value);S[k]=v;mergedSome=true}
         else if(r&&Cloud.hashes[k]===undefined&&jsn(r.value)!==jsn(v)){v=merge3(undefined,v,r.value);S[k]=v;mergedSome=true}
-        rows.push({key:k,value:v,scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now})});
-      const {error}=await Cloud.sb.from('app_state').upsert(rows);
+        rows.push({key:k,value:enc(v),raw:v,scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now})});
+      const {error}=await Cloud.sb.from('app_state').upsert(rows.map(({raw,...r})=>r));
       if(error)throw error;
-      rows.forEach(r=>{const s=jsn(r.value);Cloud.hashes[r.key]=s;Cloud.base[r.key]=JSON.parse(s);Cloud.ver[r.key]=r.updated_at});
+      rows.forEach(r=>{const s=jsn(r.raw);Cloud.hashes[r.key]=s;Cloud.base[r.key]=JSON.parse(s);Cloud.ver[r.key]=r.updated_at});
       Cloud.lastSaved=Date.now();Cloud.lastError='';cacheLocal();
       if(mergedSome){indexQuestions();Cloud.remoteRender()}
       Cloud.saving=false;
@@ -478,26 +482,30 @@ const Cloud={
   beacon(){if(!Cloud.ready||!Cloud.user||!Cloud.token)return;const keys=Cloud.changed();if(!keys.length)return;
     const now=new Date().toISOString();const pri=['program','game','vocab','lessonProgress','topicStats','mistakes','activity','subs','homework'];
     keys.sort((a,b)=>(pri.indexOf(a)<0?99:pri.indexOf(a))-(pri.indexOf(b)<0?99:pri.indexOf(b)));
-    const rows=[];let size=2;for(const k of keys){const r={key:k,value:S[k]===undefined?null:S[k],scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now};const s=JSON.stringify(r).length;if(size+s>60000)continue;size+=s+1;rows.push(r)}
+    const rows=[];let size=2;for(const k of keys){const r={key:k,value:enc(S[k]),scope:TEACHER_KEYS.includes(k)?'teacher':'shared',updated_by:Cloud.user.id,updated_at:now};const s=JSON.stringify(r).length;if(size+s>60000)continue;size+=s+1;rows.push(r)}
     if(!rows.length)return;
-    try{fetch(TS_CONFIG.supabaseUrl.replace(/\/$/,'')+'/rest/v1/app_state?on_conflict=key',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json',apikey:TS_CONFIG.supabaseAnonKey,Authorization:'Bearer '+Cloud.token,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(rows)});
-      rows.forEach(r=>{Cloud.hashes[r.key]=jsn(r.value);Cloud.base[r.key]=clone(r.value);Cloud.ver[r.key]=now});cacheLocal()}catch(e){}},
+    try{fetch(TS_CONFIG.supabaseUrl.replace(/\/$/,'')+'/rest/v1/app_state?on_conflict=key',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json',apikey:TS_CONFIG.supabaseAnonKey,Authorization:'Bearer '+Cloud.token,Prefer:'resolution=merge-duplicates,return=minimal'},body:JSON.stringify(rows)})
+      /* not marked as saved: the answer never comes back, so on the next visit these keys are compared with the server and merged */
+    }catch(e){}},
   async pull(){
     const {data,error}=await Cloud.sb.from('app_state').select('key,value,updated_at');
     if(error)throw error;
-    const base=seed();const got={},at={};(data||[]).forEach(r=>{got[r.key]=r.value;at[r.key]=r.updated_at});
+    const base=seed();const got={},at={};(data||[]).forEach(r=>{got[r.key]=dec(r.value);at[r.key]=r.updated_at});
     let changedLocal=false;
     Cloud.keys().forEach(k=>{
       if(k in got){const local=S[k],sv=got[k];const known=Cloud.hashes[k]!==undefined;
         const dirty=known&&jsn(local)!==Cloud.hashes[k]&&Cloud.canWrite(k);
         if(dirty){S[k]=merge3(Cloud.base[k],local,sv);changedLocal=true}else S[k]=sv;
         Cloud.hashes[k]=jsn(sv);Cloud.base[k]=clone(sv);Cloud.ver[k]=at[k]}
-      else{if(S[k]===undefined||!Cloud.ready)S[k]=got[k]??base[k];delete Cloud.hashes[k];delete Cloud.base[k]}});
+      else{/* not on the server yet: keep what this device has (it is sent by the next save); start empty only for another person's leftovers */
+        if(S[k]===undefined||(!Cloud.ready&&Cloud.foreign))S[k]=base[k];if(!Cloud.ready&&!Cloud.foreign&&jsn(S[k])!==jsn(base[k]))changedLocal=true;delete Cloud.hashes[k];delete Cloud.base[k]}});
     indexQuestions();cacheLocal();return changedLocal},
   /* first load: merge what this device saved locally but did not send (closed tab, offline) */
-  async startPull(){if(!Cloud.ready){const stored=Cloud.loadBase();let sameUser=false;try{sameUser=localStorage.getItem(KEY+':user')===Cloud.user.id}catch(e){}
+  async startPull(){if(!Cloud.ready){const stored=Cloud.loadBase();let sameUser=false,owner=null;try{owner=localStorage.getItem(KEY+':user');sameUser=owner===Cloud.user.id}catch(e){}
+      Cloud.foreign=!!owner&&!sameUser;
       Cloud.hashes={};Cloud.base={};Cloud.ver={};
-      if(stored&&sameUser){Cloud.base=stored.base||{};Cloud.ver=stored.ver||{};Object.keys(Cloud.base).forEach(k=>Cloud.hashes[k]=jsn(Cloud.base[k]))}}
+      if(stored&&sameUser){Cloud.base=stored.base||{};Cloud.ver=stored.ver||{};Object.keys(Cloud.base).forEach(k=>Cloud.hashes[k]=jsn(Cloud.base[k]))}
+      Cloud.baseLoaded=true}
     const merged=await Cloud.pull();try{localStorage.setItem(KEY+':user',Cloud.user.id)}catch(e){}return merged},
   async start(user){
     Cloud.user=user;
@@ -518,7 +526,7 @@ const Cloud={
   listen(){
     if(Cloud.channel)Cloud.sb.removeChannel(Cloud.channel);
     Cloud.channel=Cloud.sb.channel('app_state').on('postgres_changes',{event:'*',schema:'public',table:'app_state'},p=>{
-      const row=p.new;if(!row||!row.key||!Cloud.keys().includes(row.key))return;const k=row.key;
+      const row0=p.new;if(!row0||!row0.key||!Cloud.keys().includes(row0.key))return;const row={...row0,value:dec(row0.value)};const k=row.key;
       if(row.updated_at&&row.updated_at===Cloud.ver[k])return;            // my own write
       const s=jsn(row.value);if(Cloud.hashes[k]===s)return;
       const dirty=Cloud.canWrite(k)&&Cloud.hashes[k]!==undefined&&jsn(S[k])!==Cloud.hashes[k];
@@ -529,7 +537,7 @@ const Cloud={
   },
   remoteRender(){const a=document.activeElement;if(a&&/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)||Rec.active){Cloud.pendingRender=true;return}Cloud.pendingRender=false;render()},
   async stop(){clearTimeout(Cloud.timer);await Cloud.flush();if(Cloud.changed().length&&Cloud.status==='offline'){toast('Not saved yet — check the connection, then sign out again.');return false}
-    if(Cloud.channel){Cloud.sb.removeChannel(Cloud.channel);Cloud.channel=null}Cloud.ready=false;Cloud.hashes={};Cloud.base={};Cloud.ver={};await Cloud.sb.auth.signOut();Cloud.user=null;return true}
+    if(Cloud.channel){Cloud.sb.removeChannel(Cloud.channel);Cloud.channel=null}Cloud.ready=false;Cloud.baseLoaded=false;Cloud.hashes={};Cloud.base={};Cloud.ver={};await Cloud.sb.auth.signOut();Cloud.user=null;return true}
 };
 
 const AudioDB={db:null,
