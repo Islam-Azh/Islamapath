@@ -166,7 +166,7 @@ async function shareBlob(blob,text){const ext=/mp4/.test(blob.type)?'m4a':/ogg/.
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=file.name;document.body.appendChild(a);a.click();a.remove();toast('Saved to your downloads — send it in WhatsApp')}
 A.skShareKey=async k=>{try{const u=await AudioStore.url(k);if(!u)return toast('This recording is no longer stored');const b=await (await fetch(u)).blob();shareBlob(b,'🎙️ My recording')}catch(e){toast('Could not load the recording')}};
 const _recStop=A.recStop;A.recStop=function(){if(UI.sk&&UI.sk.phase==='rec')return recStop();return _recStop.apply(this,arguments)};
-A.hwRecStart=(hwId,idx)=>{const h=S.homework.find(x=>x.id===hwId);const it=h&&h.items[idx];start('retell',{hw:{id:hwId,idx,label:it?it.label:'Retelling',text:''},back:'/homework/'+hwId})};
+A.hwRecStart=(hwId,idx)=>{const h=S.homework.find(x=>x.id===hwId);const it=h&&h.items[idx];start('retell',{hw:{id:hwId,idx,label:it?it.label:'Retelling',text:it&&it.text||''},back:'/homework/'+hwId})};
 
 /* ---------- views ---------- */
 const lazyAudio=(k,label)=>k?`<button class="btn sm ghost lazy-audio" data-key="${esc(k)}">▶ ${label||'Play'}</button>`:'<span class="small muted">audio deleted after 90 days</span>';

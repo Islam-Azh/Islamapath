@@ -678,7 +678,7 @@ const UI={panel:false,vtab:'review',vs:null,mg:null,sp:null,wtask:null,stask:nul
 const STUDENT_NAV=[['dashboard','Dashboard','🏠'],['placement','Placement test','🎯'],['course','Course map','🗺️'],null,['grammar','Grammar','📐'],['vocabulary','Vocabulary','🃏'],['listening','Listening','🎧'],['reading','Reading','📖'],['pronunciation','Pronunciation','👄'],['speaking','Speaking','🎙️'],['writing','Writing','✍️'],['tests','Tests','📝'],null,['homework','Homework','📚'],['progress','Progress','📈'],['mistakes','Mistakes bank','🔁'],['settings','Settings','⚙️'],['about','About project','ℹ️']];
 const TEACHER_NAV=[['dashboard','Dashboard','🏠'],['homework','Homework','📚'],['review','Review queue','✅'],['tests','Tests & questions','📝'],['course','Course editor','🗺️'],['analytics','Analytics','📈'],['notes','Private notes','🗒️'],null,['settings','Settings','⚙️'],['about','About project','ℹ️']];
 function go(h){if(location.hash==='#'+h)render();else location.hash=h}
-function home(){return S.role==='teacher'?'/t/dashboard':'/dashboard'}
+function home(){return '/today'}
 function parts(){return (location.hash.slice(1)||'').split('/').filter(Boolean).map(decodeURIComponent)}
 
 function render(){
@@ -688,15 +688,16 @@ function render(){
     root.innerHTML=vLogin();const e=$('#li-email'),pw=$('#li-pass');if(e&&keep.e)e.value=keep.e;if(pw&&keep.p)pw.value=keep.p;
     const f=keep.f&&$('#'+keep.f);if(f)f.focus();else if(e&&!e.value)e.focus();return}
   let p=parts();
-  if(S.role==='student'&&p[0]==='t'){toast('Access denied: teacher area is not available to students.');location.replace('#/dashboard');return}
-  if(S.role==='teacher'&&p[0]!=='t'){location.replace('#/t/'+(p[0]==='about'||p[0]==='settings'?p[0]:'dashboard'));return}
-  if(S.role==='teacher')p=p.slice(1);
-  const page=p[0]||'dashboard',args=p.slice(1);
+  /* one site for both roles (D52): same addresses; old teacher addresses /t/… are redirected */
+  if(p[0]==='t'){const T2={dashboard:'today',analytics:'progress',tests:'tools/tests',course:'tools/course',notes:'tools/notes'};const r=p.slice(1);
+    location.replace('#/'+(r.length?[T2[r[0]]||r[0]].concat(r.slice(1)).join('/'):'today'));return}
+  if(p[0]==='dashboard'){location.replace('#/today');return}
+  const page=p[0]||'today',args=p.slice(1);
   if(page!=='run'&&RUN&&RUN.state!=='done'){clearInterval(TIMER);TIMER=null;RUN=null}
-  const views=S.role==='student'?SV:TV;const fn=views[page]||views.dashboard;
+  const views=S.role==='student'?SV:Object.assign({},SV,window.TEACHER_ROUTES||TV);const fn=views[page]||views.today||views.dashboard;
   let html;try{html=fn(...args)}catch(e){console.error(e);html=`<div class="card"><h2>Something went wrong</h2><p class="muted">${esc(e.message)}</p><a class="btn" href="#${home()}">Go home</a></div>`}
   const NAV=(window.NAV_OVERRIDE&&NAV_OVERRIDE[S.role])||(S.role==='student'?STUDENT_NAV:TEACHER_NAV);const alias=(window.NAV_ALIAS&&NAV_ALIAS[S.role]&&NAV_ALIAS[S.role][page])||'';
-  const nav=NAV.map(n=>!n?'<div class="sep"></div>':n.h?`<div class="grp">${esc(n.h)}</div>`:`<a href="#${S.role==='teacher'?'/t':''}/${n[0]}" class="${n[0]===page||n[0]===alias||(!alias&&page==='lesson'&&n[0]==='course')||(!alias&&page==='submission'&&n[0]==='writing')?'active':''}"><span aria-hidden="true">${n[2]}</span>${esc(n[1])}</a>`).join('');
+  const nav=NAV.map(n=>!n?'<div class="sep"></div>':n.h?`<div class="grp">${esc(n.h)}</div>`:`<a href="#/${n[0]}" class="${n[0]===page||n[0]===alias||(!alias&&page==='lesson'&&n[0]==='course')||(!alias&&page==='submission'&&n[0]==='writing')?'active':''}"><span aria-hidden="true">${n[2]}</span>${esc(n[1])}</a>`).join('');
   const unread=S.notifs.filter(n=>n.to===S.role&&!n.read).length;const u=S.users[S.role];
   root.innerHTML=`<div class="app"><header class="top"><a class="brand" href="#${home()}"><span class="logo">T&S</span><span class="hide-m">Teacher & Student</span></a>
     <span class="badge acc">${S.role==='teacher'?'Teacher':'Student'} · ${esc(u.name)}</span><span class="spacer"></span>
@@ -935,7 +936,7 @@ function vSubmission(id){
   <div class="grid g2"><div class="card stack">${s.type==='writing'?`<div class="revtext">${highlight(s.text,r&&r.comments,true)}</div><div class="small muted">${wc(s.text)} words · sent ${fmtDT(s.date)}</div>`:
     `<audio id="subaudio" controls data-key="${s.audioKey}" style="width:100%"></audio><div><div class="small muted">Transcript</div><p>${esc(s.transcript||'—')}</p></div>`}
     ${s.pre&&s.pre.length?`<details><summary class="small">Auto pre-check (${s.pre.length})</summary>${s.pre.map(p=>`<div class="small">• <b>${esc(p[0])}</b>: ${esc(p[1])}</div>`).join('')}</details>`:''}</div>
-   <div class="card stack"><h2>Teacher's feedback</h2>${r?`${r.comments.map((c,i)=>`<div class="list-item"><div>${s.type==='writing'?`<sup>${i+1}</sup> <span class="sw c-${c.cat}"></span><b>${esc(c.cat)}</b> · <i>“${esc(c.quote)}”</i>`:`<button class="btn sm plain" onclick="A.seek('subaudio',${c.t})">⏱ ${mmss(c.t)}</button>`}<div>${esc(c.text)}</div></div></div>`).join('')||'<div class="muted small">No inline comments.</div>'}
+   <div class="card stack"><h2>Teacher's feedback</h2>${r?`${r.comments.map((c,i)=>`<div class="list-item"><div>${s.type==='writing'?`<sup>${i+1}</sup> <span class="sw c-${c.cat}"></span><b>${esc(c.cat)}</b> · <i>“${esc(c.quote)}”</i>`:`<button class="btn sm plain" onclick="A.seek('subaudio',${c.t})">⏱ ${mmss(c.t)}</button>`}<div>${esc(c.text)}</div>${c.tag?`<span class="badge tag">🏷 ${esc(tagName(c.tag))}</span>`:''}</div></div>`).join('')||'<div class="muted small">No inline comments.</div>'}
      ${rubricTable(s)}<div><div class="muted small">Overall comment</div><p>${esc(r.general||'—')}</p></div>${r.voiceKey?`<div><div class="muted small">Voice feedback</div><audio controls data-key="${r.voiceKey}" style="width:100%"></audio></div>`:''}<div class="small muted">Reviewed ${fmtDT(r.at)}</div>`:'<div class="empty">Your teacher hasn\'t reviewed this yet.</div>'}</div></div>`;
 }
 function testsList(){
@@ -1158,6 +1159,10 @@ function tReview(id){
   const row=s=>`<div class="list-item"><div>${s.type==='writing'?'✍️ Writing':'🎙️ Speaking'} · ${esc(s.prompt.slice(0,70))}…<div class="small muted">sent ${fmtDT(s.date)}${s.review?' · reviewed '+fmtDT(s.review.at):''}</div></div><div class="row">${s.review?`<span class="badge ok">${esc(s.review.cefr)}</span>`:''}<a class="btn sm ${s.review?'plain':''}" href="#/t/review/${s.id}">${s.review?'Open':'Review'}</a></div></div>`;
   return `<div class="page-head"><h1>Review queue</h1></div><div class="card" style="margin-bottom:16px"><h2>Waiting (${pend.length})</h2>${pend.map(row).join('')||'<div class="empty">Nothing to review.</div>'}</div><div class="card"><h2>Reviewed</h2>${done.map(row).join('')||'<div class="empty">—</div>'}</div>`;
 }
+const TAG_OTHER=['Pronunciation','Vocabulary','Fluency','Word order'];
+function tagList(){return `<datalist id="taglist">${Object.entries(GRAMMAR).map(([k,g])=>`<option value="${esc(g.title)}">`).join('')}${TAG_OTHER.map(t=>`<option value="${t}">`).join('')}</datalist>`}
+function tagId(v){v=String(v||'').trim();if(!v)return '';const k=Object.keys(GRAMMAR).find(k=>GRAMMAR[k].title.toLowerCase()===v.toLowerCase()||k===v);return k||v}
+function tagName(t){return GRAMMAR[t]?GRAMMAR[t].title:t}
 const WR_CRIT=['Task achievement','Coherence','Lexical resource','Grammatical accuracy'],SP_CRIT=['Fluency','Pronunciation','Grammar','Vocabulary','Interaction'];
 function tReviewOne(id){
   const s=S.subs.find(x=>x.id===id);if(!s)return '<div class="card empty">Not found.</div>';
@@ -1167,14 +1172,14 @@ function tReviewOne(id){
      <div id="revtext" class="revtext" onmouseup="A.revSel()" ontouchend="setTimeout(A.revSel,60)">${highlight(s.text,R.comments,false)}</div>
      <div class="row small">${CATS.map(c=>`<span><span class="sw c-${c}"></span>${c}</span>`).join(' ')}</div>
      <div class="card" style="background:var(--surface2)"><div id="selbox" class="small">${R.sel?`Selected: <b>“${esc(R.sel.quote)}”</b>`:'<span class="muted">No text selected.</span>'}</div>
-      <div class="grid g2" style="margin-top:8px"><label class="f">Category<select id="rcat">${CATS.map(c=>`<option>${c}</option>`).join('')}</select></label><label class="f">Comment<input type="text" id="rtext" onkeydown="if(event.key==='Enter')A.revAdd()"></label></div><button class="btn sm" onclick="A.revAdd()">Add comment</button></div>`:
+      <div class="grid g2" style="margin-top:8px"><label class="f">Category<select id="rcat">${CATS.map(c=>`<option>${c}</option>`).join('')}</select></label><label class="f">Comment<input type="text" id="rtext" onkeydown="if(event.key==='Enter')A.revAdd()"></label></div><label class="f">Tag (topic of the mistake)<input type="text" id="rtag" list="taglist" placeholder="e.g. Past Simple, Pronunciation"></label>${tagList()}<button class="btn sm" onclick="A.revAdd()">Add comment</button></div>`:
     `<audio id="revaudio" controls data-key="${s.audioKey}" style="width:100%"></audio><div><div class="small muted">Transcript</div><p>${esc(s.transcript||'—')}</p></div>
-     <div class="card" style="background:var(--surface2)"><label class="f">Comment at current playback time<input type="text" id="rtext" onkeydown="if(event.key==='Enter')A.revAdd()"></label><button class="btn sm" onclick="A.revAdd()">⏱ Add timed comment</button></div>
+     <div class="card" style="background:var(--surface2)"><label class="f">Comment at current playback time<input type="text" id="rtext" onkeydown="if(event.key==='Enter')A.revAdd()"></label><label class="f">Tag (topic of the mistake)<input type="text" id="rtag" list="taglist" placeholder="e.g. Past Simple, Pronunciation"></label>${tagList()}<button class="btn sm" onclick="A.revAdd()">⏱ Comment here</button></div>
      <div><b>Voice feedback</b> <span class="small muted">(optional)</span><div class="row" style="margin-top:6px">${UI.vrec?`<button class="btn sm danger" onclick="A.voiceStop()"><span class="rec"></span> Stop</button>`:`<button class="btn sm" onclick="A.voiceRec()">🎙️ Record</button>`}${R.voiceKey?`<audio controls data-key="${R.voiceKey}" style="height:32px"></audio>`:''}</div></div>`;
-  return `<div class="page-head"><a href="#/t/review" class="small">← Review queue</a><h1>${s.type==='writing'?'Writing':'Speaking'} review</h1><p class="muted">${esc(s.prompt)} · sent ${fmtDT(s.date)}${s.type==='writing'?' · '+wc(s.text)+' words':''}</p></div>
+  return `<div class="page-head"><a href="#/review" class="small">← Waiting for review</a><h1>${s.type==='writing'?'Writing':'Speaking'} review</h1><p class="muted">${esc(s.prompt)} · sent ${fmtDT(s.date)}${s.type==='writing'?' · '+wc(s.text)+' words':''}</p></div>
   <div class="grid g2"><div class="card stack">${main}
     ${s.pre&&s.pre.length?`<details><summary class="small">Student's auto pre-check (${s.pre.length})</summary>${s.pre.map(p=>`<div class="small">• <b>${esc(p[0])}</b>: ${esc(p[1])}</div>`).join('')}</details>`:''}</div>
-   <div class="card stack"><h2>Comments (${R.comments.length})</h2>${R.comments.map((c,i)=>`<div class="list-item"><div>${s.type==='writing'?`<span class="sw c-${c.cat}"></span><b>${esc(c.cat)}</b> · <i>“${esc(c.quote)}”</i>`:`<button class="btn sm plain" onclick="A.seek('revaudio',${c.t})">⏱ ${mmss(c.t)}</button>`}<div>${esc(c.text)}</div></div><button class="btn sm danger" onclick="UI.rev.comments.splice(${i},1);render()">✕</button></div>`).join('')||'<div class="muted small">No comments yet.</div>'}
+   <div class="card stack"><h2>Comments (${R.comments.length})</h2>${R.comments.map((c,i)=>`<div class="list-item"><div>${s.type==='writing'?`<span class="sw c-${c.cat}"></span><b>${esc(c.cat)}</b> · <i>“${esc(c.quote)}”</i>`:`<button class="btn sm plain" onclick="A.seek('revaudio',${c.t})">⏱ ${mmss(c.t)}</button>`}<div>${esc(c.text)}</div>${c.tag?`<span class="badge tag">🏷 ${esc(tagName(c.tag))}</span>`:''}</div><button class="btn sm danger" onclick="UI.rev.comments.splice(${i},1);render()">✕</button></div>`).join('')||'<div class="muted small">No comments yet.</div>'}
     <h2>Assessment</h2><div class="grid g2">${crit.map(c=>`<label class="f">${c}<select data-crit="${c}">${['',0,1,2,3,4,5].map(v=>`<option value="${v}" ${String(R.rubric[c]??'')===String(v)?'selected':''}>${v===''?'—':v}</option>`).join('')}</select></label>`).join('')}
      <label class="f">CEFR grade<select id="rcefr"><option value="">—</option>${['A1','A2','B1','B1+','B2','C1'].map(l=>`<option ${R.cefr===l?'selected':''}>${l}</option>`).join('')}</select></label></div>
     <label class="f">Overall comment<textarea id="rgen">${esc(R.general)}</textarea></label><button class="btn" onclick="A.revSend()">${s.review?'Update review':'Send review'}</button></div></div>`;
@@ -1234,7 +1239,7 @@ const TV={dashboard:tDash,homework:tHomework,review:tReview,tests:tTests,course:
    ACTIONS
    ============================================================ */
 const A={};window.A=A;
-A.login=r=>{S.role=r;save();location.hash=r==='teacher'?'/t/dashboard':'/dashboard';render()};
+A.login=r=>{S.role=r;save();location.hash='/today';render()};
 A.logout=async()=>{UI.panel=false;RUN=null;clearInterval(TIMER);TIMER=null;
   if(Cloud.on){if(!(await Cloud.stop()))return render();S=seed();S.settings=JSON.parse(localStorage.getItem(KEY)||'{}').settings||S.settings;S.role=null;localStorage.removeItem(KEY);cacheLocal();indexQuestions();location.hash='';render();return}
   S.role=null;save();location.hash='';render()};
@@ -1420,15 +1425,15 @@ A.revSel=()=>{const box=$('#revtext');const sel=getSelection();if(!box||!sel.ran
   UI.rev.sel={start,end:start+quote.length,quote};$('#selbox').innerHTML=`Selected: <b>“${esc(quote)}”</b>`;const t=$('#rtext');if(t)t.focus()};
 A.revAdd=()=>{const R=UI.rev;const s=S.subs.find(x=>x.id===R.subId);const text=$('#rtext').value.trim();
   if(s.type==='writing'){if(!R.sel)return toast('Select a fragment of the text first');if(R.comments.some(c=>c.start<R.sel.end&&R.sel.start<c.end))return toast('This fragment overlaps an existing comment');
-    R.comments.push({...R.sel,cat:$('#rcat').value,text});R.sel=null}
-  else{if(!text)return toast('Write a comment');R.comments.push({t:Math.round(($('#revaudio')||{}).currentTime||0),text});R.comments.sort((a,b)=>a.t-b.t)}
+    R.comments.push({...R.sel,cat:$('#rcat').value,text,tag:tagId(($('#rtag')||{}).value)});R.sel=null}
+  else{if(!text)return toast('Write a comment');R.comments.push({t:Math.round(($('#revaudio')||{}).currentTime||0),text,tag:tagId(($('#rtag')||{}).value)});R.comments.sort((a,b)=>a.t-b.t)}
   syncRubric();render()};
 function syncRubric(){const R=UI.rev;$$('[data-crit]').forEach(el=>{if(el.value!=='')R.rubric[el.dataset.crit]=+el.value;else delete R.rubric[el.dataset.crit]});const c=$('#rcefr');if(c)R.cefr=c.value;const g=$('#rgen');if(g)R.general=g.value}
 A.voiceRec=async()=>{UI.vrec=true;render();const ok=await Rec.start(null,120,false);if(!ok){UI.vrec=false;render()}};
 A.voiceStop=async()=>{syncRubric();const r=await Rec.stop();UI.vrec=false;if(r){const k='fb-'+UI.rev.subId+'-'+uid();try{UI.rev.voiceKey=await AudioStore.put(k,r.blob)}catch(e){console.error(e);toast('Could not upload the voice feedback')}}render()};
 A.revSend=()=>{syncRubric();const R=UI.rev;const s=S.subs.find(x=>x.id===R.subId);if(!R.cefr)return toast('Choose a CEFR grade');
   const first=!s.review;s.review={comments:R.comments,rubric:R.rubric,cefr:R.cefr,general:R.general,voiceKey:R.voiceKey,at:new Date().toISOString(),teacher:S.users.teacher.name};s.status='reviewed';
-  pushLevel({[s.type]:LVNUM[R.cefr]},'review');if(first&&s.hwId&&LVNUM[R.cefr]>=2)grantXP(30,'Teacher review ≥ B1: '+s.prompt);notify('student',`Your ${s.type} was reviewed: ${R.cefr}`,'/submission/'+s.id);UI.rev=null;save();toast(first?'Review sent':'Review updated');go('/t/review')};
+  pushLevel({[s.type]:LVNUM[R.cefr]},'review');if(first&&s.hwId&&LVNUM[R.cefr]>=2)grantXP(30,'Teacher review ≥ B1: '+s.prompt);notify('student',`${S.users.teacher.name} reviewed your ${s.type==='writing'?'text':'recording'}: ${R.cefr}`,'/review/'+s.id);UI.rev=null;save();if(typeof Cloud!=='undefined'&&Cloud.flushNow)Cloud.flushNow();toast(first?'Review sent':'Review updated');go('/review')};
 
 /* tests builder */
 A.addQ=()=>{const type=$('#nq-type').value,q=$('#nq-q').value.trim(),a=$('#nq-a').value.trim();if(!q)return toast('Write the question');if(!a)return toast('Give the correct answer');
@@ -1489,6 +1494,7 @@ boot();
 <script src="speak.js"></script>
 <script src="progress.js"></script>
 <script src="resume.js"></script>
+<script src="teacher.js"></script>
 <script src="design.js"></script>
 </body>
 </html>

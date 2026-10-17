@@ -24,13 +24,13 @@ function xpPop(n){const d=document.createElement('div');d.className='xp-pop';d.t
 const MAIN=[['today','Today','⚡'],['map','Map','🗺️'],['month','Progress','📈']];
 const PROG_PAGES=['month','progress','report','mistakes','achievements','history'];
 function page(){return (location.hash.slice(1)||'').split('/').filter(Boolean)[0]||'today'}
-function bottomNav(){if(!S||S.role!=='student')return '';const p=page();const al=(window.NAV_ALIAS&&NAV_ALIAS.student||{})[p]||p;
-  const has=k=>!!SV[k];const prog=has('month')?'month':'progress';
-  const items=[['today','Today','⚡'],['map','Map','🗺️'],[prog,'Progress','📈']];
+function bottomNav(){if(!S||!S.role)return '';const p=page();const al=(window.NAV_ALIAS&&NAV_ALIAS[S.role]||{})[p]||p;
+  const prog='progress';
+  const items=[['today','Home','🏠'],['map','Map','🗺️'],[prog,'Progress','📈']];
   const onProg=PROG_PAGES.includes(p)||PROG_PAGES.includes(al);
   return `<nav class="bottom-nav" aria-label="Main">${items.map(([k,l,i])=>{const on=k===prog?onProg:(k===p||k===al);return `<a href="#/${k}" class="${on?'on':''}"><span class="ico">${i}</span>${l}</a>`}).join('')}
    <button onclick="TS_FX.more()" class="${!onProg&&!['today','map','session'].includes(p)&&al!=='today'&&al!=='map'?'on':''}"><span class="ico">☰</span>More</button></nav>`}
-function more(){const nav=(window.NAV_OVERRIDE&&NAV_OVERRIDE.student)||[];const el=document.createElement('div');el.className='more-sheet';
+function more(){const nav=(window.NAV_OVERRIDE&&NAV_OVERRIDE[S.role])||[];const el=document.createElement('div');el.className='more-sheet';
   el.innerHTML=`<div role="dialog" aria-label="More"><div class="row between"><h2>More</h2><button class="btn sm plain" onclick="this.closest('.more-sheet').remove()">✕</button></div>${nav.filter(n=>n&&!n.h&&!['today','map'].includes(n[0])).map(n=>`<a href="#/${n[0]}" onclick="this.closest('.more-sheet').remove()"><span>${n[2]}</span>${esc(n[1])}</a>`).join('')}</div>`;
   el.addEventListener('click',e=>{if(e.target===el)el.remove()});document.body.appendChild(el)}
 
