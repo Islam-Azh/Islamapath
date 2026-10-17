@@ -84,16 +84,44 @@ function start(kind,o={}){if(Rec.active)return toast('Another recording is in pr
   else if(kind==='retell'){const srcs=retellSources();const t=o.taskId&&srcs.find(x=>x.id===o.taskId);
     const unitT=srcs.find(x=>x.unit===unitCode()&&x.from==='methodist');
     if(o.hw){st.task={id:'retell-hw',title:o.hw.label,text:o.hw.text||'',hints:[],check:[],sample:''}}else if(t)st.task=t;else if(o.onDone&&unitT)st.task=unitT;else st.phase='pick'}
-  else if(kind==='interview'){if(o.set)st.iv=newIv(o.set);else st.phase='pick'}
+  else if(kind==='interview'){if(o.qs||o.n){const qs=o.qs||pickInterview(o.n||5,o.mode);if(!qs.length){toast('No interview questions are open yet');return o.onDone&&o.onDone({ok:false})}
+      st.iv={set:o.setName||(o.mode==='mock'?'Mock interview':'Practice'),qs,i:0,answers:[],mode:o.mode||'practice'}}
+    else if(o.set)st.iv=newIv(o.set);else st.phase='pick'}
+  if(o.text&&kind==='retell'){st.task={id:o.taskId||'retell-text',title:o.title||'Retell',text:o.text,hints:o.hints||[],check:[],sample:o.text};st.phase='prep'}
+  if(o.prep!=null)st.prep=o.prep;if(o.limit)st.limit=o.limit;if(o.mode==='mock'){st.prep=0;st.noHints=true}
+  st.planBlock=o.planBlock||null;
   UI.sk=st;go('/speak/do');if(st.phase==='prep')beginPrep()}
+/* ---------- D39: interview rotation ---------- */
+function ivRot(){const d=window.SPEAK_DATA&&SPEAK_DATA.rotation||{};return {size:d.sessionSize||5,cool:d.cooldownDays||21,ret:d.returnAfterDays||42,lock:d.lockByFile!==false}}
+function curFile(){const m=String(unitCode()).match(/^(\d+)/);return m?+m[1]:1}
+function ivHist(){const p=P();return p.ivHist=p.ivHist||{}}
+function ivStatus(q){const h=ivHist()[q.id]||[];const last=h.length?new Date(h[h.length-1]).getTime():0;const days=last?(Date.now()-last)/864e5:Infinity;
+  const open=!ivRot().lock||!q.file||q.file<=curFile();
+  if(!open)return {open:false};if(!h.length)return {open:true,isNew:true,days};
+  if(days<ivRot().cool)return {open:true,cool:true,days};
+  if(h.length===1&&days>=ivRot().ret)return {open:true,back:true,days};
+  if(h.length===1)return {open:true,wait:true,days};
+  return {open:true,old:true,days}}
+function pickInterview(n,mode){const all=data().interview;const st=all.map(q=>({q,s:ivStatus(q)})).filter(x=>x.s.open&&!x.s.cool);
+  const used=new Set(((P().ivSeen||{})[dkey()])||[]);const fresh=x=>!used.has(x.q.id);
+  if(mode==='mock')return shuffle(st.filter(fresh).length>=n?st.filter(fresh):st).slice(0,n).map(x=>x.q);
+  const news=shuffle(st.filter(x=>x.s.isNew&&fresh(x))).slice(0,Math.min(2,n));
+  const backs=st.filter(x=>x.s.back&&fresh(x)).sort((a,b)=>b.s.days-a.s.days);
+  const olds=st.filter(x=>(x.s.old||x.s.wait)&&fresh(x)).sort((a,b)=>b.s.days-a.s.days);
+  let out=news.concat(backs,olds).slice(0,n);
+  if(out.length<n)out=out.concat(shuffle(st.filter(x=>x.s.isNew&&fresh(x)&&!out.includes(x)))).slice(0,n);
+  if(out.length<n)out=out.concat(shuffle(st.filter(x=>!out.includes(x)))).slice(0,n);
+  const p=P();p.ivSeen={[dkey()]:[...used].concat(out.map(x=>x.q.id))};
+  return out.map(x=>x.q)}
+function ivStats(){const all=data().interview;const answered=all.filter(q=>(ivHist()[q.id]||[]).length).length;const avail=all.filter(q=>{const s=ivStatus(q);return s.open&&!s.cool}).length;return {total:all.length,answered,avail}}
 function newIv(set){const qs=data().interview.filter(q=>q.set===set).slice(0,5);return {set,qs,i:0,answers:[]}}
 function curQ(){const s=UI.sk;if(!s)return null;if(s.kind==='interview')return s.iv&&s.iv.qs[s.iv.i];return s.task}
-function beginPrep(){const s=UI.sk;if(!s)return;s.phase='prep';s.prepT0=Date.now();const secs=PREP[s.kind];
+function beginPrep(){const s=UI.sk;if(!s)return;s.phase='prep';s.prepT0=Date.now();const secs=s.prep!=null?s.prep:PREP[s.kind];if(secs<=0){render();setTimeout(()=>{if(UI.sk===s&&s.phase==='prep')recStart()},s.kind==='interview'?1800:200);if(s.kind==='interview'){const q=curQ();if(q)setTimeout(()=>speak(q.q,0.95),200)}return}
   if(s.kind==='interview'){const q=curQ();if(q)setTimeout(()=>speak(q.q,0.95),300)}
   clearPrep();prepTimer=setInterval(()=>{const left=Math.max(0,secs-(Date.now()-s.prepT0)/1000);const el=$('#prep-t');if(el)el.textContent=Math.ceil(left)+' s';
     if(left<=0){clearPrep();if(UI.sk===s&&s.phase==='prep'&&location.hash.startsWith('#/speak/do'))recStart()}},250);render()}
 async function recStart(){const s=UI.sk;if(!s||Rec.active)return;clearPrep();try{speechSynthesis.cancel()}catch(e){}
-  s.phase='rec';render();const lim=LIMIT[s.kind];
+  s.phase='rec';render();const lim=s.limit||LIMIT[s.kind];
   const ok=await Rec.start(t=>{const el=$('#sk-rt');if(el)el.textContent=mmss(t)+' / '+mmss(lim);const b=$('#sk-bar');if(b)b.style.width=Math.min(100,t/lim*100)+'%'},lim,true);
   if(!ok){s.phase='prep';render()}}
 async function recStop(){const s=UI.sk;if(!s||s.phase!=='rec')return;const r=await Rec.stop();if(!r){s.phase='prep';return render()}
@@ -122,9 +150,10 @@ A.skSave=async()=>{syncTr();const s=UI.sk;if(!s)return;const at=s.attempts[s.bes
   save();if(Cloud.flushNow)Cloud.flushNow();render()};
 A.skIvSave=async()=>{const s=UI.sk;if(!s||!s.iv)return;const id='s-'+uid();toast('Saving the interview…');const items=[];
   for(const [i,a] of s.iv.answers.entries()){let key=null;try{key=await AudioStore.put('a-'+id+'-'+(i+1),a.blob)}catch(e){console.error(e)}items.push({q:a.q.q,qid:a.q.id,audioKey:key,transcript:a.transcript,secs:a.secs,words:a.a.words,wpm:a.a.wpm})}
-  const old=S.subs.filter(x=>x.kind==='interview'&&x.set===s.iv.set);old.forEach(o=>removeAudio((o.items||[]).map(x=>x.audioKey).filter(Boolean)));S.subs=S.subs.filter(x=>!old.includes(x));
+  const rot=['Practice','Mock interview','Say'].includes(s.iv.set);const h=ivHist();s.iv.answers.forEach(a=>{(h[a.q.id]=h[a.q.id]||[]).push(new Date().toISOString())});
+  if(!rot){const old=S.subs.filter(x=>x.kind==='interview'&&x.set===s.iv.set);old.forEach(o=>removeAudio((o.items||[]).map(x=>x.audioKey).filter(Boolean)));S.subs=S.subs.filter(x=>!old.includes(x))}
   S.subs.push({id,type:'speaking',kind:'interview',set:s.iv.set,taskId:'iv-'+s.iv.set,prompt:'Interview simulator · '+s.iv.set,items,transcript:items.map((x,i)=>`${i+1}. ${x.q}\n${x.transcript||'(no transcript)'}`).join('\n\n'),secs:items.reduce((a,x)=>a+x.secs,0),status:'saved',date:new Date().toISOString()});
-  s.saved=id;s.phase='ivsaved';if(isStudent()&&window.TS_PROGRAM&&!s.onDone)TS_PROGRAM.award(50,'speaking','Interview simulator');save();render()};
+  s.saved=id;s.phase='ivsaved';if(isStudent()&&window.TS_PROGRAM&&!s.onDone)TS_PROGRAM.award(50,'speaking','Interview simulator');save();if(Cloud.flushNow)Cloud.flushNow();render()};
 A.skToTeacher=()=>{const s=UI.sk;const sub=s&&S.subs.find(x=>x.id===s.saved);if(!sub)return;sub.status='submitted';notify('teacher',`${S.users.student.name} shared a recording: ${sub.prompt}`,'/t/review/'+sub.id);save();toast('Sent to '+S.users.teacher.name);render()};
 A.skShare=async idx=>{const s=UI.sk;let blob=null,text='';
   if(s&&s.kind==='interview'&&s.iv){const a=s.iv.answers[idx||0];blob=a&&a.blob;text=a?a.q.q:''}else if(s){const at=s.attempts[s.best];blob=at&&at.blob;text=(s.task&&(s.task.q||s.task.title))||''}
@@ -150,11 +179,11 @@ function vDo(){const s=UI.sk;if(!s){setTimeout(()=>go('/speak'),0);return ''}con
   const q=curQ()||{};
   const qBox=s.kind==='retell'?`<div class="task-card"><b>Retell in your own words:</b> ${esc(q.title||'')}${q.text?`<div style="margin-top:8px"><button class="btn sm plain" onclick="A.skRetext()">${s.showText?'Hide':'Show'} the text</button></div>${s.showText?`<div class="small" style="margin-top:8px;max-height:220px;overflow:auto">${esc(q.text)}</div>`:''}`:''}</div>`
     :`<div class="task-card"><div class="sp-q">${esc(q.q||'')} ${s.kind==='interview'?`<button class="btn sm plain" onclick="A.skReplayQ()" aria-label="Listen again">🔊</button>`:''}</div>${q.ru?`<div class="ru-line">${esc(q.ru)}</div>`:''}</div>`;
-  const hints=(q.hints||[]).length?`<div class="hint-chips">${q.hints.map(h=>`<span class="chip">${esc(h)}</span>`).join('')}</div>`:'';
-  if(s.phase==='prep')return head+`<div class="card task-big stack">${qBox}${hints}<div class="center"><div class="small muted">Think first. Recording starts automatically in</div><div class="prep-t" id="prep-t">${PREP[s.kind]} s</div></div>
-     <button class="btn lg block bad-btn" onclick="A.skRec()">🎙️ Start recording now</button><div class="small muted center">Up to ${mmss(LIMIT[s.kind])}</div></div>`;
+  const hints=!s.noHints&&(q.hints||[]).length?`<div class="hint-chips">${q.hints.map(h=>`<span class="chip">${esc(h)}</span>`).join('')}</div>`:'';
+  if(s.phase==='prep')return head+`<div class="card task-big stack">${qBox}${hints}<div class="center"><div class="small muted">${(s.prep!=null?s.prep:PREP[s.kind])>0?'Think first. Recording starts automatically in':'Listen — recording starts right after the question'}</div><div class="prep-t" id="prep-t">${s.prep!=null?s.prep:PREP[s.kind]} s</div></div>
+     <button class="btn lg block bad-btn" onclick="A.skRec()">🎙️ Start recording now</button><div class="small muted center">Up to ${mmss(s.limit||LIMIT[s.kind])}</div></div>`;
   if(s.phase==='rec'){const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-    return head+`<div class="card task-big stack">${qBox}${hints}<div class="center"><span class="rec"></span> Recording · <b id="sk-rt">0:00 / ${mmss(LIMIT[s.kind])}</b></div><div class="bar"><i id="sk-bar" style="width:0%;background:var(--bad)"></i></div>
+    return head+`<div class="card task-big stack">${qBox}${hints}<div class="center"><span class="rec"></span> Recording · <b id="sk-rt">0:00 / ${mmss(s.limit||LIMIT[s.kind])}</b></div><div class="bar"><i id="sk-bar" style="width:0%;background:var(--bad)"></i></div>
      <button class="btn lg block" onclick="A.skStop()">⏹ Stop</button><div class="small muted">Live transcript${SR?'':' is not supported in this browser — you can type it after recording'}:</div><div id="live" class="small"></div></div>`}
   if(s.phase==='ivdone'||s.phase==='ivsaved'){const iv=s.iv;
     return head+`<div class="card stack"><h2>Interview finished ✓</h2><div class="ru-line">Послушайте свои ответы и сравните с образцами.</div>
@@ -212,5 +241,5 @@ setTimeout(()=>{cleanup().catch(e=>console.error(e))},4000);
 
 /* ---------- wiring ---------- */
 SV.speak=vSpeak;SV.speaking=()=>vSpeak();
-window.TS_SPEAK={start,data,analyse,retellSources,playDiary,cleanup,LIMIT,KINDS};
+window.TS_SPEAK={pickInterview,ivStats,ivStatus,curFile,start,data,analyse,retellSources,playDiary,cleanup,LIMIT,KINDS};
 })();

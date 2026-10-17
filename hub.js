@@ -32,7 +32,7 @@ function teacherNav(){return [
 ].filter(n=>n.h||has('teacher',n[0]))}
 Object.defineProperty(window,'NAV_OVERRIDE',{configurable:true,get(){return S&&S.role?{student:studentNav(),teacher:teacherNav()}:null}});
 const SELF=['grammar','vocabulary','listening','reading','pronunciation','speaking','writing','tests','submission'];
-window.NAV_ALIAS={student:Object.assign(Object.fromEntries(SELF.map(k=>[k,'self'])),{course:'map',program:'map',lesson:'map',dashboard:'map','placement-result':'checkpoints',placement:'checkpoints',baseline:'checkpoints',session:'today',boss:'self',sprint:'today',vocabulary:'words',speaking:'speak'}),teacher:{}};
+window.NAV_ALIAS={student:Object.assign(Object.fromEntries(SELF.map(k=>[k,'self'])),{course:'map',program:'map',lesson:'map',dashboard:'map','placement-result':'checkpoints',placement:'checkpoints',baseline:'checkpoints',session:'today',choose:'today',boss:'self',sprint:'today',vocabulary:'words',speaking:'speak'}),teacher:{}};
 
 /* ---------- helpers ---------- */
 const pct=(c,t)=>t?Math.round(c/t*100):0;

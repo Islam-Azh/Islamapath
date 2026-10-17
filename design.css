@@ -167,3 +167,17 @@ details.ru{display:none}
 .resume-card{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:16px;border:2px solid var(--ok)}
 #sync{font-size:20px;min-width:24px}
 @media (max-width:760px){.resume-card{flex-direction:column;align-items:stretch}}
+
+/* ---- choose a skill (D53) ---- */
+.skill-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:8px}
+.skill-tile{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;padding:18px 16px;min-height:170px;border-radius:20px;border:2px solid var(--border);background:var(--surface);color:var(--text);cursor:pointer;font:inherit;box-shadow:var(--shadow);border-top-width:6px}
+.skill-tile b{font-size:21px}
+.skill-tile.on{outline:3px solid var(--accent);outline-offset:2px;background:var(--accent-soft)}
+.skill-tile.empty{opacity:.55;cursor:not-allowed;filter:grayscale(1)}
+.skill-tile .tick{position:absolute;top:10px;right:12px;font-size:22px;color:var(--accent);font-weight:800}
+.skill-tile .badge{margin-top:4px}
+.sk-mixed{border-top:6px solid var(--muted)}
+.core-card{border-left:6px solid var(--ok);margin-bottom:12px}
+.choose-go{position:sticky;bottom:0;padding:14px 0;background:linear-gradient(transparent,var(--bg) 30%);margin-top:10px}
+.mode-grid.readonly .mode-tile{opacity:.6;cursor:default;filter:grayscale(.6)}
+@media (max-width:760px){.skill-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.skill-tile{min-height:150px;padding:14px 12px}.skill-tile b{font-size:18px}.choose-go{bottom:72px}}
