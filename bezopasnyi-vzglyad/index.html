@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Безопасный взгляд</title>
+<meta name="description" content="Платформа удалённого мониторинга промышленной безопасности НПЗ и учёта удалённого рабочего времени для сотрудников с ограниченными возможностями">
+<style>
+:root{
+  --fs:1;
+  --bg:#0e1318; --panel:#161e26; --panel2:#1d2832; --line:#2a3946; --text:#e7edf3; --muted:#93a3b3;
+  --accent:#f5a524; --accent-ink:#1b1300; --ok:#3fb950; --bad:#ff5c52; --info:#58a6ff; --violet:#b48cff;
+  --focus:#ffd400; --radius:12px;
+}
+:root[data-contrast="high"]{
+  --bg:#000; --panel:#000; --panel2:#0b0b0b; --line:#fff; --text:#fff; --muted:#e6e6e6;
+  --accent:#ffeb00; --accent-ink:#000; --ok:#00ff6a; --bad:#ff4040; --info:#5cc8ff; --violet:#ff9cff; --focus:#00ffff;
+}
+*{box-sizing:border-box}
+html{font-size:calc(16px * var(--fs))}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45;min-height:100vh}
+:root[data-motion="reduce"] *{transition:none!important;animation:none!important}
+a{color:var(--info)}
+h1{font-size:1.6rem;margin:0 0 .25rem}
+h2{font-size:1.15rem;margin:0 0 .75rem}
+h3{font-size:1rem;margin:0 0 .5rem}
+p{margin:.25rem 0 .75rem}
+.muted{color:var(--muted)}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:var(--accent-ink);padding:.5rem 1rem;z-index:100}
+.skip:focus{left:8px}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+button,select,input,textarea{font:inherit;color:inherit}
+.btn{display:inline-flex;align-items:center;gap:.4rem;justify-content:center;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.55rem .9rem;cursor:pointer;min-height:44px;text-decoration:none;color:var(--text)}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent);font-weight:600}
+.btn.danger{background:var(--bad);border-color:var(--bad);color:#fff;font-weight:600}
+.btn.ok{background:var(--ok);border-color:var(--ok);color:#03140a;font-weight:600}
+.btn.sm{min-height:34px;padding:.3rem .6rem;font-size:.9rem}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btn[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+input[type=text],input[type=password],select,textarea{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.55rem .7rem;min-height:44px;width:100%}
+textarea{min-height:110px;resize:vertical}
+label{display:block;font-weight:600;margin:0 0 .35rem}
+.field{margin-bottom:1rem}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem}
+.row{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center}
+.spacer{flex:1}
+
+/* Header */
+header.top{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.top-in{display:flex;align-items:center;gap:1rem;padding:.6rem 1rem;flex-wrap:wrap;max-width:1500px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:700;font-size:1.1rem;text-decoration:none;color:var(--text)}
+.brand-mark{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 50% 50%,var(--bg) 0 28%,var(--accent) 29% 46%,var(--bg) 47% 54%,var(--accent) 55% 100%);flex:none}
+.brand small{display:block;font-weight:400;color:var(--muted);font-size:.72rem}
+nav.main{display:flex;gap:.25rem;flex-wrap:wrap}
+nav.main a{padding:.5rem .8rem;border-radius:10px;text-decoration:none;color:var(--muted);font-weight:600;position:relative}
+nav.main a[aria-current="page"]{background:var(--panel2);color:var(--text);box-shadow:inset 0 -3px 0 var(--accent)}
+.badge{display:inline-block;min-width:1.3em;padding:0 .35em;border-radius:99px;background:var(--bad);color:#fff;font-size:.72rem;text-align:center;margin-left:.3rem}
+.shift-chip{display:flex;align-items:center;gap:.5rem;padding:.35rem .7rem;border-radius:99px;border:1px solid var(--line);font-variant-numeric:tabular-nums;font-size:.9rem}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+.dot.on{background:var(--ok);box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 25%,transparent)}
+.dot.pause{background:var(--accent)}
+.a11y{display:flex;gap:.25rem}
+.a11y .btn{min-width:44px;padding:.3rem .5rem}
+main{max-width:1500px;margin:0 auto;padding:1.2rem 1rem 3rem}
+.banner{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;padding:.7rem 1rem;border-radius:10px;border:1px solid var(--accent);background:color-mix(in srgb,var(--accent) 12%,transparent);margin-bottom:1rem}
+
+/* Login */
+.login-wrap{min-height:100vh;display:grid;place-items:center;padding:1rem}
+.login{width:min(960px,100%);display:grid;grid-template-columns:1.1fr 1fr;gap:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}
+.login-hero{padding:2rem;background:linear-gradient(160deg,#1f2c38,#0e1318);position:relative}
+:root[data-contrast="high"] .login-hero{background:#000;border-right:1px solid #fff}
+.login-hero h1{font-size:2rem;margin-top:1rem}
+.login-hero ul{padding-left:1.1rem;color:var(--muted)}
+.login-form{padding:2rem}
+.demo-acc{display:grid;gap:.5rem;margin-top:1rem}
+.demo-acc button{text-align:left;justify-content:flex-start}
+.err{color:var(--bad);font-weight:600;min-height:1.4em}
+
+/* Cabinet */
+.cab{display:grid;grid-template-columns:repeat(12,1fr);gap:1rem}
+.c4{grid-column:span 4}.c5{grid-column:span 5}.c7{grid-column:span 7}.c8{grid-column:span 8}.c6{grid-column:span 6}.c12{grid-column:span 12}
+.avatar{width:64px;height:64px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-weight:700;font-size:1.4rem;flex:none}
+dl.kv{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1rem;margin:.8rem 0 0}
+dl.kv dt{color:var(--muted)} dl.kv dd{margin:0}
+.timer{font-size:3rem;font-weight:700;font-variant-numeric:tabular-nums;letter-spacing:.02em;margin:.3rem 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.6rem}
+.tile{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.7rem}
+.tile b{display:block;font-size:1.7rem;font-variant-numeric:tabular-nums}
+.tile span{color:var(--muted);font-size:.85rem}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:.5rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.tbl-wrap{overflow-x:auto}
+.notif{display:flex;gap:.6rem;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.notif:last-child{border-bottom:0}
+.notif.new{font-weight:600}
+
+/* Status / severity tags */
+.tag{display:inline-block;padding:.1rem .5rem;border-radius:99px;font-size:.8rem;font-weight:600;border:1px solid currentColor;white-space:nowrap}
+.st-sent{color:var(--info)} .st-work{color:var(--accent)} .st-conf{color:var(--violet)} .st-rej{color:var(--muted)} .st-done{color:var(--ok)}
+.sv-low{color:var(--ok)} .sv-mid{color:var(--accent)} .sv-high{color:#ff8a3d} .sv-crit{color:#fff;background:var(--bad);border-color:var(--bad)}
+.overdue{color:#fff;background:var(--bad);border-color:var(--bad)}
+
+/* Monitor */
+.toolbar{display:flex;gap:1rem;align-items:flex-end;flex-wrap:wrap;margin-bottom:1rem}
+.mon-wrap{display:grid;grid-template-columns:1fr 320px;gap:1rem;align-items:start}
+.grid{display:grid;gap:.8rem}
+.grid.g6{grid-template-columns:repeat(3,1fr)}
+.grid.g4{grid-template-columns:repeat(2,1fr)}
+.grid.g1{grid-template-columns:1fr}
+.cam-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.cam-card.sel{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.cam-card.alarm{border-color:var(--bad)}
+.screen{position:relative;background:#000;aspect-ratio:16/9}
+.screen canvas{width:100%;height:100%;display:block}
+.screen::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 3px)}
+.paused-tag{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,.7);padding:.3rem .8rem;border-radius:8px;font-weight:700;display:none;z-index:2}
+.cam-card.paused .paused-tag{display:block}
+.cam-meta{padding:.55rem .75rem 0;display:flex;flex-direction:column}
+.cam-meta span{color:var(--muted);font-size:.85rem}
+.tele{display:flex;gap:.35rem;flex-wrap:wrap;padding:.5rem .75rem}
+.tv{font-size:.78rem;padding:.15rem .45rem;border-radius:6px;background:var(--panel2);border:1px solid var(--line);font-variant-numeric:tabular-nums}
+.tv.bad{border-color:var(--bad);color:#fff;background:color-mix(in srgb,var(--bad) 55%,transparent)}
+.cam-actions{display:flex;gap:.4rem;padding:0 .75rem .75rem;margin-top:auto}
+.cam-actions .btn{flex:1}
+.cam-actions .btn.icon{flex:0 0 44px}
+.hints .hint{border:1px solid var(--accent);border-radius:10px;padding:.7rem;margin-bottom:.6rem;background:color-mix(in srgb,var(--accent) 8%,transparent)}
+.hint .row{margin-top:.5rem}
+.legend li{margin:.25rem 0}
+
+/* Report */
+.report-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}
+.types{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:.5rem;border:0;padding:0;margin:0 0 1rem}
+.types legend,.sev legend{font-weight:600;margin-bottom:.4rem;padding:0}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.opt span{display:flex;gap:.5rem;align-items:center;padding:.6rem .7rem;border:1px solid var(--line);border-radius:10px;background:var(--panel2);min-height:52px;font-weight:600;font-size:.92rem}
+.opt input:checked + span{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--panel2))}
+.opt input:focus-visible + span{outline:3px solid var(--focus);outline-offset:2px}
+.ico{font-size:1.25rem}
+.sev{display:flex;gap:.5rem;flex-wrap:wrap;border:0;padding:0;margin:0 0 1rem}
+.sev .opt{flex:1;min-width:110px}
+.snap{position:relative;background:#000;border-radius:10px;overflow:hidden;aspect-ratio:16/9;cursor:crosshair;border:1px solid var(--line)}
+.snap img{width:100%;height:100%;display:block;object-fit:cover}
+.snap .empty{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);text-align:center;padding:1rem;cursor:default}
+.marker{position:absolute;width:56px;height:56px;margin:-28px 0 0 -28px;border:3px solid var(--bad);border-radius:50%;box-shadow:0 0 0 3px rgba(0,0,0,.6),0 0 18px var(--bad);pointer-events:none}
+.marker::after{content:"!";position:absolute;inset:0;display:grid;place-items:center;font-weight:800;color:#fff;text-shadow:0 0 4px #000}
+.route{padding:.7rem;border-radius:10px;background:var(--panel2);border:1px dashed var(--line);margin-bottom:1rem}
+
+/* Kanban */
+.kanban{display:grid;grid-template-columns:repeat(5,minmax(220px,1fr));gap:.8rem;overflow-x:auto;padding-bottom:.5rem}
+.col{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:.7rem;min-height:200px}
+.col h2{font-size:1rem;display:flex;justify-content:space-between}
+.card{display:block;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:.6rem;margin-bottom:.55rem;cursor:pointer}
+.card:hover{border-color:var(--muted)}
+.card .thumb{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;margin:.4rem 0;display:block;background:#000}
+.card small{color:var(--muted);display:block}
+.timeline{list-style:none;padding:0;margin:0;border-left:2px solid var(--line)}
+.timeline li{padding:.2rem 0 .6rem 1rem;position:relative}
+.timeline li::before{content:"";position:absolute;left:-7px;top:.5rem;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.comment{background:var(--panel2);border-radius:10px;padding:.5rem .7rem;margin-bottom:.5rem}
+
+/* Modal / toast */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.72);display:none;align-items:flex-start;justify-content:center;z-index:50;padding:2rem 1rem;overflow-y:auto}
+.modal-bg.open{display:flex}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:16px;width:min(1100px,100%);padding:1.2rem}
+.modal-head{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.toasts{position:fixed;right:1rem;bottom:1rem;display:flex;flex-direction:column;gap:.5rem;z-index:60;max-width:min(420px,calc(100vw - 2rem))}
+.toast{background:var(--panel2);border:1px solid var(--line);border-left:5px solid var(--info);border-radius:10px;padding:.7rem .9rem;box-shadow:0 8px 24px rgba(0,0,0,.4)}
+.toast.bad{border-left-color:var(--bad)} .toast.ok{border-left-color:var(--ok)} .toast.warn{border-left-color:var(--accent)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.detail-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:1rem}
+
+@media (max-width:1150px){.grid.g6{grid-template-columns:repeat(2,1fr)}.c4,.c5,.c7,.c8,.c6{grid-column:span 12}}
+@media (max-width:1000px){.mon-wrap,.report-grid,.detail-grid{grid-template-columns:1fr}.login{grid-template-columns:1fr}}
+@media (max-width:640px){.grid.g6,.grid.g4{grid-template-columns:1fr}.timer{font-size:2.3rem}h1{font-size:1.35rem}.top-in{gap:.5rem}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержимому</a>
+<div id="app"></div>
+<div class="modal-bg" id="modalBg" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal" id="modal"></div></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<div class="sr" id="live" aria-live="assertive"></div>
+
+<script>
+/* ================= Хранилище ================= */
+const store={
+  get(k,d){try{const v=localStorage.getItem('bv_'+k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem('bv_'+k,JSON.stringify(v))}catch(e){console.warn('storage',e)}}
+};
+const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const $=(s,r=document)=>r.querySelector(s);
+const $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const pad=n=>String(n).padStart(2,'0');
+const fmtDur=ms=>{ms=Math.max(0,ms);const s=Math.floor(ms/1000);return pad(Math.floor(s/3600))+':'+pad(Math.floor(s%3600/60))+':'+pad(s%60)};
+const fmtH=ms=>(ms/3600000).toFixed(1).replace('.',',')+' ч';
+const fmtDT=t=>new Date(t).toLocaleString('ru-RU',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+const fmtT=t=>new Date(t).toLocaleTimeString('ru-RU');
+const ago=t=>{const m=Math.round((Date.now()-t)/60000);if(m<1)return'только что';if(m<60)return m+' мин назад';const h=Math.round(m/60);if(h<24)return h+' ч назад';return Math.round(h/24)+' дн назад'};
+
+/* ================= Справочники ================= */
+const USERS={
+  '1001':{pass:'demo',role:'operator',name:'Каримова Динара Сериковна',pos:'Оператор-наблюдатель',curator:'Иванов С. П.',group:'Группа удалённого наблюдения №1',note:'Нарушение слуха — включены текстовые и световые оповещения'},
+  '1002':{pass:'demo',role:'operator',name:'Ахметов Ерлан Болатович',pos:'Оператор-наблюдатель',curator:'Иванов С. П.',group:'Группа удалённого наблюдения №1',note:'Ограничение подвижности — работа с клавиатуры'},
+  '2001':{pass:'demo',role:'specialist',name:'Петров Алексей Николаевич',pos:'Инженер промышленной безопасности',curator:'—',group:'Отдел промышленной безопасности',note:'Ответственный специалист'}
+};
+const CAMS=[
+  {id:'CAM-01',unit:'ЭЛОУ-АВТ-6',name:'Колонна К-1, северная сторона',scene:'column'},
+  {id:'CAM-02',unit:'Резервуарный парк',name:'Резервуары РВС-5000 №3–5',scene:'tanks'},
+  {id:'CAM-03',unit:'Межцеховая эстакада',name:'Трубопроводы, участок 12',scene:'rack'},
+  {id:'CAM-04',unit:'Каталитический риформинг',name:'Печь П-1 и реакторы Р-1…Р-3',scene:'reactor'},
+  {id:'CAM-05',unit:'Эстакада налива',name:'Налив в ж/д цистерны, пост 2',scene:'loading'},
+  {id:'CAM-06',unit:'Факельное хозяйство',name:'Факел высокого давления',scene:'flare'}
+];
+const camById=id=>CAMS.find(c=>c.id===id);
+const TYPES={
+  leak:{t:'Утечка продукта',i:'💧'},
+  steam:{t:'Пропуск (парение) продукта',i:'♨️'},
+  pipe:{t:'Повреждение трубопровода',i:'🔧'},
+  equip:{t:'Повреждение оборудования / установки',i:'🏭'},
+  fire:{t:'Возгорание / дым',i:'🔥'},
+  ppe:{t:'Нарушение ТБ персоналом',i:'⛑️'},
+  other:{t:'Прочее',i:'❓'}
+};
+const SEV={low:{t:'Низкий',c:'sv-low',sla:240},mid:{t:'Средний',c:'sv-mid',sla:60},high:{t:'Высокий',c:'sv-high',sla:15},crit:{t:'Критический',c:'sv-crit',sla:5}};
+const DEPTS={
+  mech:{name:'Служба механика установки',person:'Механик смены'},
+  pb:{name:'Отдел промышленной безопасности',person:'Инженер ПБ'},
+  toir:{name:'Служба ТОиР',person:'Мастер по ремонту'},
+  unit:{name:'Начальник установки',person:'Начальник смены'},
+  fire:{name:'Пожарная часть / диспетчер НПЗ',person:'Дежурный диспетчер'},
+  ot:{name:'Отдел ОТ и ТБ',person:'Специалист по охране труда'},
+  disp:{name:'Диспетчерская НПЗ',person:'Дежурный диспетчер'}
+};
+const ROUTE={leak:['mech','pb'],steam:['unit','mech'],pipe:['toir','pb'],equip:['toir','unit'],fire:['fire','pb'],ppe:['ot','unit'],other:['disp']};
+const STATUSES=[['Передано','st-sent'],['В работе','st-work'],['Подтверждено','st-conf'],['Отклонено','st-rej'],['Устранено','st-done']];
+const stCls=s=>(STATUSES.find(x=>x[0]===s)||['','st-sent'])[1];
+const ANOM2TYPE={leak:'leak',steam:'steam',damage:'pipe',smoke:'fire',ppe:'ppe'};
+const AI_LABEL={leak:'возможная утечка',steam:'парение / пропуск',damage:'повреждение',smoke:'дым',ppe:'нет каски'};
+
+/* ================= Сцены видеонаблюдения (имитация) ================= */
+const W=640,H=360,GY=292;
+const SPOTS={
+  column:[{x:240,y:230},{x:420,y:250},{x:140,y:250},{x:330,y:230}],
+  tanks:[{x:135,y:272},{x:315,y:272},{x:495,y:272},{x:400,y:300}],
+  rack:[{x:150,y:160},{x:330,y:205},{x:500,y:140},{x:420,y:230}],
+  reactor:[{x:150,y:150},{x:320,y:255},{x:410,y:200},{x:250,y:200}],
+  loading:[{x:200,y:205},{x:400,y:205},{x:300,y:250}],
+  flare:[{x:250,y:282},{x:430,y:268},{x:360,y:240}]
+};
+const SCENE_TYPES={column:['leak','steam','damage','ppe'],tanks:['leak','damage','ppe','smoke'],rack:['leak','steam','damage','ppe'],reactor:['steam','leak','smoke','damage','ppe'],loading:['leak','steam','ppe'],flare:['leak','damage','ppe','smoke']};
+
+function cyl(c,x,y,w,h,c1,c2){const g=c.createLinearGradient(x,0,x+w,0);g.addColorStop(0,c2);g.addColorStop(.38,c1);g.addColorStop(1,c2);c.fillStyle=g;c.fillRect(x,y,w,h)}
+function dome(c,cx,y,rx,col){c.fillStyle=col||'#a9b2ba';c.beginPath();c.ellipse(cx,y,rx,rx*.55,0,Math.PI,0);c.fill()}
+function hpipe(c,x1,x2,y,d,col){c.fillStyle=col;c.fillRect(x1,y-d/2,x2-x1,d);const g=c.createLinearGradient(0,y-d/2,0,y+d/2);g.addColorStop(0,'rgba(0,0,0,.35)');g.addColorStop(.3,'rgba(255,255,255,.25)');g.addColorStop(1,'rgba(0,0,0,.5)');c.fillStyle=g;c.fillRect(x1,y-d/2,x2-x1,d)}
+function vpipe(c,x,y1,y2,d,col){c.fillStyle=col;c.fillRect(x-d/2,y1,d,y2-y1);const g=c.createLinearGradient(x-d/2,0,x+d/2,0);g.addColorStop(0,'rgba(0,0,0,.4)');g.addColorStop(.35,'rgba(255,255,255,.25)');g.addColorStop(1,'rgba(0,0,0,.5)');c.fillStyle=g;c.fillRect(x-d/2,y1,d,y2-y1)}
+function puffs(c,x,y,t,n,rgb,spread,rise,speed,size){for(let i=0;i<n;i++){const p=((t/1000)*speed+i/n)%1;const px=x+Math.sin(i*12.9+t/900)*spread*p;const py=y-rise*p;const r=(size||4)+p*18;c.fillStyle='rgba('+rgb+','+((1-p)*.55).toFixed(3)+')';c.beginPath();c.arc(px,py,r,0,7);c.fill()}}
+function person(c,x,t,helmet){const gy=GY+4;const sw=Math.sin(t/180)*4;c.strokeStyle='#2b3440';c.lineWidth=3;c.beginPath();c.moveTo(x,gy-14);c.lineTo(x-3+sw,gy);c.moveTo(x,gy-14);c.lineTo(x+3-sw,gy);c.stroke();c.fillStyle='#ff7a1a';c.fillRect(x-5,gy-28,10,15);c.fillStyle='#e8f0a0';c.fillRect(x-5,gy-22,10,2);c.fillStyle='#d7a37c';c.beginPath();c.arc(x,gy-32,4.5,0,7);c.fill();if(helmet){c.fillStyle='#f4f4f4';c.beginPath();c.ellipse(x,gy-34,6,4,0,Math.PI,0);c.fill();c.fillRect(x-7,gy-34,14,1.5)}}
+
+function bg(c,scene){
+  const g=c.createLinearGradient(0,0,0,GY);
+  if(scene==='flare'){g.addColorStop(0,'#141c27');g.addColorStop(1,'#33404e')}else{g.addColorStop(0,'#5d7387');g.addColorStop(1,'#a7b3bd')}
+  c.fillStyle=g;c.fillRect(0,0,W,GY);
+  c.fillStyle='#474b4e';c.fillRect(0,GY,W,H-GY);
+  c.fillStyle='rgba(255,255,255,.05)';for(let x=0;x<W;x+=40)c.fillRect(x,GY,1,H-GY);
+  c.fillStyle='#5a5f63';c.fillRect(0,GY,W,3);
+}
+const SCENES={
+  column(c,t){
+    c.fillStyle='#4f5a65';for(let x=90;x<=360;x+=45)c.fillRect(x,120,3,172);for(let y=140;y<290;y+=40)c.fillRect(90,y,273,3);
+    cyl(c,120,72,40,220,'#c9d0d6','#6d7782');dome(c,140,72,20);
+    cyl(c,190,52,56,240,'#c9d0d6','#6d7782');dome(c,218,52,28);
+    cyl(c,290,102,36,190,'#c9d0d6','#6d7782');dome(c,308,102,18);
+    c.fillStyle='#d9a23a';[[120,40,110],[120,40,170],[190,56,90],[190,56,150],[190,56,210],[290,36,160]].forEach(([x,w,y])=>c.fillRect(x-4,y,w+8,2));
+    vpipe(c,165,90,230,6,'#7f8c99');vpipe(c,255,70,250,6,'#a8682e');
+    hpipe(c,60,620,230,12,'#a8682e');hpipe(c,60,620,250,10,'#7f8c99');
+    [[400,272],[480,272]].forEach(([x,y])=>{c.save();const g=c.createLinearGradient(0,y-12,0,y+12);g.addColorStop(0,'#6d7782');g.addColorStop(.4,'#c9d0d6');g.addColorStop(1,'#59626b');c.fillStyle=g;c.fillRect(x,y-12,70,24);c.restore()});
+    cyl(c,515,30,22,262,'#c3c9cf','#5d6670');c.fillStyle='#c0392b';[40,80].forEach(y=>c.fillRect(515,y,22,12));
+    puffs(c,526,28,t,10,'235,235,235',22,80,.18,5);
+  },
+  tanks(c,t){
+    c.fillStyle='#53585c';c.fillRect(30,GY-6,580,8);
+    const tank=(x,y,w,h)=>{cyl(c,x,y,w,h,'#dde1e4','#7c848c');c.fillStyle='rgba(0,0,0,.1)';for(let i=1;i<5;i++)c.fillRect(x,y+i*h/5,w,2);c.fillStyle='#9aa1a8';c.beginPath();c.ellipse(x+w/2,y,w/2,9,0,Math.PI,0);c.fill();c.strokeStyle='#d9a23a';c.lineWidth=2;c.beginPath();c.moveTo(x+w-8,y+h);c.lineTo(x+w*.45,y);c.stroke();c.fillStyle='#2d5f8a';c.font='bold 14px sans-serif';c.fillText(['РВС-3','РВС-4','РВС-5'][Math.round((x-60)/180)]||'',x+w/2-22,y+h/2)};
+    tank(60,150,150,135);tank(240,140,150,145);tank(420,150,150,135);
+    hpipe(c,20,620,300,9,'#7f8c99');hpipe(c,20,620,312,7,'#a8682e');
+    c.fillStyle='#e74c3c';if(Math.floor(t/700)%2)c.fillRect(612,120,6,6);
+  },
+  rack(c,t){
+    c.fillStyle='#4a5560';for(let x=40;x<620;x+=95){c.fillRect(x,110,5,182);c.fillRect(x+40,110,5,182);c.fillRect(x-4,150,53,4);c.fillRect(x-4,195,53,4);c.fillRect(x-4,240,53,4)}
+    hpipe(c,0,W,140,14,'#a8682e');hpipe(c,0,W,160,10,'#c9d0d6');hpipe(c,0,W,183,8,'#e0b23e');hpipe(c,0,W,205,16,'#7f8c99');hpipe(c,0,W,230,12,'#4c8a5c');
+    c.fillStyle='rgba(0,0,0,.45)';for(let x=110;x<W;x+=150){[140,160,205,230].forEach(y=>c.fillRect(x,y-10,5,20))}
+    person(c,120+((t/60)%420),t,true);
+  },
+  reactor(c,t){
+    c.fillStyle='#6b5a50';c.fillRect(50,130,180,162);c.fillStyle='#4e423b';c.fillRect(50,130,180,10);
+    for(let i=0;i<6;i++){const f=150+Math.floor(Math.random()*70);c.fillStyle='rgba(255,'+f+',40,.9)';c.fillRect(66+i*27,215,14,22)}
+    cyl(c,128,40,24,90,'#9aa1a8','#4d555c');puffs(c,140,38,t,8,'200,200,200',16,55,.12,4);
+    cyl(c,290,140,50,152,'#c9d0d6','#6d7782');dome(c,315,140,25);
+    cyl(c,370,118,50,174,'#c9d0d6','#6d7782');dome(c,395,118,25);
+    cyl(c,450,150,50,142,'#c9d0d6','#6d7782');dome(c,475,150,25);
+    hpipe(c,230,560,200,10,'#7f8c99');hpipe(c,230,560,255,10,'#a8682e');vpipe(c,540,120,255,8,'#a8682e');
+  },
+  loading(c,t){
+    c.fillStyle='#5a4a3a';for(let x=0;x<W;x+=18)c.fillRect(x,312,10,6);c.fillStyle='#8a8f94';c.fillRect(0,309,W,3);c.fillRect(0,320,W,3);
+    for(let i=0;i<3;i++){const x=60+i*190;c.fillStyle='#262a2e';c.beginPath();c.roundRect(x,250,170,50,22);c.fill();c.fillStyle='#33383d';c.fillRect(x+75,240,22,12);c.fillStyle='#111';c.beginPath();c.arc(x+30,306,7,0,7);c.arc(x+140,306,7,0,7);c.fill();c.fillStyle='#e0b23e';c.font='bold 12px sans-serif';c.fillText('НЕФТЕПРОДУКТ',x+38,282)}
+    c.fillStyle='#50606e';c.fillRect(130,120,8,172);c.fillRect(470,120,8,172);c.fillRect(126,120,356,10);c.fillRect(126,185,356,6);
+    c.fillStyle='#d9a23a';c.fillRect(126,180,356,3);
+    c.strokeStyle='#9aa4ad';c.lineWidth=5;[[200,205],[400,205]].forEach(([x])=>{c.beginPath();c.moveTo(x,190);c.lineTo(x-14,215);c.lineTo(x-14,242);c.stroke()});
+    hpipe(c,0,W,140,10,'#a8682e');
+    c.fillStyle=Math.floor(t/500)%2?'#2ecc71':'#145a32';c.fillRect(300,132,10,10);
+    person(c,560-((t/80)%120),t,true);
+  },
+  flare(c,t){
+    c.strokeStyle='rgba(180,190,200,.5)';c.lineWidth=1;c.beginPath();[[160,GY],[480,GY],[230,GY],[410,GY]].forEach(([x,y])=>{c.moveTo(320,90);c.lineTo(x,y)});c.stroke();
+    cyl(c,312,62,16,230,'#c3c9cf','#5d6670');c.fillStyle='#c0392b';for(let y=70;y<290;y+=40)c.fillRect(312,y,16,18);
+    const gl=c.createRadialGradient(320,45,5,320,45,120);gl.addColorStop(0,'rgba(255,170,60,.55)');gl.addColorStop(1,'rgba(255,120,30,0)');c.fillStyle=gl;c.fillRect(180,0,280,180);
+    for(let i=0;i<9;i++){const j=Math.sin(t/90+i*1.7)*5;c.fillStyle=['#fff3b0','#ffd45c','#ff9f2e','#ff6a1a'][i%4];c.globalAlpha=.75;c.beginPath();c.ellipse(320+j,52-i*3,9+i*1.4,18+i*2.6+Math.sin(t/70+i)*4,Math.sin(t/300)*.15,0,7);c.fill()}
+    c.globalAlpha=1;
+    const g=c.createLinearGradient(0,256,0,284);g.addColorStop(0,'#6d7782');g.addColorStop(.4,'#c9d0d6');g.addColorStop(1,'#59626b');c.fillStyle=g;c.beginPath();c.roundRect(390,256,110,28,14);c.fill();
+    hpipe(c,328,390,270,9,'#a8682e');hpipe(c,0,312,282,10,'#7f8c99');
+  }
+};
+function anomPos(a,t){return a.type==='ppe'?{x:a.x+Math.sin((t-a.start)/2500)*40,y:GY-14}:{x:a.x,y:a.y}}
+function drawAnom(c,a,t){
+  const p=anomPos(a,t),g=Math.min(1,Math.max(0,(t-a.start)/15000));
+  if(a.type==='leak'){const py=Math.min(p.y+38,H-20);for(let k=0;k<3;k++){const ph=((t/650)+k/3)%1;c.fillStyle='rgba(40,28,12,.9)';c.beginPath();c.ellipse(p.x,p.y+ph*(py-p.y),2,3.5,0,0,7);c.fill()}c.fillStyle='rgba(30,22,10,.88)';c.beginPath();c.ellipse(p.x,py,10+32*g,3+7*g,0,0,7);c.fill();c.fillStyle='rgba(120,90,200,.25)';c.beginPath();c.ellipse(p.x-4,py-1,6+14*g,1.5+3*g,0,0,7);c.fill()}
+  else if(a.type==='steam'){puffs(c,p.x,p.y,t,16,'245,245,245',26,70,.9,3)}
+  else if(a.type==='smoke'){puffs(c,p.x,p.y,t,18,'55,55,58',30,130,.25,8)}
+  else if(a.type==='damage'){const rg=c.createRadialGradient(p.x,p.y,1,p.x,p.y,16);rg.addColorStop(0,'rgba(120,50,10,.95)');rg.addColorStop(1,'rgba(170,80,20,0)');c.fillStyle=rg;c.beginPath();c.arc(p.x,p.y,16,0,7);c.fill();c.strokeStyle='#120a05';c.lineWidth=2;c.beginPath();c.moveTo(p.x-12,p.y-3);c.lineTo(p.x-5,p.y+3);c.lineTo(p.x,p.y-4);c.lineTo(p.x+6,p.y+3);c.lineTo(p.x+13,p.y-2);c.stroke()}
+  else if(a.type==='ppe'){person(c,p.x,t,false)}
+}
+function aiBox(c,a,t){
+  const p=anomPos(a,t),w=a.type==='ppe'?46:96,h=a.type==='ppe'?56:84,x=p.x-w/2,y=a.type==='ppe'?p.y-34:p.y-h/2;
+  c.save();c.setLineDash([7,4]);c.lineDashOffset=-t/60;c.strokeStyle='#ffd400';c.lineWidth=2.5;c.strokeRect(x,y,w,h);c.setLineDash([]);
+  const label='ИИ: '+AI_LABEL[a.type]+' '+a.conf+'%';c.font='bold 12px sans-serif';const tw=c.measureText(label).width+10;
+  const lx=Math.min(Math.max(0,x),W-tw),ly=y<22?y+h:y-18;c.fillStyle='#ffd400';c.fillRect(lx,ly,tw,18);c.fillStyle='#111';c.fillText(label,lx+5,ly+13);c.restore();
+}
+function overlay(c,cam,t){
+  c.fillStyle='rgba(0,0,0,.55)';c.fillRect(8,8,250,22);c.fillRect(W-208,8,200,22);
+  c.font='bold 13px Consolas,monospace';c.fillStyle='#fff';c.fillText(cam.id+' · '+cam.unit,14,23);
+  c.fillStyle=Math.floor(t/600)%2?'#ff3b30':'#7a1d18';c.beginPath();c.arc(W-196,19,5,0,7);c.fill();
+  c.fillStyle='#fff';const d=new Date(t);c.fillText('REC '+pad(d.getDate())+'.'+pad(d.getMonth()+1)+' '+pad(d.getHours())+':'+pad(d.getMinutes())+':'+pad(d.getSeconds()),W-186,23);
+}
+function noise(c){for(let i=0;i<60;i++){c.fillStyle='rgba(255,255,255,'+(Math.random()*.06).toFixed(3)+')';c.fillRect(Math.random()*W,Math.random()*H,2,2)}}
+function drawScene(c,cam,t,w,anoms,showAI){
+  if(anoms===undefined)anoms=anomalies.filter(a=>a.cam===cam.id);
+  if(showAI===undefined)showAI=true;
+  const s=w/W;c.setTransform(s,0,0,s,0,0);
+  bg(c,cam.scene);SCENES[cam.scene](c,t);
+  anoms.forEach(a=>drawAnom(c,a,t));
+  if(showAI)anoms.forEach(a=>{if(a.ai&&!a.dismissed&&t-a.start>2500)aiBox(c,a,t)});
+  noise(c);overlay(c,cam,t);c.setTransform(1,0,0,1,0,0);
+}
+function snapshot(cam,anoms,t){const cv=document.createElement('canvas');cv.width=480;cv.height=270;drawScene(cv.getContext('2d'),cam,t||Date.now(),480,anoms,false);return cv.toDataURL('image/jpeg',.72)}
+
+/* ================= Телеметрия ================= */
+const TELE={
+  column:[['Давл. верха','МПа',0.18,0.10,0.25],['Темп. верха','°C',122,100,140],['Газ','%НКПР',3,0,20]],
+  tanks:[['Уровень РВС-4','м',9.2,1,11.5],['Темп. продукта','°C',28,5,45],['Газ','%НКПР',2,0,20]],
+  rack:[['Давл. линии','МПа',1.6,1.2,2.0],['Расход','м³/ч',240,180,300],['Газ','%НКПР',1,0,20]],
+  reactor:[['Т вых. печи','°C',505,470,530],['Давление','МПа',2.4,2.0,2.8],['Газ','%НКПР',2,0,20]],
+  loading:[['Расход налива','м³/ч',120,0,160],['Давление','МПа',0.6,0.3,0.9],['Газ','%НКПР',4,0,20]],
+  flare:[['Расход на факел','т/ч',3.5,0,12],['Т оголовка','°C',820,600,1100],['Газ','%НКПР',1,0,20]]
+};
+const tv={};CAMS.forEach(c=>tv[c.id]=TELE[c.scene].map(p=>p[2]));
+function updTele(){
+  CAMS.forEach(cam=>{const def=TELE[cam.scene],an=anomalies.filter(a=>a.cam===cam.id);
+    tv[cam.id]=tv[cam.id].map((v,i)=>{const[, ,nom,mn,mx]=def[i];let target=nom;
+      if(i===2&&an.some(a=>['leak','steam','smoke'].includes(a.type)&&Date.now()-a.start>4000))target=mx*1.35;
+      if(i===0&&an.some(a=>a.type==='leak'))target=nom*.9;
+      return v+(target-v)*.12+(Math.random()-.5)*(mx-mn)*.012})});
+}
+const fmtV=(v,nom)=>nom<1?v.toFixed(2):nom<10?v.toFixed(1):Math.round(v);
+function teleHTML(cam){return TELE[cam.scene].map((p,i)=>{const v=tv[cam.id][i],bad=v<p[3]||v>p[4];return '<span class="tv'+(bad?' bad':'')+'" title="Норма '+p[3]+'–'+p[4]+' '+p[1]+'">'+(bad?'⚠ ':'')+p[0]+': <b>'+fmtV(v,p[2])+'</b> '+p[1]+'</span>'}).join('')}
+
+/* ================= Состояние ================= */
+let anomalies=[],nextSpawn=Date.now()+4000,draft=null,view='cabinet',layout='g6',selCam='CAM-01',hintSig='';
+const paused=new Set();
+let prefs=store.get('prefs',{fs:1,contrast:false,voice:false,motion:false});
+let session=store.get('session',null);
+let shifts=store.get('shifts',null);
+let incidents=store.get('incidents',null);
+
+function seed(){
+  const now=Date.now(),H1=3600000,D=86400000;
+  if(!shifts){shifts={};Object.keys(USERS).forEach(u=>{shifts[u]={active:null,log:[]};for(let d=4;d>=1;d--){const st=now-d*D-((d%2)*H1);shifts[u].log.push({start:st,end:st+6*H1+(d*7)*60000,breakMs:40*60000})}});store.set('shifts',shifts)}
+  if(!incidents){
+    const mk=(n,cam,type,sev,an,ago,status,author,desc,dept,hist)=>{const t=now-ago;const c=camById(cam);const sp=SPOTS[c.scene][0];const a={cam,type:an,x:sp.x,y:sp.y,start:t-20000};return{id:'БВ-'+String(n).padStart(4,'0'),cam,unit:c.unit,type,sev,created:t,author,desc,dept,status,snap:snapshot(c,[a],t),mark:{x:sp.x/W,y:(an==='leak'?sp.y+30:sp.y)/H},history:hist(t),comments:[]}};
+    incidents=[
+      mk(1,'CAM-02','leak','high','leak',2*D,'Устранено','1001','Тёмное пятно продукта под фланцем приёмо-раздаточного патрубка РВС-3, растёт.','mech',t=>[{s:'Передано',t,by:'1001'},{s:'В работе',t:t+6*60000,by:'2001'},{s:'Подтверждено',t:t+40*60000,by:'2001',c:'Подтверждена течь прокладки фланца.'},{s:'Устранено',t:t+3*H1,by:'2001',c:'Прокладка заменена, площадка зачищена.'}]),
+      mk(2,'CAM-03','ppe','mid','ppe',D+2*H1,'Подтверждено','1001','Работник у эстакады без защитной каски.','ot',t=>[{s:'Передано',t,by:'1001'},{s:'В работе',t:t+4*60000,by:'2001'},{s:'Подтверждено',t:t+25*60000,by:'2001',c:'Проведён внеплановый инструктаж.'}]),
+      mk(3,'CAM-01','steam','low','steam',D-3*H1,'Отклонено','1001','Парение в районе трубопровода под колонной К-2.','unit',t=>[{s:'Передано',t,by:'1001'},{s:'В работе',t:t+10*60000,by:'2001'},{s:'Отклонено',t:t+30*60000,by:'2001',c:'Штатный сброс пара через дренаж, нарушения нет. Спасибо за внимательность!'}]),
+      mk(4,'CAM-04','pipe','high','damage',50*60000,'В работе','1001','Очаг коррозии и трещина на линии сырья перед реакторами.','toir',t=>[{s:'Передано',t,by:'1001'},{s:'В работе',t:t+8*60000,by:'2001',c:'Мастер направлен на осмотр.'}]),
+      mk(5,'CAM-05','leak','mid','leak',7*60000,'Передано','1002','Капельная течь со стояка налива, пост 2.','mech',t=>[{s:'Передано',t,by:'1002'}])
+    ];
+    store.set('incidents',incidents);
+  }
+}
+const saveInc=()=>store.set('incidents',incidents);
+const saveShifts=()=>store.set('shifts',shifts);
+const me=()=>session&&USERS[session.uid];
+const nextId=()=>'БВ-'+String(incidents.reduce((m,i)=>Math.max(m,parseInt(i.id.slice(3))),0)+1).padStart(4,'0');
+
+/* ================= Доступность ================= */
+function applyPrefs(){const r=document.documentElement;r.style.setProperty('--fs',prefs.fs);r.dataset.contrast=prefs.contrast?'high':'normal';r.dataset.motion=prefs.motion?'reduce':'normal';store.set('prefs',prefs)}
+function speak(txt){if(!prefs.voice||!('speechSynthesis' in window))return;try{const u=new SpeechSynthesisUtterance(txt);u.lang='ru-RU';speechSynthesis.speak(u)}catch(e){}}
+function announce(txt){const l=$('#live');l.textContent='';setTimeout(()=>l.textContent=txt,50)}
+function toast(txt,kind,ms){const d=document.createElement('div');d.className='toast '+(kind||'');d.innerHTML=txt;$('#toasts').appendChild(d);setTimeout(()=>d.remove(),ms||6000)}
+
+/* ================= Учёт рабочего времени ================= */
+const myShift=()=>shifts[session.uid]||(shifts[session.uid]={active:null,log:[]});
+function workedMs(a,now){now=now||Date.now();const end=a.end||now;const br=(a.breaks||[]).reduce((s,b)=>s+((b.e||now)-b.s),0)+(a.breakMs||0);return end-a.start-br}
+const onBreak=()=>{const a=myShift().active;return a&&a.breaks.length&&!a.breaks[a.breaks.length-1].e};
+function shiftAct(act){
+  const s=myShift(),now=Date.now();
+  if(act==='start'){s.active={start:now,breaks:[]};toast('Смена начата в '+fmtT(now),'ok');speak('Смена начата')}
+  else if(act==='break'){if(onBreak()){s.active.breaks[s.active.breaks.length-1].e=now;toast('Перерыв завершён','ok')}else{s.active.breaks.push({s:now,e:null});toast('Перерыв начат. Рекомендуем отдыхать 10 минут каждый час.','warn')}}
+  else if(act==='end'){if(onBreak())s.active.breaks[s.active.breaks.length-1].e=now;const a=s.active;const br=a.breaks.reduce((x,b)=>x+(b.e-b.s),0);s.log.push({start:a.start,end:now,breakMs:br});const cnt=incidents.filter(i=>i.author===session.uid&&i.created>=a.start).length;s.active=null;toast('Смена завершена. Отработано '+fmtDur(now-a.start-br)+', замечаний: '+cnt,'ok',9000);speak('Смена завершена')}
+  saveShifts();render();
+}
+function totals(){const s=myShift(),now=Date.now(),d0=new Date();d0.setHours(0,0,0,0);const all=s.log.concat(s.active?[s.active]:[]);
+  const sum=from=>all.filter(x=>x.start>=from).reduce((m,x)=>m+workedMs(x,now),0);
+  return{today:sum(d0.getTime()),week:sum(now-7*86400000),month:sum(now-30*86400000)}}
+
+/* ================= Маршрутизация ================= */
+function render(){
+  const u=me();
+  if(!u){renderLogin();return}
+  view=['cabinet','monitor','report','transfer'].includes(route)?route:'cabinet';
+  $('#app').innerHTML=headerHTML()+'<main id="main" tabindex="-1">'+({cabinet:cabinetHTML,monitor:monitorHTML,report:reportHTML,transfer:transferHTML})[view]()+'</main>';
+  bindHeader();({cabinet:bindCabinet,monitor:bindMonitor,report:bindReport,transfer:bindTransfer})[view]();
+  updHeader();
+}
+let route=(location.hash||'#cabinet').slice(1);
+function go(v){route=v;try{if(location.hash!=='#'+v)history.replaceState(null,'','#'+v)}catch(e){}render();$('#main')&&$('#main').focus({preventScroll:true});scrollTo(0,0)}
+window.addEventListener('hashchange',()=>{const h=(location.hash||'#cabinet').slice(1);if(h!==route)go(h)});
+document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a||a.classList.contains('skip')||a.dataset.open)return;const v=a.getAttribute('href').slice(1);if(['cabinet','monitor','report','transfer'].includes(v)){e.preventDefault();go(v)}});
+
+function unseen(){if(!session)return 0;const seen=store.get('seen_'+session.uid,0);return notifs().filter(n=>n.t>seen).length}
+function notifs(){const uid=session.uid,u=USERS[uid];const out=[];
+  incidents.forEach(i=>i.history.forEach(h=>{if(u.role==='operator'&&i.author===uid&&h.by!==uid)out.push({t:h.t,i,h});if(u.role==='specialist'&&h.s==='Передано')out.push({t:h.t,i,h})}));
+  incidents.forEach(i=>(i.comments||[]).forEach(c=>{if(c.by!==uid&&(u.role==='specialist'||i.author===uid))out.push({t:c.t,i,h:{s:'Комментарий',c:c.text,by:c.by}})}));
+  return out.sort((a,b)=>b.t-a.t)}
+
+function headerHTML(){
+  const u=me(),nav=[['cabinet','Личный кабинет'],['monitor','Онлайн-наблюдение'],['report','Фиксация нарушений'],['transfer','Передача специалистам']];
+  const n=unseen();
+  return `<header class="top"><div class="top-in">
+    <a class="brand" href="#cabinet"><span class="brand-mark" aria-hidden="true"></span><span>Безопасный взгляд<small>Удалённый мониторинг ПБ · НПЗ</small></span></a>
+    <nav class="main" aria-label="Основное меню">${nav.map(([k,t])=>`<a href="#${k}" ${view===k?'aria-current="page"':''}>${t}${k==='cabinet'&&n?`<span class="badge" aria-label="${n} новых уведомлений">${n}</span>`:''}${k==='transfer'&&u.role==='specialist'&&incidents.some(i=>i.status==='Передано')?`<span class="badge">${incidents.filter(i=>i.status==='Передано').length}</span>`:''}</a>`).join('')}</nav>
+    <span class="spacer"></span>
+    <div class="shift-chip" id="shiftChip" aria-live="off"></div>
+    <div class="a11y" role="group" aria-label="Настройки доступности">
+      <button class="btn sm" data-a="fs-" title="Уменьшить шрифт" aria-label="Уменьшить шрифт">A−</button>
+      <button class="btn sm" data-a="fs+" title="Увеличить шрифт" aria-label="Увеличить шрифт">A+</button>
+      <button class="btn sm" data-a="contrast" aria-pressed="${prefs.contrast}" title="Высокая контрастность" aria-label="Высокая контрастность">◐</button>
+      <button class="btn sm" data-a="voice" aria-pressed="${prefs.voice}" title="Голосовые оповещения" aria-label="Голосовые оповещения">🔊</button>
+    </div>
+    <button class="btn sm" id="logout" title="Выйти">Выйти</button>
+  </div></header>`;
+}
+function bindHeader(){
+  $$('.a11y [data-a]').forEach(b=>b.onclick=()=>{const a=b.dataset.a;
+    if(a==='fs+')prefs.fs=Math.min(1.6,+(prefs.fs+.1).toFixed(1));if(a==='fs-')prefs.fs=Math.max(.8,+(prefs.fs-.1).toFixed(1));
+    if(a==='contrast')prefs.contrast=!prefs.contrast;if(a==='voice'){prefs.voice=!prefs.voice;if(prefs.voice)speak('Голосовые оповещения включены')}
+    applyPrefs();render()});
+  $('#logout').onclick=()=>{if(myShift().active&&!confirm('Смена не завершена. Выйти без завершения смены? Время продолжит учитываться.'))return;session=null;store.set('session',null);route='cabinet';render()};
+}
+function updHeader(){const el=$('#shiftChip');if(!el||!session)return;const a=myShift().active;
+  if(!a){el.innerHTML='<span class="dot"></span>Смена не начата'}
+  else el.innerHTML=`<span class="dot ${onBreak()?'pause':'on'}"></span>${onBreak()?'Перерыв':'На смене'} · <b>${fmtDur(workedMs(a))}</b>`;
+  const tm=$('#bigTimer');if(tm)tm.textContent=a?fmtDur(workedMs(a)):'00:00:00';
+}
+
+/* ================= Вход ================= */
+function renderLogin(){
+  $('#app').innerHTML=`<div class="login-wrap"><div class="login">
+    <section class="login-hero"><span class="brand-mark" aria-hidden="true" style="width:56px;height:56px;display:block"></span>
+      <h1>Безопасный взгляд</h1>
+      <p class="muted">Интеллектуальная платформа удалённого мониторинга промышленной безопасности НПЗ. Сотрудники с ограниченными возможностями наблюдают за установками, выявляют нарушения и передают их ответственным службам — не находясь в опасной зоне.</p>
+      <ul><li>Личный кабинет и учёт удалённого рабочего времени</li><li>Онлайн-наблюдение за установками с подсказками ИИ</li><li>Фиксация утечек, пропусков продукта, повреждений</li><li>Передача ответственным специалистам и контроль исполнения</li></ul>
+    </section>
+    <section class="login-form"><h2>Вход в систему</h2>
+      <form id="loginForm" novalidate>
+        <div class="field"><label for="lu">Табельный номер</label><input type="text" id="lu" autocomplete="username" inputmode="numeric" required></div>
+        <div class="field"><label for="lp">Пароль</label><input type="password" id="lp" autocomplete="current-password" required></div>
+        <p class="err" id="lerr" role="alert"></p>
+        <button class="btn primary" style="width:100%">Войти</button>
+      </form>
+      <div class="demo-acc"><p class="muted" style="margin:0">Демо-учётные записи (пароль «demo»):</p>
+        ${Object.entries(USERS).map(([k,u])=>`<button class="btn" data-u="${k}"><b>${k}</b>&nbsp;— ${esc(u.name)} · <span class="muted">${esc(u.pos)}</span></button>`).join('')}
+      </div>
+    </section></div></div>`;
+  $$('.demo-acc [data-u]').forEach(b=>b.onclick=()=>{$('#lu').value=b.dataset.u;$('#lp').value='demo';$('#lp').focus()});
+  $('#loginForm').onsubmit=e=>{e.preventDefault();const u=$('#lu').value.trim(),p=$('#lp').value;
+    if(USERS[u]&&USERS[u].pass===p){session={uid:u,t:Date.now()};store.set('session',session);go('cabinet');toast('Добро пожаловать, '+esc(USERS[u].name.split(' ')[1]||USERS[u].name)+'!','ok')}
+    else $('#lerr').textContent='Неверный табельный номер или пароль'};
+}
+
+/* ================= 1. Личный кабинет ================= */
+function cabinetHTML(){
+  const u=me(),uid=session.uid,s=myShift(),a=s.active,tt=totals();
+  const mine=u.role==='specialist'?incidents:incidents.filter(i=>i.author===uid);
+  const cnt=st=>mine.filter(i=>i.status===st).length;
+  const good=cnt('Подтверждено')+cnt('Устранено'),rej=cnt('Отклонено'),acc=good+rej?Math.round(good/(good+rej)*100):0;
+  const ns=notifs().slice(0,8),seen=store.get('seen_'+uid,0);
+  const initials=u.name.split(' ').slice(0,2).map(x=>x[0]).join('');
+  return `<h1>Личный кабинет</h1><p class="muted">${esc(u.group)}</p>
+  <div class="cab">
+    <section class="panel c4" aria-labelledby="pf"><div class="row"><div class="avatar" aria-hidden="true">${initials}</div><div><h2 id="pf" style="margin:0">${esc(u.name)}</h2><span class="muted">${esc(u.pos)}</span></div></div>
+      <dl class="kv"><dt>Табельный №</dt><dd>${uid}</dd><dt>Куратор</dt><dd>${esc(u.curator)}</dd><dt>Камеры</dt><dd>${CAMS.length} установок</dd><dt>Особенности</dt><dd>${esc(u.note)}</dd></dl></section>
+    <section class="panel c4" aria-labelledby="sh"><h2 id="sh">Регистр рабочего времени</h2>
+      <div class="muted">${a?(onBreak()?'Перерыв':'Смена идёт с '+fmtT(a.start)):'Смена не начата'}</div>
+      <div class="timer" id="bigTimer" role="timer" aria-label="Отработано за смену">00:00:00</div>
+      <div class="row">
+        ${!a?'<button class="btn primary" data-sh="start">▶ Начать смену</button>':`<button class="btn" data-sh="break">${onBreak()?'▶ Продолжить':'⏸ Перерыв'}</button><button class="btn danger" data-sh="end">■ Завершить смену</button>`}
+      </div>
+      <div class="tiles" style="margin-top:1rem"><div class="tile"><b>${fmtH(tt.today)}</b><span>Сегодня</span></div><div class="tile"><b>${fmtH(tt.week)}</b><span>7 дней</span></div><div class="tile"><b>${fmtH(tt.month)}</b><span>30 дней</span></div></div></section>
+    <section class="panel c4" aria-labelledby="st"><h2 id="st">${u.role==='specialist'?'Замечания по заводу':'Моя статистика'}</h2>
+      <div class="tiles"><div class="tile"><b>${mine.length}</b><span>Всего</span></div><div class="tile"><b>${cnt('Передано')+cnt('В работе')}</b><span>На рассмотрении</span></div><div class="tile"><b>${good}</b><span>Подтверждено</span></div><div class="tile"><b>${rej}</b><span>Отклонено</span></div></div>
+      <p style="margin-top:1rem">Точность выявления: <b>${acc}%</b></p><div style="height:10px;background:var(--panel2);border-radius:99px;overflow:hidden" role="img" aria-label="Точность ${acc}%"><div style="height:100%;width:${acc}%;background:var(--ok)"></div></div></section>
+    <section class="panel c6" aria-labelledby="nt"><div class="row"><h2 id="nt" style="margin:0">Уведомления</h2><span class="spacer"></span><button class="btn sm" id="markSeen">Отметить прочитанными</button></div>
+      ${ns.length?ns.map(n=>`<div class="notif ${n.t>seen?'new':''}"><span aria-hidden="true">${n.h.s==='Комментарий'?'💬':'🔔'}</span><div><a href="#transfer" data-open="${n.i.id}">${n.i.id}</a> · ${TYPES[n.i.type].t} — <span class="tag ${stCls(n.h.s)}">${n.h.s}</span>${n.h.c?`<div class="muted">«${esc(n.h.c)}»</div>`:''}<small class="muted">${ago(n.t)}</small></div></div>`).join(''):'<p class="muted">Новых уведомлений нет</p>'}</section>
+    <section class="panel c6" aria-labelledby="lg"><h2 id="lg">Журнал смен</h2><div class="tbl-wrap"><table><thead><tr><th>Дата</th><th>Начало</th><th>Окончание</th><th>Перерывы</th><th>Отработано</th></tr></thead><tbody>
+      ${(a?[a]:[]).concat(s.log.slice().reverse()).slice(0,8).map(x=>`<tr><td>${new Date(x.start).toLocaleDateString('ru-RU')}</td><td>${fmtT(x.start).slice(0,5)}</td><td>${x.end?fmtT(x.end).slice(0,5):'<span class="tag st-done">идёт</span>'}</td><td>${Math.round(((x.breakMs||0)+(x.breaks||[]).reduce((m,b)=>m+((b.e||Date.now())-b.s),0))/60000)} мин</td><td>${fmtDur(workedMs(x)).slice(0,5)}</td></tr>`).join('')}
+    </tbody></table></div></section>
+    <section class="panel c12" aria-labelledby="ac"><h2 id="ac">Настройки доступности</h2>
+      <div class="row">
+        <span>Размер шрифта: <b>${Math.round(prefs.fs*100)}%</b></span>
+        <button class="btn" data-p="fs-">A− Меньше</button><button class="btn" data-p="fs+">A+ Больше</button>
+        <button class="btn" data-p="contrast" aria-pressed="${prefs.contrast}">◐ Высокая контрастность</button>
+        <button class="btn" data-p="voice" aria-pressed="${prefs.voice}">🔊 Озвучивание событий</button>
+        <button class="btn" data-p="motion" aria-pressed="${prefs.motion}">⏹ Меньше анимации интерфейса</button>
+      </div><p class="muted" style="margin-top:.75rem">Все функции доступны с клавиатуры (Tab / Enter / Пробел, Esc — закрыть окно). Поддерживаются экранные читалки и голосовой ввод описания нарушения.</p></section>
+  </div>`;
+}
+function bindCabinet(){
+  $$('[data-sh]').forEach(b=>b.onclick=()=>{if(b.dataset.sh==='end'&&!confirm('Завершить смену?'))return;shiftAct(b.dataset.sh)});
+  $$('[data-p]').forEach(b=>b.onclick=()=>{const a=b.dataset.p;if(a==='fs+')prefs.fs=Math.min(1.6,+(prefs.fs+.1).toFixed(1));if(a==='fs-')prefs.fs=Math.max(.8,+(prefs.fs-.1).toFixed(1));if(['contrast','voice','motion'].includes(a))prefs[a]=!prefs[a];applyPrefs();render()});
+  $('#markSeen').onclick=()=>{store.set('seen_'+session.uid,Date.now());render()};
+  $$('[data-open]').forEach(a=>a.onclick=e=>{e.preventDefault();go('transfer');openIncident(a.dataset.open)});
+}
+function shiftBanner(){return myShift().active?'':`<div class="banner" role="status"><span>⚠ Смена не начата — время наблюдения не учитывается в регистре.</span><button class="btn primary sm" id="bStart">▶ Начать смену</button></div>`}
+function bindBanner(){const b=$('#bStart');if(b)b.onclick=()=>shiftAct('start')}
+
+/* ================= 2. Онлайн-наблюдение ================= */
+function visibleCams(){if(layout==='g6')return CAMS;const i=CAMS.findIndex(c=>c.id===selCam);if(layout==='g1')return[CAMS[i]];return[0,1,2,3].map(k=>CAMS[(i+k)%CAMS.length])}
+function monitorHTML(){
+  return `${shiftBanner()}<div class="toolbar"><div><h1>Онлайн-наблюдение</h1><p class="muted" style="margin:0">Видеопотоки технологических установок в реальном времени (демо-режим)</p></div><span class="spacer"></span>
+    <div class="row" role="group" aria-label="Раскладка камер">${[['g6','6 камер'],['g4','4 камеры'],['g1','1 камера']].map(([k,t])=>`<button class="btn sm" data-lay="${k}" aria-pressed="${layout===k}">${t}</button>`).join('')}</div></div>
+  <div class="mon-wrap"><div class="grid ${layout}" id="camGrid">
+    ${visibleCams().map(c=>`<article class="cam-card ${c.id===selCam?'sel':''} ${paused.has(c.id)?'paused':''}" data-card="${c.id}" aria-label="Камера ${c.id}, ${esc(c.unit)}">
+      <div class="screen"><canvas data-cam="${c.id}" width="${layout==='g1'?1280:640}" height="${layout==='g1'?720:360}" role="img" aria-label="Видео ${c.id}: ${esc(c.name)}"></canvas><span class="paused-tag">⏸ СТОП-КАДР</span></div>
+      <div class="cam-meta"><b>${esc(c.unit)}</b><span>${c.id} · ${esc(c.name)}</span></div>
+      <div class="tele" id="tele-${c.id}">${teleHTML(c)}</div>
+      <div class="cam-actions"><button class="btn primary" data-act="fix" data-c="${c.id}">⚠ Зафиксировать</button><button class="btn icon" data-act="pause" data-c="${c.id}" aria-label="${paused.has(c.id)?'Продолжить':'Стоп-кадр'}" title="Стоп-кадр / продолжить">${paused.has(c.id)?'▶':'⏸'}</button><button class="btn icon" data-act="full" data-c="${c.id}" aria-label="Во весь экран" title="Во весь экран">⛶</button></div>
+    </article>`).join('')}
+  </div>
+  <aside class="panel hints" aria-labelledby="hh"><h2 id="hh">Подсказки ИИ</h2><div id="hintList" aria-live="polite"></div>
+    <p class="muted" style="font-size:.88rem">ИИ анализирует видео и подсвечивает подозрительные зоны жёлтой рамкой. Решение всегда принимает сотрудник: ИИ может ошибаться или пропускать нарушения — следите также за телеметрией.</p>
+    <h3>Что искать</h3><ul class="legend muted" style="padding-left:1.1rem;font-size:.9rem"><li>💧 Тёмные пятна, капли под фланцами и задвижками</li><li>♨️ Струи пара / газа из трубопроводов</li><li>🔧 Ржавчина, трещины, деформация труб</li><li>🔥 Дым, открытое пламя вне факела</li><li>⛑️ Персонал без каски или в опасной зоне</li><li>⚠ Красные показатели телеметрии</li></ul>
+  </aside></div>`;
+}
+function bindMonitor(){
+  bindBanner();hintSig='';renderHints();
+  $$('[data-lay]').forEach(b=>b.onclick=()=>{layout=b.dataset.lay;render()});
+  $('#camGrid').onclick=e=>{const b=e.target.closest('[data-act]');const card=e.target.closest('[data-card]');
+    if(b){const id=b.dataset.c;if(b.dataset.act==='fix')fixFromCam(id);if(b.dataset.act==='pause'){paused.has(id)?paused.delete(id):paused.add(id);render()}if(b.dataset.act==='full')openFull(id);return}
+    if(card&&card.dataset.card!==selCam){selCam=card.dataset.card;$$('.cam-card').forEach(x=>x.classList.toggle('sel',x.dataset.card===selCam))}};
+  drawAll(true);
+}
+function fixFromCam(id,mark,type){const cam=camById(id);draft={cam:id,snap:snapshot(cam),time:Date.now(),mark:mark||null,type:type||'',sev:type==='fire'?'crit':''};closeModal();go('report')}
+function openFull(id){const c=camById(id);openModal(`<div class="modal-head"><h2 id="modalTitle" style="margin:0">${c.id} · ${esc(c.unit)} — ${esc(c.name)}</h2><span class="spacer"></span><button class="btn primary" id="fFix">⚠ Зафиксировать</button><button class="btn" data-close>✕ Закрыть</button></div>
+  <div class="screen" style="border-radius:10px;overflow:hidden"><canvas data-cam="${id}" width="1280" height="720"></canvas></div><div class="tele" id="tele-full">${teleHTML(c)}</div>`);
+  $('#fFix').onclick=()=>fixFromCam(id);drawAll(true)}
+function visHints(){const now=Date.now();return anomalies.filter(a=>a.ai&&!a.dismissed&&now-a.start>2500)}
+function renderHints(){const el=$('#hintList');if(!el)return;const hs=visHints();const sig=hs.map(a=>a.id).join();if(sig===hintSig)return;hintSig=sig;
+  el.innerHTML=hs.length?hs.map(a=>{const c=camById(a.cam);return `<div class="hint"><b>${TYPES[ANOM2TYPE[a.type]].i} ${AI_LABEL[a.type][0].toUpperCase()+AI_LABEL[a.type].slice(1)}</b> — ${a.conf}%<div class="muted">${c.id} · ${esc(c.unit)} · ${fmtT(a.start)}</div><div class="row"><button class="btn sm primary" data-h="ok" data-id="${a.id}">✔ Подтвердить и зафиксировать</button><button class="btn sm" data-h="show" data-id="${a.id}">Показать</button><button class="btn sm" data-h="no" data-id="${a.id}">✕ Ложное</button></div></div>`}).join(''):'<p class="muted">Подозрительных зон не обнаружено. Продолжайте наблюдение.</p>';
+  $$('[data-h]',el).forEach(b=>b.onclick=()=>{const a=anomalies.find(x=>x.id==b.dataset.id);if(!a)return;
+    if(b.dataset.h==='ok'){const p=anomPos(a,Date.now());a.dismissed=true;fixFromCam(a.cam,{x:p.x/W,y:(a.type==='leak'?p.y+20:p.y)/H},ANOM2TYPE[a.type])}
+    else if(b.dataset.h==='show'){selCam=a.cam;if(layout==='g6'){$$('.cam-card').forEach(x=>x.classList.toggle('sel',x.dataset.card===selCam));$(`[data-card="${a.cam}"]`).scrollIntoView({behavior:'smooth',block:'center'})}else render()}
+    else{a.dismissed=true;hintSig='';renderHints();toast('Подсказка отмечена как ложная — это помогает обучать модель ИИ.','')}})}
+function drawAll(force){const now=Date.now();$$('canvas[data-cam]').forEach(cv=>{const id=cv.dataset.cam;if(paused.has(id)&&!force&&!cv.closest('.modal'))return;if(paused.has(id)&&cv.dataset.drawn&&!cv.closest('.modal'))return;drawScene(cv.getContext('2d'),camById(id),now,cv.width);cv.dataset.drawn=1})}
+let lastDraw=0;
+function loop(ts){if(ts-lastDraw>(prefs.motion?250:66)){lastDraw=ts;if(view==='monitor'||$('#modalBg').classList.contains('open'))drawAll(false)}requestAnimationFrame(loop)}
+
+/* ================= Генератор событий (демо) ================= */
+let anomSeq=1;
+function tick(){
+  const now=Date.now();
+  anomalies=anomalies.filter(a=>a.end>now);
+  if(anomalies.length<3&&now>nextSpawn){
+    const free=CAMS.filter(c=>!anomalies.some(a=>a.cam===c.id));const cam=free[Math.floor(Math.random()*free.length)];
+    const types=SCENE_TYPES[cam.scene],type=types[Math.floor(Math.random()*types.length)],sp=SPOTS[cam.scene][Math.floor(Math.random()*SPOTS[cam.scene].length)];
+    anomalies.push({id:anomSeq++,cam:cam.id,type,x:sp.x,y:sp.y,start:now,end:now+50000+Math.random()*40000,ai:Math.random()<.75,conf:62+Math.floor(Math.random()*34)});
+    nextSpawn=now+14000+Math.random()*18000;
+  }
+  anomalies.forEach(a=>{if(a.ai&&!a.said&&now-a.start>2500){a.said=true;if(session&&USERS[session.uid].role==='operator'){speak('Подсказка ИИ: '+AI_LABEL[a.type]+', камера '+a.cam.slice(-2));announce('Подсказка ИИ: '+AI_LABEL[a.type]+' на камере '+a.cam)}}});
+  updTele();
+  if(view==='monitor'){CAMS.forEach(c=>{const el=$('#tele-'+c.id);if(el){el.innerHTML=teleHTML(c);el.closest('.cam-card').classList.toggle('alarm',!!el.querySelector('.bad'))}});renderHints()}
+  const tf=$('#tele-full'),fc=$('.modal canvas[data-cam]');if(tf&&fc)tf.innerHTML=teleHTML(camById(fc.dataset.cam));
+  updHeader();
+}
+
+/* ================= 3. Фиксация нарушений ================= */
+function reportHTML(){
+  const d=draft||{};const cam=d.cam?camById(d.cam):null;const type=d.type||'';
+  const uid=session.uid,role=me().role;const list=incidents.filter(i=>role==='specialist'||i.author===uid).sort((a,b)=>b.created-a.created);
+  return `${shiftBanner()}<h1>Фиксация потенциального нарушения</h1><p class="muted">Отметьте тип нарушения, критичность и место на стоп-кадре. Замечание автоматически уйдёт ответственной службе.</p>
+  <form id="repForm" novalidate><div class="report-grid">
+    <section class="panel">
+      <fieldset class="types"><legend>1. Тип нарушения *</legend>${Object.entries(TYPES).map(([k,v])=>`<label class="opt"><input type="radio" name="type" value="${k}" ${type===k?'checked':''} required><span><span class="ico" aria-hidden="true">${v.i}</span>${v.t}</span></label>`).join('')}</fieldset>
+      <fieldset class="sev"><legend style="width:100%">2. Уровень критичности *</legend>${Object.entries(SEV).map(([k,v])=>`<label class="opt"><input type="radio" name="sev" value="${k}" ${(d.sev||'mid')===k?'checked':''}><span class="${k==='crit'?'':v.c}">${v.t}</span></label>`).join('')}</fieldset>
+      <div class="row" style="align-items:flex-start"><div class="field" style="flex:1;min-width:220px"><label for="rCam">3. Камера / установка *</label><select id="rCam" required><option value="">— выберите —</option>${CAMS.map(c=>`<option value="${c.id}" ${d.cam===c.id?'selected':''}>${c.id} · ${esc(c.unit)}</option>`).join('')}</select></div>
+      <div class="field"><label>Время фиксации</label><div class="tv" style="min-height:44px;display:flex;align-items:center;font-size:1rem" id="rTime">${fmtDT(d.time||Date.now())}</div></div></div>
+      <div class="field"><label for="rDesc">4. Описание</label><textarea id="rDesc" placeholder="Что видно, где именно, как развивается ситуация…">${esc(d.desc||'')}</textarea>
+        <div class="row" style="margin-top:.4rem"><button type="button" class="btn sm" id="mic" hidden>🎤 Голосовой ввод</button><span class="muted" id="micSt"></span></div></div>
+      <div class="field"><label for="rDept">5. Получатель</label><select id="rDept">${Object.entries(DEPTS).map(([k,v])=>`<option value="${k}">${v.name}</option>`).join('')}</select></div>
+      <div class="route" id="route"></div>
+      <p class="err" id="rErr" role="alert"></p>
+      <div class="row"><button class="btn primary" type="submit">📤 Отправить ответственным</button><button class="btn" type="button" id="rClear">Очистить</button></div>
+    </section>
+    <section class="panel"><h2>Стоп-кадр</h2>
+      <div class="snap" id="snap" tabindex="0" aria-label="Стоп-кадр. Нажмите на место нарушения, чтобы отметить его. Стрелки — сдвиг метки.">${d.snap?`<img src="${d.snap}" alt="Стоп-кадр камеры ${cam?cam.id:''}">${d.mark?`<span class="marker" style="left:${d.mark.x*100}%;top:${d.mark.y*100}%"></span>`:''}`:'<div class="empty">Нет стоп-кадра.<br>Выберите камеру и нажмите «Сделать стоп-кадр» или зафиксируйте нарушение со страницы наблюдения.</div>'}</div>
+      <div class="row" style="margin-top:.7rem"><button type="button" class="btn" id="takeSnap">📷 Сделать стоп-кадр</button><button type="button" class="btn" id="clrMark" ${d.mark?'':'disabled'}>Убрать метку</button><span class="muted">${d.snap?(d.mark?'Место отмечено':'Нажмите на изображение, чтобы отметить место'):''}</span></div>
+    </section>
+  </div></form>
+  <section class="panel" style="margin-top:1rem"><div class="row"><h2 style="margin:0">${role==='specialist'?'Все замечания':'Мои замечания'}</h2><span class="spacer"></span>
+    <label class="sr" for="fSt">Фильтр по статусу</label><select id="fSt" style="width:auto"><option value="">Все статусы</option>${STATUSES.map(s=>`<option>${s[0]}</option>`).join('')}</select>
+    <label class="sr" for="fTy">Фильтр по типу</label><select id="fTy" style="width:auto"><option value="">Все типы</option>${Object.entries(TYPES).map(([k,v])=>`<option value="${k}">${v.t}</option>`).join('')}</select></div>
+    <div class="tbl-wrap" style="margin-top:.7rem"><table><thead><tr><th>№</th><th>Дата</th><th>Тип</th><th>Установка</th><th>Критичность</th><th>Получатель</th><th>Статус</th></tr></thead><tbody id="jBody">${journalRows(list)}</tbody></table></div></section>`;
+}
+function journalRows(list){return list.length?list.map(i=>`<tr><td><a href="#transfer" data-open="${i.id}">${i.id}</a></td><td>${fmtDT(i.created)}</td><td>${TYPES[i.type].i} ${TYPES[i.type].t}</td><td>${esc(i.unit)}</td><td><span class="tag ${SEV[i.sev].c}">${SEV[i.sev].t}</span></td><td>${DEPTS[i.dept].name}</td><td><span class="tag ${stCls(i.status)}">${i.status}</span></td></tr>`).join(''):'<tr><td colspan="7" class="muted">Замечаний пока нет</td></tr>'}
+function bindReport(){
+  bindBanner();
+  if(!draft)draft={};
+  const f=$('#repForm');
+  const updRoute=()=>{const t=(f.querySelector('[name=type]:checked')||{}).value;const dept=$('#rDept').value;const cc=t?ROUTE[t].filter(x=>x!==dept):[];
+    $('#route').innerHTML=t?`<b>Маршрут:</b> ${DEPTS[dept].name} (${DEPTS[dept].person})${cc.length?`<br><span class="muted">Копия: ${cc.map(x=>DEPTS[x].name).join(', ')}</span>`:''}<br><span class="muted">Срок реакции (SLA): ${SEV[(f.querySelector('[name=sev]:checked')||{}).value||'mid'].sla} мин</span>`:'<span class="muted">Выберите тип нарушения — получатель будет подобран автоматически.</span>'};
+  const setType=()=>{const t=(f.querySelector('[name=type]:checked')||{}).value;if(t){$('#rDept').value=ROUTE[t][0];draft.type=t;if(t==='fire'){f.querySelector('[name=sev][value=crit]').checked=true}}updRoute()};
+  if(draft.type)$('#rDept').value=draft.dept||ROUTE[draft.type][0];
+  $$('[name=type]',f).forEach(r=>r.onchange=setType);$$('[name=sev]',f).forEach(r=>r.onchange=()=>{draft.sev=r.value;updRoute()});
+  $('#rDept').onchange=()=>{draft.dept=$('#rDept').value;updRoute()};updRoute();
+  $('#rDesc').oninput=e=>draft.desc=e.target.value;
+  $('#rCam').onchange=e=>{draft.cam=e.target.value};
+  $('#takeSnap').onclick=()=>{const id=$('#rCam').value;if(!id){$('#rErr').textContent='Сначала выберите камеру';$('#rCam').focus();return}draft.cam=id;draft.snap=snapshot(camById(id));draft.time=Date.now();draft.mark=null;render()};
+  $('#clrMark').onclick=()=>{draft.mark=null;render()};
+  const snap=$('#snap');
+  snap.onclick=e=>{if(!draft.snap)return;const r=snap.getBoundingClientRect();draft.mark={x:(e.clientX-r.left)/r.width,y:(e.clientY-r.top)/r.height};render();$('#snap').focus()};
+  snap.onkeydown=e=>{if(!draft.snap)return;const k={ArrowLeft:[-.03,0],ArrowRight:[.03,0],ArrowUp:[0,-.04],ArrowDown:[0,.04]}[e.key];if(e.key==='Enter'||e.key===' '){e.preventDefault();if(!draft.mark){draft.mark={x:.5,y:.5};render();$('#snap').focus()}return}
+    if(k){e.preventDefault();if(!draft.mark)draft.mark={x:.5,y:.5};draft.mark.x=Math.min(1,Math.max(0,draft.mark.x+k[0]));draft.mark.y=Math.min(1,Math.max(0,draft.mark.y+k[1]));const m=$('.marker',snap);if(m){m.style.left=draft.mark.x*100+'%';m.style.top=draft.mark.y*100+'%'}else{render();$('#snap').focus()}}};
+  $('#rClear').onclick=()=>{draft=null;render()};
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  if(SR){const mic=$('#mic');mic.hidden=false;mic.onclick=()=>{try{const r=new SR();r.lang='ru-RU';r.interimResults=false;$('#micSt').textContent='Говорите…';r.onresult=ev=>{const tx=ev.results[0][0].transcript;const ta=$('#rDesc');ta.value=(ta.value?ta.value+' ':'')+tx;draft.desc=ta.value};r.onend=()=>$('#micSt').textContent='';r.onerror=()=>$('#micSt').textContent='Голосовой ввод недоступен';r.start()}catch(e){$('#micSt').textContent='Голосовой ввод недоступен'}}}
+  f.onsubmit=e=>{e.preventDefault();const type=(f.querySelector('[name=type]:checked')||{}).value,sev=(f.querySelector('[name=sev]:checked')||{}).value,cam=$('#rCam').value,desc=$('#rDesc').value.trim(),dept=$('#rDept').value;
+    const errs=[];if(!type)errs.push('тип нарушения');if(!cam)errs.push('камеру');if(!draft.snap&&!desc)errs.push('стоп-кадр или описание');
+    if(errs.length){$('#rErr').textContent='Укажите: '+errs.join(', ');return}
+    const now=Date.now(),c=camById(cam);
+    const inc={id:nextId(),cam,unit:c.unit,type,sev,created:now,author:session.uid,desc,dept,status:'Передано',snap:draft.snap||null,mark:draft.mark||null,history:[{s:'Передано',t:now,by:session.uid}],comments:[],shift:!!myShift().active};
+    incidents.push(inc);saveInc();draft=null;
+    if(sev==='crit'){toast(`🚨 <b>ЭКСТРЕННОЕ ОПОВЕЩЕНИЕ</b><br>${inc.id}: ${TYPES[type].t} — ${esc(c.unit)}. Оповещены: ${ROUTE[type].concat(dept).filter((x,i,a)=>a.indexOf(x)===i).map(x=>DEPTS[x].name).join(', ')}`,'bad',12000);speak('Экстренное оповещение отправлено')}
+    else{toast(`✔ Замечание <b>${inc.id}</b> передано: ${DEPTS[dept].name}`,'ok');speak('Замечание передано')}
+    announce('Замечание '+inc.id+' передано');render()};
+  const jf=()=>{const st=$('#fSt').value,ty=$('#fTy').value;$('#jBody').innerHTML=journalRows(incidents.filter(i=>(me().role==='specialist'||i.author===session.uid)&&(!st||i.status===st)&&(!ty||i.type===ty)).sort((a,b)=>b.created-a.created));bindOpenLinks()};
+  $('#fSt').onchange=jf;$('#fTy').onchange=jf;bindOpenLinks();
+}
+function bindOpenLinks(){$$('[data-open]').forEach(a=>a.onclick=e=>{e.preventDefault();openIncident(a.dataset.open)})}
+
+/* ================= 4. Передача специалистам ================= */
+let tf={mine:null,unit:'',sev:''};
+function overdue(i){return i.status==='Передано'&&Date.now()-i.created>SEV[i.sev].sla*60000}
+function transferHTML(){
+  const u=me();if(tf.mine===null)tf.mine=u.role==='operator';
+  const list=incidents.filter(i=>(!tf.mine||i.author===session.uid)&&(!tf.unit||i.unit===tf.unit)&&(!tf.sev||i.sev===tf.sev)).sort((a,b)=>(b.sev==='crit')-(a.sev==='crit')||b.created-a.created);
+  const units=[...new Set(CAMS.map(c=>c.unit))];
+  return `<h1>Передача информации ответственным специалистам</h1>
+  <p class="muted">${u.role==='specialist'?'Входящие замечания от операторов-наблюдателей. Откройте карточку, чтобы взять в работу, подтвердить или отклонить.':'Отслеживайте, на каком этапе находятся ваши замечания, и получайте обратную связь от специалистов.'}</p>
+  <div class="row" style="margin-bottom:1rem"><button class="btn sm" id="tMine" aria-pressed="${tf.mine}">Только мои</button>
+    <label class="sr" for="tUnit">Установка</label><select id="tUnit" style="width:auto"><option value="">Все установки</option>${units.map(x=>`<option ${tf.unit===x?'selected':''}>${esc(x)}</option>`).join('')}</select>
+    <label class="sr" for="tSev">Критичность</label><select id="tSev" style="width:auto"><option value="">Любая критичность</option>${Object.entries(SEV).map(([k,v])=>`<option value="${k}" ${tf.sev===k?'selected':''}>${v.t}</option>`).join('')}</select>
+    <span class="spacer"></span><span class="muted">Просрочено: <b style="color:var(--bad)">${list.filter(overdue).length}</b></span></div>
+  <div class="kanban">${STATUSES.map(([s,cl])=>{const items=list.filter(i=>i.status===s);return `<section class="col" aria-label="${s}"><h2><span class="tag ${cl}">${s}</span><span class="muted">${items.length}</span></h2>
+    ${items.map(i=>`<button class="card" data-inc="${i.id}"><div class="row" style="gap:.35rem"><b>${i.id}</b><span class="tag ${SEV[i.sev].c}">${SEV[i.sev].t}</span>${overdue(i)?'<span class="tag overdue">SLA просрочен</span>':''}</div>
+      ${i.snap?`<img class="thumb" src="${i.snap}" alt="">`:''}<div>${TYPES[i.type].i} ${TYPES[i.type].t}</div><small>${esc(i.unit)} · ${ago(i.created)}</small><small>→ ${DEPTS[i.dept].name}</small><small>Автор: ${esc(USERS[i.author]?USERS[i.author].name.split(' ').slice(0,2).join(' '):i.author)}</small></button>`).join('')||'<p class="muted" style="font-size:.9rem">Пусто</p>'}</section>`}).join('')}</div>
+  <section class="panel" style="margin-top:1rem"><h2>Матрица маршрутизации</h2><div class="tbl-wrap"><table><thead><tr><th>Тип нарушения</th><th>Основной получатель</th><th>Копия</th></tr></thead><tbody>
+    ${Object.entries(ROUTE).map(([k,r])=>`<tr><td>${TYPES[k].i} ${TYPES[k].t}</td><td>${DEPTS[r[0]].name}</td><td>${r.slice(1).map(x=>DEPTS[x].name).join(', ')||'—'}</td></tr>`).join('')}
+    </tbody></table></div><p class="muted" style="margin-top:.6rem">Сроки реакции (SLA): критический — ${SEV.crit.sla} мин, высокий — ${SEV.high.sla} мин, средний — ${SEV.mid.sla} мин, низкий — ${SEV.low.sla} мин. Просроченные замечания эскалируются куратору.</p></section>`;
+}
+function bindTransfer(){
+  $('#tMine').onclick=()=>{tf.mine=!tf.mine;render()};$('#tUnit').onchange=e=>{tf.unit=e.target.value;render()};$('#tSev').onchange=e=>{tf.sev=e.target.value;render()};
+  $$('[data-inc]').forEach(b=>b.onclick=()=>openIncident(b.dataset.inc));
+}
+const NEXT={'Передано':[['В работе','Взять в работу','primary']],'В работе':[['Подтверждено','Подтвердить нарушение','ok'],['Отклонено','Отклонить','']],'Подтверждено':[['Устранено','Нарушение устранено','ok']]};
+function openIncident(id){
+  const i=incidents.find(x=>x.id===id);if(!i)return;const u=me(),spec=u.role==='specialist';const uname=k=>USERS[k]?USERS[k].name:k;
+  openModal(`<div class="modal-head"><h2 id="modalTitle" style="margin:0">${i.id} · ${TYPES[i.type].i} ${TYPES[i.type].t}</h2><span class="tag ${stCls(i.status)}">${i.status}</span><span class="spacer"></span><button class="btn" data-close>✕ Закрыть</button></div>
+  <div class="detail-grid"><div>${i.snap?`<div class="snap" style="cursor:default"><img src="${i.snap}" alt="Стоп-кадр нарушения">${i.mark?`<span class="marker" style="left:${i.mark.x*100}%;top:${i.mark.y*100}%"></span>`:''}</div>`:'<div class="snap"><div class="empty">Стоп-кадр не приложен</div></div>'}
+    <dl class="kv"><dt>Установка</dt><dd>${esc(i.unit)} (${i.cam})</dd><dt>Критичность</dt><dd><span class="tag ${SEV[i.sev].c}">${SEV[i.sev].t}</span> ${overdue(i)?'<span class="tag overdue">SLA просрочен</span>':''}</dd><dt>Зафиксировано</dt><dd>${fmtDT(i.created)}</dd><dt>Автор</dt><dd>${esc(uname(i.author))}</dd><dt>Получатель</dt><dd>${DEPTS[i.dept].name} — ${DEPTS[i.dept].person}</dd><dt>Копия</dt><dd>${ROUTE[i.type].filter(x=>x!==i.dept).map(x=>DEPTS[x].name).join(', ')||'—'}</dd><dt>Описание</dt><dd>${esc(i.desc)||'<span class="muted">—</span>'}</dd></dl></div>
+  <div>${spec&&NEXT[i.status]?`<div class="panel" style="margin-bottom:1rem"><h3>Действия специалиста</h3><label for="actC">Комментарий / принятые меры</label><textarea id="actC" style="min-height:70px"></textarea><div class="row" style="margin-top:.6rem">${NEXT[i.status].map(([s,t,cl])=>`<button class="btn ${cl}" data-st="${s}">${t}</button>`).join('')}</div></div>`:''}
+    <h3>История</h3><ol class="timeline">${i.history.map(h=>`<li><span class="tag ${stCls(h.s)}">${h.s}</span> <span class="muted">${fmtDT(h.t)} · ${esc(uname(h.by))}</span>${h.c?`<div>${esc(h.c)}</div>`:''}</li>`).join('')}</ol>
+    <h3 style="margin-top:1rem">Комментарии</h3>${(i.comments||[]).map(c=>`<div class="comment"><b>${esc(uname(c.by))}</b> <span class="muted">${fmtDT(c.t)}</span><div>${esc(c.text)}</div></div>`).join('')||'<p class="muted">Комментариев нет</p>'}
+    <form id="cForm" class="row" style="margin-top:.5rem"><label class="sr" for="cTxt">Новый комментарий</label><input type="text" id="cTxt" placeholder="Написать комментарий…" style="flex:1;min-width:180px"><button class="btn">Отправить</button></form></div></div>`);
+  $$('[data-st]').forEach(b=>b.onclick=()=>{const c=$('#actC').value.trim();if(b.dataset.st==='Отклонено'&&!c){alert('Укажите причину отклонения — это обратная связь для оператора.');$('#actC').focus();return}
+    i.status=b.dataset.st;i.history.push({s:i.status,t:Date.now(),by:session.uid,c});saveInc();toast(`${i.id}: статус «${i.status}»`,'ok');render();openIncident(i.id)});
+  $('#cForm').onsubmit=e=>{e.preventDefault();const t=$('#cTxt').value.trim();if(!t)return;(i.comments=i.comments||[]).push({by:session.uid,t:Date.now(),text:t});saveInc();openIncident(i.id)};
+}
+
+/* ================= Модальное окно ================= */
+let lastFocus=null;
+function openModal(html){if(!$('#modalBg').classList.contains('open'))lastFocus=document.activeElement;$('#modal').innerHTML=html;$('#modalBg').classList.add('open');$$('[data-close]',$('#modal')).forEach(b=>b.onclick=closeModal);const f=$('[data-close]',$('#modal'));f&&f.focus()}
+function closeModal(){$('#modalBg').classList.remove('open');$('#modal').innerHTML='';if(lastFocus&&document.contains(lastFocus))lastFocus.focus()}
+$('#modalBg').addEventListener('click',e=>{if(e.target.id==='modalBg')closeModal()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#modalBg').classList.contains('open'))closeModal()});
+
+/* ================= Запуск ================= */
+applyPrefs();seed();render();setInterval(tick,1000);requestAnimationFrame(loop);
+</script>
+</body>
+</html>
